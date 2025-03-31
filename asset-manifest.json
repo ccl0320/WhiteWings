@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/WhiteWings/static/css/main.d1154357.css",
+    "main.js": "/WhiteWings/static/js/main.c7875644.js",
+    "index.html": "/WhiteWings/index.html",
+    "main.d1154357.css.map": "/WhiteWings/static/css/main.d1154357.css.map",
+    "main.c7875644.js.map": "/WhiteWings/static/js/main.c7875644.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1154357.css",
+    "static/js/main.c7875644.js"
+  ]
+}

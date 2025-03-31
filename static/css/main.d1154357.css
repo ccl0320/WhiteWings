@@ -1,0 +1,2 @@
+body{font-family:Arial,sans-serif;margin:0;padding:0}.container{padding:20px}input{margin-right:8px;padding:8px}button{cursor:pointer;padding:8px 12px}.product-grid{grid-gap:16px;display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));margin-top:20px}.product-card{border:1px solid #ccc;border-radius:8px;padding:10px;text-align:center}.product-card img{height:120px;max-width:100%;object-fit:cover}
+/*# sourceMappingURL=main.d1154357.css.map*/
