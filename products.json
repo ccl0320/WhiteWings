@@ -1,20 +1,36 @@
-[
-  {
-    "id": "001",
-    "name": "Volvo 保溫杯",
-    "price": 680,
-    "image": "https://via.placeholder.com/150?text=Volvo+保溫杯"
-  },
-  {
-    "id": "002",
-    "name": "Volvo 購物袋",
-    "price": 420,
-    "image": "https://via.placeholder.com/150?text=Volvo+購物袋"
-  },
-  {
-    "id": "003",
-    "name": "Volvo 車用香氛",
-    "price": 850,
-    "image": "https://via.placeholder.com/150?text=Volvo+香氛"
-  }
-]
+import requests
+from bs4 import BeautifulSoup
+import json
+
+url = "https://ec.volvocartw.com/accessory/SearchByTag/all"
+headers = {"User-Agent": "Mozilla/5.0"}
+
+response = requests.get(url, headers=headers)
+soup = BeautifulSoup(response.text, "html.parser")
+
+products = []
+product_cards = soup.select(".productBox")
+
+for card in product_cards:
+    name = card.select_one(".productName").text.strip()
+    price_text = card.select_one(".price").text.strip().replace(",", "").replace("NT$", "")
+    try:
+        price = int(price_text)
+    except:
+        price = 0
+    image = card.select_one("img")["src"]
+    if not image.startswith("http"):
+        image = "https://ec.volvocartw.com" + image
+    product_id = card.select_one("a")["href"].split("/")[-1]
+
+    products.append({
+        "id": product_id,
+        "name": name,
+        "price": price,
+        "image": image
+    })
+
+with open("products.json", "w", encoding="utf-8") as f:
+    json.dump(products, f, ensure_ascii=False, indent=2)
+
+print(f"✅ 共擷取 {len(products)} 筆商品，已儲存為 products.json")
