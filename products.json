@@ -5,23 +5,39 @@ import json
 url = "https://ec.volvocartw.com/accessory/SearchByTag/all"
 headers = {"User-Agent": "Mozilla/5.0"}
 
-response = requests.get(url, headers=headers)
+try:
+    response = requests.get(url, headers=headers)
+    response.raise_for_status()  # 確保請求成功
+except requests.exceptions.RequestException as e:
+    print(f"❌ 請求失敗：{e}")
+    exit()
+
 soup = BeautifulSoup(response.text, "html.parser")
 
 products = []
 product_cards = soup.select(".productBox")
 
 for card in product_cards:
-    name = card.select_one(".productName").text.strip()
-    price_text = card.select_one(".price").text.strip().replace(",", "").replace("NT$", "")
+    name_tag = card.select_one(".productName")
+    price_tag = card.select_one(".price")
+    img_tag = card.select_one("img")
+    link_tag = card.select_one("a")
+
+    if not (name_tag and price_tag and img_tag and link_tag):
+        continue  # 跳過不完整的商品
+
+    name = name_tag.text.strip()
+    price_text = price_tag.text.strip().replace(",", "").replace("NT$", "")
     try:
         price = int(price_text)
-    except:
+    except ValueError:
         price = 0
-    image = card.select_one("img")["src"]
+
+    image = img_tag["src"]
     if not image.startswith("http"):
         image = "https://ec.volvocartw.com" + image
-    product_id = card.select_one("a")["href"].split("/")[-1]
+
+    product_id = link_tag["href"].split("/")[-1]
 
     products.append({
         "id": product_id,
@@ -29,8 +45,3 @@ for card in product_cards:
         "price": price,
         "image": image
     })
-
-with open("products.json", "w", encoding="utf-8") as f:
-    json.dump(products, f, ensure_ascii=False, indent=2)
-
-print(f"✅ 共擷取 {len(products)} 筆商品，已儲存為 products.json")
