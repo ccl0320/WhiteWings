@@ -1,1 +1,1266 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/WhiteWings/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Employee Shopping Site"/><title>WhiteWings 員工購物網站</title><script defer="defer" src="/WhiteWings/static/js/main.c7875644.js"></script><link href="/WhiteWings/static/css/main.d1154357.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#087c7a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="家庭現金流">
+  <title>家庭現金流管理</title>
+  <style>
+    :root {
+      --bg: #edf4f2;
+      --screen: #f8fbfa;
+      --panel: #ffffff;
+      --ink: #13212c;
+      --muted: #667887;
+      --line: #dce7e7;
+      --soft: #e8f5f2;
+      --teal: #087c7a;
+      --green: #0d9b6c;
+      --red: #df3d4a;
+      --amber: #c68400;
+      --blue: #3f75c7;
+      --purple: #8b63c7;
+      --shadow: 0 18px 50px rgba(20, 36, 45, .14);
+      font-family: "Microsoft JhengHei", "Noto Sans TC", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html { background: var(--bg); }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      background: radial-gradient(circle at top left, rgba(8, 124, 122, .11), transparent 28rem), var(--bg);
+    }
+    button, input, select, textarea { font: inherit; }
+    button { cursor: pointer; }
+    .phone {
+      width: min(100%, 430px);
+      min-height: 100vh;
+      margin: 0 auto;
+      background: var(--screen);
+      box-shadow: 0 0 0 1px rgba(19, 33, 44, .04), 0 22px 80px rgba(19, 33, 44, .16);
+      position: relative;
+      overflow: hidden;
+    }
+    .app {
+      min-height: 100vh;
+      padding: max(16px, env(safe-area-inset-top)) 16px calc(92px + env(safe-area-inset-bottom));
+    }
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      min-width: 0;
+    }
+    .brand-mark {
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      display: grid;
+      place-items: center;
+      background: var(--teal);
+      color: white;
+      font-weight: 900;
+      flex: 0 0 auto;
+    }
+    h1 {
+      margin: 0;
+      font-size: 20px;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+    .sub {
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 3px;
+    }
+    .icon-btn {
+      border: 1px solid var(--line);
+      background: white;
+      color: #4c5d69;
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      display: grid;
+      place-items: center;
+    }
+    .summary {
+      background: linear-gradient(145deg, #087c7a, #064f58);
+      color: white;
+      border-radius: 22px;
+      padding: 20px;
+      box-shadow: var(--shadow);
+      margin-bottom: 14px;
+    }
+    .summary-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      align-items: flex-start;
+      margin-bottom: 18px;
+    }
+    .summary label {
+      display: block;
+      color: rgba(255,255,255,.72);
+      font-size: 13px;
+      margin-bottom: 8px;
+    }
+    .summary strong {
+      display: block;
+      font-size: 34px;
+      line-height: 1.05;
+      word-break: break-word;
+    }
+    .sync-pill {
+      border: 1px solid rgba(255,255,255,.28);
+      background: rgba(255,255,255,.12);
+      border-radius: 999px;
+      padding: 7px 10px;
+      color: rgba(255,255,255,.88);
+      font-size: 12px;
+      white-space: nowrap;
+    }
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+    .summary-mini {
+      border-radius: 14px;
+      background: rgba(255,255,255,.12);
+      padding: 11px;
+      min-width: 0;
+    }
+    .summary-mini span {
+      display: block;
+      color: rgba(255,255,255,.68);
+      font-size: 11px;
+      margin-bottom: 6px;
+    }
+    .summary-mini b {
+      display: block;
+      font-size: 14px;
+      line-height: 1.2;
+      word-break: break-word;
+    }
+    .owner-tabs, .tabs {
+      display: flex;
+      overflow-x: auto;
+      gap: 8px;
+      padding: 2px 0 12px;
+      scrollbar-width: none;
+      margin: 0 -2px;
+    }
+    .owner-tabs::-webkit-scrollbar, .tabs::-webkit-scrollbar { display: none; }
+    .chip {
+      border: 1px solid var(--line);
+      background: white;
+      color: #4d6170;
+      border-radius: 999px;
+      padding: 9px 14px;
+      white-space: nowrap;
+      min-height: 40px;
+    }
+    .chip.active {
+      color: white;
+      background: var(--teal);
+      border-color: var(--teal);
+      font-weight: 800;
+    }
+    .people {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+    .person {
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .avatar {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: var(--teal);
+      background: var(--soft);
+      font-weight: 900;
+      flex: 0 0 auto;
+    }
+    .person strong { display: block; font-size: 14px; }
+    .person span { color: var(--muted); font-size: 12px; }
+    .dot {
+      width: 7px;
+      height: 7px;
+      display: inline-block;
+      margin-right: 5px;
+      border-radius: 50%;
+      background: var(--green);
+    }
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      margin: 4px 0 12px;
+    }
+    .section-head h2 { margin: 0; font-size: 18px; }
+    .section-head small { display: block; margin-top: 3px; color: var(--muted); font-size: 12px; }
+    .ghost {
+      border: 1px solid var(--line);
+      background: white;
+      color: var(--teal);
+      border-radius: 12px;
+      min-height: 40px;
+      padding: 0 13px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .panel {
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 15px;
+      margin-bottom: 12px;
+      box-shadow: 0 8px 20px rgba(19, 33, 44, .04);
+    }
+    .cash-health {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+    .health-box {
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 13px;
+    }
+    .health-box span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      margin-bottom: 7px;
+    }
+    .health-box strong { font-size: 20px; }
+    .bar {
+      height: 9px;
+      border-radius: 999px;
+      overflow: hidden;
+      background: #e5eeee;
+      margin-top: 10px;
+    }
+    .bar i {
+      display: block;
+      height: 100%;
+      width: 0;
+      background: var(--teal);
+      border-radius: 999px;
+    }
+    .flow-list, .asset-list { display: grid; gap: 10px; }
+    .flow-card, .asset-card {
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 14px;
+      display: grid;
+      gap: 10px;
+      box-shadow: 0 8px 20px rgba(19, 33, 44, .04);
+    }
+    .card-main {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .card-name { display: block; font-size: 16px; line-height: 1.35; margin-bottom: 5px; }
+    .card-sub { color: var(--muted); font-size: 12px; }
+    .amount {
+      font-weight: 900;
+      font-size: 18px;
+      white-space: nowrap;
+      text-align: right;
+    }
+    .amount.income { color: var(--green); }
+    .amount.expense, .amount.negative { color: var(--red); }
+    .card-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 12px;
+      border-top: 1px solid var(--line);
+      padding-top: 10px;
+    }
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      border-radius: 999px;
+      padding: 3px 9px;
+      font-size: 12px;
+      font-weight: 800;
+      background: #edf1f5;
+      color: #50606f;
+    }
+    .tag.income, .tag.cash { background: #def5f2; color: #087c7a; }
+    .tag.expense, .tag.debt { background: #ffe3e7; color: #c62f3f; }
+    .tag.loan { background: #fff1dd; color: #986000; }
+    .tag.invest { background: #e7f0ff; color: #386bb7; }
+    .tag.family { background: #efe8ff; color: #7450b5; }
+    .tag.retire { background: #fff5c9; color: #8a6800; }
+    .card-actions { display: flex; gap: 8px; }
+    .tiny-btn {
+      border: 1px solid var(--line);
+      background: #fbfdfd;
+      color: #526675;
+      border-radius: 10px;
+      min-height: 34px;
+      padding: 0 10px;
+      font-size: 13px;
+    }
+    .insights { display: grid; gap: 12px; margin-top: 16px; }
+    .panel h3 { margin: 0 0 12px; font-size: 16px; }
+    .legend { display: grid; gap: 8px; font-size: 13px; min-width: 0; }
+    .legend-row {
+      display: grid;
+      grid-template-columns: 10px 1fr auto;
+      gap: 8px;
+      align-items: center;
+      color: var(--muted);
+    }
+    .swatch { width: 9px; height: 9px; border-radius: 50%; background: var(--teal); }
+    .empty {
+      text-align: center;
+      color: var(--muted);
+      background: white;
+      border: 1px dashed var(--line);
+      border-radius: 18px;
+      padding: 34px 18px;
+    }
+    .fab {
+      position: fixed;
+      left: calc(50% + min(100vw, 430px) / 2 - 82px);
+      bottom: calc(82px + env(safe-area-inset-bottom));
+      width: 58px;
+      height: 58px;
+      border-radius: 18px;
+      border: 0;
+      background: var(--teal);
+      color: white;
+      font-size: 28px;
+      box-shadow: 0 16px 34px rgba(8, 124, 122, .34);
+      z-index: 5;
+    }
+    .bottom-nav {
+      position: fixed;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      width: min(100%, 430px);
+      padding: 10px 14px calc(10px + env(safe-area-inset-bottom));
+      background: rgba(255,255,255,.96);
+      border-top: 1px solid var(--line);
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 4px;
+      z-index: 4;
+    }
+    .bottom-nav button {
+      border: 0;
+      background: transparent;
+      color: #6a7b88;
+      display: grid;
+      gap: 4px;
+      place-items: center;
+      font-size: 11px;
+      min-height: 52px;
+      border-radius: 14px;
+    }
+    .bottom-nav b { font-size: 18px; line-height: 1; }
+    .bottom-nav button.active { color: var(--teal); background: var(--soft); font-weight: 800; }
+    .sheet, .settings {
+      position: fixed;
+      inset: 0;
+      z-index: 20;
+      background: rgba(13, 24, 34, .48);
+      display: none;
+      align-items: flex-end;
+      justify-content: center;
+    }
+    .sheet.open, .settings.open { display: flex; }
+    .sheet-panel, .modal {
+      width: min(100%, 430px);
+      max-height: 88vh;
+      overflow: auto;
+      background: white;
+      border-radius: 24px 24px 0 0;
+      padding: 10px 16px calc(18px + env(safe-area-inset-bottom));
+      box-shadow: 0 -18px 55px rgba(13, 24, 34, .18);
+    }
+    .handle {
+      width: 48px;
+      height: 5px;
+      border-radius: 999px;
+      background: #d8e1e3;
+      margin: 2px auto 14px;
+    }
+    .sheet-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 14px;
+    }
+    .sheet-head h2 { margin: 0; font-size: 20px; }
+    .form, .config-grid { display: grid; gap: 12px; }
+    label {
+      display: grid;
+      gap: 7px;
+      color: #50606f;
+      font-size: 13px;
+      font-weight: 800;
+    }
+    input, select, textarea {
+      width: 100%;
+      border: 1px solid var(--line);
+      background: white;
+      color: var(--ink);
+      border-radius: 14px;
+      min-height: 46px;
+      padding: 11px 12px;
+      outline: 0;
+    }
+    textarea { min-height: 82px; resize: vertical; }
+    input:focus, select:focus, textarea:focus {
+      border-color: var(--teal);
+      box-shadow: 0 0 0 4px rgba(8, 124, 122, .12);
+    }
+    .form-actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 4px;
+    }
+    .primary, .secondary {
+      min-height: 48px;
+      border-radius: 14px;
+      font-weight: 900;
+    }
+    .primary { border: 0; background: var(--teal); color: white; }
+    .secondary { border: 1px solid var(--line); background: white; color: #526675; }
+    .hint {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.65;
+      margin: 0;
+    }
+    .toast {
+      position: fixed;
+      left: 50%;
+      bottom: calc(90px + env(safe-area-inset-bottom));
+      transform: translateX(-50%);
+      width: min(calc(100% - 32px), 398px);
+      background: #14212b;
+      color: white;
+      border-radius: 14px;
+      padding: 12px 14px;
+      text-align: center;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity .2s ease;
+      z-index: 30;
+    }
+    .toast.show { opacity: 1; }
+    .lock-screen {
+      position: fixed;
+      inset: 0;
+      z-index: 100;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 22px;
+      background: radial-gradient(circle at top left, rgba(8, 124, 122, .18), transparent 22rem), var(--bg);
+    }
+    body.locked .lock-screen { display: flex; }
+    body.locked .phone { display: none; }
+    .lock-card {
+      width: min(100%, 390px);
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 24px;
+      box-shadow: var(--shadow);
+    }
+    .lock-card h2 {
+      margin: 0 0 8px;
+      font-size: 24px;
+    }
+    .lock-card p {
+      margin: 0 0 18px;
+      color: var(--muted);
+      line-height: 1.6;
+      font-size: 14px;
+    }
+    @media (max-width: 380px) {
+      .app { padding-left: 12px; padding-right: 12px; }
+      .summary strong { font-size: 29px; }
+      .amount { font-size: 16px; }
+      .fab { left: auto; right: 16px; }
+    }
+    @media (min-width: 431px) {
+      .phone { margin-top: 20px; margin-bottom: 20px; min-height: calc(100vh - 40px); border-radius: 30px; }
+      .bottom-nav { border-radius: 0 0 30px 30px; }
+    }
+  </style>
+</head>
+<body class="locked">
+  <div class="lock-screen" id="lockScreen">
+    <form class="lock-card" id="unlockForm">
+      <h2>家庭現金流</h2>
+      <p>請輸入密碼後進入。此頁面會同步你們的家庭現金流資料，正式資料保護仍需搭配 Firebase 規則。</p>
+      <label>登入密碼
+        <input id="unlockPassword" type="password" autocomplete="current-password" required placeholder="請輸入密碼">
+      </label>
+      <div class="form-actions">
+        <button class="secondary" type="button" id="clearUnlock">清除</button>
+        <button class="primary" type="submit">進入</button>
+      </div>
+    </form>
+  </div>
+  <div class="phone">
+    <main class="app">
+      <header class="top">
+        <div class="brand">
+          <div class="brand-mark">流</div>
+          <div>
+            <h1>家庭現金流</h1>
+            <div class="sub">收入 · 固定支出 · 資產同步</div>
+          </div>
+        </div>
+        <button class="icon-btn" type="button" id="settingsBtn" aria-label="同步設定">⚙</button>
+      </header>
+
+      <section class="summary">
+        <div class="summary-top">
+          <div>
+            <label id="summaryLabel">家庭每月可支配</label>
+            <strong id="cashBalance">NT$ 0</strong>
+          </div>
+          <div class="sync-pill" id="syncStatus">本機儲存</div>
+        </div>
+        <div class="summary-grid">
+          <div class="summary-mini"><span>固定收入</span><b id="cashIncome">NT$ 0</b></div>
+          <div class="summary-mini"><span>固定支出</span><b id="cashExpense">NT$ 0</b></div>
+          <div class="summary-mini"><span>支出率</span><b id="expenseRate">0%</b></div>
+        </div>
+      </section>
+
+      <section class="people">
+        <div class="person"><div class="avatar">我</div><div><strong id="meName">我</strong><span><i class="dot"></i>現金流同步</span></div></div>
+        <div class="person"><div class="avatar">伴</div><div><strong id="partnerName">老婆</strong><span><i class="dot"></i>共同編輯</span></div></div>
+      </section>
+
+      <div class="owner-tabs" id="ownerTabs"></div>
+
+      <section class="cash-health">
+        <div class="health-box">
+          <span>貸款固定負擔</span>
+          <strong id="loanTotal">NT$ 0</strong>
+          <div class="bar"><i id="loanBar"></i></div>
+        </div>
+        <div class="health-box">
+          <span>收入剩餘率</span>
+          <strong id="savingRate">0%</strong>
+          <div class="bar"><i id="savingBar"></i></div>
+        </div>
+      </section>
+
+      <div class="tabs" id="flowTabs"></div>
+
+      <section>
+        <div class="section-head">
+          <div>
+            <h2>每月固定現金流</h2>
+            <small>薪水、房貸、車貸、信貸、固定家用</small>
+          </div>
+          <button class="ghost" type="button" id="exportBtn">匯出</button>
+          <input type="file" id="importInput" accept=".csv" hidden>
+        </div>
+        <div class="flow-list" id="flowRows"></div>
+        <div class="empty" id="emptyState" hidden>目前沒有固定現金流，按右下角「＋」新增收入或支出。</div>
+      </section>
+
+      <section class="insights">
+        <div class="panel">
+          <h3>依成員分攤</h3>
+          <div class="legend" id="ownerBreakdown"></div>
+        </div>
+        <div class="panel">
+          <h3>資產負債參考</h3>
+          <div class="legend">
+            <div class="legend-row"><span class="swatch" style="background:var(--teal)"></span><span>資產</span><b id="assetTotal">NT$ 0</b></div>
+            <div class="legend-row"><span class="swatch" style="background:var(--red)"></span><span>負債</span><b id="debtTotal">NT$ 0</b></div>
+            <div class="legend-row"><span class="swatch" style="background:var(--blue)"></span><span>淨資產</span><b id="netWorth">NT$ 0</b></div>
+          </div>
+        </div>
+        <div class="panel">
+          <h3>資產清單</h3>
+          <div class="asset-list" id="assetRows"></div>
+        </div>
+      </section>
+    </main>
+
+    <button class="fab" type="button" id="newBtn" aria-label="新增現金流">＋</button>
+    <nav class="bottom-nav" aria-label="底部導覽">
+      <button class="active" type="button"><b>↕</b>現金流</button>
+      <button type="button" id="importBtn"><b>⇪</b>匯入</button>
+      <button type="button" id="assetModeBtn"><b>▤</b>資產</button>
+      <button type="button"><b>◌</b>圖表</button>
+      <button type="button" id="settingsNav"><b>⚙</b>設定</button>
+    </nav>
+  </div>
+
+  <div class="sheet" id="flowSheet">
+    <div class="sheet-panel">
+      <div class="handle"></div>
+      <div class="sheet-head">
+        <h2 id="formTitle">新增固定現金流</h2>
+        <button class="icon-btn" type="button" id="closeSheet">✕</button>
+      </div>
+      <form class="form" id="flowForm">
+        <input type="hidden" id="flowId">
+        <label>收入 / 支出
+          <select id="flowType" required>
+            <option value="income">收入</option>
+            <option value="expense">支出</option>
+          </select>
+        </label>
+        <label>歸屬
+          <select id="flowOwner" required>
+            <option value="me">我的</option>
+            <option value="partner">老婆</option>
+            <option value="family">家庭共同</option>
+          </select>
+        </label>
+        <label>類別
+          <select id="flowCategory" required></select>
+        </label>
+        <label>名稱
+          <input id="flowName" required placeholder="例如：每月薪水、房貸、車貸">
+        </label>
+        <label>每月金額
+          <input id="flowAmount" type="number" step="1" required placeholder="請輸入正數">
+        </label>
+        <label>每月日期
+          <input id="flowDay" type="number" min="1" max="31" step="1" placeholder="例如：5">
+        </label>
+        <label>備註
+          <textarea id="flowNote" placeholder="例如：每月 5 號入帳、貸款剩餘期數"></textarea>
+        </label>
+        <div class="form-actions">
+          <button class="secondary" type="button" id="resetBtn">清空</button>
+          <button class="primary" type="submit">儲存</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="settings" id="settings">
+    <div class="modal">
+      <div class="handle"></div>
+      <div class="sheet-head">
+        <h2>同步設定</h2>
+        <button class="icon-btn" type="button" id="closeSettings">✕</button>
+      </div>
+      <div class="form">
+        <p class="hint">Android 和 iPhone 都開同一個網頁。若要共同線上編輯，請建立 Firebase Realtime Database，兩台手機使用同一組設定與家庭代碼。</p>
+        <div class="config-grid">
+          <label>我的名字 <input id="configMe" placeholder="例如：老公"></label>
+          <label>共同編輯者 <input id="configPartner" placeholder="例如：老婆"></label>
+          <label>家庭代碼 <input id="workspaceId" placeholder="例如：my-family-2026"></label>
+          <label>apiKey <input id="apiKey"></label>
+          <label>authDomain <input id="authDomain"></label>
+          <label>databaseURL <input id="databaseURL"></label>
+          <label>projectId <input id="projectId"></label>
+          <label>appId <input id="appId"></label>
+        </div>
+        <div class="form-actions">
+          <button class="secondary" type="button" id="disableCloud">改回本機</button>
+          <button class="primary" type="button" id="saveSettings">儲存同步</button>
+        </div>
+        <button class="secondary" type="button" id="copyShareLink">複製同步連結</button>
+        <p class="hint">設定完成後，可複製同步連結傳給老婆。她用手機開啟後，會自動帶入同一組雲端設定與家庭代碼。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script type="module">
+    import { initializeApp, getApp, getApps } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-app.js";
+    import { getDatabase, ref, onValue, set } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-database.js";
+
+    const storageKey = "family-cashflow-manager-v1";
+    const oldAssetStorageKey = "family-asset-manager-v2";
+    const settingsKey = "family-asset-manager-settings-v2";
+    const unlockKey = "family-cashflow-unlocked-v1";
+    const passwordHash = "609bf3305d9345dce23ffa5c152c4fe90222cf619df260d056ad0a5a23b760de";
+    const owners = [
+      ["家庭總計", "all"],
+      ["我的", "me"],
+      ["老婆", "partner"],
+      ["家庭共同", "family"]
+    ];
+    const flowFilters = [
+      ["全部", "all"],
+      ["收入", "income"],
+      ["支出", "expense"],
+      ["貸款", "loan"]
+    ];
+    const flowCategories = {
+      salary: "薪水",
+      bonus: "獎金",
+      side: "副業",
+      mortgage: "房貸",
+      carLoan: "車貸",
+      personalLoan: "信貸",
+      creditCard: "信用卡",
+      living: "生活費",
+      insurance: "保險",
+      education: "教育",
+      subscription: "訂閱",
+      other: "其他"
+    };
+    const loanCategories = new Set(["mortgage", "carLoan", "personalLoan"]);
+    const assetCategories = {
+      cash: "現金",
+      invest: "投資",
+      realestate: "不動產",
+      insurance: "保險",
+      retire: "退休金",
+      debt: "負債",
+      other: "其他"
+    };
+    const assetCategoryClasses = {
+      cash: "cash",
+      invest: "invest",
+      realestate: "loan",
+      insurance: "family",
+      retire: "retire",
+      debt: "debt",
+      other: ""
+    };
+
+    let settings = JSON.parse(localStorage.getItem(settingsKey) || "{}");
+    let activeOwner = "all";
+    let activeFlowFilter = "all";
+    let dbRef = null;
+    let applyingRemote = false;
+    let cloudReady = false;
+    let cloudUnsubscribe = null;
+
+    const el = (id) => document.getElementById(id);
+    const fmt = new Intl.NumberFormat("zh-TW", { maximumFractionDigits: 0 });
+    let state = normalizeState(loadLocal() || loadOldAssets() || defaultState());
+
+    function defaultState() {
+      return {
+        flows: [
+          flow("income", "me", "salary", "我的固定薪水", 82000, 5, "每月薪資入帳"),
+          flow("income", "partner", "salary", "老婆固定薪水", 72000, 5, "每月薪資入帳"),
+          flow("expense", "family", "mortgage", "房貸", 42000, 10, "家庭共同負擔"),
+          flow("expense", "me", "carLoan", "車貸", 16800, 15, "我的車貸"),
+          flow("expense", "me", "personalLoan", "信貸", 12000, 20, "個人信貸"),
+          flow("expense", "family", "living", "固定家用", 36000, 1, "水電瓦斯、餐費、日用品"),
+          flow("expense", "partner", "insurance", "老婆保險", 8200, 12, "固定保費"),
+          flow("expense", "family", "subscription", "串流與雲端訂閱", 1600, 25, "")
+        ],
+        assets: [
+          asset("cash", "台新銀行 數位帳戶", "台新銀行", 220000, "緊急預備金"),
+          asset("cash", "聯邦帳戶", "聯邦銀行", 150000, "生活費帳戶"),
+          asset("invest", "元大台灣50（0050）", "元大證券", 980000, "長期投資"),
+          asset("invest", "台積電（2330）", "元大證券", 620000, "核心持股"),
+          asset("insurance", "國泰人壽 增額終身壽險", "國泰人壽", 320000, "保單價值"),
+          asset("realestate", "新北市新莊區公寓", "自有", 1800000, "自住"),
+          asset("debt", "玉山銀行 房貸", "玉山銀行", -500000, "剩餘本金"),
+          asset("debt", "信用卡未繳款", "台新銀行", -60000, "本期帳單"),
+          asset("retire", "勞工退休金專戶", "勞保局", 160000, "退休準備")
+        ],
+        updatedAt: Date.now()
+      };
+    }
+    function flow(type, owner, category, name, amount, day, note) {
+      return { id: crypto.randomUUID(), type, owner, category, name, amount, day, note };
+    }
+    function asset(category, name, institution, amount, note) {
+      return { id: crypto.randomUUID(), category, name, institution, amount, note };
+    }
+    function loadLocal() {
+      try { return JSON.parse(localStorage.getItem(storageKey)); }
+      catch { return null; }
+    }
+    function loadOldAssets() {
+      try {
+        const oldState = JSON.parse(localStorage.getItem(oldAssetStorageKey));
+        if (!oldState?.items) return null;
+        const next = defaultState();
+        next.assets = oldState.items.map((row) => ({
+          id: row.id || crypto.randomUUID(),
+          category: row.category || "other",
+          name: row.name || "未命名",
+          institution: row.institution || "",
+          amount: Number(row.amount) || 0,
+          note: row.note || ""
+        }));
+        return next;
+      } catch {
+        return null;
+      }
+    }
+    function normalizeState(input) {
+      const base = defaultState();
+      return {
+        flows: Array.isArray(input.flows) ? input.flows : base.flows,
+        assets: Array.isArray(input.assets) ? input.assets : Array.isArray(input.items) ? input.items : base.assets,
+        updatedAt: input.updatedAt || Date.now()
+      };
+    }
+    function saveLocal() {
+      state.updatedAt = Date.now();
+      localStorage.setItem(storageKey, JSON.stringify(state));
+      if (cloudReady && dbRef && !applyingRemote) set(dbRef, state).catch(() => showToast("雲端同步失敗，已保留在本機"));
+    }
+    function money(value) {
+      const amount = Math.round(Number(value) || 0);
+      return `${amount < 0 ? "-" : ""}NT$ ${fmt.format(Math.abs(amount))}`;
+    }
+    function ownerName(owner) {
+      if (owner === "me") return settings.me || "我";
+      if (owner === "partner") return settings.partner || "老婆";
+      if (owner === "family") return "家庭共同";
+      return "家庭總計";
+    }
+    function visibleFlows() {
+      return state.flows.filter((row) => {
+        const ownerOk = activeOwner === "all" || row.owner === activeOwner;
+        const filterOk = activeFlowFilter === "all" || row.type === activeFlowFilter || (activeFlowFilter === "loan" && loanCategories.has(row.category));
+        return ownerOk && filterOk;
+      });
+    }
+    function scopeFlows(owner = activeOwner) {
+      return state.flows.filter((row) => owner === "all" || row.owner === owner);
+    }
+    function summarize(flows) {
+      const income = flows.filter((row) => row.type === "income").reduce((sum, row) => sum + Number(row.amount || 0), 0);
+      const expense = flows.filter((row) => row.type === "expense").reduce((sum, row) => sum + Number(row.amount || 0), 0);
+      const loan = flows.filter((row) => row.type === "expense" && loanCategories.has(row.category)).reduce((sum, row) => sum + Number(row.amount || 0), 0);
+      return { income, expense, loan, balance: income - expense };
+    }
+    function render() {
+      renderOwners();
+      renderFlowTabs();
+      renderSummary();
+      renderFlows();
+      renderBreakdown();
+      renderAssets();
+      renderSettingsFields();
+      el("meName").textContent = settings.me || "我";
+      el("partnerName").textContent = settings.partner || "老婆";
+    }
+    function renderOwners() {
+      el("ownerTabs").innerHTML = owners.map(([label, key]) => `<button class="chip ${activeOwner === key ? "active" : ""}" type="button" data-owner="${key}">${label}</button>`).join("");
+    }
+    function renderFlowTabs() {
+      el("flowTabs").innerHTML = flowFilters.map(([label, key]) => `<button class="chip ${activeFlowFilter === key ? "active" : ""}" type="button" data-flow-filter="${key}">${label}</button>`).join("");
+    }
+    function renderSummary() {
+      const summary = summarize(scopeFlows());
+      const expenseRate = summary.income ? Math.round((summary.expense / summary.income) * 100) : 0;
+      const loanRate = summary.income ? Math.round((summary.loan / summary.income) * 100) : 0;
+      const savingRate = summary.income ? Math.round((summary.balance / summary.income) * 100) : 0;
+      el("summaryLabel").textContent = `${ownerName(activeOwner)}每月可支配`;
+      el("cashBalance").textContent = money(summary.balance);
+      el("cashIncome").textContent = money(summary.income);
+      el("cashExpense").textContent = money(summary.expense);
+      el("expenseRate").textContent = `${expenseRate}%`;
+      el("loanTotal").textContent = money(summary.loan);
+      el("savingRate").textContent = `${savingRate}%`;
+      el("loanBar").style.width = `${Math.min(100, Math.max(0, loanRate))}%`;
+      el("savingBar").style.width = `${Math.min(100, Math.max(0, savingRate))}%`;
+      el("savingBar").style.background = savingRate < 0 ? "var(--red)" : "var(--green)";
+      const assets = state.assets.filter((row) => row.amount > 0).reduce((sum, row) => sum + row.amount, 0);
+      const debts = state.assets.filter((row) => row.amount < 0).reduce((sum, row) => sum + Math.abs(row.amount), 0);
+      el("assetTotal").textContent = money(assets);
+      el("debtTotal").textContent = money(debts);
+      el("netWorth").textContent = money(assets - debts);
+    }
+    function renderFlows() {
+      const rows = visibleFlows().sort((a, b) => (a.day || 99) - (b.day || 99));
+      el("emptyState").hidden = rows.length > 0;
+      el("flowRows").innerHTML = rows.map((row) => `
+        <article class="flow-card">
+          <div class="card-main">
+            <div>
+              <strong class="card-name">${escapeHtml(row.name)}</strong>
+              <span class="card-sub">${ownerName(row.owner)} · 每月 ${row.day || "-"} 日 · ${flowCategories[row.category] || "其他"}</span>
+            </div>
+            <div class="amount ${row.type}">${row.type === "income" ? "+" : "-"}${money(row.amount)}</div>
+          </div>
+          <div class="card-meta">
+            <span class="tag ${row.type === "income" ? "income" : loanCategories.has(row.category) ? "loan" : "expense"}">${row.type === "income" ? "收入" : loanCategories.has(row.category) ? "貸款" : "支出"}</span>
+            <span>${escapeHtml(row.note || "固定每月項目")}</span>
+            <div class="card-actions">
+              <button class="tiny-btn" type="button" data-edit-flow="${row.id}">編輯</button>
+              <button class="tiny-btn" type="button" data-delete-flow="${row.id}">刪除</button>
+            </div>
+          </div>
+        </article>
+      `).join("");
+    }
+    function renderBreakdown() {
+      el("ownerBreakdown").innerHTML = ["me", "partner", "family"].map((owner) => {
+        const data = summarize(scopeFlows(owner));
+        const color = owner === "me" ? "var(--teal)" : owner === "partner" ? "var(--purple)" : "var(--amber)";
+        return `<div class="legend-row"><span class="swatch" style="background:${color}"></span><span>${ownerName(owner)}</span><b>${money(data.balance)}</b></div>`;
+      }).join("");
+    }
+    function renderAssets() {
+      el("assetRows").innerHTML = state.assets.slice(0, 6).map((row) => `
+        <article class="asset-card">
+          <div class="card-main">
+            <div>
+              <strong class="card-name">${escapeHtml(row.name)}</strong>
+              <span class="card-sub">${escapeHtml(row.institution || "-")}</span>
+            </div>
+            <div class="amount ${row.amount < 0 ? "negative" : ""}">${money(row.amount)}</div>
+          </div>
+          <div class="card-meta">
+            <span class="tag ${assetCategoryClasses[row.category] || ""}">${assetCategories[row.category] || "其他"}</span>
+            <span>${escapeHtml(row.note || "沒有備註")}</span>
+          </div>
+        </article>
+      `).join("");
+    }
+    function fillCategorySelect() {
+      el("flowCategory").innerHTML = Object.entries(flowCategories).map(([key, label]) => `<option value="${key}">${label}</option>`).join("");
+    }
+    function openSheet() { el("flowSheet").classList.add("open"); }
+    function closeSheet() { el("flowSheet").classList.remove("open"); }
+    function resetForm() {
+      el("formTitle").textContent = "新增固定現金流";
+      el("flowForm").reset();
+      el("flowId").value = "";
+      el("flowType").value = "income";
+      el("flowOwner").value = activeOwner === "all" ? "me" : activeOwner;
+      el("flowCategory").value = "salary";
+    }
+    function saveFlow(event) {
+      event.preventDefault();
+      const row = {
+        id: el("flowId").value || crypto.randomUUID(),
+        type: el("flowType").value,
+        owner: el("flowOwner").value,
+        category: el("flowCategory").value,
+        name: el("flowName").value.trim(),
+        amount: Math.abs(Number(el("flowAmount").value) || 0),
+        day: Number(el("flowDay").value) || "",
+        note: el("flowNote").value.trim()
+      };
+      if (!row.name || !row.amount) return;
+      const index = state.flows.findIndex((item) => item.id === row.id);
+      if (index >= 0) state.flows[index] = row;
+      else state.flows.unshift(row);
+      saveLocal();
+      render();
+      resetForm();
+      closeSheet();
+      showToast("已儲存");
+    }
+    function editFlow(id) {
+      const row = state.flows.find((item) => item.id === id);
+      if (!row) return;
+      el("formTitle").textContent = "編輯固定現金流";
+      el("flowId").value = row.id;
+      el("flowType").value = row.type;
+      el("flowOwner").value = row.owner;
+      el("flowCategory").value = row.category;
+      el("flowName").value = row.name;
+      el("flowAmount").value = row.amount;
+      el("flowDay").value = row.day || "";
+      el("flowNote").value = row.note || "";
+      openSheet();
+    }
+    function deleteFlow(id) {
+      const row = state.flows.find((item) => item.id === id);
+      if (!row || !confirm(`刪除「${row.name}」？`)) return;
+      state.flows = state.flows.filter((item) => item.id !== id);
+      saveLocal();
+      render();
+      showToast("已刪除");
+    }
+    function exportCsv() {
+      const header = ["類型", "歸屬", "類別", "名稱", "每月金額", "每月日期", "備註"];
+      const rows = state.flows.map((row) => [
+        row.type === "income" ? "收入" : "支出",
+        ownerName(row.owner),
+        flowCategories[row.category] || "其他",
+        row.name,
+        row.amount,
+        row.day,
+        row.note
+      ]);
+      const csv = [header, ...rows].map((cols) => cols.map(csvCell).join(",")).join("\n");
+      const blob = new Blob(["\ufeff" + csv], { type: "text/csv;charset=utf-8" });
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = `家庭現金流-${new Date().toISOString().slice(0, 10)}.csv`;
+      link.click();
+      URL.revokeObjectURL(link.href);
+    }
+    function importCsv(file) {
+      const reader = new FileReader();
+      reader.onload = () => {
+        const lines = String(reader.result).replace(/^\ufeff/, "").split(/\r?\n/).filter(Boolean);
+        const imported = lines.slice(1).map(parseCsvLine).map((cols) => {
+          const owner = cols[1] === ownerName("partner") || cols[1] === "老婆" ? "partner" : cols[1] === "家庭共同" ? "family" : "me";
+          const category = Object.entries(flowCategories).find(([, label]) => label === cols[2])?.[0] || "other";
+          return flow(cols[0] === "收入" ? "income" : "expense", owner, category, cols[3] || "未命名", Number(cols[4]) || 0, Number(cols[5]) || "", cols[6] || "");
+        }).filter((row) => row.name && row.amount);
+        if (imported.length) {
+          state.flows = imported;
+          saveLocal();
+          render();
+          showToast("CSV 已匯入");
+        }
+      };
+      reader.readAsText(file, "utf-8");
+    }
+    function csvCell(value) { return `"${String(value ?? "").replaceAll('"', '""')}"`; }
+    function parseCsvLine(line) {
+      const values = [];
+      let current = "";
+      let quoted = false;
+      for (let i = 0; i < line.length; i++) {
+        const char = line[i];
+        if (char === '"' && line[i + 1] === '"') { current += '"'; i++; }
+        else if (char === '"') quoted = !quoted;
+        else if (char === "," && !quoted) { values.push(current); current = ""; }
+        else current += char;
+      }
+      values.push(current);
+      return values;
+    }
+    function renderSettingsFields() {
+      el("configMe").value = settings.me || "";
+      el("configPartner").value = settings.partner || "";
+      el("workspaceId").value = settings.workspaceId || "";
+      ["apiKey", "authDomain", "databaseURL", "projectId", "appId"].forEach((key) => el(key).value = settings.firebase?.[key] || "");
+    }
+    function collectSettings() {
+      return {
+        me: el("configMe").value.trim() || "我",
+        partner: el("configPartner").value.trim() || "老婆",
+        workspaceId: el("workspaceId").value.trim(),
+        firebase: {
+          apiKey: el("apiKey").value.trim(),
+          authDomain: el("authDomain").value.trim(),
+          databaseURL: el("databaseURL").value.trim(),
+          projectId: el("projectId").value.trim(),
+          appId: el("appId").value.trim()
+        }
+      };
+    }
+    function canUseCloud(config = settings) {
+      return Boolean(config.workspaceId && config.firebase?.apiKey && config.firebase?.databaseURL && config.firebase?.projectId && config.firebase?.appId);
+    }
+    function firebaseAppName() {
+      return `family-${String(settings.workspaceId || "default").replace(/[^a-z0-9-]/gi, "-").slice(0, 40)}`;
+    }
+    function applySharedSettingsFromUrl() {
+      if (!location.hash.startsWith("#sync=")) return;
+      try {
+        const encoded = decodeURIComponent(location.hash.slice(6));
+        const bytes = Uint8Array.from(atob(encoded), (char) => char.charCodeAt(0));
+        const imported = JSON.parse(new TextDecoder().decode(bytes));
+        if (canUseCloud(imported)) {
+          settings = imported;
+          localStorage.setItem(settingsKey, JSON.stringify(settings));
+          history.replaceState(null, "", location.pathname + location.search);
+          showToast("已套用同步設定");
+        }
+      } catch {
+        showToast("同步連結無法讀取");
+      }
+    }
+    function makeShareLink() {
+      const json = JSON.stringify(settings);
+      const bytes = new TextEncoder().encode(json);
+      let binary = "";
+      bytes.forEach((byte) => binary += String.fromCharCode(byte));
+      return `${location.origin}${location.pathname}#sync=${encodeURIComponent(btoa(binary))}`;
+    }
+    function connectCloud() {
+      if (cloudUnsubscribe) {
+        cloudUnsubscribe();
+        cloudUnsubscribe = null;
+      }
+      if (!canUseCloud()) {
+        cloudReady = false;
+        el("syncStatus").textContent = "本機儲存";
+        return;
+      }
+      try {
+        const appName = firebaseAppName();
+        const app = getApps().some((existing) => existing.name === appName) ? getApp(appName) : initializeApp(settings.firebase, appName);
+        const db = getDatabase(app);
+        dbRef = ref(db, `workspaces/${settings.workspaceId}/cashflow`);
+        cloudUnsubscribe = onValue(dbRef, (snapshot) => {
+          const remote = snapshot.val();
+          if (!remote || !Array.isArray(remote.flows)) { saveLocal(); return; }
+          if ((remote.updatedAt || 0) >= (state.updatedAt || 0)) {
+            applyingRemote = true;
+            state = normalizeState(remote);
+            localStorage.setItem(storageKey, JSON.stringify(state));
+            applyingRemote = false;
+            render();
+          }
+        });
+        cloudReady = true;
+        el("syncStatus").textContent = "雲端同步";
+      } catch {
+        cloudReady = false;
+        el("syncStatus").textContent = "同步需檢查";
+        showToast("Firebase 設定無法連線");
+      }
+    }
+    function escapeHtml(value) {
+      return String(value ?? "").replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;" })[char]);
+    }
+    function showToast(message) {
+      el("toast").textContent = message;
+      el("toast").classList.add("show");
+      clearTimeout(showToast.timer);
+      showToast.timer = setTimeout(() => el("toast").classList.remove("show"), 2200);
+    }
+    async function sha256(text) {
+      const bytes = new TextEncoder().encode(text);
+      const hash = await crypto.subtle.digest("SHA-256", bytes);
+      return [...new Uint8Array(hash)].map((byte) => byte.toString(16).padStart(2, "0")).join("");
+    }
+    function unlockApp() {
+      document.body.classList.remove("locked");
+      el("unlockPassword").value = "";
+    }
+    function setupUnlock() {
+      if (sessionStorage.getItem(unlockKey) === "yes") unlockApp();
+      el("unlockForm").addEventListener("submit", async (event) => {
+        event.preventDefault();
+        const typedHash = await sha256(el("unlockPassword").value);
+        if (typedHash === passwordHash) {
+          sessionStorage.setItem(unlockKey, "yes");
+          unlockApp();
+          showToast("已解鎖");
+        } else {
+          el("unlockPassword").value = "";
+          showToast("密碼不正確");
+        }
+      });
+      el("clearUnlock").addEventListener("click", () => el("unlockPassword").value = "");
+    }
+
+    setupUnlock();
+    applySharedSettingsFromUrl();
+    fillCategorySelect();
+    render();
+    connectCloud();
+
+    el("ownerTabs").addEventListener("click", (event) => {
+      const button = event.target.closest("[data-owner]");
+      if (!button) return;
+      activeOwner = button.dataset.owner;
+      render();
+    });
+    el("flowTabs").addEventListener("click", (event) => {
+      const button = event.target.closest("[data-flow-filter]");
+      if (!button) return;
+      activeFlowFilter = button.dataset.flowFilter;
+      render();
+    });
+    el("flowRows").addEventListener("click", (event) => {
+      const edit = event.target.closest("[data-edit-flow]");
+      const remove = event.target.closest("[data-delete-flow]");
+      if (edit) editFlow(edit.dataset.editFlow);
+      if (remove) deleteFlow(remove.dataset.deleteFlow);
+    });
+    el("flowForm").addEventListener("submit", saveFlow);
+    el("resetBtn").addEventListener("click", resetForm);
+    el("newBtn").addEventListener("click", () => { resetForm(); openSheet(); });
+    el("closeSheet").addEventListener("click", closeSheet);
+    el("flowSheet").addEventListener("click", (event) => { if (event.target.id === "flowSheet") closeSheet(); });
+    el("exportBtn").addEventListener("click", exportCsv);
+    el("importBtn").addEventListener("click", () => el("importInput").click());
+    el("importInput").addEventListener("change", (event) => {
+      if (event.target.files?.[0]) importCsv(event.target.files[0]);
+      event.target.value = "";
+    });
+    el("assetModeBtn").addEventListener("click", () => document.querySelector(".insights").scrollIntoView({ behavior: "smooth" }));
+    el("settingsBtn").addEventListener("click", () => el("settings").classList.add("open"));
+    el("settingsNav").addEventListener("click", () => el("settings").classList.add("open"));
+    el("closeSettings").addEventListener("click", () => el("settings").classList.remove("open"));
+    el("settings").addEventListener("click", (event) => { if (event.target.id === "settings") el("settings").classList.remove("open"); });
+    el("saveSettings").addEventListener("click", () => {
+      settings = collectSettings();
+      localStorage.setItem(settingsKey, JSON.stringify(settings));
+      el("settings").classList.remove("open");
+      render();
+      connectCloud();
+      showToast(canUseCloud() ? "同步設定已儲存" : "已儲存本機設定");
+    });
+    el("copyShareLink").addEventListener("click", async () => {
+      settings = collectSettings();
+      localStorage.setItem(settingsKey, JSON.stringify(settings));
+      render();
+      if (!canUseCloud()) {
+        showToast("請先填好 Firebase 設定與家庭代碼");
+        return;
+      }
+      try {
+        await navigator.clipboard.writeText(makeShareLink());
+        showToast("同步連結已複製");
+      } catch {
+        showToast("瀏覽器不允許複製，請先部署到 HTTPS 網址");
+      }
+    });
+    el("disableCloud").addEventListener("click", () => {
+      settings.firebase = {};
+      settings.workspaceId = "";
+      localStorage.setItem(settingsKey, JSON.stringify(settings));
+      cloudReady = false;
+      dbRef = null;
+      if (cloudUnsubscribe) cloudUnsubscribe();
+      cloudUnsubscribe = null;
+      el("settings").classList.remove("open");
+      render();
+      el("syncStatus").textContent = "本機儲存";
+      showToast("已改回本機儲存");
+    });
+  </script>
+</body>
+</html>
