@@ -314,6 +314,7 @@
     }
     .amount.income { color: var(--green); }
     .amount.expense, .amount.negative { color: var(--red); }
+    .view-section { scroll-margin-top: 16px; }
     .card-meta {
       display: flex;
       justify-content: space-between;
@@ -435,7 +436,7 @@
       background: rgba(255,255,255,.96);
       border-top: 1px solid var(--line);
       display: grid;
-      grid-template-columns: repeat(5, 1fr);
+      grid-template-columns: repeat(4, 1fr);
       gap: 4px;
       z-index: 4;
     }
@@ -651,56 +652,36 @@
 
       <div class="tabs" id="flowTabs"></div>
 
-      <section class="panel">
+      <section class="view-section" id="cashflowSection">
         <div class="section-head">
           <div>
-            <h2>每月實際收支</h2>
-            <small>逐月記錄實際收入與支出</small>
+            <h2>主要現金流</h2>
+            <small>夫妻固定收入、固定支出、可自由運用資金</small>
           </div>
-          <button class="ghost" type="button" id="newRecordBtn">新增紀錄</button>
-        </div>
-        <div class="month-picker">
-          <button class="icon-btn" type="button" id="prevMonth" aria-label="上個月">‹</button>
-          <div class="month-display" id="monthLabel"></div>
-          <button class="icon-btn" type="button" id="nextMonth" aria-label="下個月">›</button>
-        </div>
-        <div class="summary-grid">
-          <div class="health-box"><span>本月收入</span><strong id="recordIncome">NT$ 0</strong></div>
-          <div class="health-box"><span>本月支出</span><strong id="recordExpense">NT$ 0</strong></div>
-          <div class="health-box"><span>本月結餘</span><strong id="recordBalance">NT$ 0</strong></div>
-        </div>
-        <div class="flow-list" id="recordRows"></div>
-        <div class="empty" id="recordEmpty" hidden>這個月份還沒有實際收支紀錄。</div>
-      </section>
-
-      <section>
-        <div class="section-head">
-          <div>
-            <h2>每月固定現金流</h2>
-            <small>薪水、房貸、車貸、信貸、固定家用</small>
-          </div>
-          <button class="ghost" type="button" id="exportBtn">匯出</button>
+          <button class="ghost" type="button" id="exportBtn">匯出現金流</button>
           <input type="file" id="importInput" accept=".csv" hidden>
         </div>
         <div class="flow-list" id="flowRows"></div>
         <div class="empty" id="emptyState" hidden>目前沒有固定現金流，按右下角「＋」新增收入或支出。</div>
       </section>
 
-      <section class="insights">
+      <section class="insights view-section" id="assetSection">
         <div class="panel">
-          <h3>依成員分攤</h3>
-          <div class="legend" id="ownerBreakdown"></div>
+          <div class="section-head">
+            <div>
+              <h3>資產負債分布</h3>
+              <small>夫妻或合併視角，區分銀行、信貸、股票、ETF、房貸</small>
+            </div>
+            <button class="ghost" type="button" id="newAssetBtn">新增資產</button>
+          </div>
+          <div class="legend" id="assetBreakdown"></div>
         </div>
         <div class="panel chart-panel" id="chartPanel">
           <h3>現金流圖表</h3>
           <div class="chart-list" id="cashflowChart"></div>
         </div>
         <div class="panel">
-          <h3>貸款支出圖表</h3>
-          <div class="chart-list" id="loanChart"></div>
-        </div>
-        <div class="panel">
-          <h3>資產負債參考</h3>
+          <h3>資產負債總計</h3>
           <div class="legend">
             <div class="legend-row"><span class="swatch" style="background:var(--teal)"></span><span>資產</span><b id="assetTotal">NT$ 0</b></div>
             <div class="legend-row"><span class="swatch" style="background:var(--red)"></span><span>負債</span><b id="debtTotal">NT$ 0</b></div>
@@ -708,7 +689,7 @@
           </div>
         </div>
         <div class="panel">
-          <h3>資產清單</h3>
+          <h3>資產負債清單</h3>
           <div class="asset-list" id="assetRows"></div>
         </div>
       </section>
@@ -716,10 +697,9 @@
 
     <button class="fab" type="button" id="newBtn" aria-label="新增現金流">＋</button>
     <nav class="bottom-nav" aria-label="底部導覽">
-      <button class="active" type="button"><b>↕</b>現金流</button>
+      <button class="active" type="button" id="cashflowModeBtn"><b>↕</b>現金流</button>
+      <button type="button" id="assetModeBtn"><b>▤</b>資產負債</button>
       <button type="button" id="importBtn"><b>⇪</b>匯入</button>
-      <button type="button" id="assetModeBtn"><b>▤</b>資產</button>
-      <button type="button" id="chartModeBtn"><b>◌</b>圖表</button>
       <button type="button" id="settingsNav"><b>⚙</b>設定</button>
     </nav>
   </div>
@@ -817,6 +797,45 @@
     </div>
   </div>
 
+  <div class="sheet" id="assetSheet">
+    <div class="sheet-panel">
+      <div class="handle"></div>
+      <div class="sheet-head">
+        <h2 id="assetFormTitle">新增資產負債</h2>
+        <button class="icon-btn" type="button" id="closeAssetSheet">✕</button>
+      </div>
+      <form class="form" id="assetForm">
+        <input type="hidden" id="assetId">
+        <label>歸屬
+          <select id="assetOwner" required>
+            <option value="me">我的</option>
+            <option value="partner">老婆</option>
+            <option value="family">共同</option>
+          </select>
+        </label>
+        <label>類別
+          <select id="assetCategory" required></select>
+        </label>
+        <label>名稱
+          <input id="assetName" required placeholder="例如：台新銀行帳戶、0050、房貸">
+        </label>
+        <label>機構 / 帳戶
+          <input id="assetInstitution" placeholder="例如：台新銀行、元大證券、玉山銀行">
+        </label>
+        <label>金額
+          <input id="assetAmount" type="number" step="1" required placeholder="資產填正數，負債填負數">
+        </label>
+        <label>備註
+          <textarea id="assetNote" placeholder="可填帳戶用途、股票代號、貸款剩餘期數"></textarea>
+        </label>
+        <div class="form-actions">
+          <button class="secondary" type="button" id="resetAssetBtn">清空</button>
+          <button class="primary" type="submit">儲存</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
   <div class="settings" id="settings">
     <div class="modal">
       <div class="handle"></div>
@@ -885,18 +904,29 @@
     };
     const loanCategories = new Set(["mortgage", "carLoan", "personalLoan"]);
     const assetCategories = {
-      cash: "現金",
-      invest: "投資",
-      realestate: "不動產",
+      cash: "銀行帳戶",
+      stock: "股票投資",
+      etf: "ETF",
+      fund: "基金",
+      realestate: "房產",
+      mortgage: "房貸",
+      creditLoan: "信貸",
+      carLoan: "車貸",
       insurance: "保險",
       retire: "退休金",
-      debt: "負債",
+      debt: "其他負債",
       other: "其他"
     };
     const assetCategoryClasses = {
       cash: "cash",
+      stock: "invest",
+      etf: "invest",
+      fund: "invest",
       invest: "invest",
       realestate: "loan",
+      mortgage: "debt",
+      creditLoan: "debt",
+      carLoan: "debt",
       insurance: "family",
       retire: "retire",
       debt: "debt",
@@ -935,15 +965,15 @@
           record(activeMonth, "expense", "family", "living", "本月生活採買", 12800, `${activeMonth}-12`, "超市與日用品")
         ],
         assets: [
-          asset("cash", "台新銀行 數位帳戶", "台新銀行", 220000, "緊急預備金"),
-          asset("cash", "聯邦帳戶", "聯邦銀行", 150000, "生活費帳戶"),
-          asset("invest", "元大台灣50（0050）", "元大證券", 980000, "長期投資"),
-          asset("invest", "台積電（2330）", "元大證券", 620000, "核心持股"),
-          asset("insurance", "國泰人壽 增額終身壽險", "國泰人壽", 320000, "保單價值"),
-          asset("realestate", "新北市新莊區公寓", "自有", 1800000, "自住"),
-          asset("debt", "玉山銀行 房貸", "玉山銀行", -500000, "剩餘本金"),
-          asset("debt", "信用卡未繳款", "台新銀行", -60000, "本期帳單"),
-          asset("retire", "勞工退休金專戶", "勞保局", 160000, "退休準備")
+          asset("me", "cash", "台新銀行 數位帳戶", "台新銀行", 220000, "緊急預備金"),
+          asset("partner", "cash", "聯邦帳戶", "聯邦銀行", 150000, "生活費帳戶"),
+          asset("family", "etf", "元大台灣50（0050）", "元大證券", 980000, "長期 ETF"),
+          asset("me", "stock", "台積電（2330）", "元大證券", 620000, "核心持股"),
+          asset("partner", "insurance", "國泰人壽 增額終身壽險", "國泰人壽", 320000, "保單價值"),
+          asset("family", "realestate", "新北市新莊區公寓", "自有", 1800000, "自住"),
+          asset("family", "mortgage", "玉山銀行 房貸", "玉山銀行", -500000, "剩餘本金"),
+          asset("me", "creditLoan", "信用貸款", "台新銀行", -60000, "剩餘本金"),
+          asset("me", "retire", "勞工退休金專戶", "勞保局", 160000, "退休準備")
         ],
         updatedAt: Date.now()
       };
@@ -954,8 +984,8 @@
     function record(month, type, owner, category, name, amount, date, note) {
       return { id: crypto.randomUUID(), month, type, owner, category, name, amount, date, note };
     }
-    function asset(category, name, institution, amount, note) {
-      return { id: crypto.randomUUID(), category, name, institution, amount, note };
+    function asset(owner, category, name, institution, amount, note) {
+      return { id: crypto.randomUUID(), owner, category, name, institution, amount, note };
     }
     function loadLocal() {
       try { return JSON.parse(localStorage.getItem(storageKey)); }
@@ -968,6 +998,7 @@
         const next = defaultState();
         next.assets = oldState.items.map((row) => ({
           id: row.id || crypto.randomUUID(),
+          owner: row.owner || "family",
           category: row.category || "other",
           name: row.name || "未命名",
           institution: row.institution || "",
@@ -1023,10 +1054,9 @@
       renderOwners();
       renderFlowTabs();
       renderSummary();
-      renderRecords();
       renderFlows();
-      renderBreakdown();
       renderCharts();
+      renderAssetBreakdown();
       renderAssets();
       renderSettingsFields();
       el("meName").textContent = settings.me || "我";
@@ -1152,42 +1182,61 @@
         }, {});
       const loanEntries = Object.entries(loanRows);
       const loanMax = Math.max(...loanEntries.map(([, value]) => value), 1);
-      el("loanChart").innerHTML = loanEntries.length
-        ? loanEntries.map(([key, value]) => chartRow(flowCategories[key] || "貸款", value, loanMax, "loan")).join("")
-        : `<p class="hint">目前沒有符合此視角的房貸、車貸或信貸資料。</p>`;
-
-      const ownerMax = Math.max(...["me", "partner", "family"].map((owner) => Math.abs(summarize(scopeFlows(owner)).balance)), 1);
-      el("ownerBreakdown").innerHTML = ["me", "partner", "family"].map((owner) => {
-        const data = summarize(scopeFlows(owner));
-        const className = owner === "partner" ? "partner" : owner === "family" ? "loan" : "income";
-        return chartRow(ownerName(owner), data.balance, ownerMax, className);
-      }).join("");
+      if (el("loanChart")) {
+        el("loanChart").innerHTML = loanEntries.length
+          ? loanEntries.map(([key, value]) => chartRow(flowCategories[key] || "貸款", value, loanMax, "loan")).join("")
+          : `<p class="hint">目前沒有符合此視角的房貸、車貸或信貸資料。</p>`;
+      }
     }
     function renderAssets() {
-      el("assetRows").innerHTML = state.assets.slice(0, 6).map((row) => `
+      const rows = visibleAssets();
+      el("assetRows").innerHTML = rows.map((row) => `
         <article class="asset-card">
           <div class="card-main">
             <div>
               <strong class="card-name">${escapeHtml(row.name)}</strong>
-              <span class="card-sub">${escapeHtml(row.institution || "-")}</span>
+              <span class="card-sub">${ownerName(row.owner)} · ${escapeHtml(row.institution || "-")}</span>
             </div>
             <div class="amount ${row.amount < 0 ? "negative" : ""}">${money(row.amount)}</div>
           </div>
           <div class="card-meta">
             <span class="tag ${assetCategoryClasses[row.category] || ""}">${assetCategories[row.category] || "其他"}</span>
             <span>${escapeHtml(row.note || "沒有備註")}</span>
+            <div class="card-actions">
+              <button class="tiny-btn" type="button" data-edit-asset="${row.id}">編輯</button>
+              <button class="tiny-btn" type="button" data-delete-asset="${row.id}">刪除</button>
+            </div>
           </div>
         </article>
       `).join("");
     }
+    function visibleAssets() {
+      return state.assets.filter((row) => activeOwner === "all" || (row.owner || "family") === activeOwner);
+    }
+    function renderAssetBreakdown() {
+      const rows = visibleAssets();
+      const totals = rows.reduce((map, row) => {
+        const key = row.category || "other";
+        map[key] = (map[key] || 0) + Number(row.amount || 0);
+        return map;
+      }, {});
+      const max = Math.max(...Object.values(totals).map((value) => Math.abs(value)), 1);
+      el("assetBreakdown").innerHTML = Object.entries(totals)
+        .sort((a, b) => Math.abs(b[1]) - Math.abs(a[1]))
+        .map(([key, value]) => chartRow(assetCategories[key] || "其他", value, max, value < 0 ? "expense" : "income"))
+        .join("") || `<p class="hint">目前沒有資產負債資料。</p>`;
+    }
     function fillCategorySelect() {
       el("flowCategory").innerHTML = Object.entries(flowCategories).map(([key, label]) => `<option value="${key}">${label}</option>`).join("");
       el("recordCategory").innerHTML = Object.entries(flowCategories).map(([key, label]) => `<option value="${key}">${label}</option>`).join("");
+      el("assetCategory").innerHTML = Object.entries(assetCategories).map(([key, label]) => `<option value="${key}">${label}</option>`).join("");
     }
     function openSheet() { el("flowSheet").classList.add("open"); }
     function closeSheet() { el("flowSheet").classList.remove("open"); }
     function openRecordSheet() { el("recordSheet").classList.add("open"); }
     function closeRecordSheet() { el("recordSheet").classList.remove("open"); }
+    function openAssetSheet() { el("assetSheet").classList.add("open"); }
+    function closeAssetSheet() { el("assetSheet").classList.remove("open"); }
     function resetForm() {
       el("formTitle").textContent = "新增固定現金流";
       el("flowForm").reset();
@@ -1282,6 +1331,55 @@
       const month = (dateIndex % 12) + 1;
       activeMonth = `${year}-${String(month).padStart(2, "0")}`;
       render();
+    }
+    function resetAssetForm() {
+      el("assetFormTitle").textContent = "新增資產負債";
+      el("assetForm").reset();
+      el("assetId").value = "";
+      el("assetOwner").value = activeOwner === "all" ? "family" : activeOwner;
+      el("assetCategory").value = "cash";
+    }
+    function saveAsset(event) {
+      event.preventDefault();
+      const row = {
+        id: el("assetId").value || crypto.randomUUID(),
+        owner: el("assetOwner").value,
+        category: el("assetCategory").value,
+        name: el("assetName").value.trim(),
+        institution: el("assetInstitution").value.trim(),
+        amount: Number(el("assetAmount").value) || 0,
+        note: el("assetNote").value.trim()
+      };
+      if (!row.name || !row.amount) return;
+      const index = state.assets.findIndex((item) => item.id === row.id);
+      if (index >= 0) state.assets[index] = row;
+      else state.assets.unshift(row);
+      saveLocal();
+      render();
+      resetAssetForm();
+      closeAssetSheet();
+      showToast("已儲存資產負債");
+    }
+    function editAsset(id) {
+      const row = state.assets.find((item) => item.id === id);
+      if (!row) return;
+      el("assetFormTitle").textContent = "編輯資產負債";
+      el("assetId").value = row.id;
+      el("assetOwner").value = row.owner || "family";
+      el("assetCategory").value = row.category || "other";
+      el("assetName").value = row.name;
+      el("assetInstitution").value = row.institution || "";
+      el("assetAmount").value = row.amount;
+      el("assetNote").value = row.note || "";
+      openAssetSheet();
+    }
+    function deleteAsset(id) {
+      const row = state.assets.find((item) => item.id === id);
+      if (!row || !confirm(`刪除「${row.name}」？`)) return;
+      state.assets = state.assets.filter((item) => item.id !== id);
+      saveLocal();
+      render();
+      showToast("已刪除");
     }
     function editFlow(id) {
       const row = state.flows.find((item) => item.id === id);
@@ -1499,32 +1597,30 @@
       if (edit) editFlow(edit.dataset.editFlow);
       if (remove) deleteFlow(remove.dataset.deleteFlow);
     });
-    el("recordRows").addEventListener("click", (event) => {
-      const edit = event.target.closest("[data-edit-record]");
-      const remove = event.target.closest("[data-delete-record]");
-      if (edit) editRecord(edit.dataset.editRecord);
-      if (remove) deleteRecord(remove.dataset.deleteRecord);
+    el("assetRows").addEventListener("click", (event) => {
+      const edit = event.target.closest("[data-edit-asset]");
+      const remove = event.target.closest("[data-delete-asset]");
+      if (edit) editAsset(edit.dataset.editAsset);
+      if (remove) deleteAsset(remove.dataset.deleteAsset);
     });
     el("flowForm").addEventListener("submit", saveFlow);
-    el("recordForm").addEventListener("submit", saveRecord);
+    el("assetForm").addEventListener("submit", saveAsset);
     el("resetBtn").addEventListener("click", resetForm);
-    el("resetRecordBtn").addEventListener("click", resetRecordForm);
+    el("resetAssetBtn").addEventListener("click", resetAssetForm);
     el("newBtn").addEventListener("click", () => { resetForm(); openSheet(); });
-    el("newRecordBtn").addEventListener("click", () => { resetRecordForm(); openRecordSheet(); });
-    el("prevMonth").addEventListener("click", () => shiftMonth(-1));
-    el("nextMonth").addEventListener("click", () => shiftMonth(1));
+    el("newAssetBtn").addEventListener("click", () => { resetAssetForm(); openAssetSheet(); });
     el("closeSheet").addEventListener("click", closeSheet);
-    el("closeRecordSheet").addEventListener("click", closeRecordSheet);
+    el("closeAssetSheet").addEventListener("click", closeAssetSheet);
     el("flowSheet").addEventListener("click", (event) => { if (event.target.id === "flowSheet") closeSheet(); });
-    el("recordSheet").addEventListener("click", (event) => { if (event.target.id === "recordSheet") closeRecordSheet(); });
+    el("assetSheet").addEventListener("click", (event) => { if (event.target.id === "assetSheet") closeAssetSheet(); });
     el("exportBtn").addEventListener("click", exportCsv);
     el("importBtn").addEventListener("click", () => el("importInput").click());
     el("importInput").addEventListener("change", (event) => {
       if (event.target.files?.[0]) importCsv(event.target.files[0]);
       event.target.value = "";
     });
-    el("assetModeBtn").addEventListener("click", () => document.querySelector(".insights").scrollIntoView({ behavior: "smooth" }));
-    el("chartModeBtn").addEventListener("click", () => el("chartPanel").scrollIntoView({ behavior: "smooth", block: "start" }));
+    el("cashflowModeBtn").addEventListener("click", () => el("cashflowSection").scrollIntoView({ behavior: "smooth", block: "start" }));
+    el("assetModeBtn").addEventListener("click", () => el("assetSection").scrollIntoView({ behavior: "smooth", block: "start" }));
     el("settingsBtn").addEventListener("click", () => el("settings").classList.add("open"));
     el("settingsNav").addEventListener("click", () => el("settings").classList.add("open"));
     el("closeSettings").addEventListener("click", () => el("settings").classList.remove("open"));
