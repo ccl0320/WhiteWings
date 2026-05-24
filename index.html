@@ -315,6 +315,8 @@
     .amount.income { color: var(--green); }
     .amount.expense, .amount.negative { color: var(--red); }
     .view-section { scroll-margin-top: 16px; }
+    .page:not(.active) { display: none !important; }
+    .page.active { display: block; }
     .card-meta {
       display: flex;
       justify-content: space-between;
@@ -652,20 +654,26 @@
 
       <div class="tabs" id="flowTabs"></div>
 
-      <section class="view-section" id="cashflowSection">
-        <div class="section-head">
-          <div>
-            <h2>主要現金流</h2>
-            <small>夫妻固定收入、固定支出、可自由運用資金</small>
+      <section class="page active view-section" id="cashflowPage">
+        <div>
+          <div class="section-head">
+            <div>
+              <h2>主要現金流</h2>
+              <small>夫妻固定收入、固定支出、可自由運用資金</small>
+            </div>
+            <button class="ghost" type="button" id="exportBtn">匯出現金流</button>
+            <input type="file" id="importInput" accept=".csv" hidden>
           </div>
-          <button class="ghost" type="button" id="exportBtn">匯出現金流</button>
-          <input type="file" id="importInput" accept=".csv" hidden>
+          <div class="flow-list" id="flowRows"></div>
+          <div class="empty" id="emptyState" hidden>目前沒有固定現金流，按右下角「＋」新增收入或支出。</div>
         </div>
-        <div class="flow-list" id="flowRows"></div>
-        <div class="empty" id="emptyState" hidden>目前沒有固定現金流，按右下角「＋」新增收入或支出。</div>
+        <div class="panel chart-panel" id="chartPanel">
+          <h3>現金流圖表</h3>
+          <div class="chart-list" id="cashflowChart"></div>
+        </div>
       </section>
 
-      <section class="insights view-section" id="assetSection">
+      <section class="page insights view-section" id="assetPage">
         <div class="panel">
           <div class="section-head">
             <div>
@@ -675,10 +683,6 @@
             <button class="ghost" type="button" id="newAssetBtn">新增資產</button>
           </div>
           <div class="legend" id="assetBreakdown"></div>
-        </div>
-        <div class="panel chart-panel" id="chartPanel">
-          <h3>現金流圖表</h3>
-          <div class="chart-list" id="cashflowChart"></div>
         </div>
         <div class="panel">
           <h3>資產負債總計</h3>
@@ -937,6 +941,7 @@
     let activeOwner = "all";
     let activeFlowFilter = "all";
     let activeMonth = new Date().toISOString().slice(0, 7);
+    let activePage = "cashflow";
     let dbRef = null;
     let applyingRemote = false;
     let cloudReady = false;
@@ -1051,6 +1056,7 @@
       return { income, expense, loan, balance: income - expense };
     }
     function render() {
+      renderPage();
       renderOwners();
       renderFlowTabs();
       renderSummary();
@@ -1061,6 +1067,13 @@
       renderSettingsFields();
       el("meName").textContent = settings.me || "我";
       el("partnerName").textContent = settings.partner || "老婆";
+    }
+    function renderPage() {
+      el("cashflowPage").classList.toggle("active", activePage === "cashflow");
+      el("assetPage").classList.toggle("active", activePage === "assets");
+      el("cashflowModeBtn").classList.toggle("active", activePage === "cashflow");
+      el("assetModeBtn").classList.toggle("active", activePage === "assets");
+      el("newBtn").style.display = activePage === "cashflow" ? "block" : "none";
     }
     function renderOwners() {
       el("ownerTabs").innerHTML = owners.map(([label, key]) => `<button class="chip ${activeOwner === key ? "active" : ""}" type="button" data-owner="${key}">${label}</button>`).join("");
@@ -1619,8 +1632,8 @@
       if (event.target.files?.[0]) importCsv(event.target.files[0]);
       event.target.value = "";
     });
-    el("cashflowModeBtn").addEventListener("click", () => el("cashflowSection").scrollIntoView({ behavior: "smooth", block: "start" }));
-    el("assetModeBtn").addEventListener("click", () => el("assetSection").scrollIntoView({ behavior: "smooth", block: "start" }));
+    el("cashflowModeBtn").addEventListener("click", () => { activePage = "cashflow"; render(); window.scrollTo({ top: 0, behavior: "smooth" }); });
+    el("assetModeBtn").addEventListener("click", () => { activePage = "assets"; render(); window.scrollTo({ top: 0, behavior: "smooth" }); });
     el("settingsBtn").addEventListener("click", () => el("settings").classList.add("open"));
     el("settingsNav").addEventListener("click", () => el("settings").classList.add("open"));
     el("closeSettings").addEventListener("click", () => el("settings").classList.remove("open"));
