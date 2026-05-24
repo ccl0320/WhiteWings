@@ -176,6 +176,22 @@
       border-color: var(--teal);
       font-weight: 800;
     }
+    .month-picker {
+      display: grid;
+      grid-template-columns: 42px 1fr 42px;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+    .month-display {
+      min-height: 42px;
+      border: 1px solid var(--line);
+      background: white;
+      border-radius: 14px;
+      display: grid;
+      place-items: center;
+      font-weight: 900;
+    }
     .people {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -635,6 +651,28 @@
 
       <div class="tabs" id="flowTabs"></div>
 
+      <section class="panel">
+        <div class="section-head">
+          <div>
+            <h2>每月實際收支</h2>
+            <small>逐月記錄實際收入與支出</small>
+          </div>
+          <button class="ghost" type="button" id="newRecordBtn">新增紀錄</button>
+        </div>
+        <div class="month-picker">
+          <button class="icon-btn" type="button" id="prevMonth" aria-label="上個月">‹</button>
+          <div class="month-display" id="monthLabel"></div>
+          <button class="icon-btn" type="button" id="nextMonth" aria-label="下個月">›</button>
+        </div>
+        <div class="summary-grid">
+          <div class="health-box"><span>本月收入</span><strong id="recordIncome">NT$ 0</strong></div>
+          <div class="health-box"><span>本月支出</span><strong id="recordExpense">NT$ 0</strong></div>
+          <div class="health-box"><span>本月結餘</span><strong id="recordBalance">NT$ 0</strong></div>
+        </div>
+        <div class="flow-list" id="recordRows"></div>
+        <div class="empty" id="recordEmpty" hidden>這個月份還沒有實際收支紀錄。</div>
+      </section>
+
       <section>
         <div class="section-head">
           <div>
@@ -731,6 +769,54 @@
     </div>
   </div>
 
+  <div class="sheet" id="recordSheet">
+    <div class="sheet-panel">
+      <div class="handle"></div>
+      <div class="sheet-head">
+        <h2 id="recordFormTitle">新增每月收支</h2>
+        <button class="icon-btn" type="button" id="closeRecordSheet">✕</button>
+      </div>
+      <form class="form" id="recordForm">
+        <input type="hidden" id="recordId">
+        <label>月份
+          <input id="recordMonth" type="month" required>
+        </label>
+        <label>收入 / 支出
+          <select id="recordType" required>
+            <option value="income">收入</option>
+            <option value="expense">支出</option>
+          </select>
+        </label>
+        <label>歸屬
+          <select id="recordOwner" required>
+            <option value="me">我的</option>
+            <option value="partner">老婆</option>
+            <option value="family">家庭共同</option>
+          </select>
+        </label>
+        <label>類別
+          <select id="recordCategory" required></select>
+        </label>
+        <label>名稱
+          <input id="recordName" required placeholder="例如：薪水入帳、超市、油錢">
+        </label>
+        <label>金額
+          <input id="recordAmount" type="number" step="1" required placeholder="請輸入正數">
+        </label>
+        <label>日期
+          <input id="recordDate" type="date">
+        </label>
+        <label>備註
+          <textarea id="recordNote" placeholder="可填發票、付款方式或補充說明"></textarea>
+        </label>
+        <div class="form-actions">
+          <button class="secondary" type="button" id="resetRecordBtn">清空</button>
+          <button class="primary" type="submit">儲存</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
   <div class="settings" id="settings">
     <div class="modal">
       <div class="handle"></div>
@@ -820,6 +906,7 @@
     let settings = JSON.parse(localStorage.getItem(settingsKey) || "{}");
     let activeOwner = "all";
     let activeFlowFilter = "all";
+    let activeMonth = new Date().toISOString().slice(0, 7);
     let dbRef = null;
     let applyingRemote = false;
     let cloudReady = false;
@@ -841,6 +928,12 @@
           flow("expense", "partner", "insurance", "老婆保險", 8200, 12, "固定保費"),
           flow("expense", "family", "subscription", "串流與雲端訂閱", 1600, 25, "")
         ],
+        records: [
+          record(activeMonth, "income", "me", "salary", "我的薪水入帳", 82000, `${activeMonth}-05`, "固定薪資"),
+          record(activeMonth, "income", "partner", "salary", "老婆薪水入帳", 72000, `${activeMonth}-05`, "固定薪資"),
+          record(activeMonth, "expense", "family", "mortgage", "房貸扣款", 42000, `${activeMonth}-10`, "家庭共同負擔"),
+          record(activeMonth, "expense", "family", "living", "本月生活採買", 12800, `${activeMonth}-12`, "超市與日用品")
+        ],
         assets: [
           asset("cash", "台新銀行 數位帳戶", "台新銀行", 220000, "緊急預備金"),
           asset("cash", "聯邦帳戶", "聯邦銀行", 150000, "生活費帳戶"),
@@ -857,6 +950,9 @@
     }
     function flow(type, owner, category, name, amount, day, note) {
       return { id: crypto.randomUUID(), type, owner, category, name, amount, day, note };
+    }
+    function record(month, type, owner, category, name, amount, date, note) {
+      return { id: crypto.randomUUID(), month, type, owner, category, name, amount, date, note };
     }
     function asset(category, name, institution, amount, note) {
       return { id: crypto.randomUUID(), category, name, institution, amount, note };
@@ -887,6 +983,7 @@
       const base = defaultState();
       return {
         flows: Array.isArray(input.flows) ? input.flows : base.flows,
+        records: Array.isArray(input.records) ? input.records : base.records,
         assets: Array.isArray(input.assets) ? input.assets : Array.isArray(input.items) ? input.items : base.assets,
         updatedAt: input.updatedAt || Date.now()
       };
@@ -926,6 +1023,7 @@
       renderOwners();
       renderFlowTabs();
       renderSummary();
+      renderRecords();
       renderFlows();
       renderBreakdown();
       renderCharts();
@@ -960,6 +1058,42 @@
       el("assetTotal").textContent = money(assets);
       el("debtTotal").textContent = money(debts);
       el("netWorth").textContent = money(assets - debts);
+    }
+    function visibleRecords() {
+      return state.records.filter((row) => {
+        const monthOk = row.month === activeMonth;
+        const ownerOk = activeOwner === "all" || row.owner === activeOwner;
+        return monthOk && ownerOk;
+      });
+    }
+    function renderRecords() {
+      const rows = visibleRecords().sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
+      const income = rows.filter((row) => row.type === "income").reduce((sum, row) => sum + Number(row.amount || 0), 0);
+      const expense = rows.filter((row) => row.type === "expense").reduce((sum, row) => sum + Number(row.amount || 0), 0);
+      el("monthLabel").textContent = activeMonth;
+      el("recordIncome").textContent = money(income);
+      el("recordExpense").textContent = money(expense);
+      el("recordBalance").textContent = money(income - expense);
+      el("recordEmpty").hidden = rows.length > 0;
+      el("recordRows").innerHTML = rows.map((row) => `
+        <article class="flow-card">
+          <div class="card-main">
+            <div>
+              <strong class="card-name">${escapeHtml(row.name)}</strong>
+              <span class="card-sub">${ownerName(row.owner)} · ${row.date || row.month} · ${flowCategories[row.category] || "其他"}</span>
+            </div>
+            <div class="amount ${row.type}">${row.type === "income" ? "+" : "-"}${money(row.amount)}</div>
+          </div>
+          <div class="card-meta">
+            <span class="tag ${row.type === "income" ? "income" : loanCategories.has(row.category) ? "loan" : "expense"}">${row.type === "income" ? "收入" : "支出"}</span>
+            <span>${escapeHtml(row.note || "每月實際紀錄")}</span>
+            <div class="card-actions">
+              <button class="tiny-btn" type="button" data-edit-record="${row.id}">編輯</button>
+              <button class="tiny-btn" type="button" data-delete-record="${row.id}">刪除</button>
+            </div>
+          </div>
+        </article>
+      `).join("");
     }
     function renderFlows() {
       const rows = visibleFlows().sort((a, b) => (a.day || 99) - (b.day || 99));
@@ -1048,9 +1182,12 @@
     }
     function fillCategorySelect() {
       el("flowCategory").innerHTML = Object.entries(flowCategories).map(([key, label]) => `<option value="${key}">${label}</option>`).join("");
+      el("recordCategory").innerHTML = Object.entries(flowCategories).map(([key, label]) => `<option value="${key}">${label}</option>`).join("");
     }
     function openSheet() { el("flowSheet").classList.add("open"); }
     function closeSheet() { el("flowSheet").classList.remove("open"); }
+    function openRecordSheet() { el("recordSheet").classList.add("open"); }
+    function closeRecordSheet() { el("recordSheet").classList.remove("open"); }
     function resetForm() {
       el("formTitle").textContent = "新增固定現金流";
       el("flowForm").reset();
@@ -1080,6 +1217,71 @@
       resetForm();
       closeSheet();
       showToast("已儲存");
+    }
+    function resetRecordForm() {
+      el("recordFormTitle").textContent = "新增每月收支";
+      el("recordForm").reset();
+      el("recordId").value = "";
+      el("recordMonth").value = activeMonth;
+      el("recordType").value = "expense";
+      el("recordOwner").value = activeOwner === "all" ? "family" : activeOwner;
+      el("recordCategory").value = "living";
+      el("recordDate").value = `${activeMonth}-${String(new Date().getDate()).padStart(2, "0")}`;
+    }
+    function saveRecord(event) {
+      event.preventDefault();
+      const row = {
+        id: el("recordId").value || crypto.randomUUID(),
+        month: el("recordMonth").value,
+        type: el("recordType").value,
+        owner: el("recordOwner").value,
+        category: el("recordCategory").value,
+        name: el("recordName").value.trim(),
+        amount: Math.abs(Number(el("recordAmount").value) || 0),
+        date: el("recordDate").value,
+        note: el("recordNote").value.trim()
+      };
+      if (!row.month || !row.name || !row.amount) return;
+      const index = state.records.findIndex((item) => item.id === row.id);
+      if (index >= 0) state.records[index] = row;
+      else state.records.unshift(row);
+      activeMonth = row.month;
+      saveLocal();
+      render();
+      resetRecordForm();
+      closeRecordSheet();
+      showToast("已儲存每月收支");
+    }
+    function editRecord(id) {
+      const row = state.records.find((item) => item.id === id);
+      if (!row) return;
+      el("recordFormTitle").textContent = "編輯每月收支";
+      el("recordId").value = row.id;
+      el("recordMonth").value = row.month;
+      el("recordType").value = row.type;
+      el("recordOwner").value = row.owner;
+      el("recordCategory").value = row.category;
+      el("recordName").value = row.name;
+      el("recordAmount").value = row.amount;
+      el("recordDate").value = row.date || "";
+      el("recordNote").value = row.note || "";
+      openRecordSheet();
+    }
+    function deleteRecord(id) {
+      const row = state.records.find((item) => item.id === id);
+      if (!row || !confirm(`刪除「${row.name}」？`)) return;
+      state.records = state.records.filter((item) => item.id !== id);
+      saveLocal();
+      render();
+      showToast("已刪除");
+    }
+    function shiftMonth(delta) {
+      const [yearText, monthText] = activeMonth.split("-");
+      const dateIndex = (Number(yearText) * 12) + Number(monthText) - 1 + delta;
+      const year = Math.floor(dateIndex / 12);
+      const month = (dateIndex % 12) + 1;
+      activeMonth = `${year}-${String(month).padStart(2, "0")}`;
+      render();
     }
     function editFlow(id) {
       const row = state.flows.find((item) => item.id === id);
@@ -1297,11 +1499,24 @@
       if (edit) editFlow(edit.dataset.editFlow);
       if (remove) deleteFlow(remove.dataset.deleteFlow);
     });
+    el("recordRows").addEventListener("click", (event) => {
+      const edit = event.target.closest("[data-edit-record]");
+      const remove = event.target.closest("[data-delete-record]");
+      if (edit) editRecord(edit.dataset.editRecord);
+      if (remove) deleteRecord(remove.dataset.deleteRecord);
+    });
     el("flowForm").addEventListener("submit", saveFlow);
+    el("recordForm").addEventListener("submit", saveRecord);
     el("resetBtn").addEventListener("click", resetForm);
+    el("resetRecordBtn").addEventListener("click", resetRecordForm);
     el("newBtn").addEventListener("click", () => { resetForm(); openSheet(); });
+    el("newRecordBtn").addEventListener("click", () => { resetRecordForm(); openRecordSheet(); });
+    el("prevMonth").addEventListener("click", () => shiftMonth(-1));
+    el("nextMonth").addEventListener("click", () => shiftMonth(1));
     el("closeSheet").addEventListener("click", closeSheet);
+    el("closeRecordSheet").addEventListener("click", closeRecordSheet);
     el("flowSheet").addEventListener("click", (event) => { if (event.target.id === "flowSheet") closeSheet(); });
+    el("recordSheet").addEventListener("click", (event) => { if (event.target.id === "recordSheet") closeRecordSheet(); });
     el("exportBtn").addEventListener("click", exportCsv);
     el("importBtn").addEventListener("click", () => el("importInput").click());
     el("importInput").addEventListener("change", (event) => {
