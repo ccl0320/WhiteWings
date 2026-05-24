@@ -346,6 +346,47 @@
       color: var(--muted);
     }
     .swatch { width: 9px; height: 9px; border-radius: 50%; background: var(--teal); }
+    .chart-panel {
+      scroll-margin-top: 16px;
+    }
+    .chart-list {
+      display: grid;
+      gap: 13px;
+    }
+    .chart-row {
+      display: grid;
+      gap: 7px;
+    }
+    .chart-label {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .chart-label b {
+      color: var(--ink);
+      white-space: nowrap;
+    }
+    .chart-track {
+      height: 12px;
+      border-radius: 999px;
+      overflow: hidden;
+      background: #e5eeee;
+    }
+    .chart-fill {
+      display: block;
+      width: 0;
+      height: 100%;
+      border-radius: 999px;
+      background: var(--teal);
+      transition: width .2s ease;
+    }
+    .chart-fill.income { background: var(--green); }
+    .chart-fill.expense { background: var(--red); }
+    .chart-fill.balance { background: var(--blue); }
+    .chart-fill.loan { background: var(--amber); }
+    .chart-fill.partner { background: var(--purple); }
     .empty {
       text-align: center;
       color: var(--muted);
@@ -612,6 +653,14 @@
           <h3>依成員分攤</h3>
           <div class="legend" id="ownerBreakdown"></div>
         </div>
+        <div class="panel chart-panel" id="chartPanel">
+          <h3>現金流圖表</h3>
+          <div class="chart-list" id="cashflowChart"></div>
+        </div>
+        <div class="panel">
+          <h3>貸款支出圖表</h3>
+          <div class="chart-list" id="loanChart"></div>
+        </div>
         <div class="panel">
           <h3>資產負債參考</h3>
           <div class="legend">
@@ -632,7 +681,7 @@
       <button class="active" type="button"><b>↕</b>現金流</button>
       <button type="button" id="importBtn"><b>⇪</b>匯入</button>
       <button type="button" id="assetModeBtn"><b>▤</b>資產</button>
-      <button type="button"><b>◌</b>圖表</button>
+      <button type="button" id="chartModeBtn"><b>◌</b>圖表</button>
       <button type="button" id="settingsNav"><b>⚙</b>設定</button>
     </nav>
   </div>
@@ -879,6 +928,7 @@
       renderSummary();
       renderFlows();
       renderBreakdown();
+      renderCharts();
       renderAssets();
       renderSettingsFields();
       el("meName").textContent = settings.me || "我";
@@ -939,6 +989,44 @@
         const data = summarize(scopeFlows(owner));
         const color = owner === "me" ? "var(--teal)" : owner === "partner" ? "var(--purple)" : "var(--amber)";
         return `<div class="legend-row"><span class="swatch" style="background:${color}"></span><span>${ownerName(owner)}</span><b>${money(data.balance)}</b></div>`;
+      }).join("");
+    }
+    function chartRow(label, value, max, className = "") {
+      const width = max ? Math.max(0, Math.min(100, Math.round((Math.abs(value) / max) * 100))) : 0;
+      return `
+        <div class="chart-row">
+          <div class="chart-label"><span>${label}</span><b>${money(value)}</b></div>
+          <div class="chart-track"><i class="chart-fill ${className}" style="width:${width}%"></i></div>
+        </div>
+      `;
+    }
+    function renderCharts() {
+      const summary = summarize(scopeFlows());
+      const cashMax = Math.max(summary.income, summary.expense, Math.abs(summary.balance), 1);
+      el("cashflowChart").innerHTML = [
+        chartRow("固定收入", summary.income, cashMax, "income"),
+        chartRow("固定支出", summary.expense, cashMax, "expense"),
+        chartRow("每月可支配", summary.balance, cashMax, "balance")
+      ].join("");
+
+      const loanRows = scopeFlows()
+        .filter((row) => row.type === "expense" && loanCategories.has(row.category))
+        .reduce((map, row) => {
+          const key = row.category;
+          map[key] = (map[key] || 0) + Number(row.amount || 0);
+          return map;
+        }, {});
+      const loanEntries = Object.entries(loanRows);
+      const loanMax = Math.max(...loanEntries.map(([, value]) => value), 1);
+      el("loanChart").innerHTML = loanEntries.length
+        ? loanEntries.map(([key, value]) => chartRow(flowCategories[key] || "貸款", value, loanMax, "loan")).join("")
+        : `<p class="hint">目前沒有符合此視角的房貸、車貸或信貸資料。</p>`;
+
+      const ownerMax = Math.max(...["me", "partner", "family"].map((owner) => Math.abs(summarize(scopeFlows(owner)).balance)), 1);
+      el("ownerBreakdown").innerHTML = ["me", "partner", "family"].map((owner) => {
+        const data = summarize(scopeFlows(owner));
+        const className = owner === "partner" ? "partner" : owner === "family" ? "loan" : "income";
+        return chartRow(ownerName(owner), data.balance, ownerMax, className);
       }).join("");
     }
     function renderAssets() {
@@ -1221,6 +1309,7 @@
       event.target.value = "";
     });
     el("assetModeBtn").addEventListener("click", () => document.querySelector(".insights").scrollIntoView({ behavior: "smooth" }));
+    el("chartModeBtn").addEventListener("click", () => el("chartPanel").scrollIntoView({ behavior: "smooth", block: "start" }));
     el("settingsBtn").addEventListener("click", () => el("settings").classList.add("open"));
     el("settingsNav").addEventListener("click", () => el("settings").classList.add("open"));
     el("closeSettings").addEventListener("click", () => el("settings").classList.remove("open"));
