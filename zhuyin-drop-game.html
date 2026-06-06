@@ -549,7 +549,7 @@ const state = {
   lastTime: 0,
   spawnTimer: 0,
   feedbackTimer: 0,
-  timeLeft: 60,
+  timeLeft: 180,
   nextQuestionTimer: 0,
 };
 
@@ -602,7 +602,7 @@ function resetGame() {
   state.falling = [];
   state.spawnTimer = 0;
   state.feedbackTimer = 0;
-  state.timeLeft = 60;
+  state.timeLeft = 180;
   state.nextQuestionTimer = 0;
   state.lastTime = performance.now();
   pickTarget();
