@@ -1,0 +1,218 @@
+{
+  "createdAt": "2026-06-24T03:51:57.250Z",
+  "sourceScanAt": "2026-06-24T03:46:12.114Z",
+  "notes": [
+    "Baseline product list for detecting future new competitor models.",
+    "The daily scanner flags models not present in this baseline as New since baseline."
+  ],
+  "brands": [
+    {
+      "brand": "Bosch",
+      "skus": [
+        "SMI4HAS00X",
+        "SMI6HAS00X",
+        "SMI8ZCS00X",
+        "SMS4HAW0",
+        "SMS4HAW00X",
+        "SMS63M12TC",
+        "SMS6HAW00X",
+        "SMS6HAW1",
+        "SMS6HAW10X",
+        "SMS6ZCW0",
+        "SMS6ZCW00X",
+        "SMS88MI01X",
+        "SMS8ZCI00",
+        "SMS8ZCI00X",
+        "SMV4ECX00X",
+        "SMV4HAX00X",
+        "SMV6YCX05E",
+        "SMV6ZAX00X",
+        "SMV8ZCX00X",
+        "SPS2IKI06X",
+        "SPS4IMW0",
+        "SPS4IMW00X",
+        "SPS63M02TC",
+        "SPV2IKX00X",
+        "SPV4IMX00X"
+      ]
+    },
+    {
+      "brand": "Asko",
+      "skus": [
+        "DBI233IB.S",
+        "DBI233IB.S.TW/1",
+        "DBI233IB.W",
+        "DBI233IB.W.TW",
+        "DBI544ID.W.TW",
+        "DBI545IK.S.TW",
+        "DBI545IK.W.TW",
+        "DBI644MIB.S.TW",
+        "DBI644MIB.W.TW/1",
+        "DBI654IB",
+        "DBI654IB.W",
+        "DBI746MIQ.S",
+        "DBI746MIQ.S.TW",
+        "DBI746MIQ.W.TW",
+        "DFI433B",
+        "DFI433B.TW/1",
+        "DFI5244A.TW",
+        "DFI544D.TW",
+        "DFI644MB",
+        "DFI644MB.T",
+        "DFI644MB.TW",
+        "DFI654B",
+        "DFS143I.S",
+        "DFS233IB.S",
+        "DFS233IB.S.TW",
+        "DFS233IB.S.TW/1",
+        "DFS233IB.W",
+        "DFS233IB.W.TW",
+        "DFS244IB.S",
+        "DFS244IB.S.TW",
+        "DFS344ID.S.TW",
+        "DFS344ID.W.TW"
+      ]
+    },
+    {
+      "brand": "Miele",
+      "skus": [
+        "G5001",
+        "G5001C",
+        "G5001SC",
+        "G5214",
+        "G5214C",
+        "G5214SC",
+        "G5264C",
+        "G5314",
+        "G5314C",
+        "G5364C",
+        "G5364CSCVI",
+        "G7101",
+        "G7101C",
+        "G7104C",
+        "G7114C",
+        "G7130C",
+        "G7130CSCI",
+        "G7180C",
+        "G7180CSCVI",
+        "G7314C",
+        "G7364C",
+        "G7964C"
+      ]
+    },
+    {
+      "brand": "Electrolux",
+      "skus": [
+        "EBF7531SBA",
+        "EBF9442SBA",
+        "EEEM9420L",
+        "EEM48300IX",
+        "EEZB9410L",
+        "EFF3360VWB",
+        "EFF5581SXA",
+        "EFF7591SXA",
+        "EFS3060VWB",
+        "KECA7300L",
+        "KEE27200IW",
+        "KEE27200LW",
+        "KEE47200IW",
+        "KESB7200L",
+        "KSE27200SW",
+        "KSE43200SW",
+        "KSE49200SX"
+      ]
+    },
+    {
+      "brand": "Panasonic",
+      "skus": [
+        "NP-2KTBGR1TW",
+        "NP-2KTBGR1TW-",
+        "NP-BXW1M6",
+        "NP-BXW1M6-1H",
+        "NP-DFB2K",
+        "NP-DFB2K6",
+        "NP-DFB2K6-1H",
+        "NP-DXK1E6",
+        "NP-DXK1E6-2H",
+        "NP-FKABGJBTW",
+        "NP-FKAKGJKTW",
+        "NP-K1YWHR",
+        "NP-K1YWHR2TW",
+        "NP-K1YWHR2TW-",
+        "NP-TH4WHR1TW",
+        "NP-TH4WHR1TW-",
+        "NP-TSK1",
+        "NP-TSP1",
+        "NP-TZ300",
+        "NPROGRESS-",
+        "NPROGRESS-CUSTOM"
+      ]
+    },
+    {
+      "brand": "Svago",
+      "skus": [
+        "VD6111",
+        "VD6561",
+        "VD8565",
+        "VE7190",
+        "VE7545",
+        "VE7650",
+        "VE7750",
+        "VE7770",
+        "VE7770A",
+        "VE7850"
+      ]
+    },
+    {
+      "brand": "Sakura",
+      "skus": [
+        "E7571",
+        "E7682",
+        "E7683",
+        "E7782",
+        "E7783",
+        "E7881",
+        "E9322D"
+      ]
+    },
+    {
+      "brand": "Amica",
+      "skus": [
+        "XIV-889T",
+        "ZIV-645T",
+        "ZIV-665T",
+        "ZIV-689T"
+      ]
+    },
+    {
+      "brand": "Teka",
+      "skus": [
+        "DFI 26700",
+        "DFI 76950",
+        "DFI76950",
+        "DSI 26700",
+        "DW8 57 FIM",
+        "DW8 57 SI",
+        "DW8 57 SI E01"
+      ]
+    },
+    {
+      "brand": "LG",
+      "skus": [
+        "DFB335HE",
+        "DFB335HS",
+        "DFB435FP",
+        "DFB533FW"
+      ]
+    },
+    {
+      "brand": "Whirlpool",
+      "skus": [
+        "WDFS2R4PWE",
+        "WDFS2R4PWETW",
+        "WDFS3R5PIXTW",
+        "WFO3T123PLXD"
+      ]
+    }
+  ]
+}

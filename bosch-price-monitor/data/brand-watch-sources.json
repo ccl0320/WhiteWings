@@ -1,0 +1,127 @@
+{
+  "notes": [
+    "Brand list monitoring scans category/search result pages to detect model numbers not present in the dashboard seed SKU list.",
+    "BigGo and Feebee are used as baseline Taiwan product-list sources because they expose fetchable search pages.",
+    "Regex patterns are intentionally brand-specific to reduce false positives from generic page text."
+  ],
+  "brands": [
+    {
+      "brand": "Bosch",
+      "urls": [
+        "https://biggo.com.tw/s/Bosch%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+        "https://feebee.com.tw/s/Bosch%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
+      ],
+      "patterns": [
+        "\\bSMS[A-Z0-9]{5,8}\\b",
+        "\\bSMV[A-Z0-9]{5,8}\\b",
+        "\\bSMI[A-Z0-9]{5,8}\\b",
+        "\\bSPV[A-Z0-9]{5,8}\\b",
+        "\\bSPS[A-Z0-9]{5,8}\\b"
+      ]
+    },
+    {
+      "brand": "Asko",
+      "urls": [
+        "https://biggo.com.tw/s/Asko%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+        "https://feebee.com.tw/s/Asko%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
+      ],
+      "patterns": [
+        "\\bDF[ISB][0-9A-Z]{4,8}(?:\\.[A-Z]{1,3})?(?:\\.TW)?(?:\\/1)?\\b",
+        "\\bDBI[0-9A-Z]{4,8}(?:\\.[A-Z]{1,3})?(?:\\.TW)?(?:\\/1)?\\b"
+      ]
+    },
+    {
+      "brand": "Miele",
+      "urls": [
+        "https://biggo.com.tw/s/Miele%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+        "https://feebee.com.tw/s/Miele%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
+      ],
+      "patterns": [
+        "\\bG[0-9]{4}[A-Z]{0,8}(?:\\sXXL)?(?:\\sK2O)?(?:\\sFF)?\\b"
+      ]
+    },
+    {
+      "brand": "Electrolux",
+      "urls": [
+        "https://biggo.com.tw/s/Electrolux%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+        "https://feebee.com.tw/s/Electrolux%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
+      ],
+      "patterns": [
+        "\\b(?:EFF|KSE|KEE|KECA|EBF|EEZB|EEEM|KESB|EEM|EMF|EFS|EBS)[0-9A-Z]{4,8}\\b"
+      ]
+    },
+    {
+      "brand": "Panasonic",
+      "urls": [
+        "https://biggo.com.tw/s/Panasonic%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+        "https://feebee.com.tw/s/Panasonic%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
+      ],
+      "patterns": [
+        "\\bNP[-A-Z0-9]{5,14}\\b"
+      ]
+    },
+    {
+      "brand": "Svago",
+      "urls": [
+        "https://biggo.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+        "https://feebee.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
+      ],
+      "patterns": [
+        "\\bV[DE][0-9]{4}[A-Z]?\\b"
+      ]
+    },
+    {
+      "brand": "Sakura",
+      "urls": [
+        "https://biggo.com.tw/s/Sakura%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+        "https://feebee.com.tw/s/Sakura%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
+      ],
+      "patterns": [
+        "\\bE[0-9]{4}[A-Z]?\\b"
+      ]
+    },
+    {
+      "brand": "Amica",
+      "urls": [
+        "https://biggo.com.tw/s/Amica%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+        "https://feebee.com.tw/s/Amica%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
+      ],
+      "patterns": [
+        "\\b[ZX]IV[- ]?[0-9]{3}T\\b"
+      ]
+    },
+    {
+      "brand": "Teka",
+      "urls": [
+        "https://biggo.com.tw/s/Teka%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+        "https://feebee.com.tw/s/Teka%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
+      ],
+      "patterns": [
+        "\\bDFI\\s?[0-9]{5}\\b",
+        "\\bDSI\\s?[0-9]{5}\\b",
+        "\\bDW8\\s?57\\s?(?:FIM|SI(?:\\sE01)?)\\b"
+      ]
+    },
+    {
+      "brand": "LG",
+      "urls": [
+        "https://biggo.com.tw/s/LG%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+        "https://feebee.com.tw/s/LG%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
+      ],
+      "patterns": [
+        "\\bDFB[0-9A-Z]{4,6}\\b"
+      ]
+    },
+    {
+      "brand": "Whirlpool",
+      "urls": [
+        "https://biggo.com.tw/s/Whirlpool%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+        "https://feebee.com.tw/s/Whirlpool%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
+      ],
+      "patterns": [
+        "\\bWDFS[0-9A-Z]{6,10}\\b",
+        "\\bWFO\\s?3T[0-9A-Z]{5,8}\\b"
+      ]
+    }
+  ]
+}

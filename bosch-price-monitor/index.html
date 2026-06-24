@@ -1,0 +1,973 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TW Dishcare Price Monitor</title>
+  <style>
+    :root {
+      --bosch-red: #e20015;
+      --ink: #111827;
+      --muted: #667085;
+      --line: #dde3ea;
+      --panel: #ffffff;
+      --soft: #f5f7fa;
+      --soft-2: #eef2f6;
+      --blue: #1f6feb;
+      --green: #099268;
+      --amber: #f59f00;
+      --purple: #7048e8;
+      --radius: 8px;
+      --shadow: 0 16px 40px rgba(17, 24, 39, .08);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: #f6f8fb;
+      color: var(--ink);
+      font-family: "Inter", "Segoe UI", Arial, sans-serif;
+      font-size: 14px;
+      letter-spacing: 0;
+    }
+
+    button, select, input {
+      font: inherit;
+    }
+
+    .app {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 280px minmax(0, 1fr);
+    }
+
+    aside {
+      background: #ffffff;
+      border-right: 1px solid var(--line);
+      padding: 22px 18px;
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      overflow: auto;
+    }
+
+    .brand-rule {
+      height: 5px;
+      background: linear-gradient(90deg, var(--bosch-red) 0 52%, #9aa4b2 52% 100%);
+      margin: -22px -18px 20px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .brand-mark {
+      width: 34px;
+      height: 34px;
+      border: 2px solid #111827;
+      display: grid;
+      place-items: center;
+      font-weight: 800;
+      font-size: 12px;
+    }
+
+    .brand h1 {
+      margin: 0;
+      font-size: 18px;
+      line-height: 1.15;
+    }
+
+    .brand p {
+      margin: 3px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .filter-group {
+      border-top: 1px solid var(--line);
+      padding-top: 16px;
+      margin-top: 16px;
+    }
+
+    .filter-group label {
+      display: block;
+      color: #344054;
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+    }
+
+    select, input[type="search"] {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: #fff;
+      padding: 10px 11px;
+      color: var(--ink);
+      outline: none;
+    }
+
+    select:focus, input[type="search"]:focus {
+      border-color: var(--bosch-red);
+      box-shadow: 0 0 0 3px rgba(226, 0, 21, .1);
+    }
+
+    .checks {
+      display: grid;
+      gap: 8px;
+    }
+
+    .checks span {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: #344054;
+    }
+
+    .clear {
+      width: 100%;
+      margin-top: 18px;
+      border: 0;
+      color: #fff;
+      background: var(--ink);
+      border-radius: 7px;
+      padding: 11px 12px;
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    main {
+      padding: 24px;
+      min-width: 0;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+
+    .title h2 {
+      margin: 0;
+      font-size: 28px;
+      line-height: 1.1;
+    }
+
+    .title p {
+      margin: 8px 0 0;
+      color: var(--muted);
+      max-width: 760px;
+      line-height: 1.55;
+    }
+
+    .source-card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 12px 14px;
+      min-width: 250px;
+      box-shadow: var(--shadow);
+    }
+
+    .source-card .label {
+      color: var(--muted);
+      font-size: 12px;
+      margin-bottom: 4px;
+    }
+
+    .source-card strong {
+      display: block;
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .kpi {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 14px;
+    }
+
+    .kpi .metric {
+      font-size: 25px;
+      font-weight: 800;
+      margin-bottom: 5px;
+    }
+
+    .kpi .caption {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.5fr) minmax(330px, .8fr);
+      gap: 16px;
+      align-items: start;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .panel-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      padding: 15px 16px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .panel-head h3 {
+      margin: 0;
+      font-size: 16px;
+    }
+
+    .panel-head span {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .price-map {
+      padding: 16px;
+    }
+
+    .band {
+      min-height: 118px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      margin-bottom: 10px;
+      display: grid;
+      grid-template-columns: 150px minmax(0, 1fr);
+      background: linear-gradient(90deg, #fbfcfe 0 150px, #fff 150px);
+    }
+
+    .band:last-child { margin-bottom: 0; }
+
+    .band-label {
+      padding: 13px;
+      border-right: 1px solid var(--line);
+    }
+
+    .band-label strong {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .band-label span {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .dot-field {
+      position: relative;
+      min-height: 116px;
+      overflow: hidden;
+    }
+
+    .dot {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      border: 0;
+      border-radius: 999px;
+      color: #fff;
+      background: #344054;
+      height: 28px;
+      min-width: 28px;
+      padding: 0 8px;
+      font-size: 11px;
+      font-weight: 800;
+      cursor: pointer;
+      box-shadow: 0 6px 18px rgba(17, 24, 39, .18);
+    }
+
+    .dot.bosch { background: var(--bosch-red); }
+    .dot.asko { background: #495057; }
+    .dot.miele { background: #8d351a; }
+    .dot.electrolux { background: #3457d5; }
+    .dot.panasonic { background: #0b7285; }
+    .dot.svago { background: #2f9e44; }
+    .dot.sakura { background: #d9480f; }
+    .dot.amica { background: #7048e8; }
+    .dot.teka { background: #5c677d; }
+    .dot.lg { background: #a61e4d; }
+    .dot.whirlpool { background: #f08c00; color: #111827; }
+
+    .right-stack {
+      display: grid;
+      gap: 16px;
+    }
+
+    .bars {
+      padding: 14px 16px 16px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .bar-row {
+      display: grid;
+      grid-template-columns: 88px minmax(0, 1fr) 36px;
+      gap: 9px;
+      align-items: center;
+      font-size: 12px;
+    }
+
+    .bar-track {
+      height: 9px;
+      border-radius: 999px;
+      background: var(--soft-2);
+      overflow: hidden;
+    }
+
+    .bar-fill {
+      height: 100%;
+      border-radius: 999px;
+      background: var(--bosch-red);
+    }
+
+    .feature-cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      padding: 14px 16px 16px;
+    }
+
+    .feature {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 12px;
+      background: #fbfcfe;
+    }
+
+    .feature strong {
+      display: block;
+      font-size: 21px;
+      margin-bottom: 3px;
+    }
+
+    .feature span {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .table-panel {
+      margin-top: 16px;
+    }
+
+    .candidate-list {
+      padding: 12px 16px 16px;
+      display: grid;
+      gap: 8px;
+      max-height: 260px;
+      overflow: auto;
+    }
+
+    .candidate {
+      display: grid;
+      grid-template-columns: 96px minmax(0, 1fr) 92px;
+      gap: 10px;
+      align-items: center;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 10px;
+      background: #fbfcfe;
+      font-size: 12px;
+    }
+
+    .candidate strong {
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .candidate .model {
+      font-weight: 800;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .candidate .flag {
+      color: #c92a2a;
+      font-weight: 800;
+      text-align: right;
+    }
+
+    .table-wrap {
+      overflow: auto;
+      max-height: 520px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 980px;
+    }
+
+    th, td {
+      padding: 11px 12px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      position: sticky;
+      top: 0;
+      background: #fbfcfe;
+      z-index: 1;
+      font-size: 12px;
+      color: #344054;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    td {
+      line-height: 1.35;
+    }
+
+    .sku {
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: var(--soft);
+      padding: 3px 8px;
+      font-size: 12px;
+      margin: 0 4px 4px 0;
+      white-space: nowrap;
+    }
+
+    .status {
+      display: inline-flex;
+      border-radius: 999px;
+      padding: 4px 9px;
+      font-size: 12px;
+      font-weight: 700;
+      background: #e7f5ff;
+      color: #1864ab;
+    }
+
+    .status.review { background: #fff3bf; color: #ad6800; }
+    .status.gap { background: #ffe3e3; color: #c92a2a; }
+
+    .detail {
+      position: fixed;
+      right: 22px;
+      bottom: 22px;
+      width: min(380px, calc(100vw - 44px));
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: 0 22px 60px rgba(17, 24, 39, .18);
+      padding: 16px;
+      display: none;
+      z-index: 10;
+    }
+
+    .detail.open { display: block; }
+
+    .detail h4 {
+      margin: 0 0 8px;
+      font-size: 18px;
+    }
+
+    .detail dl {
+      display: grid;
+      grid-template-columns: 110px 1fr;
+      gap: 8px 10px;
+      margin: 10px 0 0;
+    }
+
+    .detail dt {
+      color: var(--muted);
+    }
+
+    .detail dd {
+      margin: 0;
+      font-weight: 700;
+    }
+
+    .close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      border: 0;
+      background: var(--soft);
+      border-radius: 999px;
+      width: 28px;
+      height: 28px;
+      cursor: pointer;
+    }
+
+    @media (max-width: 1100px) {
+      .app { grid-template-columns: 1fr; }
+      aside {
+        position: static;
+        height: auto;
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .filter-row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+      }
+      .kpis { grid-template-columns: repeat(2, 1fr); }
+      .grid { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 680px) {
+      main { padding: 16px; }
+      header { flex-direction: column; }
+      .source-card { width: 100%; }
+      .filter-row { grid-template-columns: 1fr; }
+      .kpis { grid-template-columns: 1fr; }
+      .band { grid-template-columns: 1fr; }
+      .band-label { border-right: 0; border-bottom: 1px solid var(--line); }
+      .feature-cards { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <aside>
+      <div class="brand-rule"></div>
+      <div class="brand">
+        <div class="brand-mark">B</div>
+        <div>
+          <h1>TW Dishcare<br>Price Monitor</h1>
+          <p>Portfolio and competitor price map</p>
+        </div>
+      </div>
+
+      <div class="filter-row">
+        <div class="filter-group">
+          <label for="search">Search SKU or feature</label>
+          <input id="search" type="search" placeholder="SMS6, Auto Open, Costco..." />
+        </div>
+        <div class="filter-group">
+          <label for="brand">Brand</label>
+          <select id="brand"></select>
+        </div>
+        <div class="filter-group">
+          <label for="type">Install type</label>
+          <select id="type"></select>
+        </div>
+        <div class="filter-group">
+          <label for="width">Width</label>
+          <select id="width"></select>
+        </div>
+        <div class="filter-group">
+          <label for="band">Price band</label>
+          <select id="band"></select>
+        </div>
+        <div class="filter-group">
+          <label>Features</label>
+          <div class="checks">
+            <span><input type="checkbox" value="autoOpen" class="feature-filter" /> Auto Open</span>
+            <span><input type="checkbox" value="thirdDrawer" class="feature-filter" /> 3rd drawer</span>
+            <span><input type="checkbox" value="zeolith" class="feature-filter" /> Zeolith</span>
+            <span><input type="checkbox" value="wifi" class="feature-filter" /> Wi-Fi</span>
+          </div>
+        </div>
+      </div>
+      <button class="clear" id="clear">Reset filters</button>
+    </aside>
+
+    <main>
+      <header>
+        <div class="title">
+          <h2>Bosch and competitor SKU / price monitoring dashboard</h2>
+          <p>Built from the Google Drive reference file TW DC Portfolio_and_PriceMap external.pptx. Going price is used for the map when available; ranges are normalized to midpoints for comparison.</p>
+        </div>
+        <div class="source-card">
+          <div class="label">Reference snapshot</div>
+          <strong>Portfolio & Price Map, modified 2026-06-24</strong>
+          <div class="label" style="margin-top:8px">Mode</div>
+          <strong id="scan-label">Manual benchmark seed, ready for live price feeds</strong>
+        </div>
+      </header>
+
+      <section class="kpis" id="kpis"></section>
+
+      <section class="grid">
+        <div class="panel">
+          <div class="panel-head">
+            <h3>Price map by competitive band</h3>
+            <span id="map-count"></span>
+          </div>
+          <div class="price-map" id="price-map"></div>
+        </div>
+
+        <div class="right-stack">
+          <div class="panel">
+            <div class="panel-head">
+              <h3>Brand SKU share</h3>
+              <span>Filtered view</span>
+            </div>
+            <div class="bars" id="brand-bars"></div>
+          </div>
+          <div class="panel">
+            <div class="panel-head">
+              <h3>Feature coverage</h3>
+              <span>Share of filtered SKUs</span>
+            </div>
+            <div class="feature-cards" id="features"></div>
+          </div>
+          <div class="panel">
+            <div class="panel-head">
+              <h3>Product list watch</h3>
+              <span id="candidate-count">Brand list scan</span>
+            </div>
+            <div class="candidate-list" id="candidates"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel table-panel">
+        <div class="panel-head">
+          <h3>Product monitor table</h3>
+          <span>Click headers to sort. Click a map dot for model detail.</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th data-sort="brand">Brand</th>
+                <th data-sort="sku">SKU</th>
+                <th data-sort="type">Type</th>
+                <th data-sort="width">Width</th>
+                <th data-sort="rsp">RSP</th>
+                <th data-sort="going">Going price</th>
+                <th data-sort="band">Band</th>
+                <th>Features</th>
+                <th data-sort="status">Monitor status</th>
+              </tr>
+            </thead>
+            <tbody id="rows"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <aside class="detail" id="detail"></aside>
+
+  <script src="data/latest-prices.js"></script>
+  <script src="data/latest-product-list.js"></script>
+  <script>
+    const seedProducts = [
+      {brand:"Bosch",sku:"SMS8ZCI00X",type:"Freestanding",width:"60cm",rsp:88000,going:70900,features:["Zeolith","3rd drawer","Auto program"],source:"PPT price map",status:"Track"},
+      {brand:"Bosch",sku:"SMS6ZCW00X",type:"Freestanding",width:"60cm",rsp:75000,going:57900,features:["Zeolith","3rd drawer","Auto program","Pre-rinse"],source:"PPT price map",status:"Track"},
+      {brand:"Bosch",sku:"SMS6HAW00X",type:"Freestanding",width:"60cm",rsp:56000,going:39900,features:["Auto program","Pre-rinse"],source:"PPT price map",status:"Track"},
+      {brand:"Bosch",sku:"SMS6HAW10X",type:"Freestanding",width:"60cm",rsp:52000,going:38900,features:["Auto program","Pre-rinse"],source:"PPT lineup",status:"Track"},
+      {brand:"Bosch",sku:"SMS6ECW01X",type:"Freestanding",width:"60cm",rsp:59500,going:50000,features:["Auto Open","Steam","3rd drawer","Wi-Fi"],source:"PPT new model",status:"Review"},
+      {brand:"Bosch",sku:"SMS4ECW00X",type:"Freestanding",width:"60cm",rsp:49500,going:42000,features:["Auto Open","Steam","3rd drawer","Wi-Fi"],source:"PPT new model",status:"Review"},
+      {brand:"Bosch",sku:"SMS4ITW00X",type:"Freestanding",width:"60cm",rsp:52000,going:31049,features:["Pre-rinse"],source:"PPT range midpoint",status:"Track"},
+      {brand:"Bosch",sku:"SMS4HAW00X",type:"Freestanding",width:"60cm",rsp:47000,going:29000,features:["Costco"],source:"PPT Costco note",status:"Gap"},
+      {brand:"Bosch",sku:"SMS2ITI06X",type:"Freestanding",width:"60cm",rsp:44400,going:35655,features:[],source:"PPT range midpoint",status:"Track"},
+      {brand:"Bosch",sku:"SMV8ZCX00X",type:"Fully-integrated",width:"60cm",rsp:99000,going:88000,features:["Zeolith","3rd drawer","Pre-rinse"],source:"PPT price map",status:"Track"},
+      {brand:"Bosch",sku:"SMV6YCX05E",type:"Fully-integrated",width:"60cm",rsp:81000,going:63150,features:["Zeolith","Auto Open","220V"],source:"PPT price map",status:"Track"},
+      {brand:"Bosch",sku:"SMV6ZAX00X",type:"Fully-integrated",width:"60cm",rsp:72800,going:63000,features:["Zeolith","Auto program","Pre-rinse"],source:"PPT range midpoint",status:"Track"},
+      {brand:"Bosch",sku:"SMV4HAX00X",type:"Fully-integrated",width:"60cm",rsp:49800,going:43300,features:[],source:"PPT range midpoint",status:"Track"},
+      {brand:"Bosch",sku:"SPV4IMX00X",type:"Fully-integrated",width:"45cm",rsp:52000,going:45050,features:["3rd drawer","Auto program","Pre-rinse"],source:"PPT range midpoint",status:"Track"},
+      {brand:"Bosch",sku:"SMV2ITX00X",type:"Fully-integrated",width:"60cm",rsp:42800,going:34805,features:[],source:"PPT range midpoint",status:"Track"},
+      {brand:"Bosch",sku:"SPV2IKX00X",type:"Fully-integrated",width:"45cm",rsp:46800,going:40405,features:[],source:"PPT range midpoint",status:"Track"},
+      {brand:"Bosch",sku:"SMI6HAS00X",type:"Semi-integrated",width:"60cm",rsp:56800,going:51100,features:["Auto program","Pre-rinse"],source:"PPT range midpoint",status:"Track"},
+      {brand:"Bosch",sku:"SMI4HAS00X",type:"Semi-integrated",width:"60cm",rsp:46500,going:42500,features:[],source:"PPT range midpoint",status:"Track"},
+      {brand:"Bosch",sku:"SMI2ITW00X",type:"Semi-integrated",width:"60cm",rsp:40500,going:34805,features:[],source:"PPT range midpoint",status:"Track"},
+      {brand:"Asko",sku:"DFS345IK.S.TW",type:"Freestanding",width:"60cm",rsp:92000,going:88000,features:["Auto Open","Power Zone","Wi-Fi","3rd drawer"],source:"PPT lineup",status:"Track"},
+      {brand:"Asko",sku:"DFS345IK.W.TW",type:"Freestanding",width:"60cm",rsp:88000,going:83000,features:["Auto Open","Power Zone","Wi-Fi","3rd drawer"],source:"PPT lineup",status:"Track"},
+      {brand:"Asko",sku:"DFS344ID.S.TW",type:"Freestanding",width:"60cm",rsp:88000,going:83000,features:["Auto Open","Power Zone","3rd drawer"],source:"PPT lineup",status:"Track"},
+      {brand:"Asko",sku:"DFS344ID.W.TW",type:"Freestanding",width:"60cm",rsp:84000,going:79000,features:["Auto Open","Power Zone","3rd drawer"],source:"PPT lineup",status:"Track"},
+      {brand:"Asko",sku:"DFI746MU.TW",type:"Fully-integrated",width:"60cm",rsp:119000,going:115000,features:["Auto Open","Auto Dos","UV light","Power Zone","Wi-Fi","3rd drawer"],source:"PPT lineup",status:"Track"},
+      {brand:"Miele",sku:"G5001CSC",type:"Freestanding",width:"60cm",rsp:64000,going:57000,features:["3rd drawer"],source:"PPT lineup",status:"Track"},
+      {brand:"Miele",sku:"G7101CSC",type:"Freestanding",width:"60cm",rsp:84000,going:74750,features:["Auto Open","3rd drawer"],source:"PPT range midpoint",status:"Track"},
+      {brand:"Miele",sku:"G7964CSCVi",type:"Fully-integrated",width:"60cm",rsp:153000,going:131000,features:["Knock2Open","Auto Dos","Auto Open","3rd drawer","220V"],source:"PPT lineup",status:"Track"},
+      {brand:"Miele",sku:"G7789CSCVi XXL K2O FF",type:"Fully-integrated",width:"60cm",rsp:135000,going:128000,features:["Knock2Open","Auto Dos","Auto Open","3rd drawer","Wi-Fi"],source:"PPT lineup",status:"Track"},
+      {brand:"Miele",sku:"G7314CSci",type:"Semi-integrated",width:"60cm",rsp:104000,going:92000,features:["Auto Dos","Auto Open","IntensiveZone","3rd drawer","220V"],source:"PPT lineup",status:"Track"},
+      {brand:"Electrolux",sku:"EFF7591SXA",type:"Freestanding",width:"60cm",rsp:62000,going:55810,features:["Auto Open","3rd drawer","Pre-rinse"],source:"PPT lineup",status:"Track"},
+      {brand:"Electrolux",sku:"EFF5581SXA",type:"Freestanding",width:"60cm",rsp:52000,going:46800,features:["Auto Open","3rd drawer","Pre-rinse"],source:"PPT lineup",status:"Track"},
+      {brand:"Electrolux",sku:"KSE27200SW",type:"Freestanding",width:"60cm",rsp:44900,going:18950,features:["Pre-rinse"],source:"PPT website note",status:"Gap"},
+      {brand:"Electrolux",sku:"KSE49200SX",type:"Freestanding",width:"60cm",rsp:50900,going:35900,features:["3rd drawer","Pre-rinse"],source:"PPT range midpoint",status:"Track"},
+      {brand:"Electrolux",sku:"KECA7300L",type:"Fully-integrated",width:"60cm",rsp:92000,going:83150,features:["Auto Open","3rd drawer","Pre-rinse","ComfortLift","220V"],source:"PPT range midpoint",status:"Track"},
+      {brand:"Electrolux",sku:"EEZB9410L",type:"Fully-integrated",width:"60cm",rsp:68000,going:52000,features:["Auto Open","3rd drawer","Sliding Hinge"],source:"PPT range midpoint",status:"Track"},
+      {brand:"Electrolux",sku:"KESB7200L",type:"Fully-integrated",width:"60cm",rsp:42000,going:22000,features:["Auto Open","Pre-rinse","220V"],source:"PPT website note",status:"Gap"},
+      {brand:"Panasonic",sku:"NPDFB2K61H",type:"Freestanding",width:"60cm",rsp:49900,going:32900,features:["110V","H775","Solo Dry"],source:"PPT lineup",status:"Track"},
+      {brand:"Panasonic",sku:"NP2KTBGR1TW",type:"Fully-integrated",width:"60cm",rsp:45900,going:41900,features:["220V","H775","Solo Dry"],source:"PPT lineup",status:"Track"},
+      {brand:"Panasonic",sku:"NP-BXW1M6-1H",type:"Fully-integrated",width:"60cm",rsp:59900,going:48900,features:["110V","H775","Nanoe","240H storage","3rd drawer","Solo Dry"],source:"PPT lineup",status:"Track"},
+      {brand:"Svago",sku:"VE7190",type:"Freestanding",width:"60cm",rsp:39900,going:31600,features:["Solo Dry","Hot air dry"],source:"PPT lineup",status:"Track"},
+      {brand:"Svago",sku:"VE7850",type:"Freestanding",width:"60cm",rsp:33000,going:27000,features:["Auto Open"],source:"PPT lineup",status:"Track"},
+      {brand:"Svago",sku:"VE8565",type:"Fully-integrated",width:"60cm",rsp:46000,going:null,features:["Auto Open","Solo Dry","3rd drawer"],source:"PPT TBC",status:"Review"},
+      {brand:"Sakura",sku:"E7881",type:"Freestanding",width:"60cm",rsp:39500,going:35550,features:["H775","Solo Dry"],source:"PPT lineup",status:"Track"},
+      {brand:"Sakura",sku:"E7783",type:"Fully-integrated",width:"60cm",rsp:31500,going:28350,features:["Auto Open","3rd drawer"],source:"PPT lineup",status:"Track"},
+      {brand:"Sakura",sku:"E7682",type:"Semi-integrated",width:"60cm",rsp:25900,going:23310,features:[],source:"PPT lineup",status:"Track"},
+      {brand:"Amica",sku:"XIV-889T",type:"Fully-integrated",width:"60cm",rsp:59000,going:50445,features:["3rd drawer","Solo Dry","Sliding Door","Ion Clean","220V"],source:"PPT range midpoint",status:"Review"},
+      {brand:"Amica",sku:"ZIV-689T",type:"Fully-integrated",width:"60cm",rsp:42000,going:35910,features:["Solo Dry","3rd drawer","220V"],source:"PPT range midpoint",status:"Track"},
+      {brand:"Amica",sku:"ZIV-665T",type:"Fully-integrated",width:"60cm",rsp:32000,going:28800,features:["Solo Dry","220V"],source:"PPT lineup",status:"Track"},
+      {brand:"Teka",sku:"DW8 57 FIM",type:"Fully-integrated",width:"60cm",rsp:41000,going:34800,features:[],source:"PPT lineup",status:"Track"},
+      {brand:"Teka",sku:"DFI 76950",type:"Fully-integrated",width:"60cm",rsp:52000,going:48400,features:["Auto Open","3rd drawer","220V"],source:"PPT lineup",status:"Track"},
+      {brand:"Teka",sku:"DW8 57 SI",type:"Semi-integrated",width:"60cm",rsp:56000,going:50400,features:["Auto Open","3rd drawer","72H storage","H775","220V"],source:"PPT lineup",status:"Track"},
+      {brand:"LG",sku:"DFB335HS",type:"Freestanding",width:"60cm",rsp:66900,going:53300,features:["Steam Wash","Auto Open","3rd drawer","Wi-Fi"],source:"PPT range midpoint",status:"Track"},
+      {brand:"LG",sku:"DFB335HE",type:"Freestanding",width:"60cm",rsp:69900,going:55850,features:["Steam Wash","Auto Open","3rd drawer","Wi-Fi"],source:"PPT range midpoint",status:"Track"},
+      {brand:"LG",sku:"DFB435FP",type:"Freestanding",width:"60cm",rsp:59900,going:31999,features:["Steam Wash","3rd drawer","Wi-Fi","Costco"],source:"PPT Costco note",status:"Gap"},
+      {brand:"LG",sku:"DFB533FW",type:"Freestanding",width:"60cm",rsp:42900,going:29900,features:["Steam Wash","3rd drawer","Wi-Fi"],source:"PPT lineup",status:"Track"},
+      {brand:"Whirlpool",sku:"WDFS2R4PWETW",type:"Freestanding",width:"60cm",rsp:37400,going:29299,features:["Auto Open","3rd drawer","Costco"],source:"PPT Costco note",status:"Gap"},
+      {brand:"Whirlpool",sku:"WFO 3T123PLXD",type:"Freestanding",width:"60cm",rsp:38500,going:null,features:["Auto Open","3rd drawer","220V"],source:"PPT missing price",status:"Review"}
+    ];
+
+    const bandDefs = [
+      {id:"Premium", label:"Premium", sub:"> 70K", min:70000, max:Infinity},
+      {id:"Value-added", label:"Value-added", sub:"45K - 70K", min:45000, max:70000},
+      {id:"Value", label:"Value", sub:"35K - 45K", min:35000, max:45000},
+      {id:"Entry", label:"Entry", sub:"< 35K", min:0, max:35000}
+    ];
+
+    const scanUpdates = window.PRICE_UPDATES || { generatedAt: null, items: [] };
+    const productListUpdates = window.PRODUCT_LIST_UPDATES || { generatedAt: null, newCandidates: [], brands: [] };
+    const updateBySku = new Map((scanUpdates.items || []).map(item => [item.sku, item]));
+    const products = seedProducts.map(product => {
+      const update = updateBySku.get(product.sku);
+      if (!update) {
+        return {...product, lastChecked: null, livePrice: null, liveStatus: "No source", monitorUrl: ""};
+      }
+      return {
+        ...product,
+        going: update.price ?? product.going,
+        livePrice: update.price ?? null,
+        lastChecked: update.checkedAt || scanUpdates.generatedAt,
+        liveStatus: update.status || "Updated",
+        monitorUrl: update.url || ""
+      };
+    });
+
+    const state = { sortKey: "going", sortDir: "desc" };
+
+    const $ = (id) => document.getElementById(id);
+    const currency = (n) => n == null ? "TBC" : "NT$" + Math.round(n).toLocaleString("en-US");
+    const priceFor = (p) => p.going ?? p.rsp ?? 0;
+    const bandOf = (p) => bandDefs.find(b => priceFor(p) >= b.min && priceFor(p) < b.max)?.id || "TBC";
+    const className = (brand) => brand.toLowerCase().replace(/\s+/g, "-");
+
+    function initSelect(id, values, label) {
+      const el = $(id);
+      el.innerHTML = [`<option value="">All ${label}</option>`].concat(values.map(v => `<option>${v}</option>`)).join("");
+    }
+
+    function init() {
+      if (scanUpdates.generatedAt) {
+        $("scan-label").textContent = "Latest scan: " + new Date(scanUpdates.generatedAt).toLocaleString("zh-TW");
+      }
+      initSelect("brand", [...new Set(products.map(p => p.brand))].sort(), "brands");
+      initSelect("type", [...new Set(products.map(p => p.type))].sort(), "types");
+      initSelect("width", [...new Set(products.map(p => p.width))].sort(), "widths");
+      initSelect("band", bandDefs.map(b => b.id), "bands");
+      ["search","brand","type","width","band"].forEach(id => $(id).addEventListener("input", render));
+      document.querySelectorAll(".feature-filter").forEach(el => el.addEventListener("change", render));
+      document.querySelectorAll("th[data-sort]").forEach(th => th.addEventListener("click", () => {
+        const key = th.dataset.sort;
+        state.sortDir = state.sortKey === key && state.sortDir === "asc" ? "desc" : "asc";
+        state.sortKey = key;
+        render();
+      }));
+      $("clear").addEventListener("click", () => {
+        ["search","brand","type","width","band"].forEach(id => $(id).value = "");
+        document.querySelectorAll(".feature-filter").forEach(el => el.checked = false);
+        render();
+      });
+      render();
+    }
+
+    function filtered() {
+      const q = $("search").value.trim().toLowerCase();
+      const brand = $("brand").value;
+      const type = $("type").value;
+      const width = $("width").value;
+      const band = $("band").value;
+      const reqFeatures = [...document.querySelectorAll(".feature-filter:checked")].map(el => el.value);
+      return products.filter(p => {
+        const hay = [p.brand,p.sku,p.type,p.width,p.status,p.source,...p.features].join(" ").toLowerCase();
+        if (q && !hay.includes(q)) return false;
+        if (brand && p.brand !== brand) return false;
+        if (type && p.type !== type) return false;
+        if (width && p.width !== width) return false;
+        if (band && bandOf(p) !== band) return false;
+        return reqFeatures.every(f => {
+          if (f === "autoOpen") return p.features.some(x => /auto open/i.test(x));
+          if (f === "thirdDrawer") return p.features.some(x => /3rd drawer/i.test(x));
+          if (f === "zeolith") return p.features.some(x => /zeolith/i.test(x));
+          if (f === "wifi") return p.features.some(x => /wi-?fi/i.test(x));
+        });
+      });
+    }
+
+    function sorted(items) {
+      return [...items].sort((a,b) => {
+        const av = state.sortKey === "band" ? bandOf(a) : state.sortKey === "going" ? priceFor(a) : a[state.sortKey];
+        const bv = state.sortKey === "band" ? bandOf(b) : state.sortKey === "going" ? priceFor(b) : b[state.sortKey];
+        const result = typeof av === "number" && typeof bv === "number"
+          ? av - bv
+          : String(av ?? "").localeCompare(String(bv ?? ""));
+        return state.sortDir === "asc" ? result : -result;
+      });
+    }
+
+    function render() {
+      const items = filtered();
+      renderKpis(items);
+      renderMap(items);
+      renderBars(items);
+      renderFeatures(items);
+      renderCandidates();
+      renderRows(sorted(items));
+    }
+
+    function renderKpis(items) {
+      const bosch = items.filter(p => p.brand === "Bosch");
+      const priced = items.filter(p => p.going != null);
+      const live = items.filter(p => p.lastChecked);
+      const avg = priced.reduce((sum,p) => sum + priceFor(p), 0) / Math.max(priced.length, 1);
+      const premium = items.filter(p => bandOf(p) === "Premium").length;
+      const boschAvg = bosch.filter(p => p.going != null).reduce((sum,p) => sum + priceFor(p), 0) / Math.max(bosch.filter(p => p.going != null).length, 1);
+      const compAvg = items.filter(p => p.brand !== "Bosch" && p.going != null).reduce((sum,p) => sum + priceFor(p), 0) / Math.max(items.filter(p => p.brand !== "Bosch" && p.going != null).length, 1);
+      $("kpis").innerHTML = [
+        ["Total SKUs", items.length, "Filtered portfolio records"],
+        ["Bosch SKUs", bosch.length, "Models in current view"],
+        ["Avg going price", currency(avg), "Range midpoint used when needed"],
+        ["Premium share", Math.round(premium / Math.max(items.length, 1) * 100) + "%", "Going price above 70K"],
+        ["Bosch vs comp avg", currency(boschAvg - compAvg), "Positive means Bosch priced higher"],
+        ["Live checked", live.length, "SKUs checked by scheduled scan"],
+        ["New since baseline", productListUpdates.newCandidateCount || 0, "Models first detected after baseline"],
+        ["Unmapped SKUs", productListUpdates.unmappedCandidateCount || 0, "Models not in current portfolio seed"]
+      ].map(([label,metric,caption]) => `<article class="kpi"><div class="metric">${metric}</div><div class="caption"><strong>${label}</strong><br>${caption}</div></article>`).join("");
+    }
+
+    function renderMap(items) {
+      $("map-count").textContent = `${items.length} SKUs shown`;
+      $("price-map").innerHTML = bandDefs.map(b => {
+        const bandItems = items.filter(p => bandOf(p) === b.id);
+        const dots = bandItems.map((p, i) => {
+          const price = priceFor(p);
+          const span = Number.isFinite(b.max) ? b.max - b.min : 65000;
+          const base = Number.isFinite(b.max) ? (price - b.min) / span : (price - b.min) / span;
+          const lane = i % 5;
+          const row = Math.floor(i / 5);
+          const spread = (lane - 2) * 3.5 + row * 1.8;
+          const x = Math.max(7, Math.min(93, 8 + base * 84 + spread));
+          const y = 18 + lane * 17 + row * 10;
+          return `<button class="dot ${className(p.brand)}" style="left:${x}%;top:${Math.min(y, 92)}%" title="${p.brand} ${p.sku} ${currency(price)}" data-sku="${p.sku}">${p.brand.slice(0,2).toUpperCase()}</button>`;
+        }).join("");
+        return `<div class="band"><div class="band-label"><strong>${b.label}</strong><span>${b.sub}<br>${bandItems.length} SKUs</span></div><div class="dot-field">${dots}</div></div>`;
+      }).join("");
+      document.querySelectorAll(".dot").forEach(dot => dot.addEventListener("click", () => openDetail(products.find(p => p.sku === dot.dataset.sku))));
+    }
+
+    function renderBars(items) {
+      const counts = items.reduce((acc,p) => (acc[p.brand] = (acc[p.brand] || 0) + 1, acc), {});
+      const max = Math.max(...Object.values(counts), 1);
+      $("brand-bars").innerHTML = Object.entries(counts).sort((a,b) => b[1]-a[1]).map(([brand,count]) =>
+        `<div class="bar-row"><strong>${brand}</strong><div class="bar-track"><div class="bar-fill" style="width:${count / max * 100}%"></div></div><span>${count}</span></div>`
+      ).join("") || `<div class="bar-row">No data</div>`;
+    }
+
+    function renderFeatures(items) {
+      const defs = [
+        ["Auto Open", p => p.features.some(x => /auto open/i.test(x))],
+        ["3rd drawer", p => p.features.some(x => /3rd drawer/i.test(x))],
+        ["Zeolith", p => p.features.some(x => /zeolith/i.test(x))]
+      ];
+      $("features").innerHTML = defs.map(([label,fn]) => {
+        const count = items.filter(fn).length;
+        const pct = Math.round(count / Math.max(items.length, 1) * 100);
+        return `<article class="feature"><strong>${pct}%</strong><span>${label}<br>${count} of ${items.length} SKUs</span></article>`;
+      }).join("");
+    }
+
+    function renderCandidates() {
+      const newCandidates = productListUpdates.newCandidates || [];
+      const unmappedCandidates = productListUpdates.unmappedCandidates || [];
+      const candidates = newCandidates.length ? newCandidates : unmappedCandidates;
+      $("candidate-count").textContent = productListUpdates.generatedAt
+        ? `Scanned ${new Date(productListUpdates.generatedAt).toLocaleString("zh-TW")}`
+        : "Brand list scan";
+
+      if (!candidates.length) {
+        $("candidates").innerHTML = `<div style="color:var(--muted);font-size:13px;line-height:1.45">No new or unmapped product candidates detected. Brand-list scanning will update here after the scheduled scan runs.</div>`;
+        return;
+      }
+
+      $("candidates").innerHTML = candidates.slice(0, 18).map(item => `
+        <div class="candidate">
+          <strong>${item.brand}</strong>
+          <span class="model">${item.sku}</span>
+          <span class="flag">${newCandidates.length ? "New" : "Unmapped"}</span>
+        </div>
+      `).join("");
+    }
+
+    function renderRows(items) {
+      $("rows").innerHTML = items.map(p => {
+        const status = p.liveStatus || p.status;
+        const statusClass = status === "Review" ? "review" : status === "Gap" || status === "Fetch failed" ? "gap" : "";
+        return `<tr>
+          <td>${p.brand}</td>
+          <td><span class="sku">${p.sku}</span><br><span style="color:var(--muted);font-size:12px">${p.source}</span></td>
+          <td>${p.type}</td>
+          <td>${p.width}</td>
+          <td>${currency(p.rsp)}</td>
+          <td>${currency(p.going)}</td>
+          <td>${bandOf(p)}</td>
+          <td>${p.features.map(f => `<span class="tag">${f}</span>`).join("") || `<span style="color:var(--muted)">-</span>`}</td>
+          <td><span class="status ${statusClass}">${status}</span><br><span style="color:var(--muted);font-size:12px">${p.lastChecked ? new Date(p.lastChecked).toLocaleString("zh-TW") : "Add source URL"}</span></td>
+        </tr>`;
+      }).join("");
+    }
+
+    function openDetail(p) {
+      const detail = $("detail");
+      detail.innerHTML = `<button class="close" aria-label="Close" onclick="document.getElementById('detail').classList.remove('open')">x</button>
+        <h4>${p.brand} ${p.sku}</h4>
+        <div>${p.features.map(f => `<span class="tag">${f}</span>`).join("")}</div>
+        <dl>
+          <dt>Install type</dt><dd>${p.type}</dd>
+          <dt>Width</dt><dd>${p.width}</dd>
+          <dt>RSP</dt><dd>${currency(p.rsp)}</dd>
+          <dt>Going price</dt><dd>${currency(p.going)}</dd>
+          <dt>Price band</dt><dd>${bandOf(p)}</dd>
+          <dt>Status</dt><dd>${p.liveStatus || p.status}</dd>
+          <dt>Last checked</dt><dd>${p.lastChecked ? new Date(p.lastChecked).toLocaleString("zh-TW") : "No source URL yet"}</dd>
+          <dt>Monitor URL</dt><dd>${p.monitorUrl ? `<a href="${p.monitorUrl}" target="_blank" rel="noopener">Open source</a>` : "Not configured"}</dd>
+          <dt>Source</dt><dd>${p.source}</dd>
+        </dl>`;
+      detail.classList.add("open");
+    }
+
+    init();
+  </script>
+</body>
+</html>
