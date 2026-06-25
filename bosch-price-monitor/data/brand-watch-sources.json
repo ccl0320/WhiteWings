@@ -1,15 +1,15 @@
 ﻿{
   "notes": [
-    "Brand list monitoring scans official brand/product category pages only.",
-    "Aggregator and price-comparison sites are intentionally excluded from brand SKU detection.",
+    "Brand list monitoring scans category/search result pages to detect model numbers not present in the dashboard seed SKU list.",
+    "BigGo and Feebee are used as baseline Taiwan product-list sources because they expose fetchable search pages.",
     "Regex patterns are intentionally brand-specific to reduce false positives from generic page text."
   ],
   "brands": [
     {
       "brand": "Bosch",
       "urls": [
-        "https://www.bosch-home.com.tw/zh/mkt-category-page/dishwashers",
-        "https://www.bosch-home-shop.com.tw/collections/dishwashers"
+        "https://biggo.com.tw/s/Bosch%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+        "https://feebee.com.tw/s/Bosch%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
       ],
       "patterns": [
         "\\bSMS[A-Z0-9]{5,8}\\b",
@@ -22,7 +22,9 @@
     {
       "brand": "Asko",
       "urls": [
-        "https://tw.asko.com/"
+        "https://tw.asko.com/",
+        "https://biggo.com.tw/s/Asko%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+        "https://feebee.com.tw/s/Asko%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
       ],
       "patterns": [
         "\\bDF[ISB][0-9A-Z]{4,8}(?:\\.[A-Z]{1,3})?(?:\\.TW)?(?:\\/1)?\\b",
@@ -32,7 +34,9 @@
     {
       "brand": "Miele",
       "urls": [
-        "https://miele.kenk.com.tw/application/dish-washer"
+        "https://miele.kenk.com.tw/application/dish-washer",
+        "https://biggo.com.tw/s/Miele%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+        "https://feebee.com.tw/s/Miele%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
       ],
       "patterns": [
         "\\bG[0-9]{4}[A-Z]{0,8}(?:\\sXXL)?(?:\\sK2O)?(?:\\sFF)?\\b"
@@ -41,7 +45,8 @@
     {
       "brand": "Electrolux",
       "urls": [
-        "https://www.electrolux.com.tw/appliances/dishwashers/"
+        "https://biggo.com.tw/s/Electrolux%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+        "https://feebee.com.tw/s/Electrolux%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
       ],
       "patterns": [
         "\\b(?:EFF|KSE|KEE|KECA|EBF|EEZB|EEEM|KESB|EEM|EMF|EFS|EBS)[0-9A-Z]{4,8}\\b"
@@ -50,7 +55,8 @@
     {
       "brand": "Panasonic",
       "urls": [
-        "https://www.panasonic.com/tw/consumer/kitchen/dishwasher.html"
+        "https://biggo.com.tw/s/Panasonic%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+        "https://feebee.com.tw/s/Panasonic%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
       ],
       "patterns": [
         "\\bNP[-A-Z0-9]{5,14}\\b"
@@ -59,7 +65,9 @@
     {
       "brand": "Svago",
       "urls": [
-        "https://svago-kitchens.com.tw/product?Category=83013"
+        "https://svago-kitchens.com.tw/product?Category=83013",
+        "https://biggo.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+        "https://feebee.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
       ],
       "patterns": [
         "\\bV[DE][0-9]{4}[A-Z]?\\b"
@@ -68,7 +76,8 @@
     {
       "brand": "Sakura",
       "urls": [
-        "https://www.sakura.com.tw/Product/Index/1?subCategoryId=3074"
+        "https://biggo.com.tw/s/Sakura%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+        "https://feebee.com.tw/s/Sakura%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
       ],
       "patterns": [
         "\\bE[0-9]{4}[A-Z]?\\b"
@@ -77,7 +86,8 @@
     {
       "brand": "Amica",
       "urls": [
-        "https://www.amica.com.tw/lander?cid=5"
+        "https://biggo.com.tw/s/Amica%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+        "https://feebee.com.tw/s/Amica%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
       ],
       "patterns": [
         "\\b[ZX]IV[- ]?[0-9]{3}T\\b"
@@ -86,7 +96,8 @@
     {
       "brand": "Teka",
       "urls": [
-        "https://www.teka.com/tw-tc/kitchen/dishwashers/"
+        "https://biggo.com.tw/s/Teka%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+        "https://feebee.com.tw/s/Teka%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
       ],
       "patterns": [
         "\\bDFI\\s?[0-9]{5}\\b",
@@ -97,7 +108,8 @@
     {
       "brand": "LG",
       "urls": [
-        "https://www.lg.com/tw/dishwashers"
+        "https://biggo.com.tw/s/LG%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+        "https://feebee.com.tw/s/LG%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
       ],
       "patterns": [
         "\\bDFB[0-9A-Z]{4,6}\\b"
@@ -106,7 +118,8 @@
     {
       "brand": "Whirlpool",
       "urls": [
-        "https://www.whirlpool.com.tw/products/dishwashers"
+        "https://biggo.com.tw/s/Whirlpool%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+        "https://feebee.com.tw/s/Whirlpool%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
       ],
       "patterns": [
         "\\bWDFS[0-9A-Z]{6,10}\\b",
