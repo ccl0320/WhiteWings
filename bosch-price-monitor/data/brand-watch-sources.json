@@ -1,4 +1,4 @@
-{
+﻿{
   "notes": [
     "Brand list monitoring scans category/search result pages to detect model numbers not present in the dashboard seed SKU list.",
     "BigGo and Feebee are used as baseline Taiwan product-list sources because they expose fetchable search pages.",
@@ -65,7 +65,7 @@
     {
       "brand": "Svago",
       "urls": [
-        "https://stage-kitchens.com.tw/",
+        "https://svago-kitchens.com.tw/",
         "https://biggo.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
         "https://feebee.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
       ],
@@ -128,3 +128,4 @@
     }
   ]
 }
+
