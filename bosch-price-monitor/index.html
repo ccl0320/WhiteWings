@@ -628,7 +628,7 @@
           <div class="panel">
             <div class="panel-head">
               <h3>Brand SKU share</h3>
-              <span>Filtered view</span>
+              <span>Latest search scan</span>
             </div>
             <div class="bars" id="brand-bars"></div>
           </div>
@@ -898,7 +898,16 @@
     }
 
     function renderBars(items) {
-      const counts = items.reduce((acc,p) => (acc[p.brand] = (acc[p.brand] || 0) + 1, acc), {});
+      const scannedBrands = productListUpdates.brands || [];
+      const selectedBrand = $("brand").value;
+      const counts = scannedBrands.length
+        ? scannedBrands
+            .filter(item => !selectedBrand || item.brand === selectedBrand)
+            .reduce((acc, item) => {
+              acc[item.brand] = item.foundCount || 0;
+              return acc;
+            }, {})
+        : items.reduce((acc,p) => (acc[p.brand] = (acc[p.brand] || 0) + 1, acc), {});
       const max = Math.max(...Object.values(counts), 1);
       $("brand-bars").innerHTML = Object.entries(counts).sort((a,b) => b[1]-a[1]).map(([brand,count]) =>
         `<div class="bar-row"><strong>${brand}</strong><div class="bar-track"><div class="bar-fill" style="width:${count / max * 100}%"></div></div><span>${count}</span></div>`
