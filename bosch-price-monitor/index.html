@@ -646,6 +646,13 @@
             </div>
             <div class="candidate-list" id="candidates"></div>
           </div>
+          <div class="panel">
+            <div class="panel-head">
+              <h3>Unmapped SKU list</h3>
+              <span id="unmapped-count">Found online</span>
+            </div>
+            <div class="candidate-list" id="unmapped-list"></div>
+          </div>
         </div>
       </section>
 
@@ -882,6 +889,7 @@
       renderBars(items);
       renderFeatures(items);
       renderCandidates();
+      renderUnmappedList();
       renderRows(sorted(items));
     }
 
@@ -977,6 +985,29 @@
           <strong>${item.brand}</strong>
           <span class="model">${item.sku}</span>
           <span class="flag">${newCandidates.length ? "New" : "Unmapped"}</span>
+        </div>
+      `).join("");
+    }
+
+    function renderUnmappedList() {
+      const selectedBrand = $("brand").value;
+      const unmappedCandidates = productListUpdates.unmappedCandidates || [];
+      const items = unmappedCandidates
+        .filter(item => !selectedBrand || item.brand === selectedBrand)
+        .sort((a, b) => String(a.brand).localeCompare(String(b.brand)) || String(a.sku).localeCompare(String(b.sku)));
+
+      $("unmapped-count").textContent = `${items.length} unmapped`;
+
+      if (!items.length) {
+        $("unmapped-list").innerHTML = `<div style="color:var(--muted);font-size:13px;line-height:1.45">No unmapped SKUs in the current brand filter.</div>`;
+        return;
+      }
+
+      $("unmapped-list").innerHTML = items.map(item => `
+        <div class="candidate">
+          <strong>${item.brand}</strong>
+          <span class="model">${item.sku}</span>
+          <span class="flag">Unmapped</span>
         </div>
       `).join("");
     }
