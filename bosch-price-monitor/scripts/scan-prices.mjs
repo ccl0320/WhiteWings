@@ -41,7 +41,7 @@ function safeDecode(text) {
   }
 }
 
-function parsePrice(html, minPrice = 17000) {
+function parsePrices(html, minPrice = 17000) {
   const normalized = normalizeHtml(html);
   const patterns = [
     /NT\s?\$?\s?([0-9]{4,6})/ig,
@@ -57,7 +57,7 @@ function parsePrice(html, minPrice = 17000) {
       if (price >= minPrice && price <= 200000) candidates.push(price);
     }
   }
-  return candidates.length ? Math.min(...candidates) : null;
+  return [...new Set(candidates)].sort((a, b) => a - b);
 }
 
 async function fetchHtml(url) {
@@ -77,13 +77,18 @@ async function fetchHtml(url) {
 async function scanPriceUrl(source, url) {
   const response = await fetchHtml(url);
   const minPrice = source.minPrice || 17000;
-  const price = parsePrice(response.html, minPrice);
+  const prices = parsePrices(response.html, minPrice);
+  const lowestPrice = prices.length ? prices[0] : null;
+  const highestPrice = prices.length ? prices[prices.length - 1] : null;
   return {
     sku: source.sku,
     url,
-    price,
+    price: lowestPrice,
+    minPrice: lowestPrice,
+    maxPrice: highestPrice,
+    priceCandidates: prices,
     checkedAt: now,
-    status: response.ok && price ? "Updated" : response.ok ? "Price not found" : "Fetch failed",
+    status: response.ok && lowestPrice ? "Updated" : response.ok ? "Price not found" : "Fetch failed",
     httpStatus: response.status
   };
 }
@@ -113,11 +118,20 @@ async function scanPrices(sources) {
 
     const priced = results.filter(item => item.price);
     const winner = priced.sort((a, b) => a.price - b.price)[0] || results[0];
+    const allPrices = results
+      .flatMap(item => Array.isArray(item.priceCandidates) ? item.priceCandidates : item.price ? [item.price] : [])
+      .filter(price => Number.isFinite(price))
+      .sort((a, b) => a - b);
+    const minFoundPrice = allPrices.length ? allPrices[0] : null;
+    const maxFoundPrice = allPrices.length ? allPrices[allPrices.length - 1] : null;
     items.push({
       sku: source.sku,
       brand: source.brand || "",
       url: winner.url,
-      price: winner.price,
+      price: minFoundPrice,
+      minPrice: minFoundPrice,
+      maxPrice: maxFoundPrice,
+      priceRange: minFoundPrice && maxFoundPrice ? { min: minFoundPrice, max: maxFoundPrice } : null,
       checkedAt: now,
       status: winner.status,
       sourceCount: urls.length,

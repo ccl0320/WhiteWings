@@ -603,7 +603,7 @@
       <header>
         <div class="title">
           <h2>Bosch and competitor SKU / price monitoring dashboard</h2>
-          <p>Built from the Google Drive reference file TW DC Portfolio_and_PriceMap external.pptx. Going price is used for the map when available; ranges are normalized to midpoints for comparison.</p>
+          <p>Built from the Google Drive reference file TW DC Portfolio_and_PriceMap external.pptx. Going price shows the lowest-to-highest live price found in scheduled scans.</p>
         </div>
         <div class="source-card">
           <div class="label">Reference snapshot</div>
@@ -758,8 +758,11 @@
       }
       return {
         ...product,
-        going: update.price ?? product.going,
-        livePrice: update.price ?? null,
+        going: update.minPrice ?? update.price ?? product.going,
+        goingMin: update.minPrice ?? update.price ?? null,
+        goingMax: update.maxPrice ?? update.price ?? null,
+        priceRange: update.priceRange || null,
+        livePrice: update.minPrice ?? update.price ?? null,
         lastChecked: update.checkedAt || scanUpdates.generatedAt,
         liveStatus: update.status || "Updated",
         monitorUrl: update.url || ""
@@ -770,6 +773,13 @@
 
     const $ = (id) => document.getElementById(id);
     const currency = (n) => n == null ? "TBC" : "NT$" + Math.round(n).toLocaleString("en-US");
+    const priceRangeText = (p) => {
+      const min = p.goingMin ?? p.going ?? null;
+      const max = p.goingMax ?? p.going ?? null;
+      if (min == null && max == null) return "TBC";
+      if (min == null || max == null || min === max) return currency(min ?? max);
+      return `${currency(min)} - ${currency(max)}`;
+    };
     const priceFor = (p) => p.going ?? p.rsp ?? 0;
     const bandOf = (p) => bandDefs.find(b => priceFor(p) >= b.min && priceFor(p) < b.max)?.id || "TBC";
     const className = (brand) => brand.toLowerCase().replace(/\s+/g, "-");
@@ -940,7 +950,7 @@
           <td>${p.type}</td>
           <td>${p.width}</td>
           <td>${currency(p.rsp)}</td>
-          <td>${currency(p.going)}</td>
+          <td>${priceRangeText(p)}</td>
           <td>${bandOf(p)}</td>
           <td>${p.features.map(f => `<span class="tag">${f}</span>`).join("") || `<span style="color:var(--muted)">-</span>`}</td>
           <td><span class="status ${statusClass}">${status}</span><br><span style="color:var(--muted);font-size:12px">${p.lastChecked ? new Date(p.lastChecked).toLocaleString("zh-TW") : "Add source URL"}</span></td>
@@ -957,7 +967,7 @@
           <dt>Install type</dt><dd>${p.type}</dd>
           <dt>Width</dt><dd>${p.width}</dd>
           <dt>RSP</dt><dd>${currency(p.rsp)}</dd>
-          <dt>Going price</dt><dd>${currency(p.going)}</dd>
+          <dt>Going price</dt><dd>${priceRangeText(p)}</dd>
           <dt>Price band</dt><dd>${bandOf(p)}</dd>
           <dt>Status</dt><dd>${p.liveStatus || p.status}</dd>
           <dt>Last checked</dt><dd>${p.lastChecked ? new Date(p.lastChecked).toLocaleString("zh-TW") : "No source URL yet"}</dd>
