@@ -170,6 +170,34 @@ function isKnownSkuVariant(sku, knownNorms) {
   return false;
 }
 
+const featureTagRules = [
+  { tag: "Auto Open", patterns: [/AUTO\s?OPEN/i, /自動開門/i, /自動開啟/i, /自動開/i] },
+  { tag: "3rd drawer", patterns: [/3RD\s?DRAWER/i, /THIRD\s?DRAWER/i, /第三層/i, /第三層收納/i, /刀叉/i] },
+  { tag: "Steam", patterns: [/STEAM/i, /蒸氣/i, /蒸汽/i] },
+  { tag: "Wi-Fi", patterns: [/WI-?FI/i, /WIFI/i, /HOME\s?CONNECT/i, /連網/i, /智慧連線/i] },
+  { tag: "Zeolith", patterns: [/ZEOLITH/i, /沸石/i] },
+  { tag: "Auto Dos", patterns: [/AUTO\s?DOS/i, /自動投放/i] },
+  { tag: "UV", patterns: [/\bUV\b/i, /紫外線/i] },
+  { tag: "Hot air dry", patterns: [/HOT\s?AIR/i, /熱風/i, /熱烘/i] },
+  { tag: "Solo Dry", patterns: [/SOLO\s?DRY/i, /獨立烘/i] },
+  { tag: "Pre-rinse", patterns: [/PRE-?RINSE/i, /預洗/i] },
+  { tag: "IntensiveZone", patterns: [/INTENSIVE\s?ZONE/i, /強力洗/i] },
+  { tag: "Sliding Hinge", patterns: [/SLIDING\s?HINGE/i, /滑軌/i, /滑門/i] },
+  { tag: "110V", patterns: [/\b110V\b/i] },
+  { tag: "220V", patterns: [/\b220V\b/i] }
+];
+
+function featureTagsFromText(text) {
+  const normalized = safeDecode(normalizeHtml(text));
+  return featureTagRules
+    .filter(rule => rule.patterns.some(pattern => pattern.test(normalized)))
+    .map(rule => rule.tag);
+}
+
+function mergeFeatureTags(current, next) {
+  return [...new Set([...(current || []), ...(next || [])])].sort();
+}
+
 function extractSkuCandidates(html, patterns) {
   const text = safeDecode(normalizeHtml(html)).toUpperCase();
   const found = new Set();
@@ -190,6 +218,30 @@ function extractSkuCandidates(html, patterns) {
     if (!current || sku.length > current.length) byNormalized.set(key, sku);
   }
   return [...byNormalized.values()].sort();
+}
+
+function extractSkuFeatureTags(html, skus) {
+  const text = safeDecode(normalizeHtml(html));
+  const upper = text.toUpperCase();
+  const featuresBySku = new Map();
+  for (const sku of skus) {
+    const normalized = normalizeSku(sku);
+    const compactUpper = upper.replace(/[^A-Z0-9]/g, "");
+    let index = upper.indexOf(String(sku).toUpperCase());
+    if (index < 0) index = compactUpper.indexOf(normalized);
+    if (index < 0) continue;
+    const start = Math.max(0, index - 800);
+    const end = Math.min(text.length, index + 1200);
+    const tags = featureTagsFromText(text.slice(start, end));
+    if (tags.length) featuresBySku.set(sku, tags);
+  }
+  return featuresBySku;
+}
+
+function featureObjectList(featureTagsBySku) {
+  return [...featureTagsBySku.entries()]
+    .sort((a, b) => String(a[0]).localeCompare(String(b[0])))
+    .map(([sku, tags]) => ({ sku, tags }));
 }
 
 function baselineNormsForBrand(productBaseline) {
@@ -213,6 +265,7 @@ async function scanBrandLists(brandWatch, knownSkuSet, knownNorms, productBaseli
     const urls = Array.isArray(source.urls) ? source.urls.filter(Boolean) : [];
     const patterns = compilePatterns(source.patterns);
     const found = new Set();
+    const featureTagsBySku = new Map();
     const sourceResults = [];
 
     for (const url of urls) {
@@ -220,6 +273,10 @@ async function scanBrandLists(brandWatch, knownSkuSet, knownNorms, productBaseli
         const response = await fetchHtml(url);
         const candidates = extractSkuCandidates(response.html, patterns);
         candidates.forEach(sku => found.add(sku));
+        const extractedFeatures = extractSkuFeatureTags(response.html, candidates);
+        for (const [sku, tags] of extractedFeatures.entries()) {
+          featureTagsBySku.set(sku, mergeFeatureTags(featureTagsBySku.get(sku), tags));
+        }
         sourceResults.push({
           url,
           status: response.ok ? "Scanned" : "Fetch failed",
@@ -243,6 +300,7 @@ async function scanBrandLists(brandWatch, knownSkuSet, knownNorms, productBaseli
       .map(sku => ({
         sku,
         brand: source.brand,
+        featureTags: featureTagsBySku.get(sku) || [],
         firstDetectedAt: now,
         status: "Unmapped"
       }));
@@ -254,6 +312,7 @@ async function scanBrandLists(brandWatch, knownSkuSet, knownNorms, productBaseli
       .map(sku => ({
         sku,
         brand: source.brand,
+        featureTags: featureTagsBySku.get(sku) || [],
         firstDetectedAt: now,
         status: "New since baseline"
       }));
@@ -269,6 +328,7 @@ async function scanBrandLists(brandWatch, knownSkuSet, knownNorms, productBaseli
       newCandidateCount: newCandidates.length,
       foundSkus,
       knownSkus,
+      featureTagsBySku: featureObjectList(featureTagsBySku),
       unmappedCandidates,
       newCandidates,
       sources: sourceResults

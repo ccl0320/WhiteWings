@@ -589,10 +589,13 @@
         <div class="filter-group">
           <label>Features</label>
           <div class="checks">
-            <span><input type="checkbox" value="autoOpen" class="feature-filter" /> Auto Open</span>
-            <span><input type="checkbox" value="thirdDrawer" class="feature-filter" /> 3rd drawer</span>
-            <span><input type="checkbox" value="zeolith" class="feature-filter" /> Zeolith</span>
-            <span><input type="checkbox" value="wifi" class="feature-filter" /> Wi-Fi</span>
+            <span><input type="checkbox" value="Auto Open" class="feature-filter" /> Auto Open</span>
+            <span><input type="checkbox" value="3rd drawer" class="feature-filter" /> 3rd drawer</span>
+            <span><input type="checkbox" value="Zeolith" class="feature-filter" /> Zeolith</span>
+            <span><input type="checkbox" value="Wi-Fi" class="feature-filter" /> Wi-Fi</span>
+            <span><input type="checkbox" value="Steam" class="feature-filter" /> Steam</span>
+            <span><input type="checkbox" value="Auto Dos" class="feature-filter" /> Auto Dos</span>
+            <span><input type="checkbox" value="Hot air dry" class="feature-filter" /> Hot air dry</span>
           </div>
         </div>
       </div>
@@ -764,6 +767,8 @@
     function buildProductFromSearch(brand, sku) {
       const known = seedBySku.get(normalizeSku(sku)) || {};
       const update = updateBySku.get(normalizeSku(sku));
+      const brandScan = (productListUpdates.brands || []).find(item => item.brand === brand);
+      const scannedFeatures = (brandScan?.featureTagsBySku || []).find(item => normalizeSku(item.sku) === normalizeSku(sku))?.tags || [];
       return {
         brand,
         sku,
@@ -775,7 +780,8 @@
         goingMax: update?.maxPrice ?? update?.price ?? null,
         priceRange: update?.priceRange || null,
         livePrice: update?.minPrice ?? update?.price ?? null,
-        features: known.features || [],
+        features: scannedFeatures.length ? scannedFeatures : known.features || [],
+        scannedFeatures,
         source: "Search result scan",
         status: update ? update.status || "Updated" : known.sku ? "Detected" : "Unmapped",
         lastChecked: update?.checkedAt || productListUpdates.generatedAt || null,
@@ -862,12 +868,7 @@
         if (type && p.type !== type) return false;
         if (width && p.width !== width) return false;
         if (band && bandOf(p) !== band) return false;
-        return reqFeatures.every(f => {
-          if (f === "autoOpen") return p.features.some(x => /auto open/i.test(x));
-          if (f === "thirdDrawer") return p.features.some(x => /3rd drawer/i.test(x));
-          if (f === "zeolith") return p.features.some(x => /zeolith/i.test(x));
-          if (f === "wifi") return p.features.some(x => /wi-?fi/i.test(x));
-        });
+        return reqFeatures.every(f => p.features.some(x => x.toLowerCase() === f.toLowerCase()));
       });
     }
 
@@ -955,16 +956,17 @@
     }
 
     function renderFeatures(items) {
-      const defs = [
-        ["Auto Open", p => p.features.some(x => /auto open/i.test(x))],
-        ["3rd drawer", p => p.features.some(x => /3rd drawer/i.test(x))],
-        ["Zeolith", p => p.features.some(x => /zeolith/i.test(x))]
-      ];
-      $("features").innerHTML = defs.map(([label,fn]) => {
-        const count = items.filter(fn).length;
+      const counts = items.reduce((acc, product) => {
+        for (const feature of product.features || []) acc[feature] = (acc[feature] || 0) + 1;
+        return acc;
+      }, {});
+      const defs = Object.entries(counts)
+        .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+        .slice(0, 8);
+      $("features").innerHTML = defs.map(([label,count]) => {
         const pct = Math.round(count / Math.max(items.length, 1) * 100);
         return `<article class="feature"><strong>${pct}%</strong><span>${label}<br>${count} of ${items.length} SKUs</span></article>`;
-      }).join("");
+      }).join("") || `<article class="feature"><strong>0%</strong><span>No tags<br>Waiting for feature scan</span></article>`;
     }
 
     function renderCandidates() {
