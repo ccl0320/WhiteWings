@@ -22,6 +22,7 @@
     {
       "brand": "Asko",
       "urls": [
+        "https://tw.asko.com/",
         "https://biggo.com.tw/s/Asko%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
         "https://feebee.com.tw/s/Asko%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
       ],
@@ -33,6 +34,7 @@
     {
       "brand": "Miele",
       "urls": [
+        "https://miele.kenk.com.tw/application/dish-washer",
         "https://biggo.com.tw/s/Miele%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
         "https://feebee.com.tw/s/Miele%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
       ],
@@ -63,6 +65,7 @@
     {
       "brand": "Svago",
       "urls": [
+        "https://stage-kitchens.com.tw/",
         "https://biggo.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
         "https://feebee.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
       ],
