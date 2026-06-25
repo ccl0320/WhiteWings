@@ -606,11 +606,11 @@
       <header>
         <div class="title">
           <h2>Bosch and competitor SKU / price monitoring dashboard</h2>
-          <p>Built from daily product-list and price search results. Going price shows the lowest-to-highest live price found in scheduled scans.</p>
+          <p>Built from daily official brand-site product scans and live price search results. Going price shows the lowest-to-highest live price found in scheduled scans.</p>
         </div>
         <div class="source-card">
           <div class="label">Primary data source</div>
-          <strong>Daily web search and brand-list scan</strong>
+          <strong>Daily official brand-site scan</strong>
           <div class="label" style="margin-top:8px">Mode</div>
           <strong id="scan-label">Waiting for scheduled scan</strong>
         </div>
@@ -782,7 +782,7 @@
         livePrice: update?.minPrice ?? update?.price ?? null,
         features: scannedFeatures.length ? scannedFeatures : known.features || [],
         scannedFeatures,
-        source: "Search result scan",
+        source: "Official brand-site scan",
         status: update ? update.status || "Updated" : known.sku ? "Detected" : "Unmapped",
         lastChecked: update?.checkedAt || productListUpdates.generatedAt || null,
         liveStatus: update ? update.status || "Updated" : "Detected in product search",
