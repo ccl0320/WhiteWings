@@ -172,7 +172,7 @@
       border: 1px solid var(--line);
       border-radius: var(--radius);
       padding: 12px 14px;
-      min-width: 250px;
+      min-width: 310px;
       box-shadow: var(--shadow);
     }
 
@@ -185,6 +185,34 @@
     .source-card strong {
       display: block;
       font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .source-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .source-pill {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: #fbfcfe;
+      padding: 9px 10px;
+      min-width: 0;
+    }
+
+    .source-pill b {
+      display: block;
+      font-size: 16px;
+      line-height: 1.15;
+    }
+
+    .source-pill span,
+    .subtle {
+      color: var(--muted);
+      font-size: 12px;
       line-height: 1.35;
     }
 
@@ -243,9 +271,21 @@
       font-size: 16px;
     }
 
+    .panel-title {
+      min-width: 0;
+    }
+
+    .panel-title p {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
     .panel-head span {
       color: var(--muted);
       font-size: 12px;
+      white-space: nowrap;
     }
 
     .price-map {
@@ -412,6 +452,17 @@
       text-align: right;
     }
 
+    .candidate .flag.new {
+      color: var(--green);
+    }
+
+    .empty-state {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
+      padding: 2px 0;
+    }
+
     .table-wrap {
       overflow: auto;
       max-height: 520px;
@@ -445,7 +496,27 @@
       line-height: 1.35;
     }
 
+    tbody tr:hover {
+      background: #fbfcfe;
+    }
+
     .sku {
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .cell-note {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 3px;
+      max-width: 220px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .price-cell {
       font-weight: 800;
       white-space: nowrap;
     }
@@ -545,6 +616,8 @@
       main { padding: 16px; }
       header { flex-direction: column; }
       .source-card { width: 100%; }
+      .source-grid { grid-template-columns: 1fr; }
+      .panel-head { align-items: flex-start; flex-direction: column; }
       .filter-row { grid-template-columns: 1fr; }
       .kpis { grid-template-columns: 1fr; }
       .band { grid-template-columns: 1fr; }
@@ -596,6 +669,11 @@
             <span><input type="checkbox" value="Steam" class="feature-filter" /> Steam</span>
             <span><input type="checkbox" value="Auto Dos" class="feature-filter" /> Auto Dos</span>
             <span><input type="checkbox" value="Hot air dry" class="feature-filter" /> Hot air dry</span>
+            <span><input type="checkbox" value="Solo Dry" class="feature-filter" /> Solo Dry</span>
+            <span><input type="checkbox" value="UV" class="feature-filter" /> UV</span>
+            <span><input type="checkbox" value="Pre-rinse" class="feature-filter" /> Pre-rinse</span>
+            <span><input type="checkbox" value="IntensiveZone" class="feature-filter" /> IntensiveZone</span>
+            <span><input type="checkbox" value="Sliding Hinge" class="feature-filter" /> Sliding Hinge</span>
           </div>
         </div>
       </div>
@@ -606,13 +684,24 @@
       <header>
         <div class="title">
           <h2>Bosch and competitor SKU / price monitoring dashboard</h2>
-          <p>Built from daily product-list and price search results. Going price shows the lowest-to-highest live price found in scheduled scans.</p>
+          <p>Search results are the primary product universe. PPT seed data is used only as a reference for known type, width, RSP, and historical feature notes when the scan has no richer detail yet.</p>
         </div>
         <div class="source-card">
           <div class="label">Primary data source</div>
-          <strong>Daily web search and brand-list scan</strong>
-          <div class="label" style="margin-top:8px">Mode</div>
-          <strong id="scan-label">Waiting for scheduled scan</strong>
+          <strong>Daily official-site, ecommerce, and price-search scans</strong>
+          <div class="source-grid">
+            <div class="source-pill">
+              <span>Product list scan</span>
+              <b id="product-scan-count">0 SKUs</b>
+              <span id="product-scan-label">Waiting for scan</span>
+            </div>
+            <div class="source-pill">
+              <span>Price scan</span>
+              <b id="price-scan-count">0 priced</b>
+              <span id="scan-label">Waiting for scan</span>
+            </div>
+          </div>
+          <p class="subtle" style="margin:10px 0 0">Going price is the lowest-to-highest live price range found for the SKU.</p>
         </div>
       </header>
 
@@ -630,28 +719,40 @@
         <div class="right-stack">
           <div class="panel">
             <div class="panel-head">
-              <h3>Brand SKU share</h3>
+              <div class="panel-title">
+                <h3>Brand SKU share</h3>
+                <p>Model count by brand from the latest product-list search result.</p>
+              </div>
               <span>Latest search scan</span>
             </div>
             <div class="bars" id="brand-bars"></div>
           </div>
           <div class="panel">
             <div class="panel-head">
-              <h3>Feature coverage</h3>
-              <span>Share of filtered SKUs</span>
+              <div class="panel-title">
+                <h3>Feature tags</h3>
+                <p>Auto-tagged selling points from scanned product text, with PPT notes as fallback.</p>
+              </div>
+              <span>Filtered SKUs</span>
             </div>
             <div class="feature-cards" id="features"></div>
           </div>
           <div class="panel">
             <div class="panel-head">
-              <h3>Product list watch</h3>
+              <div class="panel-title">
+                <h3>Product list watch</h3>
+                <p>New products first, otherwise the most relevant unmapped products found online.</p>
+              </div>
               <span id="candidate-count">Brand list scan</span>
             </div>
             <div class="candidate-list" id="candidates"></div>
           </div>
           <div class="panel">
             <div class="panel-head">
-              <h3>Unmapped SKU list</h3>
+              <div class="panel-title">
+                <h3>Unmapped SKU list</h3>
+                <p>Found by online search but not matched to the original PPT seed portfolio.</p>
+              </div>
               <span id="unmapped-count">Found online</span>
             </div>
             <div class="candidate-list" id="unmapped-list"></div>
@@ -661,22 +762,25 @@
 
       <section class="panel table-panel">
         <div class="panel-head">
-          <h3>Product monitor table</h3>
-          <span>Click headers to sort. Click a map dot for model detail.</span>
+          <div class="panel-title">
+            <h3>Product monitor table</h3>
+            <p>Rows are generated from product-list search results. Type, width, and RSP can be seed-assisted when unavailable online.</p>
+          </div>
+          <span>Sort headers; click map dot for details</span>
         </div>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
                 <th data-sort="brand">Brand</th>
-                <th data-sort="sku">SKU</th>
+                <th data-sort="sku">SKU / source</th>
                 <th data-sort="type">Type</th>
                 <th data-sort="width">Width</th>
-                <th data-sort="rsp">RSP</th>
-                <th data-sort="going">Going price</th>
+                <th data-sort="rsp">Seed RSP</th>
+                <th data-sort="going">Going price range</th>
                 <th data-sort="band">Band</th>
-                <th>Features</th>
-                <th data-sort="status">Monitor status</th>
+                <th>Feature tags</th>
+                <th data-sort="status">Scan status</th>
               </tr>
             </thead>
             <tbody id="rows"></tbody>
@@ -810,6 +914,16 @@
 
     const $ = (id) => document.getElementById(id);
     const currency = (n) => n == null ? "TBC" : "NT$" + Math.round(n).toLocaleString("en-US");
+    const formatDate = (date) => date ? new Date(date).toLocaleString("zh-TW") : "Not scanned yet";
+    const scannedSkuCount = () => (productListUpdates.brands || []).reduce((sum, brand) => sum + (brand.foundCount || 0), 0);
+    const sourceNote = (p) => p.knownInSeed
+      ? "Search result + PPT reference"
+      : "Search result only";
+    const featureNote = (p) => p.scannedFeatures?.length
+      ? "Auto-tagged from scan"
+      : p.features?.length
+        ? "Seed fallback tags"
+        : "No tags yet";
     const priceRangeText = (p) => {
       const min = p.goingMin ?? p.going ?? null;
       const max = p.goingMax ?? p.going ?? null;
@@ -831,9 +945,10 @@
     }
 
     function init() {
-      if (scanUpdates.generatedAt) {
-        $("scan-label").textContent = "Latest scan: " + new Date(scanUpdates.generatedAt).toLocaleString("zh-TW");
-      }
+      $("product-scan-count").textContent = `${scannedSkuCount()} SKUs`;
+      $("product-scan-label").textContent = formatDate(productListUpdates.generatedAt);
+      $("price-scan-count").textContent = `${(scanUpdates.items || []).length} priced`;
+      $("scan-label").textContent = formatDate(scanUpdates.generatedAt);
       initSelect("brand", [...new Set(products.map(p => p.brand))].sort(), "brands");
       initSelect("type", [...new Set(products.map(p => p.type))].sort(), "types");
       initSelect("width", [...new Set(products.map(p => p.width))].sort(), "widths");
@@ -906,14 +1021,14 @@
       const compAvg = pricedComp.length ? pricedComp.reduce((sum,p) => sum + priceFor(p), 0) / pricedComp.length : null;
       const priceGap = boschAvg != null && compAvg != null ? boschAvg - compAvg : null;
       $("kpis").innerHTML = [
-        ["Search result SKUs", items.length, "Filtered models found online"],
-        ["Bosch SKUs", bosch.length, "Bosch models found online"],
-        ["Avg going price", currency(avg), "Average lowest live price"],
+        ["Search result SKUs", items.length, "Filtered models from online scans"],
+        ["Bosch SKUs", bosch.length, "Bosch models in current search result"],
+        ["Avg going price", currency(avg), "Average of lowest live prices"],
         ["Premium share", Math.round(premium / Math.max(priced.length, 1) * 100) + "%", "Priced SKUs above 70K"],
         ["Bosch vs comp avg", currency(priceGap), "Based on live priced SKUs"],
-        ["Live checked", live.length, "SKUs checked or found by scheduled scan"],
+        ["Live checked", live.length, "SKUs touched by scheduled scans"],
         ["New since baseline", productListUpdates.newCandidateCount || 0, "Models first detected after baseline"],
-        ["Unmapped SKUs", productListUpdates.unmappedCandidateCount || 0, "Found online but not in prior seed"]
+        ["Unmapped SKUs", productListUpdates.unmappedCandidateCount || 0, "Online result not in PPT seed"]
       ].map(([label,metric,caption]) => `<article class="kpi"><div class="metric">${metric}</div><div class="caption"><strong>${label}</strong><br>${caption}</div></article>`).join("");
     }
 
@@ -974,19 +1089,20 @@
       const unmappedCandidates = productListUpdates.unmappedCandidates || [];
       const candidates = newCandidates.length ? newCandidates : unmappedCandidates;
       $("candidate-count").textContent = productListUpdates.generatedAt
-        ? `Scanned ${new Date(productListUpdates.generatedAt).toLocaleString("zh-TW")}`
+        ? `Last scan ${formatDate(productListUpdates.generatedAt)}`
         : "Brand list scan";
 
       if (!candidates.length) {
-        $("candidates").innerHTML = `<div style="color:var(--muted);font-size:13px;line-height:1.45">No new or unmapped product candidates detected. Brand-list scanning will update here after the scheduled scan runs.</div>`;
+        $("candidates").innerHTML = `<div class="empty-state">No new or unmapped product candidates detected. Brand-list scanning will update here after the scheduled scan runs.</div>`;
         return;
       }
 
+      const flag = newCandidates.length ? "New" : "Unmapped";
       $("candidates").innerHTML = candidates.slice(0, 18).map(item => `
         <div class="candidate">
           <strong>${item.brand}</strong>
           <span class="model">${item.sku}</span>
-          <span class="flag">${newCandidates.length ? "New" : "Unmapped"}</span>
+          <span class="flag ${newCandidates.length ? "new" : ""}">${flag}</span>
         </div>
       `).join("");
     }
@@ -1001,7 +1117,7 @@
       $("unmapped-count").textContent = `${items.length} unmapped`;
 
       if (!items.length) {
-        $("unmapped-list").innerHTML = `<div style="color:var(--muted);font-size:13px;line-height:1.45">No unmapped SKUs in the current brand filter.</div>`;
+        $("unmapped-list").innerHTML = `<div class="empty-state">No unmapped SKUs in the current brand filter.</div>`;
         return;
       }
 
@@ -1020,14 +1136,14 @@
         const statusClass = status === "Review" ? "review" : status === "Gap" || status === "Fetch failed" ? "gap" : "";
         return `<tr>
           <td>${p.brand}</td>
-          <td><span class="sku">${p.sku}</span><br><span style="color:var(--muted);font-size:12px">${p.source}</span></td>
-          <td>${p.type}</td>
-          <td>${p.width}</td>
+          <td><span class="sku">${p.sku}</span><span class="cell-note">${sourceNote(p)}</span></td>
+          <td>${p.type}<span class="cell-note">${p.type === "TBC" ? "Missing online/seed type" : "Seed-assisted if needed"}</span></td>
+          <td>${p.width}<span class="cell-note">${p.width === "TBC" ? "Missing online/seed width" : "Seed-assisted if needed"}</span></td>
           <td>${currency(p.rsp)}</td>
-          <td>${priceRangeText(p)}</td>
+          <td><span class="price-cell">${priceRangeText(p)}</span><span class="cell-note">${p.goingMin != null && p.goingMax != null && p.goingMin !== p.goingMax ? "Lowest - highest found" : "Latest found price"}</span></td>
           <td>${bandOf(p)}</td>
-          <td>${p.features.map(f => `<span class="tag">${f}</span>`).join("") || `<span style="color:var(--muted)">-</span>`}</td>
-          <td><span class="status ${statusClass}">${status}</span><br><span style="color:var(--muted);font-size:12px">${p.lastChecked ? new Date(p.lastChecked).toLocaleString("zh-TW") : "Add source URL"}</span></td>
+          <td>${p.features.map(f => `<span class="tag">${f}</span>`).join("") || `<span class="subtle">No tags</span>`}<span class="cell-note">${featureNote(p)}</span></td>
+          <td><span class="status ${statusClass}">${status}</span><span class="cell-note">${formatDate(p.lastChecked)}</span></td>
         </tr>`;
       }).join("");
     }
@@ -1044,9 +1160,11 @@
           <dt>Going price</dt><dd>${priceRangeText(p)}</dd>
           <dt>Price band</dt><dd>${bandOf(p)}</dd>
           <dt>Status</dt><dd>${p.liveStatus || p.status}</dd>
-          <dt>Last checked</dt><dd>${p.lastChecked ? new Date(p.lastChecked).toLocaleString("zh-TW") : "No source URL yet"}</dd>
+          <dt>Last checked</dt><dd>${formatDate(p.lastChecked)}</dd>
           <dt>Monitor URL</dt><dd>${p.monitorUrl ? `<a href="${p.monitorUrl}" target="_blank" rel="noopener">Open source</a>` : "Not configured"}</dd>
           <dt>Source</dt><dd>${p.source}</dd>
+          <dt>Data role</dt><dd>${sourceNote(p)}</dd>
+          <dt>Feature tags</dt><dd>${featureNote(p)}</dd>
         </dl>`;
       detail.classList.add("open");
     }

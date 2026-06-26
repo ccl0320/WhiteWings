@@ -244,6 +244,41 @@ function featureObjectList(featureTagsBySku) {
     .map(([sku, tags]) => ({ sku, tags }));
 }
 
+function displaySkuScore(sku) {
+  const text = String(sku || "");
+  let score = 0;
+  if (!/[^\w\s.-]/.test(text)) score += 4;
+  if (!/[-\s.]$/.test(text)) score += 3;
+  if (/[-\s.]/.test(text)) score += 1;
+  return score + Math.min(text.length, 32) / 100;
+}
+
+function dedupeSkus(skus, featureTagsBySku) {
+  const byNormalized = new Map();
+  for (const sku of skus) {
+    const key = normalizeSku(sku);
+    if (!key) continue;
+    const current = byNormalized.get(key);
+    if (!current || displaySkuScore(sku) > displaySkuScore(current)) {
+      byNormalized.set(key, sku);
+    }
+  }
+
+  const canonicalByNorm = new Map([...byNormalized.entries()].map(([key, sku]) => [key, sku]));
+  const mergedTags = new Map();
+  for (const sku of skus) {
+    const canonical = canonicalByNorm.get(normalizeSku(sku));
+    if (!canonical) continue;
+    mergedTags.set(canonical, mergeFeatureTags(mergedTags.get(canonical), featureTagsBySku.get(sku) || []));
+  }
+  featureTagsBySku.clear();
+  for (const [sku, tags] of mergedTags.entries()) {
+    if (tags.length) featureTagsBySku.set(sku, tags);
+  }
+
+  return [...byNormalized.values()].sort();
+}
+
 function baselineNormsForBrand(productBaseline) {
   const result = new Map();
   for (const brand of productBaseline.brands || []) {
@@ -293,7 +328,7 @@ async function scanBrandLists(brandWatch, knownSkuSet, knownNorms, productBaseli
       }
     }
 
-    const foundSkus = [...found].sort();
+    const foundSkus = dedupeSkus([...found], featureTagsBySku);
     const knownSkus = foundSkus.filter(sku => isKnownSkuVariant(sku, knownNorms));
     const unmappedCandidates = foundSkus
       .filter(sku => !isKnownSkuVariant(sku, knownNorms))
