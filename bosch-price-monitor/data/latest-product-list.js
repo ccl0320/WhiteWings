@@ -1,8 +1,8 @@
 window.PRODUCT_LIST_UPDATES = {
-  "generatedAt": "2026-06-26T06:55:40.959Z",
+  "generatedAt": "2026-06-26T08:06:20.333Z",
   "knownSkuCount": 57,
   "brandCount": 11,
-  "unmappedCandidateCount": 73,
+  "unmappedCandidateCount": 75,
   "newCandidateCount": 5,
   "brands": [
     {
@@ -35,6 +35,138 @@ window.PRODUCT_LIST_UPDATES = {
         "SMV4HAX00X",
         "SMV6ZAX00X",
         "SMV8ZCX00X"
+      ],
+      "productMetadataBySku": [
+        {
+          "sku": "SMI4HAS00X",
+          "brand": "Bosch",
+          "width": "60cm",
+          "type": "Semi-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "high",
+          "rspSource": null
+        },
+        {
+          "sku": "SMI6HAS00X",
+          "brand": "Bosch",
+          "width": "60cm",
+          "type": "Semi-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "high",
+          "rspSource": null
+        },
+        {
+          "sku": "SMI8ZCS00X",
+          "brand": "Bosch",
+          "width": "60cm",
+          "type": "Semi-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "high",
+          "rspSource": null
+        },
+        {
+          "sku": "SMS63M12TC",
+          "brand": "Bosch",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "high",
+          "rspSource": null
+        },
+        {
+          "sku": "SMS6HAW10X",
+          "brand": "Bosch",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "high",
+          "rspSource": null
+        },
+        {
+          "sku": "SMS6ZCW00X",
+          "brand": "Bosch",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "high",
+          "rspSource": null
+        },
+        {
+          "sku": "SMS88MI01X",
+          "brand": "Bosch",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "high",
+          "rspSource": null
+        },
+        {
+          "sku": "SMV4HAX00X",
+          "brand": "Bosch",
+          "width": "60cm",
+          "type": "Fully-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "high",
+          "rspSource": null
+        },
+        {
+          "sku": "SMV6ZAX00X",
+          "brand": "Bosch",
+          "width": "60cm",
+          "type": "Fully-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "high",
+          "rspSource": null
+        },
+        {
+          "sku": "SMV8ZCX00X",
+          "brand": "Bosch",
+          "width": "60cm",
+          "type": "Fully-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "high",
+          "rspSource": null
+        },
+        {
+          "sku": "SPS2IKI06X",
+          "brand": "Bosch",
+          "width": "45cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "high",
+          "rspSource": null
+        },
+        {
+          "sku": "SPS4IMW00X",
+          "brand": "Bosch",
+          "width": "45cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "high",
+          "rspSource": null
+        },
+        {
+          "sku": "SPS63M02TC",
+          "brand": "Bosch",
+          "width": "45cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "high",
+          "rspSource": null
+        }
       ],
       "featureTagsBySku": [
         {
@@ -81,14 +213,14 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Zeolith"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "SMS63M12TC",
           "brand": "Bosch",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
@@ -97,28 +229,28 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Zeolith"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "SPS2IKI06X",
           "brand": "Bosch",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "SPS4IMW00X",
           "brand": "Bosch",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "SPS63M02TC",
           "brand": "Bosch",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         }
       ],
@@ -171,6 +303,218 @@ window.PRODUCT_LIST_UPDATES = {
       "knownSkus": [
         "DFS344ID.S.TW",
         "DFS344ID.W.TW"
+      ],
+      "productMetadataBySku": [
+        {
+          "sku": "DBI233IB.S",
+          "brand": "Asko",
+          "width": "60cm",
+          "type": "Semi-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "DBI233IB.S.TW/1",
+          "brand": "Asko",
+          "width": "60cm",
+          "type": "Semi-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "DBI233IB.W",
+          "brand": "Asko",
+          "width": "60cm",
+          "type": "Semi-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "DBI233IB.W.TW",
+          "brand": "Asko",
+          "width": "60cm",
+          "type": "Semi-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "DBI544ID.W.TW",
+          "brand": "Asko",
+          "width": "60cm",
+          "type": "Semi-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "DBI545IK.W.TW",
+          "brand": "Asko",
+          "width": "60cm",
+          "type": "Semi-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "DBI644MIB.S.TW",
+          "brand": "Asko",
+          "width": "60cm",
+          "type": "Semi-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "DBI644MIB.W.TW/1",
+          "brand": "Asko",
+          "width": "60cm",
+          "type": "Semi-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "DBI746MIQ.S.TW",
+          "brand": "Asko",
+          "width": "60cm",
+          "type": "Semi-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "DBI746MIQ.W.TW",
+          "brand": "Asko",
+          "width": "60cm",
+          "type": "Semi-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "DFI433B",
+          "brand": "Asko",
+          "width": "60cm",
+          "type": "Fully-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "DFI433B.TW/1",
+          "brand": "Asko",
+          "width": "60cm",
+          "type": "Fully-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "DFI5244A.TW",
+          "brand": "Asko",
+          "width": "60cm",
+          "type": "Fully-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "DFI544D.TW",
+          "brand": "Asko",
+          "width": "60cm",
+          "type": "Fully-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "DFI654B",
+          "brand": "Asko",
+          "width": "60cm",
+          "type": "Fully-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "DFS143I.S",
+          "brand": "Asko",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "DFS233IB.S.TW/1",
+          "brand": "Asko",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "DFS233IB.W",
+          "brand": "Asko",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "DFS233IB.W.TW",
+          "brand": "Asko",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "DFS344ID.S.TW",
+          "brand": "Asko",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "DFS344ID.W.TW",
+          "brand": "Asko",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        }
       ],
       "featureTagsBySku": [
         {
@@ -436,7 +780,7 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "DBI233IB.S",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
@@ -445,7 +789,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
@@ -454,7 +798,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
@@ -463,14 +807,14 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "DBI544ID.W.TW",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
@@ -479,14 +823,14 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "DBI644MIB.S.TW",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
@@ -495,7 +839,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
@@ -504,7 +848,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
@@ -513,14 +857,14 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "DFI433B",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
@@ -529,7 +873,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
@@ -538,7 +882,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "220V"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
@@ -547,21 +891,21 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "DFI654B",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "DFS143I.S",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
@@ -570,7 +914,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
@@ -579,7 +923,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
@@ -588,7 +932,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         }
       ],
@@ -659,6 +1003,332 @@ window.PRODUCT_LIST_UPDATES = {
         "G7314CSCI",
         "G7964C",
         "G7964CSCVI"
+      ],
+      "productMetadataBySku": [
+        {
+          "sku": "G5001",
+          "brand": "Miele",
+          "width": "60cm",
+          "type": null,
+          "widthSource": "sku-rule",
+          "typeSource": null,
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
+          "sku": "G5001C",
+          "brand": "Miele",
+          "width": "60cm",
+          "type": null,
+          "widthSource": "sku-rule",
+          "typeSource": null,
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
+          "sku": "G5001CSC",
+          "brand": "Miele",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "miele.kenk.com.tw",
+          "typeSource": "miele.kenk.com.tw",
+          "confidence": "high",
+          "rsp": 64000,
+          "officialProductUrl": "https://miele.kenk.com.tw/product/dish-washer/no.g5001csc/%E7%8D%A8%E7%AB%8B%E5%BC%8F%E6%B4%97%E7%A2%97%E6%A9%9F",
+          "bodySize": "W598*D600*H845 mm",
+          "source": "miele.kenk.com.tw",
+          "sourceUrl": "https://miele.kenk.com.tw/application/dish-washer",
+          "rspSource": "miele.kenk.com.tw"
+        },
+        {
+          "sku": "G5001SC",
+          "brand": "Miele",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "G5214",
+          "brand": "Miele",
+          "width": "60cm",
+          "type": null,
+          "widthSource": "sku-rule",
+          "typeSource": null,
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
+          "sku": "G5214C",
+          "brand": "Miele",
+          "width": "60cm",
+          "type": null,
+          "widthSource": "sku-rule",
+          "typeSource": null,
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
+          "sku": "G5214CSC",
+          "brand": "Miele",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "miele.kenk.com.tw",
+          "typeSource": "miele.kenk.com.tw",
+          "confidence": "high",
+          "rsp": 74000,
+          "officialProductUrl": "https://miele.kenk.com.tw/product/dish-washer/no.g5214csc/%E7%8D%A8%E7%AB%8B%E5%BC%8F%E6%B4%97%E7%A2%97%E6%A9%9F",
+          "bodySize": "W598*D600*H845 mm",
+          "source": "miele.kenk.com.tw",
+          "sourceUrl": "https://miele.kenk.com.tw/application/dish-washer",
+          "rspSource": "miele.kenk.com.tw"
+        },
+        {
+          "sku": "G5314C",
+          "brand": "Miele",
+          "width": "60cm",
+          "type": null,
+          "widthSource": "sku-rule",
+          "typeSource": null,
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
+          "sku": "G5314CSCI",
+          "brand": "Miele",
+          "width": "60cm",
+          "type": "Semi-integrated",
+          "widthSource": "miele.kenk.com.tw",
+          "typeSource": "miele.kenk.com.tw",
+          "confidence": "high",
+          "rsp": 79000,
+          "officialProductUrl": "https://miele.kenk.com.tw/product/dish-washer/no.g5314csci/%E5%8D%8A%E5%B5%8C%E5%BC%8F%E6%B4%97%E7%A2%97%E6%A9%9F",
+          "bodySize": "W598* D570*H805 mm",
+          "source": "miele.kenk.com.tw",
+          "sourceUrl": "https://miele.kenk.com.tw/application/dish-washer",
+          "rspSource": "miele.kenk.com.tw"
+        },
+        {
+          "sku": "G5364C",
+          "brand": "Miele",
+          "width": "60cm",
+          "type": null,
+          "widthSource": "sku-rule",
+          "typeSource": null,
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
+          "sku": "G5364CSCVI",
+          "brand": "Miele",
+          "width": "60cm",
+          "type": "Fully-integrated",
+          "widthSource": "miele.kenk.com.tw",
+          "typeSource": "miele.kenk.com.tw",
+          "confidence": "high",
+          "rsp": 83000,
+          "officialProductUrl": "https://miele.kenk.com.tw/product/dish-washer/no.g5364cscvi/%E5%85%A8%E5%B5%8C%E5%BC%8F%E6%B4%97%E7%A2%97%E6%A9%9F",
+          "bodySize": "W598* D570*H805 mm",
+          "source": "miele.kenk.com.tw",
+          "sourceUrl": "https://miele.kenk.com.tw/application/dish-washer",
+          "rspSource": "miele.kenk.com.tw"
+        },
+        {
+          "sku": "G7101",
+          "brand": "Miele",
+          "width": "60cm",
+          "type": null,
+          "widthSource": "sku-rule",
+          "typeSource": null,
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
+          "sku": "G7101C",
+          "brand": "Miele",
+          "width": "60cm",
+          "type": null,
+          "widthSource": "sku-rule",
+          "typeSource": null,
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
+          "sku": "G7101CSC",
+          "brand": "Miele",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "miele.kenk.com.tw",
+          "confidence": "high",
+          "rsp": 84000,
+          "officialProductUrl": "https://miele.kenk.com.tw/product/dish-washer/no.g7101csc/%E7%8D%A8%E7%AB%8B%E5%BC%8F%E6%B4%97%E7%A2%97%E6%A9%9F",
+          "source": "miele.kenk.com.tw",
+          "sourceUrl": "https://miele.kenk.com.tw/application/dish-washer",
+          "rspSource": "miele.kenk.com.tw"
+        },
+        {
+          "sku": "G7104C",
+          "brand": "Miele",
+          "width": "60cm",
+          "type": null,
+          "widthSource": "sku-rule",
+          "typeSource": null,
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
+          "sku": "G7114C",
+          "brand": "Miele",
+          "width": "60cm",
+          "type": null,
+          "widthSource": "sku-rule",
+          "typeSource": null,
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
+          "sku": "G7130C",
+          "brand": "Miele",
+          "width": "60cm",
+          "type": null,
+          "widthSource": "sku-rule",
+          "typeSource": null,
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
+          "sku": "G7130CSCI",
+          "brand": "Miele",
+          "width": "60cm",
+          "type": "Semi-integrated",
+          "widthSource": "miele.kenk.com.tw",
+          "typeSource": "miele.kenk.com.tw",
+          "confidence": "high",
+          "rsp": 97000,
+          "officialProductUrl": "https://miele.kenk.com.tw/product/dish-washer/no.g7130csci/%E5%8D%8A%E5%B5%8C%E5%BC%8F%E6%B4%97%E7%A2%97%E6%A9%9F",
+          "bodySize": "W598* D570*H805 mm",
+          "source": "miele.kenk.com.tw",
+          "sourceUrl": "https://miele.kenk.com.tw/application/dish-washer",
+          "rspSource": "miele.kenk.com.tw"
+        },
+        {
+          "sku": "G7180C",
+          "brand": "Miele",
+          "width": "60cm",
+          "type": null,
+          "widthSource": "sku-rule",
+          "typeSource": null,
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
+          "sku": "G7180CSCVI",
+          "brand": "Miele",
+          "width": "60cm",
+          "type": "Fully-integrated",
+          "widthSource": "miele.kenk.com.tw",
+          "typeSource": "miele.kenk.com.tw",
+          "confidence": "high",
+          "rsp": 107000,
+          "officialProductUrl": "https://miele.kenk.com.tw/product/dish-washer/no.g7180cscvi/%E5%85%A8%E5%B5%8C%E5%BC%8F%E6%B4%97%E7%A2%97%E6%A9%9F",
+          "bodySize": "W598* D570*H805 mm",
+          "source": "miele.kenk.com.tw",
+          "sourceUrl": "https://miele.kenk.com.tw/application/dish-washer",
+          "rspSource": "miele.kenk.com.tw"
+        },
+        {
+          "sku": "G7314C",
+          "brand": "Miele",
+          "width": "60cm",
+          "type": null,
+          "widthSource": "sku-rule",
+          "typeSource": null,
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
+          "sku": "G7314CSCI",
+          "brand": "Miele",
+          "width": "60cm",
+          "type": "Semi-integrated",
+          "widthSource": "miele.kenk.com.tw",
+          "typeSource": "miele.kenk.com.tw",
+          "confidence": "high",
+          "rsp": 104000,
+          "officialProductUrl": "https://miele.kenk.com.tw/product/dish-washer/no.g7314csci/%E5%8D%8A%E5%B5%8C%E5%BC%8F%E6%B4%97%E7%A2%97%E6%A9%9F",
+          "bodySize": "W598* D570*H805 mm",
+          "source": "miele.kenk.com.tw",
+          "sourceUrl": "https://miele.kenk.com.tw/application/dish-washer",
+          "rspSource": "miele.kenk.com.tw"
+        },
+        {
+          "sku": "G7364C",
+          "brand": "Miele",
+          "width": "60cm",
+          "type": null,
+          "widthSource": "sku-rule",
+          "typeSource": null,
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
+          "sku": "G7604CSCI",
+          "brand": "Miele",
+          "width": "60cm",
+          "type": "Semi-integrated",
+          "widthSource": "miele.kenk.com.tw",
+          "typeSource": "miele.kenk.com.tw",
+          "confidence": "high",
+          "rsp": 107000,
+          "officialProductUrl": "https://miele.kenk.com.tw/product/dish-washer/no.g7604csci/%E5%8D%8A%E5%B5%8C%E5%BC%8F%E6%B4%97%E7%A2%97%E6%A9%9F",
+          "bodySize": "W598* D570*H805 mm",
+          "source": "miele.kenk.com.tw",
+          "sourceUrl": "https://miele.kenk.com.tw/application/dish-washer",
+          "rspSource": "miele.kenk.com.tw"
+        },
+        {
+          "sku": "G7714CSCI",
+          "brand": "Miele",
+          "width": "60cm",
+          "type": "Semi-integrated",
+          "widthSource": "miele.kenk.com.tw",
+          "typeSource": "miele.kenk.com.tw",
+          "confidence": "high",
+          "rsp": 130000,
+          "officialProductUrl": "https://miele.kenk.com.tw/product/dish-washer/no.g7714csci/%E5%8D%8A%E5%B5%8C%E5%BC%8F%E6%B4%97%E7%A2%97%E6%A9%9F",
+          "bodySize": "W598* D570*H805 mm",
+          "source": "miele.kenk.com.tw",
+          "sourceUrl": "https://miele.kenk.com.tw/application/dish-washer",
+          "rspSource": "miele.kenk.com.tw"
+        },
+        {
+          "sku": "G7964C",
+          "brand": "Miele",
+          "width": "60cm",
+          "type": null,
+          "widthSource": "sku-rule",
+          "typeSource": null,
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
+          "sku": "G7964CSCVI",
+          "brand": "Miele",
+          "width": "60cm",
+          "type": "Fully-integrated",
+          "widthSource": "miele.kenk.com.tw",
+          "typeSource": "miele.kenk.com.tw",
+          "confidence": "high",
+          "rsp": 153000,
+          "officialProductUrl": "https://miele.kenk.com.tw/product/dish-washer/no.g7964cscvi/%E5%85%A8%E5%B5%8C%E5%BC%8F%E6%B4%97%E7%A2%97%E6%A9%9F",
+          "bodySize": "W598* D570*H805 mm",
+          "source": "miele.kenk.com.tw",
+          "sourceUrl": "https://miele.kenk.com.tw/application/dish-washer",
+          "rspSource": "miele.kenk.com.tw"
+        }
       ],
       "featureTagsBySku": [
         {
@@ -778,7 +1448,7 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "G5001",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
@@ -787,28 +1457,28 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "G5214",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "G5214C",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "G5214CSC",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
@@ -818,35 +1488,35 @@ window.PRODUCT_LIST_UPDATES = {
             "220V",
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "G5314CSCI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "G5364C",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "G5364CSCVI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "G7101",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
@@ -855,7 +1525,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "220V"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
@@ -864,35 +1534,35 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "220V"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "G7130C",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "G7130CSCI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "G7180C",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "G7180CSCVI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
@@ -901,21 +1571,21 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "220V"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "G7604CSCI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "G7714CSCI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         }
       ],
@@ -924,28 +1594,28 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "G5214CSC",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "New since baseline"
         },
         {
           "sku": "G5314CSCI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "New since baseline"
         },
         {
           "sku": "G7604CSCI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "New since baseline"
         },
         {
           "sku": "G7714CSCI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "New since baseline"
         }
       ],
@@ -998,6 +1668,128 @@ window.PRODUCT_LIST_UPDATES = {
         "KSE27200SW",
         "KSE49200SX"
       ],
+      "productMetadataBySku": [
+        {
+          "sku": "EBF7531SBA",
+          "brand": "Electrolux",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "EBF9442SBA",
+          "brand": "Electrolux",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "EEEM9420L",
+          "brand": "Electrolux",
+          "width": "60cm",
+          "type": "Fully-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
+          "sku": "EEM48300IX",
+          "brand": "Electrolux",
+          "width": "60cm",
+          "type": "Fully-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
+          "sku": "EEZB9410L",
+          "brand": "Electrolux",
+          "width": "60cm",
+          "type": "Fully-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
+          "sku": "EFF3360VWB",
+          "brand": "Electrolux",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "EFF5581SXA",
+          "brand": "Electrolux",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "EFF7591SXA",
+          "brand": "Electrolux",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "KEE47200IW",
+          "brand": "Electrolux",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "KSE27200SW",
+          "brand": "Electrolux",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "KSE43200SW",
+          "brand": "Electrolux",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "KSE49200SX",
+          "brand": "Electrolux",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        }
+      ],
       "featureTagsBySku": [
         {
           "sku": "EFF3360VWB",
@@ -1024,28 +1816,28 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "EBF7531SBA",
           "brand": "Electrolux",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "EBF9442SBA",
           "brand": "Electrolux",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "EEEM9420L",
           "brand": "Electrolux",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "EEM48300IX",
           "brand": "Electrolux",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
@@ -1054,21 +1846,21 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "KEE47200IW",
           "brand": "Electrolux",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "KSE43200SW",
           "brand": "Electrolux",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         }
       ],
@@ -1090,17 +1882,20 @@ window.PRODUCT_LIST_UPDATES = {
     },
     {
       "brand": "Panasonic",
-      "sourceCount": 2,
-      "foundCount": 13,
-      "knownCount": 4,
-      "unmappedCandidateCount": 9,
+      "sourceCount": 3,
+      "foundCount": 16,
+      "knownCount": 6,
+      "unmappedCandidateCount": 10,
       "newCandidateCount": 1,
       "foundSkus": [
         "NP-2KTBGR1TW",
         "NP-BXW1M6-1H",
+        "NP-BXW1M6-1HB",
+        "NP-BXW1M6-1HW",
         "NP-DFB2K6",
         "NP-DFB2K6-1H",
         "NP-DXK1E6",
+        "NP-DXK1E6-2H",
         "NP-FKABGJBTW",
         "NP-FKAKGJKTW",
         "NP-K1YWHR2TW",
@@ -1113,73 +1908,937 @@ window.PRODUCT_LIST_UPDATES = {
       "knownSkus": [
         "NP-2KTBGR1TW",
         "NP-BXW1M6-1H",
+        "NP-BXW1M6-1HB",
+        "NP-BXW1M6-1HW",
         "NP-DFB2K6",
         "NP-DFB2K6-1H"
       ],
-      "featureTagsBySku": [],
-      "featureEvidenceBySku": [],
+      "productMetadataBySku": [
+        {
+          "sku": "NP-2KTBGR1TW",
+          "brand": "Panasonic",
+          "width": "60cm",
+          "type": "Built-in",
+          "widthSource": "sku-rule",
+          "typeSource": "panasonic.com",
+          "confidence": "high",
+          "officialProductUrl": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-2ktbgr1tw.html",
+          "features": [
+            "高溫熱流洗淨",
+            "720°龍捲渦流",
+            "獨立熱循環烘乾",
+            "長效抑菌淨存7天",
+            "9大專業洗程"
+          ],
+          "source": "panasonic.com",
+          "sourceUrl": "https://www.panasonic.com/content/panasonic/tw/zh/consumer/kitchen/dishwasher/jcr:content/root/container_main/container/conditional-container/categoryproductpagelist.category.pinfo.full.json",
+          "rspSource": null
+        },
+        {
+          "sku": "NP-BXW1M6-1H",
+          "brand": "Panasonic",
+          "width": "60cm",
+          "type": "Built-in",
+          "widthSource": "sku-rule",
+          "typeSource": "panasonic.com",
+          "confidence": "high",
+          "officialProductUrl": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-bxw1m6-1h.html",
+          "features": [
+            "nanoe™ X 洗前除臭．洗後抑菌",
+            "高溫熱流洗淨",
+            "720°龍捲渦流",
+            "獨立熱循環烘乾",
+            "領先業界長效抑菌淨存30天",
+            "12項洗淨模式",
+            "三層大容量"
+          ],
+          "source": "panasonic.com",
+          "sourceUrl": "https://www.panasonic.com/content/panasonic/tw/zh/consumer/kitchen/dishwasher/jcr:content/root/container_main/container/conditional-container/categoryproductpagelist.category.pinfo.full.json",
+          "rspSource": null
+        },
+        {
+          "sku": "NP-BXW1M6-1HB",
+          "brand": "Panasonic",
+          "width": "60cm",
+          "type": "Built-in",
+          "widthSource": "sku-rule",
+          "typeSource": "panasonic.com",
+          "confidence": "high",
+          "officialProductUrl": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-bxw1m6-1h.html",
+          "features": [
+            "nanoe™ X 洗前除臭．洗後抑菌",
+            "高溫熱流洗淨",
+            "720°龍捲渦流",
+            "獨立熱循環烘乾",
+            "領先業界長效抑菌淨存30天",
+            "12項洗淨模式",
+            "三層大容量"
+          ],
+          "source": "panasonic.com",
+          "sourceUrl": "https://www.panasonic.com/content/panasonic/tw/zh/consumer/kitchen/dishwasher/jcr:content/root/container_main/container/conditional-container/categoryproductpagelist.category.pinfo.full.json",
+          "rspSource": null
+        },
+        {
+          "sku": "NP-BXW1M6-1HW",
+          "brand": "Panasonic",
+          "width": "60cm",
+          "type": "Built-in",
+          "widthSource": "sku-rule",
+          "typeSource": "panasonic.com",
+          "confidence": "high",
+          "officialProductUrl": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-bxw1m6-1h.html",
+          "features": [
+            "nanoe™ X 洗前除臭．洗後抑菌",
+            "高溫熱流洗淨",
+            "720°龍捲渦流",
+            "獨立熱循環烘乾",
+            "領先業界長效抑菌淨存30天",
+            "12項洗淨模式",
+            "三層大容量"
+          ],
+          "source": "panasonic.com",
+          "sourceUrl": "https://www.panasonic.com/content/panasonic/tw/zh/consumer/kitchen/dishwasher/jcr:content/root/container_main/container/conditional-container/categoryproductpagelist.category.pinfo.full.json",
+          "rspSource": null
+        },
+        {
+          "sku": "NP-DFB2K6",
+          "brand": "Panasonic",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "NP-DFB2K6-1H",
+          "brand": "Panasonic",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "panasonic.com",
+          "confidence": "high",
+          "officialProductUrl": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-dfb2k6-1h.html",
+          "features": [
+            "高溫熱流洗淨",
+            "720°龍捲渦流",
+            "獨立熱循環烘乾",
+            "長效抑菌淨存7天",
+            "8大專業洗程"
+          ],
+          "source": "panasonic.com",
+          "sourceUrl": "https://www.panasonic.com/content/panasonic/tw/zh/consumer/kitchen/dishwasher/jcr:content/root/container_main/container/conditional-container/categoryproductpagelist.category.pinfo.full.json",
+          "rspSource": null
+        },
+        {
+          "sku": "NP-DXK1E6",
+          "brand": "Panasonic",
+          "width": null,
+          "type": "Countertop/compact",
+          "widthSource": null,
+          "typeSource": "sku-rule",
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
+          "sku": "NP-DXK1E6-2H",
+          "brand": "Panasonic",
+          "width": null,
+          "type": "Countertop/compact",
+          "widthSource": null,
+          "typeSource": "panasonic.com",
+          "confidence": "high",
+          "officialProductUrl": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-dxk1e6-2h.html",
+          "features": [
+            "nanoe™ X 洗前除臭．洗後抑菌",
+            "高溫熱流洗淨",
+            "720°龍捲渦流",
+            "獨立熱循環烘乾",
+            "領先業界長效抑菌淨存30天",
+            "12項洗淨模式",
+            "三層大容量"
+          ],
+          "source": "panasonic.com",
+          "sourceUrl": "https://www.panasonic.com/content/panasonic/tw/zh/consumer/kitchen/dishwasher/jcr:content/root/container_main/container/conditional-container/categoryproductpagelist.category.pinfo.full.json",
+          "rspSource": null
+        },
+        {
+          "sku": "NP-FKABGJBTW",
+          "brand": "Panasonic",
+          "width": null,
+          "type": "Built-in",
+          "widthSource": null,
+          "typeSource": "panasonic.com",
+          "confidence": "high",
+          "officialProductUrl": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-2ktbgr1tw.html",
+          "features": [
+            "高溫熱流洗淨",
+            "720°龍捲渦流",
+            "獨立熱循環烘乾",
+            "長效抑菌淨存7天",
+            "9大專業洗程"
+          ],
+          "source": "panasonic.com",
+          "sourceUrl": "https://www.panasonic.com/content/panasonic/tw/zh/consumer/kitchen/dishwasher/jcr:content/root/container_main/container/conditional-container/categoryproductpagelist.category.pinfo.full.json",
+          "rspSource": null
+        },
+        {
+          "sku": "NP-FKAKGJKTW",
+          "brand": "Panasonic",
+          "width": null,
+          "type": "Built-in",
+          "widthSource": null,
+          "typeSource": "panasonic.com",
+          "confidence": "high",
+          "officialProductUrl": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-2ktbgr1tw.html",
+          "features": [
+            "高溫熱流洗淨",
+            "720°龍捲渦流",
+            "獨立熱循環烘乾",
+            "長效抑菌淨存7天",
+            "9大專業洗程"
+          ],
+          "source": "panasonic.com",
+          "sourceUrl": "https://www.panasonic.com/content/panasonic/tw/zh/consumer/kitchen/dishwasher/jcr:content/root/container_main/container/conditional-container/categoryproductpagelist.category.pinfo.full.json",
+          "rspSource": null
+        },
+        {
+          "sku": "NP-K1YWHR2TW",
+          "brand": "Panasonic",
+          "width": null,
+          "type": "Countertop/compact",
+          "widthSource": null,
+          "typeSource": "panasonic.com",
+          "confidence": "high",
+          "officialProductUrl": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-k1ywhr2tw.html",
+          "features": [
+            "nanoe™ X 洗前除臭．洗後抑菌",
+            "AI-ECONAVI智能洗",
+            "80℃高溫洗淨",
+            "4組獨立洗臂 多角度噴射孔",
+            "360°高壓噴射水柱",
+            "獨立自動給水",
+            "獨立熱循環烘乾",
+            "11項洗淨模式",
+            "薄型機身"
+          ],
+          "source": "panasonic.com",
+          "sourceUrl": "https://www.panasonic.com/content/panasonic/tw/zh/consumer/kitchen/dishwasher/jcr:content/root/container_main/container/conditional-container/categoryproductpagelist.category.pinfo.full.json",
+          "rspSource": null
+        },
+        {
+          "sku": "NP-TH4WHR1TW",
+          "brand": "Panasonic",
+          "width": null,
+          "type": "Countertop/compact",
+          "widthSource": null,
+          "typeSource": "panasonic.com",
+          "confidence": "high",
+          "officialProductUrl": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-th4whr1tw.html",
+          "features": [
+            "80℃高溫洗淨",
+            "4組獨立洗臂 多角度噴射孔",
+            "360〫高壓噴射水柱",
+            "獨立自動給水",
+            "獨立熱循環烘乾",
+            "11項洗淨模式"
+          ],
+          "source": "panasonic.com",
+          "sourceUrl": "https://www.panasonic.com/content/panasonic/tw/zh/consumer/kitchen/dishwasher/jcr:content/root/container_main/container/conditional-container/categoryproductpagelist.category.pinfo.full.json",
+          "rspSource": null
+        },
+        {
+          "sku": "NP-TH4WHR1TW-D",
+          "brand": "Panasonic",
+          "width": null,
+          "type": "Countertop/compact",
+          "widthSource": null,
+          "typeSource": "sku-rule",
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
+          "sku": "NP-TSK1",
+          "brand": "Panasonic",
+          "width": null,
+          "type": "Countertop/compact",
+          "widthSource": null,
+          "typeSource": "sku-rule",
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
+          "sku": "NP-TSP1",
+          "brand": "Panasonic",
+          "width": null,
+          "type": "Countertop/compact",
+          "widthSource": null,
+          "typeSource": "sku-rule",
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
+          "sku": "NP-TZ300",
+          "brand": "Panasonic",
+          "width": null,
+          "type": "Countertop/compact",
+          "widthSource": null,
+          "typeSource": "sku-rule",
+          "confidence": "low",
+          "rspSource": null
+        }
+      ],
+      "featureTagsBySku": [
+        {
+          "sku": "NP-2KTBGR1TW",
+          "tags": [
+            "720°龍捲渦流",
+            "9大專業洗程",
+            "獨立熱循環烘乾",
+            "長效抑菌淨存7天",
+            "高溫熱流洗淨"
+          ]
+        },
+        {
+          "sku": "NP-BXW1M6-1H",
+          "tags": [
+            "12項洗淨模式",
+            "720°龍捲渦流",
+            "nanoe™ X 洗前除臭．洗後抑菌",
+            "三層大容量",
+            "獨立熱循環烘乾",
+            "領先業界長效抑菌淨存30天",
+            "高溫熱流洗淨"
+          ]
+        },
+        {
+          "sku": "NP-BXW1M6-1HB",
+          "tags": [
+            "12項洗淨模式",
+            "720°龍捲渦流",
+            "nanoe™ X 洗前除臭．洗後抑菌",
+            "三層大容量",
+            "獨立熱循環烘乾",
+            "領先業界長效抑菌淨存30天",
+            "高溫熱流洗淨"
+          ]
+        },
+        {
+          "sku": "NP-BXW1M6-1HW",
+          "tags": [
+            "12項洗淨模式",
+            "720°龍捲渦流",
+            "nanoe™ X 洗前除臭．洗後抑菌",
+            "三層大容量",
+            "獨立熱循環烘乾",
+            "領先業界長效抑菌淨存30天",
+            "高溫熱流洗淨"
+          ]
+        },
+        {
+          "sku": "NP-DFB2K6-1H",
+          "tags": [
+            "720°龍捲渦流",
+            "8大專業洗程",
+            "獨立熱循環烘乾",
+            "長效抑菌淨存7天",
+            "高溫熱流洗淨"
+          ]
+        },
+        {
+          "sku": "NP-DXK1E6-2H",
+          "tags": [
+            "12項洗淨模式",
+            "720°龍捲渦流",
+            "nanoe™ X 洗前除臭．洗後抑菌",
+            "三層大容量",
+            "獨立熱循環烘乾",
+            "領先業界長效抑菌淨存30天",
+            "高溫熱流洗淨"
+          ]
+        },
+        {
+          "sku": "NP-FKABGJBTW",
+          "tags": [
+            "720°龍捲渦流",
+            "9大專業洗程",
+            "獨立熱循環烘乾",
+            "長效抑菌淨存7天",
+            "高溫熱流洗淨"
+          ]
+        },
+        {
+          "sku": "NP-FKAKGJKTW",
+          "tags": [
+            "720°龍捲渦流",
+            "9大專業洗程",
+            "獨立熱循環烘乾",
+            "長效抑菌淨存7天",
+            "高溫熱流洗淨"
+          ]
+        },
+        {
+          "sku": "NP-K1YWHR2TW",
+          "tags": [
+            "11項洗淨模式",
+            "360°高壓噴射水柱",
+            "4組獨立洗臂 多角度噴射孔",
+            "80℃高溫洗淨",
+            "AI-ECONAVI智能洗",
+            "nanoe™ X 洗前除臭．洗後抑菌",
+            "獨立熱循環烘乾",
+            "獨立自動給水",
+            "薄型機身"
+          ]
+        },
+        {
+          "sku": "NP-TH4WHR1TW",
+          "tags": [
+            "11項洗淨模式",
+            "360〫高壓噴射水柱",
+            "4組獨立洗臂 多角度噴射孔",
+            "80℃高溫洗淨",
+            "獨立熱循環烘乾",
+            "獨立自動給水"
+          ]
+        }
+      ],
+      "featureEvidenceBySku": [
+        {
+          "sku": "NP-2KTBGR1TW",
+          "evidence": [
+            {
+              "tag": "720°龍捲渦流",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-2ktbgr1tw.html",
+              "confidence": "high",
+              "evidence": "720°龍捲渦流"
+            },
+            {
+              "tag": "9大專業洗程",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-2ktbgr1tw.html",
+              "confidence": "high",
+              "evidence": "9大專業洗程"
+            },
+            {
+              "tag": "長效抑菌淨存7天",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-2ktbgr1tw.html",
+              "confidence": "high",
+              "evidence": "長效抑菌淨存7天"
+            },
+            {
+              "tag": "高溫熱流洗淨",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-2ktbgr1tw.html",
+              "confidence": "high",
+              "evidence": "高溫熱流洗淨"
+            },
+            {
+              "tag": "獨立熱循環烘乾",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-2ktbgr1tw.html",
+              "confidence": "high",
+              "evidence": "獨立熱循環烘乾"
+            }
+          ]
+        },
+        {
+          "sku": "NP-BXW1M6-1H",
+          "evidence": [
+            {
+              "tag": "12項洗淨模式",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-bxw1m6-1h.html",
+              "confidence": "high",
+              "evidence": "12項洗淨模式"
+            },
+            {
+              "tag": "720°龍捲渦流",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-bxw1m6-1h.html",
+              "confidence": "high",
+              "evidence": "720°龍捲渦流"
+            },
+            {
+              "tag": "三層大容量",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-bxw1m6-1h.html",
+              "confidence": "high",
+              "evidence": "三層大容量"
+            },
+            {
+              "tag": "高溫熱流洗淨",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-bxw1m6-1h.html",
+              "confidence": "high",
+              "evidence": "高溫熱流洗淨"
+            },
+            {
+              "tag": "領先業界長效抑菌淨存30天",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-bxw1m6-1h.html",
+              "confidence": "high",
+              "evidence": "領先業界長效抑菌淨存30天"
+            },
+            {
+              "tag": "獨立熱循環烘乾",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-bxw1m6-1h.html",
+              "confidence": "high",
+              "evidence": "獨立熱循環烘乾"
+            },
+            {
+              "tag": "nanoe™ X 洗前除臭．洗後抑菌",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-bxw1m6-1h.html",
+              "confidence": "high",
+              "evidence": "nanoe™ X 洗前除臭．洗後抑菌"
+            }
+          ]
+        },
+        {
+          "sku": "NP-BXW1M6-1HB",
+          "evidence": [
+            {
+              "tag": "12項洗淨模式",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-bxw1m6-1h.html",
+              "confidence": "high",
+              "evidence": "12項洗淨模式"
+            },
+            {
+              "tag": "720°龍捲渦流",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-bxw1m6-1h.html",
+              "confidence": "high",
+              "evidence": "720°龍捲渦流"
+            },
+            {
+              "tag": "三層大容量",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-bxw1m6-1h.html",
+              "confidence": "high",
+              "evidence": "三層大容量"
+            },
+            {
+              "tag": "高溫熱流洗淨",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-bxw1m6-1h.html",
+              "confidence": "high",
+              "evidence": "高溫熱流洗淨"
+            },
+            {
+              "tag": "領先業界長效抑菌淨存30天",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-bxw1m6-1h.html",
+              "confidence": "high",
+              "evidence": "領先業界長效抑菌淨存30天"
+            },
+            {
+              "tag": "獨立熱循環烘乾",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-bxw1m6-1h.html",
+              "confidence": "high",
+              "evidence": "獨立熱循環烘乾"
+            },
+            {
+              "tag": "nanoe™ X 洗前除臭．洗後抑菌",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-bxw1m6-1h.html",
+              "confidence": "high",
+              "evidence": "nanoe™ X 洗前除臭．洗後抑菌"
+            }
+          ]
+        },
+        {
+          "sku": "NP-BXW1M6-1HW",
+          "evidence": [
+            {
+              "tag": "12項洗淨模式",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-bxw1m6-1h.html",
+              "confidence": "high",
+              "evidence": "12項洗淨模式"
+            },
+            {
+              "tag": "720°龍捲渦流",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-bxw1m6-1h.html",
+              "confidence": "high",
+              "evidence": "720°龍捲渦流"
+            },
+            {
+              "tag": "三層大容量",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-bxw1m6-1h.html",
+              "confidence": "high",
+              "evidence": "三層大容量"
+            },
+            {
+              "tag": "高溫熱流洗淨",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-bxw1m6-1h.html",
+              "confidence": "high",
+              "evidence": "高溫熱流洗淨"
+            },
+            {
+              "tag": "領先業界長效抑菌淨存30天",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-bxw1m6-1h.html",
+              "confidence": "high",
+              "evidence": "領先業界長效抑菌淨存30天"
+            },
+            {
+              "tag": "獨立熱循環烘乾",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-bxw1m6-1h.html",
+              "confidence": "high",
+              "evidence": "獨立熱循環烘乾"
+            },
+            {
+              "tag": "nanoe™ X 洗前除臭．洗後抑菌",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-bxw1m6-1h.html",
+              "confidence": "high",
+              "evidence": "nanoe™ X 洗前除臭．洗後抑菌"
+            }
+          ]
+        },
+        {
+          "sku": "NP-DFB2K6-1H",
+          "evidence": [
+            {
+              "tag": "720°龍捲渦流",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-dfb2k6-1h.html",
+              "confidence": "high",
+              "evidence": "720°龍捲渦流"
+            },
+            {
+              "tag": "8大專業洗程",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-dfb2k6-1h.html",
+              "confidence": "high",
+              "evidence": "8大專業洗程"
+            },
+            {
+              "tag": "長效抑菌淨存7天",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-dfb2k6-1h.html",
+              "confidence": "high",
+              "evidence": "長效抑菌淨存7天"
+            },
+            {
+              "tag": "高溫熱流洗淨",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-dfb2k6-1h.html",
+              "confidence": "high",
+              "evidence": "高溫熱流洗淨"
+            },
+            {
+              "tag": "獨立熱循環烘乾",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-dfb2k6-1h.html",
+              "confidence": "high",
+              "evidence": "獨立熱循環烘乾"
+            }
+          ]
+        },
+        {
+          "sku": "NP-DXK1E6-2H",
+          "evidence": [
+            {
+              "tag": "12項洗淨模式",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-dxk1e6-2h.html",
+              "confidence": "high",
+              "evidence": "12項洗淨模式"
+            },
+            {
+              "tag": "720°龍捲渦流",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-dxk1e6-2h.html",
+              "confidence": "high",
+              "evidence": "720°龍捲渦流"
+            },
+            {
+              "tag": "三層大容量",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-dxk1e6-2h.html",
+              "confidence": "high",
+              "evidence": "三層大容量"
+            },
+            {
+              "tag": "高溫熱流洗淨",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-dxk1e6-2h.html",
+              "confidence": "high",
+              "evidence": "高溫熱流洗淨"
+            },
+            {
+              "tag": "領先業界長效抑菌淨存30天",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-dxk1e6-2h.html",
+              "confidence": "high",
+              "evidence": "領先業界長效抑菌淨存30天"
+            },
+            {
+              "tag": "獨立熱循環烘乾",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-dxk1e6-2h.html",
+              "confidence": "high",
+              "evidence": "獨立熱循環烘乾"
+            },
+            {
+              "tag": "nanoe™ X 洗前除臭．洗後抑菌",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-dxk1e6-2h.html",
+              "confidence": "high",
+              "evidence": "nanoe™ X 洗前除臭．洗後抑菌"
+            }
+          ]
+        },
+        {
+          "sku": "NP-FKABGJBTW",
+          "evidence": [
+            {
+              "tag": "720°龍捲渦流",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-2ktbgr1tw.html",
+              "confidence": "high",
+              "evidence": "720°龍捲渦流"
+            },
+            {
+              "tag": "9大專業洗程",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-2ktbgr1tw.html",
+              "confidence": "high",
+              "evidence": "9大專業洗程"
+            },
+            {
+              "tag": "長效抑菌淨存7天",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-2ktbgr1tw.html",
+              "confidence": "high",
+              "evidence": "長效抑菌淨存7天"
+            },
+            {
+              "tag": "高溫熱流洗淨",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-2ktbgr1tw.html",
+              "confidence": "high",
+              "evidence": "高溫熱流洗淨"
+            },
+            {
+              "tag": "獨立熱循環烘乾",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-2ktbgr1tw.html",
+              "confidence": "high",
+              "evidence": "獨立熱循環烘乾"
+            }
+          ]
+        },
+        {
+          "sku": "NP-FKAKGJKTW",
+          "evidence": [
+            {
+              "tag": "720°龍捲渦流",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-2ktbgr1tw.html",
+              "confidence": "high",
+              "evidence": "720°龍捲渦流"
+            },
+            {
+              "tag": "9大專業洗程",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-2ktbgr1tw.html",
+              "confidence": "high",
+              "evidence": "9大專業洗程"
+            },
+            {
+              "tag": "長效抑菌淨存7天",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-2ktbgr1tw.html",
+              "confidence": "high",
+              "evidence": "長效抑菌淨存7天"
+            },
+            {
+              "tag": "高溫熱流洗淨",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-2ktbgr1tw.html",
+              "confidence": "high",
+              "evidence": "高溫熱流洗淨"
+            },
+            {
+              "tag": "獨立熱循環烘乾",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-2ktbgr1tw.html",
+              "confidence": "high",
+              "evidence": "獨立熱循環烘乾"
+            }
+          ]
+        },
+        {
+          "sku": "NP-K1YWHR2TW",
+          "evidence": [
+            {
+              "tag": "11項洗淨模式",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-k1ywhr2tw.html",
+              "confidence": "high",
+              "evidence": "11項洗淨模式"
+            },
+            {
+              "tag": "360°高壓噴射水柱",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-k1ywhr2tw.html",
+              "confidence": "high",
+              "evidence": "360°高壓噴射水柱"
+            },
+            {
+              "tag": "4組獨立洗臂 多角度噴射孔",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-k1ywhr2tw.html",
+              "confidence": "high",
+              "evidence": "4組獨立洗臂 多角度噴射孔"
+            },
+            {
+              "tag": "80℃高溫洗淨",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-k1ywhr2tw.html",
+              "confidence": "high",
+              "evidence": "80℃高溫洗淨"
+            },
+            {
+              "tag": "獨立自動給水",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-k1ywhr2tw.html",
+              "confidence": "high",
+              "evidence": "獨立自動給水"
+            },
+            {
+              "tag": "獨立熱循環烘乾",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-k1ywhr2tw.html",
+              "confidence": "high",
+              "evidence": "獨立熱循環烘乾"
+            },
+            {
+              "tag": "薄型機身",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-k1ywhr2tw.html",
+              "confidence": "high",
+              "evidence": "薄型機身"
+            },
+            {
+              "tag": "AI-ECONAVI智能洗",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-k1ywhr2tw.html",
+              "confidence": "high",
+              "evidence": "AI-ECONAVI智能洗"
+            },
+            {
+              "tag": "nanoe™ X 洗前除臭．洗後抑菌",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-k1ywhr2tw.html",
+              "confidence": "high",
+              "evidence": "nanoe™ X 洗前除臭．洗後抑菌"
+            }
+          ]
+        },
+        {
+          "sku": "NP-TH4WHR1TW",
+          "evidence": [
+            {
+              "tag": "11項洗淨模式",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-th4whr1tw.html",
+              "confidence": "high",
+              "evidence": "11項洗淨模式"
+            },
+            {
+              "tag": "360〫高壓噴射水柱",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-th4whr1tw.html",
+              "confidence": "high",
+              "evidence": "360〫高壓噴射水柱"
+            },
+            {
+              "tag": "4組獨立洗臂 多角度噴射孔",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-th4whr1tw.html",
+              "confidence": "high",
+              "evidence": "4組獨立洗臂 多角度噴射孔"
+            },
+            {
+              "tag": "80℃高溫洗淨",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-th4whr1tw.html",
+              "confidence": "high",
+              "evidence": "80℃高溫洗淨"
+            },
+            {
+              "tag": "獨立自動給水",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-th4whr1tw.html",
+              "confidence": "high",
+              "evidence": "獨立自動給水"
+            },
+            {
+              "tag": "獨立熱循環烘乾",
+              "source": "https://www.panasonic.com/tw/consumer/kitchen/dishwasher/np-th4whr1tw.html",
+              "confidence": "high",
+              "evidence": "獨立熱循環烘乾"
+            }
+          ]
+        }
+      ],
       "unmappedCandidates": [
         {
           "sku": "NP-DXK1E6",
           "brand": "Panasonic",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
+          "status": "Unmapped"
+        },
+        {
+          "sku": "NP-DXK1E6-2H",
+          "brand": "Panasonic",
+          "featureTags": [
+            "12項洗淨模式",
+            "720°龍捲渦流",
+            "nanoe™ X 洗前除臭．洗後抑菌",
+            "三層大容量",
+            "獨立熱循環烘乾",
+            "領先業界長效抑菌淨存30天",
+            "高溫熱流洗淨"
+          ],
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "NP-FKABGJBTW",
           "brand": "Panasonic",
-          "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "featureTags": [
+            "720°龍捲渦流",
+            "9大專業洗程",
+            "獨立熱循環烘乾",
+            "長效抑菌淨存7天",
+            "高溫熱流洗淨"
+          ],
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "NP-FKAKGJKTW",
           "brand": "Panasonic",
-          "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "featureTags": [
+            "720°龍捲渦流",
+            "9大專業洗程",
+            "獨立熱循環烘乾",
+            "長效抑菌淨存7天",
+            "高溫熱流洗淨"
+          ],
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "NP-K1YWHR2TW",
           "brand": "Panasonic",
-          "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "featureTags": [
+            "11項洗淨模式",
+            "360°高壓噴射水柱",
+            "4組獨立洗臂 多角度噴射孔",
+            "80℃高溫洗淨",
+            "AI-ECONAVI智能洗",
+            "nanoe™ X 洗前除臭．洗後抑菌",
+            "獨立熱循環烘乾",
+            "獨立自動給水",
+            "薄型機身"
+          ],
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "NP-TH4WHR1TW",
           "brand": "Panasonic",
-          "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "featureTags": [
+            "11項洗淨模式",
+            "360〫高壓噴射水柱",
+            "4組獨立洗臂 多角度噴射孔",
+            "80℃高溫洗淨",
+            "獨立熱循環烘乾",
+            "獨立自動給水"
+          ],
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "NP-TH4WHR1TW-D",
           "brand": "Panasonic",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "NP-TSK1",
           "brand": "Panasonic",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "NP-TSP1",
           "brand": "Panasonic",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "NP-TZ300",
           "brand": "Panasonic",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         }
       ],
@@ -1188,11 +2847,18 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "NP-TH4WHR1TW-D",
           "brand": "Panasonic",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "New since baseline"
         }
       ],
       "sources": [
+        {
+          "url": "https://www.panasonic.com/content/panasonic/tw/zh/consumer/kitchen/dishwasher/jcr:content/root/container_main/container/conditional-container/categoryproductpagelist.category.pinfo.full.json",
+          "status": "Scanned",
+          "httpStatus": 200,
+          "candidateCount": 14,
+          "parser": "panasonic-json"
+        },
         {
           "url": "https://biggo.com.tw/s/Panasonic%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "status": "Scanned",
@@ -1209,14 +2875,15 @@ window.PRODUCT_LIST_UPDATES = {
     },
     {
       "brand": "Svago",
-      "sourceCount": 3,
-      "foundCount": 9,
+      "sourceCount": 4,
+      "foundCount": 10,
       "knownCount": 2,
-      "unmappedCandidateCount": 7,
+      "unmappedCandidateCount": 8,
       "newCandidateCount": 0,
       "foundSkus": [
         "VD6111",
         "VD6561",
+        "VD8565",
         "VE7190",
         "VE7545",
         "VE7650",
@@ -1229,41 +2896,366 @@ window.PRODUCT_LIST_UPDATES = {
         "VE7190",
         "VE7850"
       ],
+      "productMetadataBySku": [
+        {
+          "sku": "VD6111",
+          "brand": "Svago",
+          "width": "45cm",
+          "type": "Semi-integrated",
+          "widthSource": "svago-kitchens.com.tw",
+          "typeSource": "svago-kitchens.com.tw",
+          "confidence": "high",
+          "rsp": 30000,
+          "officialProductUrl": "https://www.svago-kitchens.com.tw/Product/View/82112",
+          "features": [
+            "Auto Open 自動開門乾燥設計 (可選擇關閉)",
+            "8種洗程(強力/自動/節能/極靜/衛生殺菌/60分鐘/預洗/機器自清)",
+            "4種加強功能(加強乾燥/加強洗淨/上下層洗/縮短清洗)",
+            "最高溫度72度",
+            "加速洗淨功能",
+            "24 小時延遲啟動功能",
+            "兒童安全鎖",
+            "機器自清"
+          ],
+          "source": "svago-kitchens.com.tw",
+          "sourceUrl": "https://www.svago-kitchens.com.tw/Product/category/83013",
+          "detailUrl": "https://www.svago-kitchens.com.tw/Product/detail?product_id=82112",
+          "rspSource": "svago-kitchens.com.tw"
+        },
+        {
+          "sku": "VD6561",
+          "brand": "Svago",
+          "width": "60cm",
+          "type": "Semi-integrated",
+          "widthSource": "svago-kitchens.com.tw",
+          "typeSource": "svago-kitchens.com.tw",
+          "confidence": "high",
+          "rsp": 43000,
+          "officialProductUrl": "https://www.svago-kitchens.com.tw/Product/View/82472",
+          "features": [
+            "Auto Open 自動開門(可關閉)",
+            "熱烘存儲(4/24/72/168H)可單獨開啟",
+            "9段洗程(自動/經濟/衛生殺菌/精緻/90分鐘/58分鐘/快洗/預洗/機器自清)",
+            "3種加強功能(加速洗淨/自動開門/上下層洗)",
+            "最高溫度72度C",
+            "3組噴水臂/360度強力水柱",
+            "3層籃架",
+            "24小時延遲啟動功能",
+            "Aqua Stop安全進水管設計",
+            "304不鏽鋼內層"
+          ],
+          "source": "svago-kitchens.com.tw",
+          "sourceUrl": "https://www.svago-kitchens.com.tw/Product/category/83013",
+          "detailUrl": "https://www.svago-kitchens.com.tw/Product/detail?product_id=82472",
+          "rspSource": "svago-kitchens.com.tw"
+        },
+        {
+          "sku": "VD8565",
+          "brand": "Svago",
+          "width": "60cm",
+          "type": "Semi-integrated",
+          "widthSource": "svago-kitchens.com.tw",
+          "typeSource": "svago-kitchens.com.tw",
+          "confidence": "high",
+          "rsp": 46000,
+          "officialProductUrl": "https://www.svago-kitchens.com.tw/Product/View/82482",
+          "features": [
+            "Auto Open 自動開門(可關閉)",
+            "熱烘存儲(4/24/72/168H)可單獨開啟",
+            "數位投影照地鐘",
+            "9段洗程(自動／經濟／衛生殺菌／極靜／90分鐘／58分鐘／快洗／ 預洗／機器自清)",
+            "4種加強功能(加速洗淨／加強洗淨／自動開門／上下層洗)",
+            "最高溫度72度C",
+            "3組噴水臂/360度強力水柱",
+            "3層籃架",
+            "24小時延遲啟動功能",
+            "Aqua Stop安全進水管設計",
+            "304不鏽鋼內層"
+          ],
+          "source": "svago-kitchens.com.tw",
+          "sourceUrl": "https://www.svago-kitchens.com.tw/Product/category/83013",
+          "detailUrl": "https://www.svago-kitchens.com.tw/Product/detail?product_id=82482",
+          "rspSource": "svago-kitchens.com.tw"
+        },
+        {
+          "sku": "VE7190",
+          "brand": "Svago",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "svago-kitchens.com.tw",
+          "typeSource": "svago-kitchens.com.tw",
+          "confidence": "high",
+          "rsp": 39900,
+          "officialProductUrl": "https://www.svago-kitchens.com.tw/Product/View/81935",
+          "features": [
+            "Fresh&Drying清新存儲72小時",
+            "HeatDry熱風烘乾，手洗後快速烘乾",
+            "最高72℃高溫漂洗",
+            "三組噴水臂360度3D水網",
+            "預約啟動功能",
+            "中式三層籃架",
+            "304不鏽鋼腔體",
+            "可獨立擺放或嵌櫃安裝",
+            "電壓、高度新換購皆宜、免拉專線免改櫃",
+            "9種洗程：經濟/機器自清/強力/一般/精緻/快速/預洗/重汙/極靜",
+            "4種加強功能：加速洗淨/加強烘乾/清新存儲/熱風烘乾"
+          ],
+          "source": "svago-kitchens.com.tw",
+          "sourceUrl": "https://www.svago-kitchens.com.tw/Product/category/83013",
+          "detailUrl": "https://www.svago-kitchens.com.tw/Product/detail?product_id=81935",
+          "rspSource": "svago-kitchens.com.tw"
+        },
+        {
+          "sku": "VE7545",
+          "brand": "Svago",
+          "width": "45cm",
+          "type": "Semi-integrated",
+          "widthSource": "svago-kitchens.com.tw",
+          "typeSource": "svago-kitchens.com.tw",
+          "confidence": "high",
+          "rsp": 30000,
+          "officialProductUrl": "https://www.svago-kitchens.com.tw/Product/View/81679",
+          "features": [
+            "Auto Open 自動開門乾燥設計 (可選擇關閉)",
+            "8種洗程(強力/自動/節能/極靜/衛生殺菌/60分鐘/預洗/機器自清)",
+            "4種加強功能(加強乾燥/加強洗淨/上下層洗/縮短清洗)",
+            "最高溫度72度",
+            "加速洗淨功能",
+            "24 小時延遲啟動功能",
+            "兒童安全鎖",
+            "機器自清"
+          ],
+          "source": "svago-kitchens.com.tw",
+          "sourceUrl": "https://www.svago-kitchens.com.tw/Product/category/83013",
+          "detailUrl": "https://www.svago-kitchens.com.tw/Product/detail?product_id=81679",
+          "rspSource": "svago-kitchens.com.tw"
+        },
+        {
+          "sku": "VE7650",
+          "brand": "Svago",
+          "width": "60cm",
+          "type": "Semi-integrated",
+          "widthSource": "svago-kitchens.com.tw",
+          "typeSource": "svago-kitchens.com.tw",
+          "confidence": "high",
+          "rsp": 31500,
+          "officialProductUrl": "https://www.svago-kitchens.com.tw/Product/View/81544",
+          "features": [
+            "Auto Open 自動開門乾燥設計",
+            "8段洗程：ㄧ般/強力/自動/節能/精緻/快洗/90分鐘/預洗",
+            "加強功能：加強乾燥/加強洗淨/上下層洗",
+            "最高溫度70度",
+            "三組噴水臂，360 度強力水柱",
+            "三層籃架，可調式上碗籃",
+            "24 小時延遲啟動功能",
+            "Aqua Stop安全進水管設計",
+            "304不鏽鋼內層，環保無毒碗籃架材質，耐磨抗腐蝕，兼顧美觀與食用安全",
+            "兒童安全鎖",
+            "嵌入式機型(需搭配門板)",
+            "中式碗籃架設計"
+          ],
+          "source": "svago-kitchens.com.tw",
+          "sourceUrl": "https://www.svago-kitchens.com.tw/Product/category/83013",
+          "detailUrl": "https://www.svago-kitchens.com.tw/Product/detail?product_id=81544",
+          "rspSource": "svago-kitchens.com.tw"
+        },
+        {
+          "sku": "VE7750",
+          "brand": "Svago",
+          "width": "60cm",
+          "type": "Fully-integrated",
+          "widthSource": "svago-kitchens.com.tw",
+          "typeSource": "svago-kitchens.com.tw",
+          "confidence": "high",
+          "rsp": 31500,
+          "officialProductUrl": "https://www.svago-kitchens.com.tw/Product/View/81500",
+          "features": [
+            "Auto Open 自動開門乾燥設計",
+            "8段洗程：ㄧ般/強力/自動/節能/精緻/快洗/90分鐘/預洗",
+            "加強功能：加強乾燥/加強洗淨/上下層洗/縮短清洗/節能",
+            "三組噴水臂，360 度強力水柱",
+            "三層籃架，可調式上碗籃",
+            "304不銹鋼內層，環保無毒害碗籃架材質，耐高溫易清洗",
+            "中式碗籃架設計",
+            "24 小時延遲啟動功能",
+            "最高溫度70度",
+            "照地燈顯示",
+            "嵌入式機型(需搭配門板)"
+          ],
+          "source": "svago-kitchens.com.tw",
+          "sourceUrl": "https://www.svago-kitchens.com.tw/Product/category/83013",
+          "detailUrl": "https://www.svago-kitchens.com.tw/Product/detail?product_id=81500",
+          "rspSource": "svago-kitchens.com.tw"
+        },
+        {
+          "sku": "VE7770A",
+          "brand": "Svago",
+          "width": "60cm",
+          "type": "Fully-integrated",
+          "widthSource": "svago-kitchens.com.tw",
+          "typeSource": "svago-kitchens.com.tw",
+          "confidence": "high",
+          "rsp": 33000,
+          "officialProductUrl": "https://www.svago-kitchens.com.tw/Product/View/82164",
+          "features": [
+            "Auto Open 自動開門乾燥設計",
+            "8段洗程：ㄧ般/強力/自動/節能/精緻/快洗/90分鐘/預洗",
+            "加強功能：加強乾燥/加強洗淨/上下層洗/縮短清洗/節能",
+            "三組噴水臂，360 度強力水柱",
+            "三層籃架，可調式上碗籃",
+            "304不銹鋼內層，環保無毒害碗籃架材質，耐高溫易清洗",
+            "中式碗籃架設計",
+            "24 小時延遲啟動功能",
+            "最高溫度70度",
+            "滑動門設計，免切踢腳板，安裝便利，櫥櫃更美觀。",
+            "照地燈顯示",
+            "嵌入式機型(需搭配門板)"
+          ],
+          "source": "svago-kitchens.com.tw",
+          "sourceUrl": "https://www.svago-kitchens.com.tw/Product/category/83013",
+          "detailUrl": "https://www.svago-kitchens.com.tw/Product/detail?product_id=82164",
+          "rspSource": "svago-kitchens.com.tw"
+        },
+        {
+          "sku": "VE7850",
+          "brand": "Svago",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "svago-kitchens.com.tw",
+          "typeSource": "svago-kitchens.com.tw",
+          "confidence": "high",
+          "rsp": 33000,
+          "officialProductUrl": "https://www.svago-kitchens.com.tw/Product/View/81640",
+          "features": [
+            "Auto Open 自動開門乾燥設計",
+            "8段洗程：ㄧ般/強力/自動/節能/精緻/快洗/90分鐘/預洗",
+            "加強功能：加強乾燥/加強洗淨/上下層洗",
+            "最高溫度70度",
+            "三組噴水臂，360 度強力水柱",
+            "三層籃架，可調式上碗籃",
+            "24 小時延遲啟動功能",
+            "兒童安全鎖",
+            "中式碗籃架設計",
+            "獨立式機型(亦可拆上蓋嵌入櫃體)",
+            "304不銹鋼內層，環保無毒害碗籃架材質，耐高溫易清洗"
+          ],
+          "source": "svago-kitchens.com.tw",
+          "sourceUrl": "https://www.svago-kitchens.com.tw/Product/category/83013",
+          "detailUrl": "https://www.svago-kitchens.com.tw/Product/detail?product_id=81640",
+          "rspSource": "svago-kitchens.com.tw"
+        }
+      ],
       "featureTagsBySku": [
         {
           "sku": "VD6111",
           "tags": [
-            "Auto Open"
+            "24 小時延遲啟動功能",
+            "4種加強功能(加強乾燥/加強洗淨/上下層洗/縮短清洗)",
+            "8種洗程(強力/自動/節能/極靜/衛生殺菌/60分鐘/預洗/機器自清)",
+            "Auto Open",
+            "Auto Open 自動開門乾燥設計 (可選擇關閉)",
+            "兒童安全鎖",
+            "加速洗淨功能",
+            "最高溫度72度",
+            "機器自清"
           ]
         },
         {
           "sku": "VD6561",
           "tags": [
-            "Hot air dry"
+            "24小時延遲啟動功能",
+            "304不鏽鋼內層",
+            "3層籃架",
+            "3種加強功能(加速洗淨/自動開門/上下層洗)",
+            "3組噴水臂/360度強力水柱",
+            "9段洗程(自動/經濟/衛生殺菌/精緻/90分鐘/58分鐘/快洗/預洗/機器自清)",
+            "Aqua Stop安全進水管設計",
+            "Auto Open 自動開門(可關閉)",
+            "Hot air dry",
+            "最高溫度72度C",
+            "熱烘存儲(4/24/72/168H)可單獨開啟"
+          ]
+        },
+        {
+          "sku": "VD8565",
+          "tags": [
+            "24小時延遲啟動功能",
+            "304不鏽鋼內層",
+            "3層籃架",
+            "3組噴水臂/360度強力水柱",
+            "4種加強功能(加速洗淨／加強洗淨／自動開門／上下層洗)",
+            "9段洗程(自動／經濟／衛生殺菌／極靜／90分鐘／58分鐘／快洗／ 預洗／機器自清)",
+            "Aqua Stop安全進水管設計",
+            "Auto Open 自動開門(可關閉)",
+            "數位投影照地鐘",
+            "最高溫度72度C",
+            "熱烘存儲(4/24/72/168H)可單獨開啟"
           ]
         },
         {
           "sku": "VE7190",
           "tags": [
-            "Hot air dry"
+            "304不鏽鋼腔體",
+            "4種加強功能：加速洗淨/加強烘乾/清新存儲/熱風烘乾",
+            "9種洗程：經濟/機器自清/強力/一般/精緻/快速/預洗/重汙/極靜",
+            "Fresh&Drying清新存儲72小時",
+            "HeatDry熱風烘乾，手洗後快速烘乾",
+            "Hot air dry",
+            "三組噴水臂360度3D水網",
+            "中式三層籃架",
+            "可獨立擺放或嵌櫃安裝",
+            "最高72℃高溫漂洗",
+            "電壓、高度新換購皆宜、免拉專線免改櫃",
+            "預約啟動功能"
           ]
         },
         {
           "sku": "VE7545",
           "tags": [
-            "Auto Open"
+            "24 小時延遲啟動功能",
+            "4種加強功能(加強乾燥/加強洗淨/上下層洗/縮短清洗)",
+            "8種洗程(強力/自動/節能/極靜/衛生殺菌/60分鐘/預洗/機器自清)",
+            "Auto Open",
+            "Auto Open 自動開門乾燥設計 (可選擇關閉)",
+            "兒童安全鎖",
+            "加速洗淨功能",
+            "最高溫度72度",
+            "機器自清"
           ]
         },
         {
           "sku": "VE7650",
           "tags": [
-            "Auto Open"
+            "24 小時延遲啟動功能",
+            "304不鏽鋼內層，環保無毒碗籃架材質，耐磨抗腐蝕，兼顧美觀與食用安全",
+            "8段洗程：ㄧ般/強力/自動/節能/精緻/快洗/90分鐘/預洗",
+            "Aqua Stop安全進水管設計",
+            "Auto Open",
+            "Auto Open 自動開門乾燥設計",
+            "三層籃架，可調式上碗籃",
+            "三組噴水臂，360 度強力水柱",
+            "中式碗籃架設計",
+            "兒童安全鎖",
+            "加強功能：加強乾燥/加強洗淨/上下層洗",
+            "嵌入式機型(需搭配門板)",
+            "最高溫度70度"
           ]
         },
         {
           "sku": "VE7750",
           "tags": [
-            "Auto Open"
+            "24 小時延遲啟動功能",
+            "304不銹鋼內層，環保無毒害碗籃架材質，耐高溫易清洗",
+            "8段洗程：ㄧ般/強力/自動/節能/精緻/快洗/90分鐘/預洗",
+            "Auto Open",
+            "Auto Open 自動開門乾燥設計",
+            "三層籃架，可調式上碗籃",
+            "三組噴水臂，360 度強力水柱",
+            "中式碗籃架設計",
+            "加強功能：加強乾燥/加強洗淨/上下層洗/縮短清洗/節能",
+            "嵌入式機型(需搭配門板)",
+            "最高溫度70度",
+            "照地燈顯示"
           ]
         },
         {
@@ -1275,13 +3267,36 @@ window.PRODUCT_LIST_UPDATES = {
         {
           "sku": "VE7770A",
           "tags": [
-            "Auto Open"
+            "24 小時延遲啟動功能",
+            "304不銹鋼內層，環保無毒害碗籃架材質，耐高溫易清洗",
+            "8段洗程：ㄧ般/強力/自動/節能/精緻/快洗/90分鐘/預洗",
+            "Auto Open",
+            "Auto Open 自動開門乾燥設計",
+            "三層籃架，可調式上碗籃",
+            "三組噴水臂，360 度強力水柱",
+            "中式碗籃架設計",
+            "加強功能：加強乾燥/加強洗淨/上下層洗/縮短清洗/節能",
+            "嵌入式機型(需搭配門板)",
+            "最高溫度70度",
+            "滑動門設計，免切踢腳板，安裝便利，櫥櫃更美觀。",
+            "照地燈顯示"
           ]
         },
         {
           "sku": "VE7850",
           "tags": [
-            "Auto Open"
+            "24 小時延遲啟動功能",
+            "304不銹鋼內層，環保無毒害碗籃架材質，耐高溫易清洗",
+            "8段洗程：ㄧ般/強力/自動/節能/精緻/快洗/90分鐘/預洗",
+            "Auto Open",
+            "Auto Open 自動開門乾燥設計",
+            "三層籃架，可調式上碗籃",
+            "三組噴水臂，360 度強力水柱",
+            "中式碗籃架設計",
+            "兒童安全鎖",
+            "加強功能：加強乾燥/加強洗淨/上下層洗",
+            "最高溫度70度",
+            "獨立式機型(亦可拆上蓋嵌入櫃體)"
           ]
         }
       ],
@@ -1290,16 +3305,124 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "VD6111",
           "evidence": [
             {
+              "tag": "24 小時延遲啟動功能",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82112",
+              "confidence": "high",
+              "evidence": "24 小時延遲啟動功能"
+            },
+            {
+              "tag": "4種加強功能(加強乾燥/加強洗淨/上下層洗/縮短清洗)",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82112",
+              "confidence": "high",
+              "evidence": "4種加強功能(加強乾燥/加強洗淨/上下層洗/縮短清洗)"
+            },
+            {
+              "tag": "8種洗程(強力/自動/節能/極靜/衛生殺菌/60分鐘/預洗/機器自清)",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82112",
+              "confidence": "high",
+              "evidence": "8種洗程(強力/自動/節能/極靜/衛生殺菌/60分鐘/預洗/機器自清)"
+            },
+            {
+              "tag": "加速洗淨功能",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82112",
+              "confidence": "high",
+              "evidence": "加速洗淨功能"
+            },
+            {
+              "tag": "兒童安全鎖",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82112",
+              "confidence": "high",
+              "evidence": "兒童安全鎖"
+            },
+            {
+              "tag": "最高溫度72度",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82112",
+              "confidence": "high",
+              "evidence": "最高溫度72度"
+            },
+            {
+              "tag": "機器自清",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82112",
+              "confidence": "high",
+              "evidence": "機器自清"
+            },
+            {
               "tag": "Auto Open",
               "source": "https://biggo.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
               "evidence": "t-img-wrap__GHQnH\"><a target=\"_blank\" rel=\"nofollow\" title=\"SVAGO VD6111 半嵌式45cm自動開門洗碗機 洗碗機【APP滿額下單4%點數(單一帳號最高1500點)】6/30止\" href=\"/r/?i=tw_pmall_rakuten&id=pokitchen_250811152601-4539&purl=https%3A%2F%2Fwww.rakuten.com.tw%2Fshop%2Fpokitchen"
+            },
+            {
+              "tag": "Auto Open 自動開門乾燥設計 (可選擇關閉)",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82112",
+              "confidence": "high",
+              "evidence": "Auto Open 自動開門乾燥設計 (可選擇關閉)"
             }
           ]
         },
         {
           "sku": "VD6561",
           "evidence": [
+            {
+              "tag": "24小時延遲啟動功能",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82472",
+              "confidence": "high",
+              "evidence": "24小時延遲啟動功能"
+            },
+            {
+              "tag": "304不鏽鋼內層",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82472",
+              "confidence": "high",
+              "evidence": "304不鏽鋼內層"
+            },
+            {
+              "tag": "3組噴水臂/360度強力水柱",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82472",
+              "confidence": "high",
+              "evidence": "3組噴水臂/360度強力水柱"
+            },
+            {
+              "tag": "3種加強功能(加速洗淨/自動開門/上下層洗)",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82472",
+              "confidence": "high",
+              "evidence": "3種加強功能(加速洗淨/自動開門/上下層洗)"
+            },
+            {
+              "tag": "3層籃架",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82472",
+              "confidence": "high",
+              "evidence": "3層籃架"
+            },
+            {
+              "tag": "9段洗程(自動/經濟/衛生殺菌/精緻/90分鐘/58分鐘/快洗/預洗/機器自清)",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82472",
+              "confidence": "high",
+              "evidence": "9段洗程(自動/經濟/衛生殺菌/精緻/90分鐘/58分鐘/快洗/預洗/機器自清)"
+            },
+            {
+              "tag": "最高溫度72度C",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82472",
+              "confidence": "high",
+              "evidence": "最高溫度72度C"
+            },
+            {
+              "tag": "熱烘存儲(4/24/72/168H)可單獨開啟",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82472",
+              "confidence": "high",
+              "evidence": "熱烘存儲(4/24/72/168H)可單獨開啟"
+            },
+            {
+              "tag": "Aqua Stop安全進水管設計",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82472",
+              "confidence": "high",
+              "evidence": "Aqua Stop安全進水管設計"
+            },
+            {
+              "tag": "Auto Open 自動開門(可關閉)",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82472",
+              "confidence": "high",
+              "evidence": "Auto Open 自動開門(可關閉)"
+            },
             {
               "tag": "Hot air dry",
               "source": "https://biggo.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
@@ -1309,8 +3432,145 @@ window.PRODUCT_LIST_UPDATES = {
           ]
         },
         {
+          "sku": "VD8565",
+          "evidence": [
+            {
+              "tag": "24小時延遲啟動功能",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82482",
+              "confidence": "high",
+              "evidence": "24小時延遲啟動功能"
+            },
+            {
+              "tag": "304不鏽鋼內層",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82482",
+              "confidence": "high",
+              "evidence": "304不鏽鋼內層"
+            },
+            {
+              "tag": "3組噴水臂/360度強力水柱",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82482",
+              "confidence": "high",
+              "evidence": "3組噴水臂/360度強力水柱"
+            },
+            {
+              "tag": "3層籃架",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82482",
+              "confidence": "high",
+              "evidence": "3層籃架"
+            },
+            {
+              "tag": "4種加強功能(加速洗淨／加強洗淨／自動開門／上下層洗)",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82482",
+              "confidence": "high",
+              "evidence": "4種加強功能(加速洗淨／加強洗淨／自動開門／上下層洗)"
+            },
+            {
+              "tag": "9段洗程(自動／經濟／衛生殺菌／極靜／90分鐘／58分鐘／快洗／ 預洗／機器自清)",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82482",
+              "confidence": "high",
+              "evidence": "9段洗程(自動／經濟／衛生殺菌／極靜／90分鐘／58分鐘／快洗／ 預洗／機器自清)"
+            },
+            {
+              "tag": "最高溫度72度C",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82482",
+              "confidence": "high",
+              "evidence": "最高溫度72度C"
+            },
+            {
+              "tag": "數位投影照地鐘",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82482",
+              "confidence": "high",
+              "evidence": "數位投影照地鐘"
+            },
+            {
+              "tag": "熱烘存儲(4/24/72/168H)可單獨開啟",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82482",
+              "confidence": "high",
+              "evidence": "熱烘存儲(4/24/72/168H)可單獨開啟"
+            },
+            {
+              "tag": "Aqua Stop安全進水管設計",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82482",
+              "confidence": "high",
+              "evidence": "Aqua Stop安全進水管設計"
+            },
+            {
+              "tag": "Auto Open 自動開門(可關閉)",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82482",
+              "confidence": "high",
+              "evidence": "Auto Open 自動開門(可關閉)"
+            }
+          ]
+        },
+        {
           "sku": "VE7190",
           "evidence": [
+            {
+              "tag": "304不鏽鋼腔體",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81935",
+              "confidence": "high",
+              "evidence": "304不鏽鋼腔體"
+            },
+            {
+              "tag": "4種加強功能：加速洗淨/加強烘乾/清新存儲/熱風烘乾",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81935",
+              "confidence": "high",
+              "evidence": "4種加強功能：加速洗淨/加強烘乾/清新存儲/熱風烘乾"
+            },
+            {
+              "tag": "9種洗程：經濟/機器自清/強力/一般/精緻/快速/預洗/重汙/極靜",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81935",
+              "confidence": "high",
+              "evidence": "9種洗程：經濟/機器自清/強力/一般/精緻/快速/預洗/重汙/極靜"
+            },
+            {
+              "tag": "三組噴水臂360度3D水網",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81935",
+              "confidence": "high",
+              "evidence": "三組噴水臂360度3D水網"
+            },
+            {
+              "tag": "中式三層籃架",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81935",
+              "confidence": "high",
+              "evidence": "中式三層籃架"
+            },
+            {
+              "tag": "可獨立擺放或嵌櫃安裝",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81935",
+              "confidence": "high",
+              "evidence": "可獨立擺放或嵌櫃安裝"
+            },
+            {
+              "tag": "最高72℃高溫漂洗",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81935",
+              "confidence": "high",
+              "evidence": "最高72℃高溫漂洗"
+            },
+            {
+              "tag": "電壓、高度新換購皆宜、免拉專線免改櫃",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81935",
+              "confidence": "high",
+              "evidence": "電壓、高度新換購皆宜、免拉專線免改櫃"
+            },
+            {
+              "tag": "預約啟動功能",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81935",
+              "confidence": "high",
+              "evidence": "預約啟動功能"
+            },
+            {
+              "tag": "Fresh&Drying清新存儲72小時",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81935",
+              "confidence": "high",
+              "evidence": "Fresh&Drying清新存儲72小時"
+            },
+            {
+              "tag": "HeatDry熱風烘乾，手洗後快速烘乾",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81935",
+              "confidence": "high",
+              "evidence": "HeatDry熱風烘乾，手洗後快速烘乾"
+            },
             {
               "tag": "Hot air dry",
               "source": "https://biggo.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
@@ -1323,10 +3583,58 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "VE7545",
           "evidence": [
             {
+              "tag": "24 小時延遲啟動功能",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81679",
+              "confidence": "high",
+              "evidence": "24 小時延遲啟動功能"
+            },
+            {
+              "tag": "4種加強功能(加強乾燥/加強洗淨/上下層洗/縮短清洗)",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81679",
+              "confidence": "high",
+              "evidence": "4種加強功能(加強乾燥/加強洗淨/上下層洗/縮短清洗)"
+            },
+            {
+              "tag": "8種洗程(強力/自動/節能/極靜/衛生殺菌/60分鐘/預洗/機器自清)",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81679",
+              "confidence": "high",
+              "evidence": "8種洗程(強力/自動/節能/極靜/衛生殺菌/60分鐘/預洗/機器自清)"
+            },
+            {
+              "tag": "加速洗淨功能",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81679",
+              "confidence": "high",
+              "evidence": "加速洗淨功能"
+            },
+            {
+              "tag": "兒童安全鎖",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81679",
+              "confidence": "high",
+              "evidence": "兒童安全鎖"
+            },
+            {
+              "tag": "最高溫度72度",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81679",
+              "confidence": "high",
+              "evidence": "最高溫度72度"
+            },
+            {
+              "tag": "機器自清",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81679",
+              "confidence": "high",
+              "evidence": "機器自清"
+            },
+            {
               "tag": "Auto Open",
               "source": "https://biggo.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
               "evidence": ";height:100%;position:relative\" data-image=\"true\"><img alt=\"斯瓦戈 SVAGO VE7545 半嵌式自動開門洗碗機\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" class=\"ProductImage_product-image-img__tigzB\" style=\"position:absolute;height:100%;width:100%;left:0;t"
+            },
+            {
+              "tag": "Auto Open 自動開門乾燥設計 (可選擇關閉)",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81679",
+              "confidence": "high",
+              "evidence": "Auto Open 自動開門乾燥設計 (可選擇關閉)"
             }
           ]
         },
@@ -1334,10 +3642,82 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "VE7650",
           "evidence": [
             {
+              "tag": "24 小時延遲啟動功能",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81544",
+              "confidence": "high",
+              "evidence": "24 小時延遲啟動功能"
+            },
+            {
+              "tag": "304不鏽鋼內層，環保無毒碗籃架材質，耐磨抗腐蝕，兼顧美觀與食用安全",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81544",
+              "confidence": "high",
+              "evidence": "304不鏽鋼內層，環保無毒碗籃架材質，耐磨抗腐蝕，兼顧美觀與食用安全"
+            },
+            {
+              "tag": "8段洗程：ㄧ般/強力/自動/節能/精緻/快洗/90分鐘/預洗",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81544",
+              "confidence": "high",
+              "evidence": "8段洗程：ㄧ般/強力/自動/節能/精緻/快洗/90分鐘/預洗"
+            },
+            {
+              "tag": "三組噴水臂，360 度強力水柱",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81544",
+              "confidence": "high",
+              "evidence": "三組噴水臂，360 度強力水柱"
+            },
+            {
+              "tag": "三層籃架，可調式上碗籃",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81544",
+              "confidence": "high",
+              "evidence": "三層籃架，可調式上碗籃"
+            },
+            {
+              "tag": "中式碗籃架設計",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81544",
+              "confidence": "high",
+              "evidence": "中式碗籃架設計"
+            },
+            {
+              "tag": "加強功能：加強乾燥/加強洗淨/上下層洗",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81544",
+              "confidence": "high",
+              "evidence": "加強功能：加強乾燥/加強洗淨/上下層洗"
+            },
+            {
+              "tag": "兒童安全鎖",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81544",
+              "confidence": "high",
+              "evidence": "兒童安全鎖"
+            },
+            {
+              "tag": "最高溫度70度",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81544",
+              "confidence": "high",
+              "evidence": "最高溫度70度"
+            },
+            {
+              "tag": "嵌入式機型(需搭配門板)",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81544",
+              "confidence": "high",
+              "evidence": "嵌入式機型(需搭配門板)"
+            },
+            {
+              "tag": "Aqua Stop安全進水管設計",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81544",
+              "confidence": "high",
+              "evidence": "Aqua Stop安全進水管設計"
+            },
+            {
               "tag": "Auto Open",
               "source": "https://biggo.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
               "evidence": ";height:100%;position:relative\" data-image=\"true\"><img alt=\"斯瓦戈 Svago VE7650 半嵌式自動開門洗碗機 14人份\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" class=\"ProductImage_product-image-img__tigzB\" style=\"position:absolute;height:100%;width:100%;lef"
+            },
+            {
+              "tag": "Auto Open 自動開門乾燥設計",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81544",
+              "confidence": "high",
+              "evidence": "Auto Open 自動開門乾燥設計"
             }
           ]
         },
@@ -1345,10 +3725,76 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "VE7750",
           "evidence": [
             {
+              "tag": "24 小時延遲啟動功能",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81500",
+              "confidence": "high",
+              "evidence": "24 小時延遲啟動功能"
+            },
+            {
+              "tag": "304不銹鋼內層，環保無毒害碗籃架材質，耐高溫易清洗",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81500",
+              "confidence": "high",
+              "evidence": "304不銹鋼內層，環保無毒害碗籃架材質，耐高溫易清洗"
+            },
+            {
+              "tag": "8段洗程：ㄧ般/強力/自動/節能/精緻/快洗/90分鐘/預洗",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81500",
+              "confidence": "high",
+              "evidence": "8段洗程：ㄧ般/強力/自動/節能/精緻/快洗/90分鐘/預洗"
+            },
+            {
+              "tag": "三組噴水臂，360 度強力水柱",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81500",
+              "confidence": "high",
+              "evidence": "三組噴水臂，360 度強力水柱"
+            },
+            {
+              "tag": "三層籃架，可調式上碗籃",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81500",
+              "confidence": "high",
+              "evidence": "三層籃架，可調式上碗籃"
+            },
+            {
+              "tag": "中式碗籃架設計",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81500",
+              "confidence": "high",
+              "evidence": "中式碗籃架設計"
+            },
+            {
+              "tag": "加強功能：加強乾燥/加強洗淨/上下層洗/縮短清洗/節能",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81500",
+              "confidence": "high",
+              "evidence": "加強功能：加強乾燥/加強洗淨/上下層洗/縮短清洗/節能"
+            },
+            {
+              "tag": "最高溫度70度",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81500",
+              "confidence": "high",
+              "evidence": "最高溫度70度"
+            },
+            {
+              "tag": "嵌入式機型(需搭配門板)",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81500",
+              "confidence": "high",
+              "evidence": "嵌入式機型(需搭配門板)"
+            },
+            {
+              "tag": "照地燈顯示",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81500",
+              "confidence": "high",
+              "evidence": "照地燈顯示"
+            },
+            {
               "tag": "Auto Open",
               "source": "https://biggo.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
               "evidence": "img-wrap__GHQnH\"><a target=\"_blank\" rel=\"nofollow\" title=\"含基本安裝【SVAGO】歐洲精品家電 全嵌式自動開門洗碗機 VE7750 (不含門板) 贈好禮\" href=\"/r/?i=tw_pec_globalmall&id=2EC0320590000634&purl=https%3A%2F%2Fgmonline.twglobalmall.com%2Fproduct%2F2EC0320590000634&lb=adquer"
+            },
+            {
+              "tag": "Auto Open 自動開門乾燥設計",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81500",
+              "confidence": "high",
+              "evidence": "Auto Open 自動開門乾燥設計"
             }
           ]
         },
@@ -1367,10 +3813,82 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "VE7770A",
           "evidence": [
             {
+              "tag": "24 小時延遲啟動功能",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82164",
+              "confidence": "high",
+              "evidence": "24 小時延遲啟動功能"
+            },
+            {
+              "tag": "304不銹鋼內層，環保無毒害碗籃架材質，耐高溫易清洗",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82164",
+              "confidence": "high",
+              "evidence": "304不銹鋼內層，環保無毒害碗籃架材質，耐高溫易清洗"
+            },
+            {
+              "tag": "8段洗程：ㄧ般/強力/自動/節能/精緻/快洗/90分鐘/預洗",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82164",
+              "confidence": "high",
+              "evidence": "8段洗程：ㄧ般/強力/自動/節能/精緻/快洗/90分鐘/預洗"
+            },
+            {
+              "tag": "三組噴水臂，360 度強力水柱",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82164",
+              "confidence": "high",
+              "evidence": "三組噴水臂，360 度強力水柱"
+            },
+            {
+              "tag": "三層籃架，可調式上碗籃",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82164",
+              "confidence": "high",
+              "evidence": "三層籃架，可調式上碗籃"
+            },
+            {
+              "tag": "中式碗籃架設計",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82164",
+              "confidence": "high",
+              "evidence": "中式碗籃架設計"
+            },
+            {
+              "tag": "加強功能：加強乾燥/加強洗淨/上下層洗/縮短清洗/節能",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82164",
+              "confidence": "high",
+              "evidence": "加強功能：加強乾燥/加強洗淨/上下層洗/縮短清洗/節能"
+            },
+            {
+              "tag": "最高溫度70度",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82164",
+              "confidence": "high",
+              "evidence": "最高溫度70度"
+            },
+            {
+              "tag": "嵌入式機型(需搭配門板)",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82164",
+              "confidence": "high",
+              "evidence": "嵌入式機型(需搭配門板)"
+            },
+            {
+              "tag": "滑動門設計，免切踢腳板，安裝便利，櫥櫃更美觀。",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82164",
+              "confidence": "high",
+              "evidence": "滑動門設計，免切踢腳板，安裝便利，櫥櫃更美觀。"
+            },
+            {
+              "tag": "照地燈顯示",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82164",
+              "confidence": "high",
+              "evidence": "照地燈顯示"
+            },
+            {
               "tag": "Auto Open",
               "source": "https://biggo.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
               "evidence": "duct-img-wrap__GHQnH\"><a target=\"_blank\" rel=\"nofollow\" title=\"Svago【VE7770A】全嵌式自動開門(本機不含門板)VE7770洗碗機(全省安裝)(商品卡3700元)\" href=\"/r/?i=tw_pec_globalmall&id=2EC0320850013212&purl=https%3A%2F%2Fgmonline.twglobalmall.com%2Fproduct%2F2EC03208500132"
+            },
+            {
+              "tag": "Auto Open 自動開門乾燥設計",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/82164",
+              "confidence": "high",
+              "evidence": "Auto Open 自動開門乾燥設計"
             }
           ]
         },
@@ -1378,10 +3896,76 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "VE7850",
           "evidence": [
             {
+              "tag": "24 小時延遲啟動功能",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81640",
+              "confidence": "high",
+              "evidence": "24 小時延遲啟動功能"
+            },
+            {
+              "tag": "304不銹鋼內層，環保無毒害碗籃架材質，耐高溫易清洗",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81640",
+              "confidence": "high",
+              "evidence": "304不銹鋼內層，環保無毒害碗籃架材質，耐高溫易清洗"
+            },
+            {
+              "tag": "8段洗程：ㄧ般/強力/自動/節能/精緻/快洗/90分鐘/預洗",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81640",
+              "confidence": "high",
+              "evidence": "8段洗程：ㄧ般/強力/自動/節能/精緻/快洗/90分鐘/預洗"
+            },
+            {
+              "tag": "三組噴水臂，360 度強力水柱",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81640",
+              "confidence": "high",
+              "evidence": "三組噴水臂，360 度強力水柱"
+            },
+            {
+              "tag": "三層籃架，可調式上碗籃",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81640",
+              "confidence": "high",
+              "evidence": "三層籃架，可調式上碗籃"
+            },
+            {
+              "tag": "中式碗籃架設計",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81640",
+              "confidence": "high",
+              "evidence": "中式碗籃架設計"
+            },
+            {
+              "tag": "加強功能：加強乾燥/加強洗淨/上下層洗",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81640",
+              "confidence": "high",
+              "evidence": "加強功能：加強乾燥/加強洗淨/上下層洗"
+            },
+            {
+              "tag": "兒童安全鎖",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81640",
+              "confidence": "high",
+              "evidence": "兒童安全鎖"
+            },
+            {
+              "tag": "最高溫度70度",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81640",
+              "confidence": "high",
+              "evidence": "最高溫度70度"
+            },
+            {
+              "tag": "獨立式機型(亦可拆上蓋嵌入櫃體)",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81640",
+              "confidence": "high",
+              "evidence": "獨立式機型(亦可拆上蓋嵌入櫃體)"
+            },
+            {
               "tag": "Auto Open",
               "source": "https://biggo.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
               "evidence": ";height:100%;position:relative\" data-image=\"true\"><img alt=\"斯瓦戈 SVAGO VE7850 獨立式自動開門洗碗機\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" class=\"ProductImage_product-image-img__tigzB\" style=\"position:absolute;height:100%;width:100%;left:0;t"
+            },
+            {
+              "tag": "Auto Open 自動開門乾燥設計",
+              "source": "https://www.svago-kitchens.com.tw/Product/View/81640",
+              "confidence": "high",
+              "evidence": "Auto Open 自動開門乾燥設計"
             }
           ]
         }
@@ -1391,45 +3975,113 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "VD6111",
           "brand": "Svago",
           "featureTags": [
-            "Auto Open"
+            "24 小時延遲啟動功能",
+            "4種加強功能(加強乾燥/加強洗淨/上下層洗/縮短清洗)",
+            "8種洗程(強力/自動/節能/極靜/衛生殺菌/60分鐘/預洗/機器自清)",
+            "Auto Open",
+            "Auto Open 自動開門乾燥設計 (可選擇關閉)",
+            "兒童安全鎖",
+            "加速洗淨功能",
+            "最高溫度72度",
+            "機器自清"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "VD6561",
           "brand": "Svago",
           "featureTags": [
-            "Hot air dry"
+            "24小時延遲啟動功能",
+            "304不鏽鋼內層",
+            "3層籃架",
+            "3種加強功能(加速洗淨/自動開門/上下層洗)",
+            "3組噴水臂/360度強力水柱",
+            "9段洗程(自動/經濟/衛生殺菌/精緻/90分鐘/58分鐘/快洗/預洗/機器自清)",
+            "Aqua Stop安全進水管設計",
+            "Auto Open 自動開門(可關閉)",
+            "Hot air dry",
+            "最高溫度72度C",
+            "熱烘存儲(4/24/72/168H)可單獨開啟"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
+          "status": "Unmapped"
+        },
+        {
+          "sku": "VD8565",
+          "brand": "Svago",
+          "featureTags": [
+            "24小時延遲啟動功能",
+            "304不鏽鋼內層",
+            "3層籃架",
+            "3組噴水臂/360度強力水柱",
+            "4種加強功能(加速洗淨／加強洗淨／自動開門／上下層洗)",
+            "9段洗程(自動／經濟／衛生殺菌／極靜／90分鐘／58分鐘／快洗／ 預洗／機器自清)",
+            "Aqua Stop安全進水管設計",
+            "Auto Open 自動開門(可關閉)",
+            "數位投影照地鐘",
+            "最高溫度72度C",
+            "熱烘存儲(4/24/72/168H)可單獨開啟"
+          ],
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "VE7545",
           "brand": "Svago",
           "featureTags": [
-            "Auto Open"
+            "24 小時延遲啟動功能",
+            "4種加強功能(加強乾燥/加強洗淨/上下層洗/縮短清洗)",
+            "8種洗程(強力/自動/節能/極靜/衛生殺菌/60分鐘/預洗/機器自清)",
+            "Auto Open",
+            "Auto Open 自動開門乾燥設計 (可選擇關閉)",
+            "兒童安全鎖",
+            "加速洗淨功能",
+            "最高溫度72度",
+            "機器自清"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "VE7650",
           "brand": "Svago",
           "featureTags": [
-            "Auto Open"
+            "24 小時延遲啟動功能",
+            "304不鏽鋼內層，環保無毒碗籃架材質，耐磨抗腐蝕，兼顧美觀與食用安全",
+            "8段洗程：ㄧ般/強力/自動/節能/精緻/快洗/90分鐘/預洗",
+            "Aqua Stop安全進水管設計",
+            "Auto Open",
+            "Auto Open 自動開門乾燥設計",
+            "三層籃架，可調式上碗籃",
+            "三組噴水臂，360 度強力水柱",
+            "中式碗籃架設計",
+            "兒童安全鎖",
+            "加強功能：加強乾燥/加強洗淨/上下層洗",
+            "嵌入式機型(需搭配門板)",
+            "最高溫度70度"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "VE7750",
           "brand": "Svago",
           "featureTags": [
-            "Auto Open"
+            "24 小時延遲啟動功能",
+            "304不銹鋼內層，環保無毒害碗籃架材質，耐高溫易清洗",
+            "8段洗程：ㄧ般/強力/自動/節能/精緻/快洗/90分鐘/預洗",
+            "Auto Open",
+            "Auto Open 自動開門乾燥設計",
+            "三層籃架，可調式上碗籃",
+            "三組噴水臂，360 度強力水柱",
+            "中式碗籃架設計",
+            "加強功能：加強乾燥/加強洗淨/上下層洗/縮短清洗/節能",
+            "嵌入式機型(需搭配門板)",
+            "最高溫度70度",
+            "照地燈顯示"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
@@ -1438,26 +4090,45 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "VE7770A",
           "brand": "Svago",
           "featureTags": [
-            "Auto Open"
+            "24 小時延遲啟動功能",
+            "304不銹鋼內層，環保無毒害碗籃架材質，耐高溫易清洗",
+            "8段洗程：ㄧ般/強力/自動/節能/精緻/快洗/90分鐘/預洗",
+            "Auto Open",
+            "Auto Open 自動開門乾燥設計",
+            "三層籃架，可調式上碗籃",
+            "三組噴水臂，360 度強力水柱",
+            "中式碗籃架設計",
+            "加強功能：加強乾燥/加強洗淨/上下層洗/縮短清洗/節能",
+            "嵌入式機型(需搭配門板)",
+            "最高溫度70度",
+            "滑動門設計，免切踢腳板，安裝便利，櫥櫃更美觀。",
+            "照地燈顯示"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         }
       ],
       "newCandidates": [],
       "sources": [
         {
-          "url": "https://svago-kitchens.com.tw/product?Category=83013",
-          "status": "Fetch failed",
-          "error": "fetch failed",
+          "url": "https://www.svago-kitchens.com.tw/product?Category=83013",
+          "status": "Scanned",
+          "httpStatus": 200,
           "candidateCount": 0
+        },
+        {
+          "url": "https://www.svago-kitchens.com.tw/Product/category/83013",
+          "status": "Scanned",
+          "httpStatus": 200,
+          "candidateCount": 9,
+          "parser": "svago-api"
         },
         {
           "url": "https://biggo.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
@@ -1491,6 +4162,58 @@ window.PRODUCT_LIST_UPDATES = {
         "E7682",
         "E7783",
         "E7881"
+      ],
+      "productMetadataBySku": [
+        {
+          "sku": "E7682",
+          "brand": "Sakura",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
+          "sku": "E7683",
+          "brand": "Sakura",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
+          "sku": "E7782",
+          "brand": "Sakura",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
+          "sku": "E7783",
+          "brand": "Sakura",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
+          "sku": "E7881",
+          "brand": "Sakura",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "low",
+          "rspSource": null
+        }
       ],
       "featureTagsBySku": [
         {
@@ -1537,14 +4260,14 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
           "sku": "E7782",
           "brand": "Sakura",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         }
       ],
@@ -1581,6 +4304,48 @@ window.PRODUCT_LIST_UPDATES = {
         "XIV-889T",
         "ZIV-665T",
         "ZIV-689T"
+      ],
+      "productMetadataBySku": [
+        {
+          "sku": "XIV-889T",
+          "brand": "Amica",
+          "width": "60cm",
+          "type": "Fully-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "ZIV-645T",
+          "brand": "Amica",
+          "width": "60cm",
+          "type": "Fully-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "ZIV-665T",
+          "brand": "Amica",
+          "width": "60cm",
+          "type": "Fully-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "ZIV-689T",
+          "brand": "Amica",
+          "width": "60cm",
+          "type": "Fully-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        }
       ],
       "featureTagsBySku": [
         {
@@ -1625,7 +4390,7 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "ZIV-645T",
           "brand": "Amica",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         }
       ],
@@ -1661,6 +4426,48 @@ window.PRODUCT_LIST_UPDATES = {
       "knownSkus": [
         "DFI76950",
         "DW8 57 SI"
+      ],
+      "productMetadataBySku": [
+        {
+          "sku": "DFI 26700",
+          "brand": "Teka",
+          "width": "60cm",
+          "type": "Fully-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "DFI76950",
+          "brand": "Teka",
+          "width": "60cm",
+          "type": "Fully-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "DSI 26700",
+          "brand": "Teka",
+          "width": "60cm",
+          "type": "Semi-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "DW8 57 SI",
+          "brand": "Teka",
+          "width": "60cm",
+          "type": "Semi-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        }
       ],
       "featureTagsBySku": [
         {
@@ -1748,7 +4555,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         },
         {
@@ -1757,7 +4564,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         }
       ],
@@ -1795,6 +4602,48 @@ window.PRODUCT_LIST_UPDATES = {
         "DFB335HS",
         "DFB435FP",
         "DFB533FW"
+      ],
+      "productMetadataBySku": [
+        {
+          "sku": "DFB335HE",
+          "brand": "LG",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "DFB335HS",
+          "brand": "LG",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "DFB435FP",
+          "brand": "LG",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        },
+        {
+          "sku": "DFB533FW",
+          "brand": "LG",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "medium",
+          "rspSource": null
+        }
       ],
       "featureTagsBySku": [
         {
@@ -1891,6 +4740,38 @@ window.PRODUCT_LIST_UPDATES = {
         "WDFS2R4PWETW",
         "WFO3T123PLXD"
       ],
+      "productMetadataBySku": [
+        {
+          "sku": "WDFS2R4PWETW",
+          "brand": "Whirlpool",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
+          "sku": "WDFS3R5PIXTW",
+          "brand": "Whirlpool",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
+          "sku": "WFO3T123PLXD",
+          "brand": "Whirlpool",
+          "width": "60cm",
+          "type": "Freestanding",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "low",
+          "rspSource": null
+        }
+      ],
       "featureTagsBySku": [
         {
           "sku": "WDFS2R4PWETW",
@@ -1901,7 +4782,13 @@ window.PRODUCT_LIST_UPDATES = {
         {
           "sku": "WDFS3R5PIXTW",
           "tags": [
-            "110V",
+            "Auto Open"
+          ]
+        },
+        {
+          "sku": "WFO3T123PLXD",
+          "tags": [
+            "220V",
             "Auto Open"
           ]
         }
@@ -1922,16 +4809,27 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "WDFS3R5PIXTW",
           "evidence": [
             {
-              "tag": "110V",
+              "tag": "Auto Open",
               "source": "https://biggo.com.tw/s/Whirlpool%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "QnH\"><a target=\"_blank\" rel=\"nofollow\" title=\"【Whirlpool 惠而浦】15人份 自動開門烘乾 獨立式洗碗機 110V WDFS3R5PIXTW\" href=\"/r/?i=tw_pec_globalmall&id=2EC0320590001155&purl=https%3A%2F%2Fgmonline.twglobalmall.com%2Fproduct%2F2EC0320590001155&lb=adquery&q=Whir"
+              "evidence": ":100%;position:relative\" data-image=\"true\"><img alt=\"Whirlpool WDFS3R5PIXTW 15人份自動開門烘乾獨立式洗碗機 星光銀\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" class=\"ProductImage_product-image-img__tigzB\" style=\"position:absolute;height:100%;width:100%"
+            }
+          ]
+        },
+        {
+          "sku": "WFO3T123PLXD",
+          "evidence": [
+            {
+              "tag": "220V",
+              "source": "https://biggo.com.tw/s/Whirlpool%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+              "confidence": "low",
+              "evidence": "p__GHQnH\"><a target=\"_blank\" rel=\"nofollow\" title=\"【Whirlpool 惠而浦】自動開門烘乾 獨立式洗碗機 220V/60Hz WFO3T123PLXD\" href=\"/r/?i=tw_pec_globalmall&id=2EC0320590000651&purl=https%3A%2F%2Fgmonline.twglobalmall.com%2Fproduct%2F2EC0320590000651&lb=adquery&q"
             },
             {
               "tag": "Auto Open",
               "source": "https://biggo.com.tw/s/Whirlpool%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "t-img-wrap__GHQnH\"><a target=\"_blank\" rel=\"nofollow\" title=\"【Whirlpool 惠而浦】15人份 自動開門烘乾 獨立式洗碗機 110V WDFS3R5PIXTW\" href=\"/r/?i=tw_pec_globalmall&id=2EC0320590001155&purl=https%3A%2F%2Fgmonline.twglobalmall.com%2Fproduct%2F2EC0320590001155&lb="
+              "evidence": "roduct-img-wrap__GHQnH\"><a target=\"_blank\" rel=\"nofollow\" title=\"【Whirlpool 惠而浦】自動開門烘乾 獨立式洗碗機 220V/60Hz WFO3T123PLXD\" href=\"/r/?i=tw_pec_globalmall&id=2EC0320590000651&purl=https%3A%2F%2Fgmonline.twglobalmall.com%2Fproduct%2F2EC032059000065"
             }
           ]
         }
@@ -1941,10 +4839,9 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "WDFS3R5PIXTW",
           "brand": "Whirlpool",
           "featureTags": [
-            "110V",
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+          "firstDetectedAt": "2026-06-26T08:06:20.333Z",
           "status": "Unmapped"
         }
       ],
@@ -1972,14 +4869,14 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Zeolith"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "SMS63M12TC",
       "brand": "Bosch",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
@@ -1988,35 +4885,35 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Zeolith"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "SPS2IKI06X",
       "brand": "Bosch",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "SPS4IMW00X",
       "brand": "Bosch",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "SPS63M02TC",
       "brand": "Bosch",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "DBI233IB.S",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
@@ -2025,7 +4922,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
@@ -2034,7 +4931,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
@@ -2043,14 +4940,14 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "DBI544ID.W.TW",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
@@ -2059,14 +4956,14 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "DBI644MIB.S.TW",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
@@ -2075,7 +4972,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
@@ -2084,7 +4981,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
@@ -2093,14 +4990,14 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "DFI433B",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
@@ -2109,7 +5006,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
@@ -2118,7 +5015,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "220V"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
@@ -2127,21 +5024,21 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "DFI654B",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "DFS143I.S",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
@@ -2150,7 +5047,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
@@ -2159,7 +5056,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
@@ -2168,14 +5065,14 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "G5001",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
@@ -2184,28 +5081,28 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "G5214",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "G5214C",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "G5214CSC",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
@@ -2215,35 +5112,35 @@ window.PRODUCT_LIST_UPDATES = {
         "220V",
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "G5314CSCI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "G5364C",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "G5364CSCVI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "G7101",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
@@ -2252,7 +5149,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "220V"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
@@ -2261,35 +5158,35 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "220V"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "G7130C",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "G7130CSCI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "G7180C",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "G7180CSCVI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
@@ -2298,49 +5195,49 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "220V"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "G7604CSCI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "G7714CSCI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "EBF7531SBA",
       "brand": "Electrolux",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "EBF9442SBA",
       "brand": "Electrolux",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "EEEM9420L",
       "brand": "Electrolux",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "EEM48300IX",
       "brand": "Electrolux",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
@@ -2349,129 +5246,241 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "KEE47200IW",
       "brand": "Electrolux",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "KSE43200SW",
       "brand": "Electrolux",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "NP-DXK1E6",
       "brand": "Panasonic",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
+      "status": "Unmapped"
+    },
+    {
+      "sku": "NP-DXK1E6-2H",
+      "brand": "Panasonic",
+      "featureTags": [
+        "12項洗淨模式",
+        "720°龍捲渦流",
+        "nanoe™ X 洗前除臭．洗後抑菌",
+        "三層大容量",
+        "獨立熱循環烘乾",
+        "領先業界長效抑菌淨存30天",
+        "高溫熱流洗淨"
+      ],
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "NP-FKABGJBTW",
       "brand": "Panasonic",
-      "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "featureTags": [
+        "720°龍捲渦流",
+        "9大專業洗程",
+        "獨立熱循環烘乾",
+        "長效抑菌淨存7天",
+        "高溫熱流洗淨"
+      ],
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "NP-FKAKGJKTW",
       "brand": "Panasonic",
-      "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "featureTags": [
+        "720°龍捲渦流",
+        "9大專業洗程",
+        "獨立熱循環烘乾",
+        "長效抑菌淨存7天",
+        "高溫熱流洗淨"
+      ],
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "NP-K1YWHR2TW",
       "brand": "Panasonic",
-      "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "featureTags": [
+        "11項洗淨模式",
+        "360°高壓噴射水柱",
+        "4組獨立洗臂 多角度噴射孔",
+        "80℃高溫洗淨",
+        "AI-ECONAVI智能洗",
+        "nanoe™ X 洗前除臭．洗後抑菌",
+        "獨立熱循環烘乾",
+        "獨立自動給水",
+        "薄型機身"
+      ],
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "NP-TH4WHR1TW",
       "brand": "Panasonic",
-      "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "featureTags": [
+        "11項洗淨模式",
+        "360〫高壓噴射水柱",
+        "4組獨立洗臂 多角度噴射孔",
+        "80℃高溫洗淨",
+        "獨立熱循環烘乾",
+        "獨立自動給水"
+      ],
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "NP-TH4WHR1TW-D",
       "brand": "Panasonic",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "NP-TSK1",
       "brand": "Panasonic",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "NP-TSP1",
       "brand": "Panasonic",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "NP-TZ300",
       "brand": "Panasonic",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "VD6111",
       "brand": "Svago",
       "featureTags": [
-        "Auto Open"
+        "24 小時延遲啟動功能",
+        "4種加強功能(加強乾燥/加強洗淨/上下層洗/縮短清洗)",
+        "8種洗程(強力/自動/節能/極靜/衛生殺菌/60分鐘/預洗/機器自清)",
+        "Auto Open",
+        "Auto Open 自動開門乾燥設計 (可選擇關閉)",
+        "兒童安全鎖",
+        "加速洗淨功能",
+        "最高溫度72度",
+        "機器自清"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "VD6561",
       "brand": "Svago",
       "featureTags": [
-        "Hot air dry"
+        "24小時延遲啟動功能",
+        "304不鏽鋼內層",
+        "3層籃架",
+        "3種加強功能(加速洗淨/自動開門/上下層洗)",
+        "3組噴水臂/360度強力水柱",
+        "9段洗程(自動/經濟/衛生殺菌/精緻/90分鐘/58分鐘/快洗/預洗/機器自清)",
+        "Aqua Stop安全進水管設計",
+        "Auto Open 自動開門(可關閉)",
+        "Hot air dry",
+        "最高溫度72度C",
+        "熱烘存儲(4/24/72/168H)可單獨開啟"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
+      "status": "Unmapped"
+    },
+    {
+      "sku": "VD8565",
+      "brand": "Svago",
+      "featureTags": [
+        "24小時延遲啟動功能",
+        "304不鏽鋼內層",
+        "3層籃架",
+        "3組噴水臂/360度強力水柱",
+        "4種加強功能(加速洗淨／加強洗淨／自動開門／上下層洗)",
+        "9段洗程(自動／經濟／衛生殺菌／極靜／90分鐘／58分鐘／快洗／ 預洗／機器自清)",
+        "Aqua Stop安全進水管設計",
+        "Auto Open 自動開門(可關閉)",
+        "數位投影照地鐘",
+        "最高溫度72度C",
+        "熱烘存儲(4/24/72/168H)可單獨開啟"
+      ],
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "VE7545",
       "brand": "Svago",
       "featureTags": [
-        "Auto Open"
+        "24 小時延遲啟動功能",
+        "4種加強功能(加強乾燥/加強洗淨/上下層洗/縮短清洗)",
+        "8種洗程(強力/自動/節能/極靜/衛生殺菌/60分鐘/預洗/機器自清)",
+        "Auto Open",
+        "Auto Open 自動開門乾燥設計 (可選擇關閉)",
+        "兒童安全鎖",
+        "加速洗淨功能",
+        "最高溫度72度",
+        "機器自清"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "VE7650",
       "brand": "Svago",
       "featureTags": [
-        "Auto Open"
+        "24 小時延遲啟動功能",
+        "304不鏽鋼內層，環保無毒碗籃架材質，耐磨抗腐蝕，兼顧美觀與食用安全",
+        "8段洗程：ㄧ般/強力/自動/節能/精緻/快洗/90分鐘/預洗",
+        "Aqua Stop安全進水管設計",
+        "Auto Open",
+        "Auto Open 自動開門乾燥設計",
+        "三層籃架，可調式上碗籃",
+        "三組噴水臂，360 度強力水柱",
+        "中式碗籃架設計",
+        "兒童安全鎖",
+        "加強功能：加強乾燥/加強洗淨/上下層洗",
+        "嵌入式機型(需搭配門板)",
+        "最高溫度70度"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "VE7750",
       "brand": "Svago",
       "featureTags": [
-        "Auto Open"
+        "24 小時延遲啟動功能",
+        "304不銹鋼內層，環保無毒害碗籃架材質，耐高溫易清洗",
+        "8段洗程：ㄧ般/強力/自動/節能/精緻/快洗/90分鐘/預洗",
+        "Auto Open",
+        "Auto Open 自動開門乾燥設計",
+        "三層籃架，可調式上碗籃",
+        "三組噴水臂，360 度強力水柱",
+        "中式碗籃架設計",
+        "加強功能：加強乾燥/加強洗淨/上下層洗/縮短清洗/節能",
+        "嵌入式機型(需搭配門板)",
+        "最高溫度70度",
+        "照地燈顯示"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
@@ -2480,16 +5489,28 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "VE7770A",
       "brand": "Svago",
       "featureTags": [
-        "Auto Open"
+        "24 小時延遲啟動功能",
+        "304不銹鋼內層，環保無毒害碗籃架材質，耐高溫易清洗",
+        "8段洗程：ㄧ般/強力/自動/節能/精緻/快洗/90分鐘/預洗",
+        "Auto Open",
+        "Auto Open 自動開門乾燥設計",
+        "三層籃架，可調式上碗籃",
+        "三組噴水臂，360 度強力水柱",
+        "中式碗籃架設計",
+        "加強功能：加強乾燥/加強洗淨/上下層洗/縮短清洗/節能",
+        "嵌入式機型(需搭配門板)",
+        "最高溫度70度",
+        "滑動門設計，免切踢腳板，安裝便利，櫥櫃更美觀。",
+        "照地燈顯示"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
@@ -2498,21 +5519,21 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "E7782",
       "brand": "Sakura",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "ZIV-645T",
       "brand": "Amica",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
@@ -2521,7 +5542,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
@@ -2530,17 +5551,16 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     },
     {
       "sku": "WDFS3R5PIXTW",
       "brand": "Whirlpool",
       "featureTags": [
-        "110V",
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "Unmapped"
     }
   ],
@@ -2549,35 +5569,35 @@ window.PRODUCT_LIST_UPDATES = {
       "sku": "G5214CSC",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "New since baseline"
     },
     {
       "sku": "G5314CSCI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "New since baseline"
     },
     {
       "sku": "G7604CSCI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "New since baseline"
     },
     {
       "sku": "G7714CSCI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "New since baseline"
     },
     {
       "sku": "NP-TH4WHR1TW-D",
       "brand": "Panasonic",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T06:55:40.959Z",
+      "firstDetectedAt": "2026-06-26T08:06:20.333Z",
       "status": "New since baseline"
     }
   ]

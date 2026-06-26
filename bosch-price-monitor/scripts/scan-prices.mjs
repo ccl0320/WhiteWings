@@ -93,6 +93,184 @@ function parseOfficialReferencePrice(html, url) {
   };
 }
 
+function absoluteUrl(url, base) {
+  try {
+    return new URL(url, base).toString();
+  } catch {
+    return url;
+  }
+}
+
+function displaySkuFromMieleSlug(slug) {
+  return String(slug || "")
+    .replace(/_/g, " ")
+    .toUpperCase()
+    .trim();
+}
+
+function installTypeFromText(text) {
+  if (/全嵌式|FULLY/i.test(text)) return "Fully-integrated";
+  if (/半嵌式|SEMI/i.test(text)) return "Semi-integrated";
+  if (/獨立式|FREESTANDING/i.test(text)) return "Freestanding";
+  return null;
+}
+
+function widthFromDimensions(text) {
+  const match = String(text || "").match(/W\s*([0-9]{3})/i);
+  if (!match) return null;
+  const widthMm = Number(match[1]);
+  if (widthMm >= 430 && widthMm <= 470) return "45cm";
+  if (widthMm >= 570 && widthMm <= 620) return "60cm";
+  return null;
+}
+
+function parseMieleOfficialMetadata(html, sourceUrl) {
+  const cards = String(html || "").split(/<div[^>]+class=["'][^"']*vt-filter[^"']*an-box[^"']*["'][^>]*>/i).slice(1);
+  const items = [];
+  for (const card of cards) {
+    const end = card.indexOf("</div>");
+    const segment = end > 0 ? card.slice(0, Math.min(card.length, end + 3000)) : card.slice(0, 3500);
+    if (!/dish-washer\/no\./i.test(segment)) continue;
+    const href = segment.match(/href=["']([^"']*\/product\/dish-washer\/no\.[^"']+)["']/i)?.[1];
+    const slug = href?.match(/\/no\.([^/?#]+)/i)?.[1];
+    if (!slug) continue;
+    const title = segment.match(/<h2[^>]*>\s*<a[^>]*>([^<]+)/i)?.[1] || "";
+    const plain = normalizeHtml(segment.replace(/<[^>]+>/g, " "));
+    const dimensionText = plain.match(/W\s*[0-9]{3}\s*\*?\s*D\s*[0-9]{3}\s*\*?\s*H\s*[0-9]{3}\s*mm?/i)?.[0] || "";
+    const priceText = plain.match(/\$\s*[0-9,]{4,}/)?.[0] || "";
+    const rsp = parseMoneyValue(priceText);
+    const type = installTypeFromText(`${title} ${plain}`);
+    const width = widthFromDimensions(dimensionText);
+    items.push({
+      sku: displaySkuFromMieleSlug(slug),
+      brand: "Miele",
+      width,
+      type,
+      rsp,
+      officialProductUrl: absoluteUrl(href, sourceUrl),
+      bodySize: dimensionText || null,
+      source: "miele.kenk.com.tw",
+      sourceUrl,
+      confidence: "high"
+    });
+  }
+  return items;
+}
+
+function widthFromDimensionMap(description = {}) {
+  const text = Object.entries(description || {})
+    .map(([key, value]) => `${key} ${value}`)
+    .join(" ");
+  const match = text.match(/W\s*([0-9]{2,4})/i) || text.match(/寬\s*([0-9]{2,4})/);
+  if (!match) return null;
+  const widthMm = Number(match[1]);
+  if (widthMm >= 430 && widthMm <= 470) return "45cm";
+  if (widthMm >= 570 && widthMm <= 620) return "60cm";
+  return null;
+}
+
+function typeFromSvagoName(name, sku) {
+  const text = `${name || ""} ${sku || ""}`;
+  if (/VD6111/i.test(text)) return "Semi-integrated";
+  if (/VD|半嵌/i.test(text)) return "Semi-integrated";
+  if (/VE8565|VD8565|全嵌|嵌入/i.test(text)) return "Fully-integrated";
+  if (/VE|獨立/i.test(text)) return "Freestanding";
+  return null;
+}
+
+async function parseSvagoOfficialMetadata(categoryJson, sourceUrl) {
+  const products = categoryJson?.data?.Products || categoryJson?.Products || categoryJson?.data || [];
+  const items = [];
+  for (const product of Array.isArray(products) ? products : []) {
+    const id = product.Id || product.id || product.ProductId || product.product_id;
+    const sku = product.model || product.Model || product.MODEL;
+    if (!id || !sku) continue;
+    const detailUrl = `https://www.svago-kitchens.com.tw/Product/detail?product_id=${id}`;
+    let detail = null;
+    try {
+      const response = await fetchJson(detailUrl);
+      const data = response.json?.data || response.json?.Data || response.json;
+      detail = Array.isArray(data) ? data[0] : data;
+    } catch {
+      detail = null;
+    }
+    const model = detail?.Model || sku;
+    const description = detail?.Description || {};
+    const featureList = Array.isArray(detail?.Feature)
+      ? detail.Feature.map(item => item.name || item.Name).filter(Boolean)
+      : [];
+    const width = widthFromDimensionMap(description);
+    const rsp = parseMoneyValue(detail?.Price || product.Price || product.price);
+    items.push({
+      sku: model,
+      brand: "Svago",
+      width,
+      type: typeFromSvagoName(detail?.Name || product.Name || product.name, model),
+      rsp,
+      officialProductUrl: `https://www.svago-kitchens.com.tw/Product/View/${id}`,
+      features: featureList,
+      source: "svago-kitchens.com.tw",
+      sourceUrl,
+      detailUrl,
+      confidence: "high"
+    });
+  }
+  return items;
+}
+
+function textListFromHtmlBreaks(text) {
+  return String(text || "")
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<[^>]+>/g, " ")
+    .split(/\n+/)
+    .map(item => normalizeHtml(item).replace(/^●\s*/, "").trim())
+    .filter(Boolean);
+}
+
+function parsePanasonicOfficialMetadata(json, sourceUrl) {
+  const products = json?.products || json?.Products || [];
+  const items = [];
+  for (const product of Array.isArray(products) ? products : []) {
+    const sku = product.modelnumber?.dataAttribute || "";
+    if (!sku) continue;
+    const description = product.productdescription?.value || "";
+    const features = textListFromHtmlBreaks(description);
+    const pagePath = product.pagePath || "";
+    const productUrl = absoluteUrl(pagePath, "https://www.panasonic.com");
+    const title = product.modelnumber?.value || "";
+    const type = /嵌入/.test(title) ? "Built-in" : /洗碗乾燥機|桌上|檯面/.test(title) ? "Countertop/compact" : metadataFromSkuRule("Panasonic", sku).type;
+    items.push({
+      sku,
+      brand: "Panasonic",
+      width: null,
+      type,
+      rsp: null,
+      officialProductUrl: productUrl,
+      features,
+      source: "panasonic.com",
+      sourceUrl,
+      confidence: "high"
+    });
+    for (const variant of product.variationcolors?.variationicons || []) {
+      const variantSku = variant.unifiedModelNumber;
+      if (!variantSku) continue;
+      items.push({
+        sku: variantSku,
+        brand: "Panasonic",
+        width: null,
+        type,
+        rsp: null,
+        officialProductUrl: productUrl,
+        features,
+        source: "panasonic.com",
+        sourceUrl,
+        confidence: "high"
+      });
+    }
+  }
+  return items;
+}
+
 async function fetchHtml(url) {
   const response = await fetch(url, {
     headers: {
@@ -104,6 +282,20 @@ async function fetchHtml(url) {
     ok: response.ok,
     status: response.status,
     html: await response.text()
+  };
+}
+
+async function fetchJson(url) {
+  const response = await fetch(url, {
+    headers: {
+      "user-agent": "Mozilla/5.0 BoschTWPriceMonitor/1.0",
+      "accept": "application/json,text/plain,*/*"
+    }
+  });
+  return {
+    ok: response.ok,
+    status: response.status,
+    json: await response.json()
   };
 }
 
@@ -253,6 +445,76 @@ function normalizeSku(sku) {
   return String(sku || "").toUpperCase().replace(/[^A-Z0-9]/g, "");
 }
 
+function metadataFromSkuRule(brand, sku) {
+  const displaySku = String(sku || "").toUpperCase();
+  const normalized = normalizeSku(sku);
+  const result = {
+    sku,
+    brand,
+    width: null,
+    type: null,
+    widthSource: null,
+    typeSource: null,
+    confidence: "none"
+  };
+
+  function apply(width, type, confidence = "medium", source = "sku-rule") {
+    result.width = width || result.width;
+    result.type = type || result.type;
+    result.widthSource = width ? source : result.widthSource;
+    result.typeSource = type ? source : result.typeSource;
+    result.confidence = confidence;
+  }
+
+  if (brand === "Bosch") {
+    if (/^SPS/.test(normalized)) apply("45cm", "Freestanding", "high");
+    else if (/^SMS/.test(normalized)) apply("60cm", "Freestanding", "high");
+    else if (/^SPV/.test(normalized)) apply("45cm", "Fully-integrated", "high");
+    else if (/^SMV/.test(normalized)) apply("60cm", "Fully-integrated", "high");
+    else if (/^SMI/.test(normalized)) apply("60cm", "Semi-integrated", "high");
+  } else if (brand === "Asko") {
+    if (/^DFS/.test(normalized)) apply("60cm", "Freestanding", "medium");
+    else if (/^DFI/.test(normalized)) apply("60cm", "Fully-integrated", "medium");
+    else if (/^DBI/.test(normalized)) apply("60cm", "Semi-integrated", "medium");
+  } else if (brand === "Miele") {
+    if (/XXL/.test(displaySku)) result.width = "60cm";
+    if (/SCVI|CSCVI/.test(normalized)) apply("60cm", "Fully-integrated", "medium");
+    else if (/CSCI|SCI/.test(normalized)) apply("60cm", "Semi-integrated", "medium");
+    else if (/CSC$|SC$/.test(normalized)) apply("60cm", "Freestanding", "medium");
+    else if (/^G[0-9]{4}/.test(normalized)) apply("60cm", null, "low");
+  } else if (brand === "Electrolux") {
+    if (/^(EFF|EBF|KSE|KEE)/.test(normalized)) apply("60cm", "Freestanding", "medium");
+    else if (/^(KECA|EEZB|EEEM|EEM|KESB|EMF|EFS|EBS)/.test(normalized)) apply("60cm", "Fully-integrated", "low");
+  } else if (brand === "Panasonic") {
+    if (/^NPDFB/.test(normalized)) apply("60cm", "Freestanding", "medium");
+    else if (/^(NP2KTB|NPBXW)/.test(normalized)) apply("60cm", "Fully-integrated", "medium");
+    else if (/^NP(TH|TSK|TSP|TZ|FK|K1|DXK)/.test(normalized)) apply(null, "Countertop/compact", "low");
+    else if (/^NP/.test(normalized)) apply("60cm", "Built-in", "low");
+  } else if (brand === "Svago") {
+    if (/^VE(7190|7850)$/.test(normalized)) apply("60cm", "Freestanding", "high");
+    else if (/^VE8565$/.test(normalized)) apply("60cm", "Fully-integrated", "high");
+    else if (/^VD6111$/.test(normalized)) apply("45cm", "Semi-integrated", "medium");
+    else if (/^(VD6561|VE7545)$/.test(normalized)) apply("60cm", "Semi-integrated", "medium");
+  } else if (brand === "Sakura") {
+    if (/^E/.test(normalized)) apply("60cm", "Freestanding", "low");
+  } else if (brand === "Amica") {
+    if (/^[ZX]IV/.test(normalized)) apply("60cm", "Fully-integrated", "medium");
+  } else if (brand === "Teka") {
+    if (/^(DFI|DW857FIM)/.test(normalized)) apply("60cm", "Fully-integrated", "medium");
+    else if (/^(DSI|DW857SI)/.test(normalized)) apply("60cm", "Semi-integrated", "medium");
+  } else if (brand === "LG") {
+    if (/^DFB/.test(normalized)) apply("60cm", "Freestanding", "medium");
+  } else if (brand === "Whirlpool") {
+    if (/^(WDFS|WFO)/.test(normalized)) apply("60cm", "Freestanding", "low");
+  }
+
+  if (result.width === "TBC") {
+    result.width = null;
+    result.widthSource = null;
+  }
+  return result;
+}
+
 function isNoiseSku(sku) {
   const normalized = normalizeSku(sku);
   return normalized.length < 5 || /STORE|VIP|FREE|SALE|HTML|HTTP|PROGRESS/.test(normalized);
@@ -397,6 +659,27 @@ function featureEvidenceObjectList(featureEvidenceBySku) {
     .map(([sku, evidence]) => ({ sku, evidence }));
 }
 
+function mergeProductMetadata(ruleMetadata, officialMetadata) {
+  const official = officialMetadata || {};
+  return {
+    ...ruleMetadata,
+    ...Object.fromEntries(Object.entries(official).filter(([, value]) => value != null && value !== "")),
+    width: official.width || ruleMetadata.width,
+    type: official.type || ruleMetadata.type,
+    widthSource: official.width ? official.source || official.sourceUrl || "official" : ruleMetadata.widthSource,
+    typeSource: official.type ? official.source || official.sourceUrl || "official" : ruleMetadata.typeSource,
+    rspSource: official.rsp ? official.source || official.sourceUrl || "official" : null,
+    confidence: official.confidence || ruleMetadata.confidence
+  };
+}
+
+function metadataObjectList(brand, skus, officialMetadataBySku = new Map()) {
+  return skus
+    .map(sku => mergeProductMetadata(metadataFromSkuRule(brand, sku), officialMetadataBySku.get(normalizeSku(sku))))
+    .filter(item => item.width || item.type)
+    .sort((a, b) => String(a.sku).localeCompare(String(b.sku)));
+}
+
 function displaySkuScore(sku) {
   const text = String(sku || "");
   let score = 0;
@@ -455,11 +738,67 @@ async function scanBrandLists(brandWatch, knownSkuSet, knownNorms, productBaseli
     const found = new Set();
     const featureTagsBySku = new Map();
     const featureEvidenceBySku = new Map();
+    const officialMetadataBySku = new Map();
     const sourceResults = [];
 
     for (const url of urls) {
       try {
+        if (source.brand === "Svago" && /\/Product\/category\/83013/i.test(url)) {
+          const response = await fetchJson(url);
+          const metadata = await parseSvagoOfficialMetadata(response.json, url);
+          for (const item of metadata) {
+            found.add(item.sku);
+            officialMetadataBySku.set(normalizeSku(item.sku), item);
+            if (Array.isArray(item.features) && item.features.length) {
+              featureTagsBySku.set(item.sku, mergeFeatureTags(featureTagsBySku.get(item.sku), item.features));
+              featureEvidenceBySku.set(item.sku, mergeFeatureEvidence(featureEvidenceBySku.get(item.sku), item.features.map(tag => ({
+                tag,
+                source: item.officialProductUrl,
+                confidence: "high",
+                evidence: tag
+              }))));
+            }
+          }
+          sourceResults.push({
+            url,
+            status: response.ok ? "Scanned" : "Fetch failed",
+            httpStatus: response.status,
+            candidateCount: metadata.length,
+            parser: "svago-api"
+          });
+          continue;
+        }
+        if (source.brand === "Panasonic" && /categoryproductpagelist\.category\.pinfo\.full\.json/i.test(url)) {
+          const response = await fetchJson(url);
+          const metadata = parsePanasonicOfficialMetadata(response.json, url);
+          for (const item of metadata) {
+            found.add(item.sku);
+            officialMetadataBySku.set(normalizeSku(item.sku), item);
+            if (Array.isArray(item.features) && item.features.length) {
+              featureTagsBySku.set(item.sku, mergeFeatureTags(featureTagsBySku.get(item.sku), item.features));
+              featureEvidenceBySku.set(item.sku, mergeFeatureEvidence(featureEvidenceBySku.get(item.sku), item.features.map(tag => ({
+                tag,
+                source: item.officialProductUrl,
+                confidence: "high",
+                evidence: tag
+              }))));
+            }
+          }
+          sourceResults.push({
+            url,
+            status: response.ok ? "Scanned" : "Fetch failed",
+            httpStatus: response.status,
+            candidateCount: metadata.length,
+            parser: "panasonic-json"
+          });
+          continue;
+        }
         const response = await fetchHtml(url);
+        if (source.brand === "Miele" && /miele\.kenk\.com\.tw\/application\/dish-washer/i.test(url)) {
+          for (const item of parseMieleOfficialMetadata(response.html, url)) {
+            officialMetadataBySku.set(normalizeSku(item.sku), item);
+          }
+        }
         const candidates = extractSkuCandidates(response.html, patterns);
         candidates.forEach(sku => found.add(sku));
         const extractedFeatures = extractSkuFeatureTags(response.html, candidates);
@@ -530,6 +869,7 @@ async function scanBrandLists(brandWatch, knownSkuSet, knownNorms, productBaseli
       newCandidateCount: newCandidates.length,
       foundSkus,
       knownSkus,
+      productMetadataBySku: metadataObjectList(source.brand, foundSkus, officialMetadataBySku),
       featureTagsBySku: featureObjectList(featureTagsBySku),
       featureEvidenceBySku: featureEvidenceObjectList(canonicalEvidenceBySku),
       unmappedCandidates,

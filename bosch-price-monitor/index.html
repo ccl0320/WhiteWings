@@ -888,25 +888,36 @@
       return p.rspSource || "Reference price";
     }
 
+    function metadataNote(value, source, confidence) {
+      if (!value || value === "TBC") return "Missing online/seed data";
+      if (!source) return "Seed-assisted if needed";
+      return `${source}${confidence ? ` (${confidence})` : ""}`;
+    }
+
     function buildProductFromSearch(brand, sku) {
       const known = seedBySku.get(normalizeSku(sku)) || {};
       const update = updateBySku.get(normalizeSku(sku));
-      const onlineRsp = update?.referencePrice?.rsp ?? null;
       const brandScan = (productListUpdates.brands || []).find(item => item.brand === brand);
+      const inferred = (brandScan?.productMetadataBySku || []).find(item => normalizeSku(item.sku) === normalizeSku(sku)) || {};
+      const onlineRsp = update?.referencePrice?.rsp ?? inferred.rsp ?? null;
       const scannedFeatures = (brandScan?.featureTagsBySku || []).find(item => normalizeSku(item.sku) === normalizeSku(sku))?.tags || [];
+      const metadataFeatures = inferred.features || [];
       return {
         brand,
         sku,
-        type: known.type || "TBC",
-        width: known.width || "TBC",
+        type: known.type || inferred.type || "TBC",
+        width: known.width || inferred.width || "TBC",
+        typeSource: known.type ? "PPT reference" : inferred.typeSource || "",
+        widthSource: known.width ? "PPT reference" : inferred.widthSource || "",
+        metadataConfidence: known.type || known.width ? "high" : inferred.confidence || "",
         rsp: onlineRsp ?? known.rsp ?? null,
-        rspSource: onlineRsp != null ? update.referencePrice.source || "Official site" : known.rsp != null ? known.source || "PPT reference" : "No RSP source",
+        rspSource: onlineRsp != null ? update?.referencePrice?.source || inferred.rspSource || inferred.source || "Official site" : known.rsp != null ? known.source || "PPT reference" : "No RSP source",
         going: update?.minPrice ?? update?.price ?? null,
         goingMin: update?.minPrice ?? update?.price ?? null,
         goingMax: update?.maxPrice ?? update?.price ?? null,
         priceRange: update?.priceRange || null,
         livePrice: update?.minPrice ?? update?.price ?? null,
-        features: scannedFeatures.length ? scannedFeatures : known.features || [],
+        features: scannedFeatures.length ? scannedFeatures : metadataFeatures.length ? metadataFeatures : known.features || [],
         scannedFeatures,
         source: "Search result scan",
         status: update ? priceStatusFor(update) : known.sku ? "Detected" : "Unmapped",
@@ -1163,8 +1174,8 @@
         return `<tr>
           <td>${p.brand}</td>
           <td><span class="sku">${p.sku}</span><span class="cell-note">${sourceNote(p)}</span></td>
-          <td>${p.type}<span class="cell-note">${p.type === "TBC" ? "Missing online/seed type" : "Seed-assisted if needed"}</span></td>
-          <td>${p.width}<span class="cell-note">${p.width === "TBC" ? "Missing online/seed width" : "Seed-assisted if needed"}</span></td>
+          <td>${p.type}<span class="cell-note">${metadataNote(p.type, p.typeSource, p.metadataConfidence)}</span></td>
+          <td>${p.width}<span class="cell-note">${metadataNote(p.width, p.widthSource, p.metadataConfidence)}</span></td>
           <td>${currency(p.rsp)}<span class="cell-note">${rspNoteFor(p)}</span></td>
           <td><span class="price-cell">${priceRangeText(p)}</span><span class="cell-note">${priceNoteFor(p)}</span></td>
           <td>${bandOf(p)}</td>
@@ -1182,6 +1193,7 @@
         <dl>
           <dt>Install type</dt><dd>${p.type}</dd>
           <dt>Width</dt><dd>${p.width}</dd>
+          <dt>Metadata source</dt><dd>${metadataNote(p.type, p.typeSource, p.metadataConfidence)} / ${metadataNote(p.width, p.widthSource, p.metadataConfidence)}</dd>
           <dt>RSP</dt><dd>${currency(p.rsp)} (${rspNoteFor(p)})</dd>
           <dt>Going price</dt><dd>${priceRangeText(p)}</dd>
           <dt>Price band</dt><dd>${bandOf(p)}</dd>
