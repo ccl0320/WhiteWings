@@ -271,6 +271,63 @@ function parsePanasonicOfficialMetadata(json, sourceUrl) {
   return items;
 }
 
+function parseJsonLdBlocks(html) {
+  const blocks = [];
+  for (const match of String(html || "").matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)) {
+    try {
+      const parsed = JSON.parse(match[1].trim());
+      if (Array.isArray(parsed)) blocks.push(...parsed);
+      else blocks.push(parsed);
+    } catch {
+      // Ignore malformed structured data blocks.
+    }
+  }
+  return blocks;
+}
+
+function textFromHtml(html) {
+  return normalizeHtml(String(html || "")
+    .replace(/<script[\s\S]*?<\/script>/gi, " ")
+    .replace(/<style[\s\S]*?<\/style>/gi, " ")
+    .replace(/<[^>]+>/g, " "));
+}
+
+function parseElectroluxOfficialMetadata(html, sourceUrl, sku) {
+  const text = textFromHtml(html);
+  const product = parseJsonLdBlocks(html).find(item => item && (item["@type"] === "Product" || item.sku || item.model)) || {};
+  const title = html.match(/<title>(.*?)<\/title>/i)?.[1] || "";
+  const metaDescription = html.match(/<meta[^>]+name=["']description["'][^>]+content=["']([^"']*)["'][^>]*>/i)?.[1] || "";
+  const productSku = product.sku || product.model || sku;
+  const price = parseMoneyValue(product.offers?.price);
+  const widthMatch = text.match(/Size\s+W\s+x\s+D\s+x\s+H\s*,?\s*mm\s*([0-9]{2,4})\s*x\s*([0-9]{2,4})\s*x\s*([0-9]{2,4})/i)
+    || text.match(/Width[^0-9]{0,20}([0-9]{2,4})\s*mm/i);
+  const widthMm = widthMatch ? Number(widthMatch[1]) : null;
+  const width = widthMm >= 430 && widthMm <= 470 ? "45cm" : widthMm >= 570 && widthMm <= 620 ? "60cm" : null;
+  const typeText = `${title} ${product.name || ""} ${metaDescription}`;
+  const type = /freestanding|\u7368\u7acb\u5f0f/i.test(typeText) ? "Freestanding"
+    : /fully.?integrated|built.?in|\u5168\u5d4c|\u5d4c\u5165/i.test(typeText) ? "Fully-integrated"
+      : /semi.?integrated|\u534a\u5d4c/i.test(typeText) ? "Semi-integrated"
+      : metadataFromSkuRule("Electrolux", productSku).type;
+  const features = [
+    product.description,
+    metaDescription
+  ].filter(Boolean);
+
+  return {
+    sku: productSku,
+    brand: "Electrolux",
+    width,
+    type,
+    rsp: price,
+    officialProductUrl: sourceUrl,
+    features,
+    source: "electrolux.com.tw",
+    sourceUrl,
+    bodySize: widthMatch ? `${widthMatch[1]}x${widthMatch[2] || ""}x${widthMatch[3] || ""} mm`.replace(/x+ mm$/, " mm") : null,
+    confidence: productSku ? "high" : "medium"
+  };
+}
+
 async function fetchHtml(url) {
   const response = await fetch(url, {
     headers: {
@@ -483,7 +540,9 @@ function metadataFromSkuRule(brand, sku) {
     else if (/CSC$|SC$/.test(normalized)) apply("60cm", "Freestanding", "medium");
     else if (/^G[0-9]{4}/.test(normalized)) apply("60cm", null, "low");
   } else if (brand === "Electrolux") {
-    if (/^(EFF|EBF|KSE|KEE)/.test(normalized)) apply("60cm", "Freestanding", "medium");
+    if (/^KSE43200/.test(normalized)) apply("45cm", "Freestanding", "medium");
+    else if (/^(EFF|KSE)/.test(normalized)) apply("60cm", "Freestanding", "medium");
+    else if (/^EBF/.test(normalized)) apply("60cm", "Fully-integrated", "medium");
     else if (/^(KECA|EEZB|EEEM|EEM|KESB|EMF|EFS|EBS)/.test(normalized)) apply("60cm", "Fully-integrated", "low");
   } else if (brand === "Panasonic") {
     if (/^NPDFB/.test(normalized)) apply("60cm", "Freestanding", "medium");
@@ -680,6 +739,22 @@ function metadataObjectList(brand, skus, officialMetadataBySku = new Map()) {
     .sort((a, b) => String(a.sku).localeCompare(String(b.sku)));
 }
 
+async function enrichElectroluxMetadata(foundSkus, officialMetadataBySku) {
+  for (const sku of foundSkus) {
+    const key = normalizeSku(sku);
+    if (!key || officialMetadataBySku.has(key)) continue;
+    const url = `https://www.electrolux.com.tw/appliances/dishwashers/${key.toLowerCase()}/`;
+    try {
+      const response = await fetchHtml(url);
+      if (!response.ok || !response.html.includes(key)) continue;
+      const metadata = parseElectroluxOfficialMetadata(response.html, url, sku);
+      officialMetadataBySku.set(normalizeSku(metadata.sku), metadata);
+    } catch {
+      // Electrolux official metadata is an enrichment path; keep scan resilient.
+    }
+  }
+}
+
 function displaySkuScore(sku) {
   const text = String(sku || "");
   let score = 0;
@@ -826,6 +901,9 @@ async function scanBrandLists(brandWatch, knownSkuSet, knownNorms, productBaseli
     }
 
     const foundSkus = dedupeSkus([...found], featureTagsBySku);
+    if (source.brand === "Electrolux") {
+      await enrichElectroluxMetadata(foundSkus, officialMetadataBySku);
+    }
     const canonicalEvidenceBySku = new Map();
     for (const sku of foundSkus) {
       const evidence = [];
