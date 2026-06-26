@@ -60,6 +60,39 @@ function parsePrices(html, minPrice = 17000) {
   return [...new Set(candidates)].sort((a, b) => a - b);
 }
 
+function parseMoneyValue(text) {
+  const value = String(text || "").replace(/[^0-9]/g, "");
+  return value ? Number(value) : null;
+}
+
+function officialReferenceUrlForSource(source) {
+  if (source.brand !== "Bosch") return "";
+  const sku = normalizeSku(source.sku).toLowerCase();
+  if (!sku) return "";
+  return `https://www.bosch-home-shop.com.tw/products/${sku}`;
+}
+
+function parseOfficialReferencePrice(html, url) {
+  const compareMatch = html.match(/default-compare-price=["']([^"']+)["']/i);
+  const priceMatch = html.match(/default-price=["']([^"']+)["']/i);
+  const rsp = parseMoneyValue(compareMatch?.[1]);
+  const officialSalePrice = parseMoneyValue(priceMatch?.[1]);
+  if (!rsp && !officialSalePrice) return null;
+  return {
+    rsp,
+    officialSalePrice,
+    currency: "TWD",
+    source: "bosch-home-shop",
+    sourceUrl: url,
+    evidence: {
+      field: rsp ? "default-compare-price" : "default-price",
+      rawText: rsp ? compareMatch[1] : priceMatch[1]
+    },
+    checkedAt: now,
+    confidence: rsp ? "high" : "medium"
+  };
+}
+
 async function fetchHtml(url) {
   const response = await fetch(url, {
     headers: {
@@ -72,6 +105,30 @@ async function fetchHtml(url) {
     status: response.status,
     html: await response.text()
   };
+}
+
+async function scanOfficialReferencePrice(source) {
+  const url = officialReferenceUrlForSource(source);
+  if (!url) return null;
+  try {
+    const response = await fetchHtml(url);
+    if (!response.ok) return {
+      source: "bosch-home-shop",
+      sourceUrl: url,
+      status: "Fetch failed",
+      httpStatus: response.status,
+      checkedAt: now
+    };
+    return parseOfficialReferencePrice(response.html, url);
+  } catch (error) {
+    return {
+      source: "bosch-home-shop",
+      sourceUrl: url,
+      status: "Fetch failed",
+      error: String(error && error.message || error),
+      checkedAt: now
+    };
+  }
 }
 
 async function scanPriceUrl(source, url) {
@@ -124,6 +181,7 @@ async function scanPrices(sources) {
       .sort((a, b) => a - b);
     const minFoundPrice = allPrices.length ? allPrices[0] : null;
     const maxFoundPrice = allPrices.length ? allPrices[allPrices.length - 1] : null;
+    const referencePrice = await scanOfficialReferencePrice(source);
     items.push({
       sku: source.sku,
       brand: source.brand || "",
@@ -134,6 +192,7 @@ async function scanPrices(sources) {
       priceRange: minFoundPrice && maxFoundPrice ? { min: minFoundPrice, max: maxFoundPrice } : null,
       checkedAt: now,
       status: winner.status,
+      referencePrice,
       sourceCount: urls.length,
       allResults: results
     });

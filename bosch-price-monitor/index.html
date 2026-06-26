@@ -891,6 +891,7 @@
     function buildProductFromSearch(brand, sku) {
       const known = seedBySku.get(normalizeSku(sku)) || {};
       const update = updateBySku.get(normalizeSku(sku));
+      const onlineRsp = update?.referencePrice?.rsp ?? null;
       const brandScan = (productListUpdates.brands || []).find(item => item.brand === brand);
       const scannedFeatures = (brandScan?.featureTagsBySku || []).find(item => normalizeSku(item.sku) === normalizeSku(sku))?.tags || [];
       return {
@@ -898,8 +899,8 @@
         sku,
         type: known.type || "TBC",
         width: known.width || "TBC",
-        rsp: known.rsp ?? null,
-        rspSource: known.rsp != null ? known.source || "PPT reference" : "No RSP source",
+        rsp: onlineRsp ?? known.rsp ?? null,
+        rspSource: onlineRsp != null ? update.referencePrice.source || "Official site" : known.rsp != null ? known.source || "PPT reference" : "No RSP source",
         going: update?.minPrice ?? update?.price ?? null,
         goingMin: update?.minPrice ?? update?.price ?? null,
         goingMax: update?.maxPrice ?? update?.price ?? null,
