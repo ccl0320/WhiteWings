@@ -1,6 +1,6 @@
 window.PRICE_UPDATES = {
-  "generatedAt": "2026-06-26T02:10:37.997Z",
-  "itemCount": 57,
+  "generatedAt": "2026-06-26T04:00:48.531Z",
+  "itemCount": 70,
   "items": [
     {
       "sku": "SMS8ZCI00X",
@@ -13,7 +13,7 @@ window.PRICE_UPDATES = {
         "min": 64618,
         "max": 85000
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -31,7 +31,7 @@ window.PRICE_UPDATES = {
             80600,
             85000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -50,7 +50,7 @@ window.PRICE_UPDATES = {
             80750,
             85000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -67,7 +67,7 @@ window.PRICE_UPDATES = {
         "min": 55800,
         "max": 83900
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -86,19 +86,17 @@ window.PRICE_UPDATES = {
             72800,
             83900
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "SMS6ZCW00X",
           "url": "https://feebee.com.tw/s/SMS6ZCW00X/",
-          "price": 58500,
-          "minPrice": 58500,
+          "price": 60000,
+          "minPrice": 60000,
           "maxPrice": 83900,
           "priceCandidates": [
-            58500,
-            58968,
             60000,
             64900,
             69000,
@@ -108,7 +106,7 @@ window.PRICE_UPDATES = {
             72800,
             83900
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -125,7 +123,7 @@ window.PRICE_UPDATES = {
         "min": 38900,
         "max": 53800
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -137,14 +135,16 @@ window.PRICE_UPDATES = {
           "maxPrice": 53800,
           "priceCandidates": [
             38900,
+            42000,
             43650,
             44654,
+            44900,
             45000,
             46900,
             51000,
             53800
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -157,8 +157,8 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             41400,
             42000,
-            42500,
             42610,
+            43000,
             44654,
             44900,
             45000,
@@ -167,7 +167,7 @@ window.PRICE_UPDATES = {
             51110,
             53800
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -184,7 +184,7 @@ window.PRICE_UPDATES = {
         "min": 38595,
         "max": 91800
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -208,7 +208,7 @@ window.PRICE_UPDATES = {
             63900,
             91800
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -223,7 +223,6 @@ window.PRICE_UPDATES = {
             39468,
             39500,
             39900,
-            40500,
             40900,
             41334,
             41400,
@@ -235,7 +234,7 @@ window.PRICE_UPDATES = {
             49800,
             63900
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -245,14 +244,14 @@ window.PRICE_UPDATES = {
       "sku": "SMS6ECW01X",
       "brand": "Bosch",
       "url": "https://feebee.com.tw/s/SMS6ECW01X/",
-      "price": 50475,
-      "minPrice": 50475,
+      "price": 48575,
+      "minPrice": 48575,
       "maxPrice": 59500,
       "priceRange": {
-        "min": 50475,
+        "min": 48575,
         "max": 59500
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -266,23 +265,24 @@ window.PRICE_UPDATES = {
             50575,
             59500
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "SMS6ECW01X",
           "url": "https://feebee.com.tw/s/SMS6ECW01X/",
-          "price": 50475,
-          "minPrice": 50475,
+          "price": 48575,
+          "minPrice": 48575,
           "maxPrice": 59000,
           "priceCandidates": [
+            48575,
             50475,
             50575,
             53550,
             59000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -292,14 +292,14 @@ window.PRICE_UPDATES = {
       "sku": "SMS4ECW00X",
       "brand": "Bosch",
       "url": "https://feebee.com.tw/s/SMS4ECW00X/",
-      "price": 41975,
-      "minPrice": 41975,
+      "price": 40075,
+      "minPrice": 40075,
       "maxPrice": 49500,
       "priceRange": {
-        "min": 41975,
+        "min": 40075,
         "max": 49500
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -316,17 +316,18 @@ window.PRICE_UPDATES = {
             47550,
             49500
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "SMS4ECW00X",
           "url": "https://feebee.com.tw/s/SMS4ECW00X/",
-          "price": 41975,
-          "minPrice": 41975,
+          "price": 40075,
+          "minPrice": 40075,
           "maxPrice": 49500,
           "priceCandidates": [
+            40075,
             41975,
             42000,
             42075,
@@ -334,7 +335,7 @@ window.PRICE_UPDATES = {
             49000,
             49500
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -351,7 +352,7 @@ window.PRICE_UPDATES = {
         "min": 26000,
         "max": 52000
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -368,12 +369,13 @@ window.PRICE_UPDATES = {
             34099,
             36890,
             39624,
+            39999,
             41500,
             45601,
             46800,
             49800
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -394,7 +396,7 @@ window.PRICE_UPDATES = {
             49800,
             52000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -411,7 +413,7 @@ window.PRICE_UPDATES = {
         "min": 29900,
         "max": 45500
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -430,18 +432,17 @@ window.PRICE_UPDATES = {
             43200,
             45500
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "SMS4HAW00X",
           "url": "https://feebee.com.tw/s/SMS4HAW00X/",
-          "price": 34618,
-          "minPrice": 34618,
+          "price": 35500,
+          "minPrice": 35500,
           "maxPrice": 45500,
           "priceCandidates": [
-            34618,
             35500,
             37310,
             37400,
@@ -453,7 +454,7 @@ window.PRICE_UPDATES = {
             43225,
             45500
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -470,7 +471,7 @@ window.PRICE_UPDATES = {
         "min": 27900,
         "max": 44400
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -488,7 +489,7 @@ window.PRICE_UPDATES = {
             42200,
             44400
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -511,7 +512,7 @@ window.PRICE_UPDATES = {
             42200,
             44400
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -528,7 +529,7 @@ window.PRICE_UPDATES = {
         "min": 58800,
         "max": 99000
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -550,7 +551,7 @@ window.PRICE_UPDATES = {
             90000,
             99000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -566,6 +567,7 @@ window.PRICE_UPDATES = {
             78800,
             80500,
             81900,
+            82500,
             82900,
             83200,
             84500,
@@ -573,7 +575,7 @@ window.PRICE_UPDATES = {
             90000,
             99000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -590,7 +592,7 @@ window.PRICE_UPDATES = {
         "min": 64000,
         "max": 81000
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -610,7 +612,7 @@ window.PRICE_UPDATES = {
             78000,
             81000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -622,6 +624,7 @@ window.PRICE_UPDATES = {
           "maxPrice": 81000,
           "priceCandidates": [
             64000,
+            64800,
             65900,
             67000,
             68900,
@@ -632,7 +635,7 @@ window.PRICE_UPDATES = {
             78000,
             81000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -649,7 +652,7 @@ window.PRICE_UPDATES = {
         "min": 56618,
         "max": 86300
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -671,7 +674,7 @@ window.PRICE_UPDATES = {
             72500,
             86300
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -693,7 +696,7 @@ window.PRICE_UPDATES = {
             67000,
             72500
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -710,7 +713,7 @@ window.PRICE_UPDATES = {
         "min": 39100,
         "max": 49800
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -727,7 +730,7 @@ window.PRICE_UPDATES = {
             47800,
             49800
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -739,12 +742,13 @@ window.PRICE_UPDATES = {
           "maxPrice": 47800,
           "priceCandidates": [
             39100,
+            40500,
             42400,
             42500,
             45410,
             47800
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -761,7 +765,7 @@ window.PRICE_UPDATES = {
         "min": 36400,
         "max": 52000
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -787,7 +791,7 @@ window.PRICE_UPDATES = {
             48500,
             52000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -813,7 +817,7 @@ window.PRICE_UPDATES = {
             48500,
             52000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -830,7 +834,7 @@ window.PRICE_UPDATES = {
         "min": 33600,
         "max": 43600
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -854,7 +858,7 @@ window.PRICE_UPDATES = {
             41600,
             43600
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -882,7 +886,7 @@ window.PRICE_UPDATES = {
             41600,
             42800
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -899,7 +903,7 @@ window.PRICE_UPDATES = {
         "min": 37000,
         "max": 46800
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -924,7 +928,7 @@ window.PRICE_UPDATES = {
             46100,
             46500
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -938,8 +942,10 @@ window.PRICE_UPDATES = {
             37000,
             37400,
             37900,
+            38000,
             39900,
             40000,
+            41000,
             41297,
             42000,
             42120,
@@ -951,7 +957,7 @@ window.PRICE_UPDATES = {
             46500,
             46800
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -968,7 +974,7 @@ window.PRICE_UPDATES = {
         "min": 38900,
         "max": 58900
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -989,7 +995,7 @@ window.PRICE_UPDATES = {
             51200,
             58900
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1002,7 +1008,6 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             46000,
             46100,
-            46500,
             46900,
             48000,
             48988,
@@ -1012,7 +1017,7 @@ window.PRICE_UPDATES = {
             51200,
             58900
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1029,7 +1034,7 @@ window.PRICE_UPDATES = {
         "min": 38180,
         "max": 48900
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1050,7 +1055,7 @@ window.PRICE_UPDATES = {
             46500,
             48900
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1062,9 +1067,8 @@ window.PRICE_UPDATES = {
           "maxPrice": 46500,
           "priceCandidates": [
             38180,
-            38595,
+            39500,
             40396,
-            40500,
             41300,
             41400,
             41500,
@@ -1074,7 +1078,7 @@ window.PRICE_UPDATES = {
             44200,
             46500
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1091,7 +1095,7 @@ window.PRICE_UPDATES = {
         "min": 33210,
         "max": 42000
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1116,7 +1120,7 @@ window.PRICE_UPDATES = {
             40500,
             41600
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1130,6 +1134,7 @@ window.PRICE_UPDATES = {
             33210,
             33500,
             33600,
+            33900,
             35800,
             35900,
             36500,
@@ -1139,12 +1144,13 @@ window.PRICE_UPDATES = {
             38200,
             38475,
             38500,
+            38800,
             39600,
             40500,
             41600,
             42000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1161,7 +1167,7 @@ window.PRICE_UPDATES = {
         "min": 89900,
         "max": 92000
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1172,7 +1178,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -1186,7 +1192,7 @@ window.PRICE_UPDATES = {
             89900,
             92000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1203,7 +1209,7 @@ window.PRICE_UPDATES = {
         "min": 88000,
         "max": 88000
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1214,7 +1220,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -1227,7 +1233,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             88000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1244,7 +1250,7 @@ window.PRICE_UPDATES = {
         "min": 66060,
         "max": 92400
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1264,7 +1270,7 @@ window.PRICE_UPDATES = {
             85999,
             88000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1285,7 +1291,7 @@ window.PRICE_UPDATES = {
             88000,
             92400
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1302,7 +1308,7 @@ window.PRICE_UPDATES = {
         "min": 69000,
         "max": 88200
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1320,7 +1326,7 @@ window.PRICE_UPDATES = {
             82999,
             84000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1339,7 +1345,7 @@ window.PRICE_UPDATES = {
             84000,
             88200
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1356,7 +1362,7 @@ window.PRICE_UPDATES = {
         "min": 110000,
         "max": 122570
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1372,7 +1378,7 @@ window.PRICE_UPDATES = {
             119000,
             122570
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1384,11 +1390,10 @@ window.PRICE_UPDATES = {
           "maxPrice": 122570,
           "priceCandidates": [
             110000,
-            115000,
             119000,
             122570
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1405,7 +1410,7 @@ window.PRICE_UPDATES = {
         "min": 52000,
         "max": 64000
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1418,7 +1423,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             54400
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1434,7 +1439,7 @@ window.PRICE_UPDATES = {
             63000,
             64000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1446,12 +1451,12 @@ window.PRICE_UPDATES = {
       "url": "https://feebee.com.tw/s/G7101CSC/",
       "price": 74100,
       "minPrice": 74100,
-      "maxPrice": 79800,
+      "maxPrice": 79500,
       "priceRange": {
         "min": 74100,
-        "max": 79800
+        "max": 79500
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1460,16 +1465,15 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/G7101CSC/",
           "price": 74500,
           "minPrice": 74500,
-          "maxPrice": 79800,
+          "maxPrice": 79500,
           "priceCandidates": [
             74500,
             75500,
             75600,
             78000,
-            79500,
-            79800
+            79500
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1486,7 +1490,7 @@ window.PRICE_UPDATES = {
             78000,
             79500
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1503,7 +1507,7 @@ window.PRICE_UPDATES = {
         "min": 137700,
         "max": 145000
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1517,7 +1521,7 @@ window.PRICE_UPDATES = {
             137700,
             145000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1530,7 +1534,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             145000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1547,7 +1551,7 @@ window.PRICE_UPDATES = {
         "min": 121500,
         "max": 139050
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1563,7 +1567,7 @@ window.PRICE_UPDATES = {
             135000,
             139050
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1572,13 +1576,12 @@ window.PRICE_UPDATES = {
           "url": "https://feebee.com.tw/s/G7789CSCVi%20XXL%20K2O%20FF/",
           "price": 128000,
           "minPrice": 128000,
-          "maxPrice": 139050,
+          "maxPrice": 135000,
           "priceCandidates": [
             128000,
-            135000,
-            139050
+            135000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1595,7 +1598,7 @@ window.PRICE_UPDATES = {
         "min": 93600,
         "max": 104000
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1609,7 +1612,7 @@ window.PRICE_UPDATES = {
             93600,
             98000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1623,7 +1626,7 @@ window.PRICE_UPDATES = {
             98000,
             104000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1640,7 +1643,7 @@ window.PRICE_UPDATES = {
         "min": 51888,
         "max": 62000
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1657,7 +1660,7 @@ window.PRICE_UPDATES = {
             56000,
             62000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1673,7 +1676,7 @@ window.PRICE_UPDATES = {
             55800,
             62000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1690,7 +1693,7 @@ window.PRICE_UPDATES = {
         "min": 42888,
         "max": 52000
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1706,7 +1709,7 @@ window.PRICE_UPDATES = {
             49400,
             52000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1722,7 +1725,7 @@ window.PRICE_UPDATES = {
             49400,
             52000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1739,7 +1742,7 @@ window.PRICE_UPDATES = {
         "min": 19900,
         "max": 44900
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1760,7 +1763,7 @@ window.PRICE_UPDATES = {
             42900,
             44900
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1784,7 +1787,7 @@ window.PRICE_UPDATES = {
             42900,
             44900
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1801,7 +1804,7 @@ window.PRICE_UPDATES = {
         "min": 23111,
         "max": 62000
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1821,7 +1824,7 @@ window.PRICE_UPDATES = {
             52000,
             62000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1840,7 +1843,7 @@ window.PRICE_UPDATES = {
             52000,
             62000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1857,7 +1860,7 @@ window.PRICE_UPDATES = {
         "min": 56176,
         "max": 94760
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1875,7 +1878,7 @@ window.PRICE_UPDATES = {
             92000,
             94760
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1893,7 +1896,7 @@ window.PRICE_UPDATES = {
             92000,
             94760
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1910,7 +1913,7 @@ window.PRICE_UPDATES = {
         "min": 49087,
         "max": 72000
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1928,7 +1931,7 @@ window.PRICE_UPDATES = {
             68000,
             72000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1946,7 +1949,7 @@ window.PRICE_UPDATES = {
             68000,
             72000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1963,7 +1966,7 @@ window.PRICE_UPDATES = {
         "min": 26208,
         "max": 61750
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1983,7 +1986,7 @@ window.PRICE_UPDATES = {
             42327,
             61750
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2002,7 +2005,7 @@ window.PRICE_UPDATES = {
             42327,
             61750
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2012,14 +2015,14 @@ window.PRICE_UPDATES = {
       "sku": "NPDFB2K61H",
       "brand": "Panasonic",
       "url": "https://feebee.com.tw/s/NPDFB2K61H/",
-      "price": 32205,
-      "minPrice": 32205,
+      "price": 29205,
+      "minPrice": 29205,
       "maxPrice": 49900,
       "priceRange": {
-        "min": 32205,
+        "min": 29205,
         "max": 49900
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2032,28 +2035,30 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             33600
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "NPDFB2K61H",
           "url": "https://feebee.com.tw/s/NPDFB2K61H/",
-          "price": 32205,
-          "minPrice": 32205,
+          "price": 29205,
+          "minPrice": 29205,
           "maxPrice": 49900,
           "priceCandidates": [
+            29205,
             32205,
             33356,
             33900,
+            34905,
+            35024,
             37905,
             38400,
             39800,
-            40900,
             47900,
             49900
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2070,7 +2075,7 @@ window.PRICE_UPDATES = {
         "min": 36000,
         "max": 43780
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2083,7 +2088,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             36000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2108,7 +2113,7 @@ window.PRICE_UPDATES = {
             42900,
             43780
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2125,7 +2130,7 @@ window.PRICE_UPDATES = {
         "min": 41455,
         "max": 55000
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2139,7 +2144,6 @@ window.PRICE_UPDATES = {
             44000,
             44500,
             46455,
-            46700,
             47433,
             48100,
             48600,
@@ -2150,7 +2154,7 @@ window.PRICE_UPDATES = {
             53833,
             55000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2162,17 +2166,17 @@ window.PRICE_UPDATES = {
           "maxPrice": 55000,
           "priceCandidates": [
             41455,
-            43778,
+            43455,
+            45778,
             46455,
             48600,
-            48778,
             48900,
             51900,
             52700,
             53833,
             55000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2189,7 +2193,7 @@ window.PRICE_UPDATES = {
         "min": 32319,
         "max": 39900
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2205,7 +2209,7 @@ window.PRICE_UPDATES = {
             37905,
             39900
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2220,11 +2224,10 @@ window.PRICE_UPDATES = {
             34114,
             35129,
             35910,
-            36110,
             37905,
             39900
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2241,7 +2244,7 @@ window.PRICE_UPDATES = {
         "min": 19799,
         "max": 33000
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2262,7 +2265,7 @@ window.PRICE_UPDATES = {
             29700,
             32400
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2277,14 +2280,14 @@ window.PRICE_UPDATES = {
             19998,
             20899,
             21999,
+            26050,
             27950,
-            28050,
             29700,
             32000,
             32400,
             33000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2298,7 +2301,7 @@ window.PRICE_UPDATES = {
       "minPrice": null,
       "maxPrice": null,
       "priceRange": null,
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Price not found",
       "sourceCount": 2,
       "allResults": [
@@ -2309,7 +2312,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -2320,7 +2323,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Price not found",
           "httpStatus": 200
         }
@@ -2337,7 +2340,7 @@ window.PRICE_UPDATES = {
         "min": 32785,
         "max": 39500
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2354,7 +2357,7 @@ window.PRICE_UPDATES = {
             37525,
             39500
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2370,7 +2373,7 @@ window.PRICE_UPDATES = {
             37525,
             39500
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2387,7 +2390,7 @@ window.PRICE_UPDATES = {
         "min": 26932,
         "max": 35550
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2405,7 +2408,7 @@ window.PRICE_UPDATES = {
             31500,
             35550
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2418,11 +2421,12 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             27900,
             28350,
+            30555,
             31000,
             31500,
             35550
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2439,7 +2443,7 @@ window.PRICE_UPDATES = {
         "min": 19990,
         "max": 25900
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2456,7 +2460,7 @@ window.PRICE_UPDATES = {
             25400,
             25900
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2474,7 +2478,7 @@ window.PRICE_UPDATES = {
             25400,
             25900
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2491,7 +2495,7 @@ window.PRICE_UPDATES = {
         "min": 47200,
         "max": 59000
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2505,14 +2509,13 @@ window.PRICE_UPDATES = {
             47200,
             47790,
             50150,
-            51300,
             51507,
             53100,
             54900,
             55100,
             57230
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2529,7 +2532,7 @@ window.PRICE_UPDATES = {
             53100,
             59000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2546,7 +2549,7 @@ window.PRICE_UPDATES = {
         "min": 34020,
         "max": 42000
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2559,14 +2562,13 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             34020,
             35700,
-            36500,
             36666,
             37800,
             38000,
             39600,
             42000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2584,7 +2586,7 @@ window.PRICE_UPDATES = {
             38000,
             42000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2601,7 +2603,7 @@ window.PRICE_UPDATES = {
         "min": 27200,
         "max": 32000
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2613,14 +2615,13 @@ window.PRICE_UPDATES = {
           "maxPrice": 32000,
           "priceCandidates": [
             27200,
-            27800,
             27936,
             28800,
             29000,
             30300,
             32000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2633,11 +2634,12 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             27200,
             27800,
+            27936,
             28800,
             29000,
             32000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2654,7 +2656,7 @@ window.PRICE_UPDATES = {
         "min": 34800,
         "max": 42230
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2670,7 +2672,7 @@ window.PRICE_UPDATES = {
             41000,
             42230
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2686,7 +2688,7 @@ window.PRICE_UPDATES = {
             41000,
             42230
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2703,7 +2705,7 @@ window.PRICE_UPDATES = {
         "min": 42120,
         "max": 55000
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2723,7 +2725,7 @@ window.PRICE_UPDATES = {
             53560,
             55000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2740,11 +2742,12 @@ window.PRICE_UPDATES = {
             46000,
             46800,
             49400,
+            51480,
             51500,
             52000,
             53560
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2761,7 +2764,7 @@ window.PRICE_UPDATES = {
         "min": 35000,
         "max": 59000
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2780,7 +2783,7 @@ window.PRICE_UPDATES = {
             57680,
             59000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2793,6 +2796,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             42000,
             42750,
+            48400,
             50300,
             50400,
             52400,
@@ -2800,7 +2804,7 @@ window.PRICE_UPDATES = {
             56000,
             57680
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2817,7 +2821,7 @@ window.PRICE_UPDATES = {
         "min": 46168,
         "max": 69900
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2838,11 +2842,12 @@ window.PRICE_UPDATES = {
             54900,
             56900,
             60200,
+            62440,
             63555,
             66900,
             69900
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2872,7 +2877,7 @@ window.PRICE_UPDATES = {
             66900,
             69900
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2889,7 +2894,7 @@ window.PRICE_UPDATES = {
         "min": 46618,
         "max": 70000
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2910,12 +2915,13 @@ window.PRICE_UPDATES = {
             56900,
             59900,
             61900,
+            65240,
             65900,
             66900,
             69900,
             70000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2939,7 +2945,7 @@ window.PRICE_UPDATES = {
             69900,
             70000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2956,7 +2962,7 @@ window.PRICE_UPDATES = {
         "min": 22000,
         "max": 59900
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 3,
       "allResults": [
@@ -2978,7 +2984,7 @@ window.PRICE_UPDATES = {
             53900,
             59900
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2992,7 +2998,6 @@ window.PRICE_UPDATES = {
             22000,
             33999,
             37905,
-            39624,
             39900,
             44900,
             46900,
@@ -3006,7 +3011,7 @@ window.PRICE_UPDATES = {
             53910,
             59900
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3024,7 +3029,7 @@ window.PRICE_UPDATES = {
             33999,
             52999
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -3041,7 +3046,7 @@ window.PRICE_UPDATES = {
         "min": 20000,
         "max": 42900
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -3063,7 +3068,7 @@ window.PRICE_UPDATES = {
             39900,
             42900
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3078,13 +3083,14 @@ window.PRICE_UPDATES = {
             27999,
             28405,
             29900,
+            33222,
             34540,
             36800,
             36900,
             39900,
             42900
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -3101,23 +3107,21 @@ window.PRICE_UPDATES = {
         "min": 27321,
         "max": 37400
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
         {
           "sku": "WDFS2R4PWETW",
           "url": "https://biggo.com.tw/s/WDFS2R4PWETW/",
-          "price": 27618,
-          "minPrice": 27618,
+          "price": 27807,
+          "minPrice": 27807,
           "maxPrice": 37400,
           "priceCandidates": [
-            27618,
             27807,
             28106,
             28405,
             29003,
-            29200,
             29299,
             29900,
             30943,
@@ -3126,7 +3130,7 @@ window.PRICE_UPDATES = {
             32900,
             37400
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3140,13 +3144,14 @@ window.PRICE_UPDATES = {
             27321,
             27807,
             28405,
+            29003,
             29900,
             30943,
             31501,
             31900,
             32900
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -3163,7 +3168,7 @@ window.PRICE_UPDATES = {
         "min": 28800,
         "max": 44000
       },
-      "checkedAt": "2026-06-26T02:10:37.997Z",
+      "checkedAt": "2026-06-26T04:00:48.531Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -3181,7 +3186,7 @@ window.PRICE_UPDATES = {
             42000,
             44000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3200,7 +3205,2059 @@ window.PRICE_UPDATES = {
             42000,
             44000
           ],
-          "checkedAt": "2026-06-26T02:10:37.997Z",
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "NP-BXW1M6",
+      "brand": "Panasonic",
+      "url": "https://feebee.com.tw/s/NP-BXW1M6/",
+      "price": 43740,
+      "minPrice": 43740,
+      "maxPrice": 55000,
+      "priceRange": {
+        "min": 43740,
+        "max": 55000
+      },
+      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "NP-BXW1M6",
+          "url": "https://biggo.com.tw/s/NP-BXW1M6/",
+          "price": 44000,
+          "minPrice": 44000,
+          "maxPrice": 55000,
+          "priceCandidates": [
+            44000,
+            44500,
+            46455,
+            47433,
+            47550,
+            48100,
+            48600,
+            48778,
+            48900,
+            50343,
+            52700,
+            53833,
+            55000
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-BXW1M6",
+          "url": "https://feebee.com.tw/s/NP-BXW1M6/",
+          "price": 43740,
+          "minPrice": 43740,
+          "maxPrice": 48990,
+          "priceCandidates": [
+            43740,
+            44000,
+            44910,
+            46000,
+            46455,
+            46500,
+            47550,
+            48900,
+            48990
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-BXW1M6",
+          "url": "https://biggo.com.tw/s/Panasonic%20NP-BXW1M6/",
+          "price": 44000,
+          "minPrice": 44000,
+          "maxPrice": 55000,
+          "priceCandidates": [
+            44000,
+            46455,
+            47433,
+            47550,
+            48600,
+            48778,
+            48900,
+            50343,
+            52700,
+            53833,
+            55000
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-BXW1M6",
+          "url": "https://feebee.com.tw/s/Panasonic%20NP-BXW1M6/",
+          "price": 43740,
+          "minPrice": 43740,
+          "maxPrice": 48990,
+          "priceCandidates": [
+            43740,
+            44000,
+            44910,
+            46000,
+            46455,
+            46500,
+            47550,
+            48900,
+            48990
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-BXW1M6",
+          "url": "https://biggo.com.tw/s/Panasonic%20NP-BXW1M6%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 44000,
+          "minPrice": 44000,
+          "maxPrice": 55000,
+          "priceCandidates": [
+            44000,
+            46455,
+            47433,
+            47550,
+            48600,
+            48778,
+            48900,
+            50343,
+            52700,
+            53833,
+            55000
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-BXW1M6",
+          "url": "https://feebee.com.tw/s/Panasonic%20NP-BXW1M6%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 43740,
+          "minPrice": 43740,
+          "maxPrice": 48990,
+          "priceCandidates": [
+            43740,
+            44000,
+            44910,
+            46000,
+            46455,
+            46500,
+            47550,
+            48900,
+            48990
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "NP-DFB2K",
+      "brand": "Panasonic",
+      "url": "https://feebee.com.tw/s/Panasonic%20NP-DFB2K/",
+      "price": 23800,
+      "minPrice": 23800,
+      "maxPrice": 123456,
+      "priceRange": {
+        "min": 23800,
+        "max": 123456
+      },
+      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "NP-DFB2K",
+          "url": "https://biggo.com.tw/s/NP-DFB2K/",
+          "price": 35900,
+          "minPrice": 35900,
+          "maxPrice": 49900,
+          "priceCandidates": [
+            35900,
+            36100,
+            36102,
+            36879,
+            37800,
+            37905,
+            38406,
+            38776,
+            38820,
+            46900,
+            47900,
+            49900
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-DFB2K",
+          "url": "https://feebee.com.tw/s/NP-DFB2K/",
+          "price": 33600,
+          "minPrice": 33600,
+          "maxPrice": 49900,
+          "priceCandidates": [
+            33600,
+            33999,
+            35900,
+            35910,
+            36100,
+            36102,
+            36200,
+            36810,
+            36879,
+            37655,
+            38000,
+            38406,
+            38776,
+            38820,
+            39900,
+            39999,
+            40044,
+            40900,
+            42800,
+            46900,
+            49900
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-DFB2K",
+          "url": "https://biggo.com.tw/s/Panasonic%20NP-DFB2K/",
+          "price": null,
+          "minPrice": null,
+          "maxPrice": null,
+          "priceCandidates": [],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Price not found",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-DFB2K",
+          "url": "https://feebee.com.tw/s/Panasonic%20NP-DFB2K/",
+          "price": 23800,
+          "minPrice": 23800,
+          "maxPrice": 123456,
+          "priceCandidates": [
+            23800,
+            23912,
+            29300,
+            32000,
+            34000,
+            37000,
+            123456
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-DFB2K",
+          "url": "https://biggo.com.tw/s/Panasonic%20NP-DFB2K%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": null,
+          "minPrice": null,
+          "maxPrice": null,
+          "priceCandidates": [],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Price not found",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-DFB2K",
+          "url": "https://feebee.com.tw/s/Panasonic%20NP-DFB2K%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 23800,
+          "minPrice": 23800,
+          "maxPrice": 123456,
+          "priceCandidates": [
+            23800,
+            23912,
+            29300,
+            32000,
+            34000,
+            37000,
+            123456
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "NP-DFB2K6",
+      "brand": "Panasonic",
+      "url": "https://feebee.com.tw/s/NP-DFB2K6/",
+      "price": 33600,
+      "minPrice": 33600,
+      "maxPrice": 49900,
+      "priceRange": {
+        "min": 33600,
+        "max": 49900
+      },
+      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "NP-DFB2K6",
+          "url": "https://biggo.com.tw/s/NP-DFB2K6/",
+          "price": 35900,
+          "minPrice": 35900,
+          "maxPrice": 49900,
+          "priceCandidates": [
+            35900,
+            36100,
+            36102,
+            36879,
+            37800,
+            37905,
+            38406,
+            38776,
+            38820,
+            46900,
+            47900,
+            49900
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-DFB2K6",
+          "url": "https://feebee.com.tw/s/NP-DFB2K6/",
+          "price": 33600,
+          "minPrice": 33600,
+          "maxPrice": 49900,
+          "priceCandidates": [
+            33600,
+            33999,
+            35900,
+            35910,
+            36100,
+            36102,
+            36200,
+            36810,
+            36879,
+            37655,
+            38000,
+            38406,
+            38776,
+            38820,
+            39900,
+            39999,
+            40044,
+            40900,
+            42800,
+            46900,
+            49900
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-DFB2K6",
+          "url": "https://biggo.com.tw/s/Panasonic%20NP-DFB2K6/",
+          "price": 35900,
+          "minPrice": 35900,
+          "maxPrice": 49900,
+          "priceCandidates": [
+            35900,
+            36100,
+            36102,
+            36879,
+            37800,
+            37905,
+            38406,
+            38776,
+            38820,
+            46900,
+            47900,
+            49900
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-DFB2K6",
+          "url": "https://feebee.com.tw/s/Panasonic%20NP-DFB2K6/",
+          "price": 33600,
+          "minPrice": 33600,
+          "maxPrice": 49900,
+          "priceCandidates": [
+            33600,
+            33999,
+            35900,
+            35910,
+            36100,
+            36102,
+            36200,
+            36810,
+            36879,
+            37655,
+            38000,
+            38406,
+            38776,
+            38820,
+            39900,
+            39999,
+            40044,
+            40900,
+            42800,
+            46900,
+            49900
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-DFB2K6",
+          "url": "https://biggo.com.tw/s/Panasonic%20NP-DFB2K6%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 35900,
+          "minPrice": 35900,
+          "maxPrice": 49900,
+          "priceCandidates": [
+            35900,
+            36100,
+            36102,
+            36879,
+            37800,
+            37905,
+            38406,
+            38776,
+            38820,
+            46900,
+            47900,
+            49900
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-DFB2K6",
+          "url": "https://feebee.com.tw/s/Panasonic%20NP-DFB2K6%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 33600,
+          "minPrice": 33600,
+          "maxPrice": 49900,
+          "priceCandidates": [
+            33600,
+            33999,
+            35900,
+            35910,
+            36100,
+            36102,
+            36200,
+            36810,
+            36879,
+            37655,
+            38000,
+            38406,
+            38776,
+            38820,
+            39900,
+            39999,
+            40044,
+            40900,
+            42800,
+            46900,
+            49900
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "NP-DXK1E6",
+      "brand": "Panasonic",
+      "url": "https://biggo.com.tw/s/NP-DXK1E6/",
+      "price": 41000,
+      "minPrice": 41000,
+      "maxPrice": 52155,
+      "priceRange": {
+        "min": 41000,
+        "max": 52155
+      },
+      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "NP-DXK1E6",
+          "url": "https://biggo.com.tw/s/NP-DXK1E6/",
+          "price": 41000,
+          "minPrice": 41000,
+          "maxPrice": 52155,
+          "priceCandidates": [
+            41000,
+            41003,
+            41510,
+            43605,
+            43620,
+            44039,
+            44160,
+            44500,
+            44523,
+            45900,
+            52155
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-DXK1E6",
+          "url": "https://feebee.com.tw/s/NP-DXK1E6/",
+          "price": 41000,
+          "minPrice": 41000,
+          "maxPrice": 48500,
+          "priceCandidates": [
+            41000,
+            41003,
+            41500,
+            41510,
+            41640,
+            41886,
+            42000,
+            42210,
+            42767,
+            43600,
+            43605,
+            43620,
+            43900,
+            44039,
+            44090,
+            44160,
+            44500,
+            45479,
+            45900,
+            48500
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-DXK1E6",
+          "url": "https://biggo.com.tw/s/Panasonic%20NP-DXK1E6/",
+          "price": 41000,
+          "minPrice": 41000,
+          "maxPrice": 52155,
+          "priceCandidates": [
+            41000,
+            41003,
+            41510,
+            43605,
+            43620,
+            44039,
+            44160,
+            44500,
+            44523,
+            45900,
+            52155
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-DXK1E6",
+          "url": "https://feebee.com.tw/s/Panasonic%20NP-DXK1E6/",
+          "price": 41000,
+          "minPrice": 41000,
+          "maxPrice": 48500,
+          "priceCandidates": [
+            41000,
+            41003,
+            41500,
+            41510,
+            41640,
+            41886,
+            42000,
+            42210,
+            42767,
+            43600,
+            43605,
+            43620,
+            43900,
+            44039,
+            44090,
+            44160,
+            44500,
+            45479,
+            45900,
+            48500
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-DXK1E6",
+          "url": "https://biggo.com.tw/s/Panasonic%20NP-DXK1E6%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 41000,
+          "minPrice": 41000,
+          "maxPrice": 52155,
+          "priceCandidates": [
+            41000,
+            41003,
+            41510,
+            43605,
+            43620,
+            44039,
+            44160,
+            44500,
+            44523,
+            45900,
+            52155
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-DXK1E6",
+          "url": "https://feebee.com.tw/s/Panasonic%20NP-DXK1E6%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 41000,
+          "minPrice": 41000,
+          "maxPrice": 48500,
+          "priceCandidates": [
+            41000,
+            41003,
+            41500,
+            41510,
+            41640,
+            41886,
+            42000,
+            42210,
+            42767,
+            43600,
+            43605,
+            43620,
+            43900,
+            44039,
+            44090,
+            44160,
+            44500,
+            45479,
+            45900,
+            48500
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "NP-DXK1E6-2H",
+      "brand": "Panasonic",
+      "url": "https://biggo.com.tw/s/NP-DXK1E6-2H/",
+      "price": 38600,
+      "minPrice": 38600,
+      "maxPrice": 52155,
+      "priceRange": {
+        "min": 38600,
+        "max": 52155
+      },
+      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "NP-DXK1E6-2H",
+          "url": "https://biggo.com.tw/s/NP-DXK1E6-2H/",
+          "price": 38600,
+          "minPrice": 38600,
+          "maxPrice": 52155,
+          "priceCandidates": [
+            38600,
+            41500,
+            43605,
+            44523,
+            45900,
+            52155
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-DXK1E6-2H",
+          "url": "https://feebee.com.tw/s/NP-DXK1E6-2H/",
+          "price": 38600,
+          "minPrice": 38600,
+          "maxPrice": 52155,
+          "priceCandidates": [
+            38600,
+            38605,
+            40605,
+            41310,
+            42210,
+            43605,
+            45900,
+            47155,
+            49155,
+            52155
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-DXK1E6-2H",
+          "url": "https://biggo.com.tw/s/Panasonic%20NP-DXK1E6-2H/",
+          "price": 38600,
+          "minPrice": 38600,
+          "maxPrice": 52155,
+          "priceCandidates": [
+            38600,
+            41500,
+            43605,
+            44523,
+            45900,
+            52155
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-DXK1E6-2H",
+          "url": "https://feebee.com.tw/s/Panasonic%20NP-DXK1E6-2H/",
+          "price": 38600,
+          "minPrice": 38600,
+          "maxPrice": 52155,
+          "priceCandidates": [
+            38600,
+            38605,
+            40605,
+            41310,
+            42210,
+            43605,
+            45900,
+            47155,
+            49155,
+            52155
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-DXK1E6-2H",
+          "url": "https://biggo.com.tw/s/Panasonic%20NP-DXK1E6-2H%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 38600,
+          "minPrice": 38600,
+          "maxPrice": 52155,
+          "priceCandidates": [
+            38600,
+            41500,
+            43605,
+            44523,
+            45900,
+            52155
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-DXK1E6-2H",
+          "url": "https://feebee.com.tw/s/Panasonic%20NP-DXK1E6-2H%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 38600,
+          "minPrice": 38600,
+          "maxPrice": 52155,
+          "priceCandidates": [
+            38600,
+            38605,
+            40605,
+            41310,
+            42210,
+            43605,
+            45900,
+            47155,
+            49155,
+            52155
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "NP-FKABGJBTW",
+      "brand": "Panasonic",
+      "url": "https://biggo.com.tw/s/NP-FKABGJBTW/",
+      "price": 43100,
+      "minPrice": 43100,
+      "maxPrice": 43100,
+      "priceRange": {
+        "min": 43100,
+        "max": 43100
+      },
+      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "NP-FKABGJBTW",
+          "url": "https://biggo.com.tw/s/NP-FKABGJBTW/",
+          "price": 43100,
+          "minPrice": 43100,
+          "maxPrice": 43100,
+          "priceCandidates": [
+            43100
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-FKABGJBTW",
+          "url": "https://feebee.com.tw/s/NP-FKABGJBTW/",
+          "price": null,
+          "minPrice": null,
+          "maxPrice": null,
+          "priceCandidates": [],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Price not found",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-FKABGJBTW",
+          "url": "https://biggo.com.tw/s/Panasonic%20NP-FKABGJBTW/",
+          "price": 43100,
+          "minPrice": 43100,
+          "maxPrice": 43100,
+          "priceCandidates": [
+            43100
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-FKABGJBTW",
+          "url": "https://feebee.com.tw/s/Panasonic%20NP-FKABGJBTW/",
+          "price": null,
+          "minPrice": null,
+          "maxPrice": null,
+          "priceCandidates": [],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Price not found",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-FKABGJBTW",
+          "url": "https://biggo.com.tw/s/Panasonic%20NP-FKABGJBTW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 43100,
+          "minPrice": 43100,
+          "maxPrice": 43100,
+          "priceCandidates": [
+            43100
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-FKABGJBTW",
+          "url": "https://feebee.com.tw/s/Panasonic%20NP-FKABGJBTW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": null,
+          "minPrice": null,
+          "maxPrice": null,
+          "priceCandidates": [],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Price not found",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "NP-FKAKGJKTW",
+      "brand": "Panasonic",
+      "url": "https://feebee.com.tw/s/NP-FKAKGJKTW/",
+      "price": 39365,
+      "minPrice": 39365,
+      "maxPrice": 44365,
+      "priceRange": {
+        "min": 39365,
+        "max": 44365
+      },
+      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "NP-FKAKGJKTW",
+          "url": "https://biggo.com.tw/s/NP-FKAKGJKTW/",
+          "price": 44365,
+          "minPrice": 44365,
+          "maxPrice": 44365,
+          "priceCandidates": [
+            44365
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-FKAKGJKTW",
+          "url": "https://feebee.com.tw/s/NP-FKAKGJKTW/",
+          "price": 39365,
+          "minPrice": 39365,
+          "maxPrice": 44365,
+          "priceCandidates": [
+            39365,
+            42900,
+            43605,
+            44365
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-FKAKGJKTW",
+          "url": "https://biggo.com.tw/s/Panasonic%20NP-FKAKGJKTW/",
+          "price": 44365,
+          "minPrice": 44365,
+          "maxPrice": 44365,
+          "priceCandidates": [
+            44365
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-FKAKGJKTW",
+          "url": "https://feebee.com.tw/s/Panasonic%20NP-FKAKGJKTW/",
+          "price": 39365,
+          "minPrice": 39365,
+          "maxPrice": 44365,
+          "priceCandidates": [
+            39365,
+            43605,
+            44365
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-FKAKGJKTW",
+          "url": "https://biggo.com.tw/s/Panasonic%20NP-FKAKGJKTW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 42900,
+          "minPrice": 42900,
+          "maxPrice": 44365,
+          "priceCandidates": [
+            42900,
+            44365
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-FKAKGJKTW",
+          "url": "https://feebee.com.tw/s/Panasonic%20NP-FKAKGJKTW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 39365,
+          "minPrice": 39365,
+          "maxPrice": 44365,
+          "priceCandidates": [
+            39365,
+            42900,
+            43605,
+            44365
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "NP-K1YWHR2TW",
+      "brand": "Panasonic",
+      "url": "https://biggo.com.tw/s/NP-K1YWHR2TW/",
+      "price": 17000,
+      "minPrice": 17000,
+      "maxPrice": 22900,
+      "priceRange": {
+        "min": 17000,
+        "max": 22900
+      },
+      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "NP-K1YWHR2TW",
+          "url": "https://biggo.com.tw/s/NP-K1YWHR2TW/",
+          "price": 17000,
+          "minPrice": 17000,
+          "maxPrice": 22900,
+          "priceCandidates": [
+            17000,
+            17366,
+            17700,
+            17707,
+            18000,
+            18085,
+            18280,
+            18320,
+            18831,
+            18869,
+            19040,
+            19647,
+            20805,
+            20900,
+            21650,
+            21755,
+            21850,
+            21900,
+            22900
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-K1YWHR2TW",
+          "url": "https://feebee.com.tw/s/NP-K1YWHR2TW/",
+          "price": 17000,
+          "minPrice": 17000,
+          "maxPrice": 22900,
+          "priceCandidates": [
+            17000,
+            17700,
+            17707,
+            17732,
+            18000,
+            18085,
+            18280,
+            18320,
+            18400,
+            18469,
+            18700,
+            18724,
+            18831,
+            18856,
+            18869,
+            19040,
+            19579,
+            19634,
+            19647,
+            19665,
+            20610,
+            20700,
+            20805,
+            21200,
+            21755,
+            21850,
+            21900,
+            22900
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-K1YWHR2TW",
+          "url": "https://biggo.com.tw/s/Panasonic%20NP-K1YWHR2TW/",
+          "price": 17000,
+          "minPrice": 17000,
+          "maxPrice": 22900,
+          "priceCandidates": [
+            17000,
+            17366,
+            17700,
+            17707,
+            18000,
+            18085,
+            18088,
+            18280,
+            18831,
+            18869,
+            19040,
+            19647,
+            20805,
+            20900,
+            21650,
+            21755,
+            21850,
+            21900,
+            22900
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-K1YWHR2TW",
+          "url": "https://feebee.com.tw/s/Panasonic%20NP-K1YWHR2TW/",
+          "price": 17000,
+          "minPrice": 17000,
+          "maxPrice": 22900,
+          "priceCandidates": [
+            17000,
+            17700,
+            17707,
+            17732,
+            18000,
+            18085,
+            18280,
+            18320,
+            18469,
+            18724,
+            18831,
+            18856,
+            18869,
+            19040,
+            19579,
+            19634,
+            19647,
+            19665,
+            20610,
+            20700,
+            20805,
+            21200,
+            21755,
+            21850,
+            21900,
+            22900
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-K1YWHR2TW",
+          "url": "https://biggo.com.tw/s/Panasonic%20NP-K1YWHR2TW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 17000,
+          "minPrice": 17000,
+          "maxPrice": 22900,
+          "priceCandidates": [
+            17000,
+            17366,
+            17700,
+            17707,
+            18000,
+            18085,
+            18088,
+            18280,
+            18831,
+            18869,
+            19040,
+            19647,
+            20805,
+            20900,
+            21650,
+            21755,
+            21850,
+            21900,
+            22900
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-K1YWHR2TW",
+          "url": "https://feebee.com.tw/s/Panasonic%20NP-K1YWHR2TW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 17000,
+          "minPrice": 17000,
+          "maxPrice": 22900,
+          "priceCandidates": [
+            17000,
+            17700,
+            17707,
+            17732,
+            18000,
+            18085,
+            18280,
+            18320,
+            18400,
+            18469,
+            18700,
+            18724,
+            18831,
+            18856,
+            18869,
+            19040,
+            19579,
+            19634,
+            19647,
+            19665,
+            20610,
+            20805,
+            21200,
+            21755,
+            21850,
+            21900,
+            22900
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "NP-TH4WHR1TW",
+      "brand": "Panasonic",
+      "url": "https://biggo.com.tw/s/NP-TH4WHR1TW/",
+      "price": 17000,
+      "minPrice": 17000,
+      "maxPrice": 22900,
+      "priceRange": {
+        "min": 17000,
+        "max": 22900
+      },
+      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "NP-TH4WHR1TW",
+          "url": "https://biggo.com.tw/s/NP-TH4WHR1TW/",
+          "price": 17000,
+          "minPrice": 17000,
+          "maxPrice": 21900,
+          "priceCandidates": [
+            17000,
+            17100,
+            17366,
+            17600,
+            17900,
+            18085,
+            18280,
+            18800,
+            18869,
+            18900,
+            19900,
+            21900
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-TH4WHR1TW",
+          "url": "https://feebee.com.tw/s/NP-TH4WHR1TW/",
+          "price": 17000,
+          "minPrice": 17000,
+          "maxPrice": 22900,
+          "priceCandidates": [
+            17000,
+            17732,
+            17900,
+            18085,
+            18280,
+            18800,
+            18856,
+            18869,
+            18900,
+            19000,
+            19600,
+            19710,
+            19780,
+            19900,
+            19931,
+            20000,
+            20200,
+            20805,
+            21900,
+            22900
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-TH4WHR1TW",
+          "url": "https://biggo.com.tw/s/Panasonic%20NP-TH4WHR1TW/",
+          "price": 17000,
+          "minPrice": 17000,
+          "maxPrice": 21900,
+          "priceCandidates": [
+            17000,
+            17100,
+            17366,
+            17600,
+            17900,
+            18085,
+            18280,
+            18800,
+            18869,
+            18900,
+            19900,
+            21900
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-TH4WHR1TW",
+          "url": "https://feebee.com.tw/s/Panasonic%20NP-TH4WHR1TW/",
+          "price": 17000,
+          "minPrice": 17000,
+          "maxPrice": 22900,
+          "priceCandidates": [
+            17000,
+            17366,
+            17600,
+            17732,
+            17900,
+            18085,
+            18280,
+            18800,
+            18856,
+            18869,
+            18900,
+            19000,
+            19710,
+            19780,
+            19900,
+            19931,
+            20805,
+            21900,
+            22900
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-TH4WHR1TW",
+          "url": "https://biggo.com.tw/s/Panasonic%20NP-TH4WHR1TW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 17000,
+          "minPrice": 17000,
+          "maxPrice": 21900,
+          "priceCandidates": [
+            17000,
+            17100,
+            17366,
+            17600,
+            17900,
+            18085,
+            18280,
+            18800,
+            18869,
+            18900,
+            19900,
+            21900
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-TH4WHR1TW",
+          "url": "https://feebee.com.tw/s/Panasonic%20NP-TH4WHR1TW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 17000,
+          "minPrice": 17000,
+          "maxPrice": 22900,
+          "priceCandidates": [
+            17000,
+            17366,
+            17600,
+            17732,
+            17900,
+            18085,
+            18280,
+            18800,
+            18856,
+            18869,
+            18900,
+            19000,
+            19710,
+            19780,
+            19900,
+            19931,
+            20805,
+            21900,
+            22900
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "NP-TH4WHR1TW-D",
+      "brand": "Panasonic",
+      "url": "https://biggo.com.tw/s/NP-TH4WHR1TW-D/",
+      "price": 17100,
+      "minPrice": 17100,
+      "maxPrice": 18900,
+      "priceRange": {
+        "min": 17100,
+        "max": 18900
+      },
+      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "NP-TH4WHR1TW-D",
+          "url": "https://biggo.com.tw/s/NP-TH4WHR1TW-D/",
+          "price": 17100,
+          "minPrice": 17100,
+          "maxPrice": 17100,
+          "priceCandidates": [
+            17100
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-TH4WHR1TW-D",
+          "url": "https://feebee.com.tw/s/NP-TH4WHR1TW-D/",
+          "price": 17100,
+          "minPrice": 17100,
+          "maxPrice": 18900,
+          "priceCandidates": [
+            17100,
+            18900
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-TH4WHR1TW-D",
+          "url": "https://biggo.com.tw/s/Panasonic%20NP-TH4WHR1TW-D/",
+          "price": 17100,
+          "minPrice": 17100,
+          "maxPrice": 17100,
+          "priceCandidates": [
+            17100
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-TH4WHR1TW-D",
+          "url": "https://feebee.com.tw/s/Panasonic%20NP-TH4WHR1TW-D/",
+          "price": 17100,
+          "minPrice": 17100,
+          "maxPrice": 18900,
+          "priceCandidates": [
+            17100,
+            18900
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-TH4WHR1TW-D",
+          "url": "https://biggo.com.tw/s/Panasonic%20NP-TH4WHR1TW-D%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 17100,
+          "minPrice": 17100,
+          "maxPrice": 17100,
+          "priceCandidates": [
+            17100
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-TH4WHR1TW-D",
+          "url": "https://feebee.com.tw/s/Panasonic%20NP-TH4WHR1TW-D%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 17100,
+          "minPrice": 17100,
+          "maxPrice": 18900,
+          "priceCandidates": [
+            17100,
+            18900
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "NP-TSK1",
+      "brand": "Panasonic",
+      "url": "https://biggo.com.tw/s/NP-TSK1/",
+      "price": 19200,
+      "minPrice": 19200,
+      "maxPrice": 35000,
+      "priceRange": {
+        "min": 19200,
+        "max": 35000
+      },
+      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "NP-TSK1",
+          "url": "https://biggo.com.tw/s/NP-TSK1/",
+          "price": 19200,
+          "minPrice": 19200,
+          "maxPrice": 25200,
+          "priceCandidates": [
+            19200,
+            19600,
+            20300,
+            20600,
+            20989,
+            20998,
+            20999,
+            21000,
+            21100,
+            21400,
+            21500,
+            21700,
+            21899,
+            22700,
+            23000,
+            23500,
+            24990,
+            25200
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-TSK1",
+          "url": "https://feebee.com.tw/s/NP-TSK1/",
+          "price": 19600,
+          "minPrice": 19600,
+          "maxPrice": 35000,
+          "priceCandidates": [
+            19600,
+            20700,
+            20812,
+            21799,
+            23000,
+            24990,
+            25200,
+            29999,
+            32000,
+            33500,
+            34000,
+            35000
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-TSK1",
+          "url": "https://biggo.com.tw/s/Panasonic%20NP-TSK1/",
+          "price": 19200,
+          "minPrice": 19200,
+          "maxPrice": 25200,
+          "priceCandidates": [
+            19200,
+            19600,
+            20300,
+            20600,
+            20989,
+            20998,
+            20999,
+            21000,
+            21100,
+            21400,
+            21500,
+            21700,
+            21899,
+            22700,
+            23000,
+            23500,
+            24990,
+            25200
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-TSK1",
+          "url": "https://feebee.com.tw/s/Panasonic%20NP-TSK1/",
+          "price": 19600,
+          "minPrice": 19600,
+          "maxPrice": 35000,
+          "priceCandidates": [
+            19600,
+            20700,
+            20812,
+            21799,
+            24990,
+            25200,
+            29999,
+            32000,
+            33500,
+            34000,
+            35000
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-TSK1",
+          "url": "https://biggo.com.tw/s/Panasonic%20NP-TSK1%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 19200,
+          "minPrice": 19200,
+          "maxPrice": 25200,
+          "priceCandidates": [
+            19200,
+            19600,
+            20300,
+            20600,
+            20998,
+            21000,
+            21100,
+            21400,
+            21500,
+            21700,
+            21899,
+            22700,
+            23000,
+            23500,
+            24990,
+            25200
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-TSK1",
+          "url": "https://feebee.com.tw/s/Panasonic%20NP-TSK1%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 19600,
+          "minPrice": 19600,
+          "maxPrice": 35000,
+          "priceCandidates": [
+            19600,
+            21799,
+            24990,
+            25200,
+            29999,
+            33500,
+            35000
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "NP-TSP1",
+      "brand": "Panasonic",
+      "url": "https://biggo.com.tw/s/NP-TSP1/",
+      "price": 21400,
+      "minPrice": 21400,
+      "maxPrice": 42980,
+      "priceRange": {
+        "min": 21400,
+        "max": 42980
+      },
+      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "NP-TSP1",
+          "url": "https://biggo.com.tw/s/NP-TSP1/",
+          "price": 21400,
+          "minPrice": 21400,
+          "maxPrice": 29999,
+          "priceCandidates": [
+            21400,
+            22600,
+            22700,
+            23600,
+            23998,
+            24400,
+            24500,
+            25158,
+            25500,
+            25699,
+            25700,
+            25900,
+            26990,
+            27300,
+            28000,
+            28999,
+            29999
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-TSP1",
+          "url": "https://feebee.com.tw/s/NP-TSP1/",
+          "price": 22600,
+          "minPrice": 22600,
+          "maxPrice": 42980,
+          "priceCandidates": [
+            22600,
+            22700,
+            24500,
+            24612,
+            26990,
+            28111,
+            29999,
+            35900,
+            41000,
+            42980
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-TSP1",
+          "url": "https://biggo.com.tw/s/Panasonic%20NP-TSP1/",
+          "price": 21400,
+          "minPrice": 21400,
+          "maxPrice": 29999,
+          "priceCandidates": [
+            21400,
+            22600,
+            22700,
+            23600,
+            23998,
+            24400,
+            24500,
+            25158,
+            25500,
+            25699,
+            25700,
+            25900,
+            26990,
+            27300,
+            28000,
+            28999,
+            29999
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-TSP1",
+          "url": "https://feebee.com.tw/s/Panasonic%20NP-TSP1/",
+          "price": 22600,
+          "minPrice": 22600,
+          "maxPrice": 42980,
+          "priceCandidates": [
+            22600,
+            22700,
+            24500,
+            24612,
+            26990,
+            28111,
+            29999,
+            35900,
+            41000,
+            42980
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-TSP1",
+          "url": "https://biggo.com.tw/s/Panasonic%20NP-TSP1%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 21400,
+          "minPrice": 21400,
+          "maxPrice": 29999,
+          "priceCandidates": [
+            21400,
+            22600,
+            22700,
+            23600,
+            23998,
+            24400,
+            24500,
+            25158,
+            25500,
+            25699,
+            25700,
+            25900,
+            26990,
+            27300,
+            28000,
+            28999,
+            29999
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-TSP1",
+          "url": "https://feebee.com.tw/s/Panasonic%20NP-TSP1%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 22600,
+          "minPrice": 22600,
+          "maxPrice": 42980,
+          "priceCandidates": [
+            22600,
+            22700,
+            24500,
+            24612,
+            26990,
+            29999,
+            35900,
+            41000,
+            42980
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "NP-TZ300",
+      "brand": "Panasonic",
+      "url": "https://biggo.com.tw/s/NP-TZ300/",
+      "price": 18800,
+      "minPrice": 18800,
+      "maxPrice": 123456,
+      "priceRange": {
+        "min": 18800,
+        "max": 123456
+      },
+      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "NP-TZ300",
+          "url": "https://biggo.com.tw/s/NP-TZ300/",
+          "price": 18800,
+          "minPrice": 18800,
+          "maxPrice": 123456,
+          "priceCandidates": [
+            18800,
+            23700,
+            25200,
+            25800,
+            25989,
+            25998,
+            25999,
+            26300,
+            26800,
+            26990,
+            27100,
+            27200,
+            27500,
+            27790,
+            27989,
+            28280,
+            28600,
+            29190,
+            29300,
+            29600,
+            29699,
+            29700,
+            29890,
+            30000,
+            32000,
+            33900,
+            34400,
+            39980,
+            42980,
+            123456
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-TZ300",
+          "url": "https://feebee.com.tw/s/NP-TZ300/",
+          "price": 18800,
+          "minPrice": 18800,
+          "maxPrice": 123456,
+          "priceCandidates": [
+            18800,
+            26990,
+            27889,
+            28280,
+            28500,
+            28612,
+            30000,
+            32000,
+            33900,
+            34400,
+            34690,
+            34990,
+            39900,
+            41990,
+            42980,
+            50390,
+            123456
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-TZ300",
+          "url": "https://biggo.com.tw/s/Panasonic%20NP-TZ300/",
+          "price": 23700,
+          "minPrice": 23700,
+          "maxPrice": 123456,
+          "priceCandidates": [
+            23700,
+            25200,
+            25800,
+            25989,
+            25998,
+            25999,
+            26300,
+            26800,
+            26990,
+            27100,
+            27200,
+            27500,
+            27790,
+            27989,
+            28280,
+            28600,
+            29190,
+            29300,
+            29600,
+            29699,
+            29700,
+            29890,
+            30000,
+            32000,
+            33900,
+            34400,
+            34690,
+            39980,
+            42980,
+            123456
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-TZ300",
+          "url": "https://feebee.com.tw/s/Panasonic%20NP-TZ300/",
+          "price": 26990,
+          "minPrice": 26990,
+          "maxPrice": 123456,
+          "priceCandidates": [
+            26990,
+            27889,
+            28280,
+            28500,
+            28612,
+            30000,
+            32000,
+            33900,
+            34400,
+            34690,
+            34990,
+            39900,
+            41990,
+            42980,
+            123456
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-TZ300",
+          "url": "https://biggo.com.tw/s/Panasonic%20NP-TZ300%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 21500,
+          "minPrice": 21500,
+          "maxPrice": 123456,
+          "priceCandidates": [
+            21500,
+            22300,
+            23700,
+            24800,
+            25200,
+            25800,
+            26300,
+            26800,
+            26990,
+            27100,
+            27200,
+            27500,
+            27790,
+            27989,
+            28280,
+            28600,
+            29190,
+            29300,
+            29600,
+            29699,
+            29700,
+            29890,
+            33900,
+            34400,
+            34690,
+            123456
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "NP-TZ300",
+          "url": "https://feebee.com.tw/s/Panasonic%20NP-TZ300%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 26990,
+          "minPrice": 26990,
+          "maxPrice": 123456,
+          "priceCandidates": [
+            26990,
+            27889,
+            28280,
+            28500,
+            28612,
+            33900,
+            34400,
+            34690,
+            34990,
+            39900,
+            41990,
+            123456
+          ],
+          "checkedAt": "2026-06-26T04:00:48.531Z",
           "status": "Updated",
           "httpStatus": 200
         }

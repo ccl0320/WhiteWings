@@ -146,6 +146,45 @@ async function scanPrices(sources) {
   };
 }
 
+function priceSearchUrlsForSku(sku, brand = "") {
+  const queries = [
+    sku,
+    brand ? `${brand} ${sku}` : "",
+    brand ? `${brand} ${sku} 洗碗機` : ""
+  ].filter(Boolean);
+
+  return [...new Set(queries.flatMap(query => {
+    const encoded = encodeURIComponent(query);
+    return [
+      `https://biggo.com.tw/s/${encoded}/`,
+      `https://feebee.com.tw/s/${encoded}/`
+    ];
+  }))];
+}
+
+function dynamicPriceSourcesFromProductPayload(productPayload, configuredPriceSources, brandWatch) {
+  const configuredNorms = new Set(configuredPriceSources.map(source => normalizeSku(source.sku)).filter(Boolean));
+  const enabledBrands = new Set((brandWatch.brands || [])
+    .filter(source => source.priceScanDiscovered)
+    .map(source => source.brand));
+
+  const sources = [];
+  for (const brand of productPayload.brands || []) {
+    if (!enabledBrands.has(brand.brand)) continue;
+    for (const sku of brand.foundSkus || []) {
+      if (configuredNorms.has(normalizeSku(sku))) continue;
+      sources.push({
+        sku,
+        brand: brand.brand,
+        minPrice: 17000,
+        discoverySource: "product-list-scan",
+        urls: priceSearchUrlsForSku(sku, brand.brand)
+      });
+    }
+  }
+  return sources;
+}
+
 function compilePatterns(patterns) {
   return (patterns || []).map(pattern => new RegExp(pattern, "gi"));
 }
@@ -206,7 +245,8 @@ function extractSkuCandidates(html, patterns) {
       const sku = String(match[0])
         .replace(/\s+/g, " ")
         .replace(/[，,。:;|()[\]{}<>]/g, "")
-        .trim();
+        .trim()
+        .replace(/^[\s-]+|[\s-]+$/g, "");
       if (sku.length >= 4 && sku.length <= 32) found.add(sku);
     }
   }
@@ -389,8 +429,9 @@ const priceSources = Array.isArray(priceConfig.sources) ? priceConfig.sources : 
 const knownSkuSet = new Set(priceSources.map(source => String(source.sku || "").toUpperCase()).filter(Boolean));
 const knownNorms = new Set([...knownSkuSet].map(normalizeSku).filter(Boolean));
 
-const pricePayload = await scanPrices(priceSources);
 const productPayload = await scanBrandLists(brandWatch, knownSkuSet, knownNorms, productBaseline);
+const dynamicPriceSources = dynamicPriceSourcesFromProductPayload(productPayload, priceSources, brandWatch);
+const pricePayload = await scanPrices([...priceSources, ...dynamicPriceSources]);
 
 await fs.writeFile(priceOutputPath, `window.PRICE_UPDATES = ${JSON.stringify(pricePayload, null, 2)};\n`, "utf8");
 await fs.writeFile(productOutputPath, `window.PRODUCT_LIST_UPDATES = ${JSON.stringify(productPayload, null, 2)};\n`, "utf8");

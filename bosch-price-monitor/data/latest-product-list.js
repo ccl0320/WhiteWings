@@ -1,9 +1,9 @@
 window.PRODUCT_LIST_UPDATES = {
-  "generatedAt": "2026-06-26T02:10:37.997Z",
+  "generatedAt": "2026-06-26T04:00:48.531Z",
   "knownSkuCount": 57,
   "brandCount": 11,
-  "unmappedCandidateCount": 92,
-  "newCandidateCount": 5,
+  "unmappedCandidateCount": 94,
+  "newCandidateCount": 7,
   "brands": [
     {
       "brand": "Bosch",
@@ -136,14 +136,14 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Zeolith"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "SMS63M12TC",
           "brand": "Bosch",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -152,7 +152,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Zeolith"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -161,35 +161,35 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "SPS2IKI06X",
           "brand": "Bosch",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "SPS4IMW0",
           "brand": "Bosch",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "SPS4IMW00X",
           "brand": "Bosch",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "SPS63M02TC",
           "brand": "Bosch",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         }
       ],
@@ -212,12 +212,13 @@ window.PRODUCT_LIST_UPDATES = {
     {
       "brand": "Asko",
       "sourceCount": 3,
-      "foundCount": 28,
+      "foundCount": 29,
       "knownCount": 2,
-      "unmappedCandidateCount": 26,
-      "newCandidateCount": 0,
+      "unmappedCandidateCount": 27,
+      "newCandidateCount": 1,
       "foundSkus": [
         "DBI233IB.S",
+        "DBI233IB.S.TW",
         "DBI233IB.S.TW/1",
         "DBI233IB.W",
         "DBI233IB.W.TW",
@@ -251,6 +252,12 @@ window.PRODUCT_LIST_UPDATES = {
         "DFS344ID.W.TW"
       ],
       "featureTagsBySku": [
+        {
+          "sku": "DBI233IB.S.TW",
+          "tags": [
+            "110V"
+          ]
+        },
         {
           "sku": "DBI233IB.S.TW/1",
           "tags": [
@@ -365,7 +372,16 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "DBI233IB.S",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Unmapped"
+        },
+        {
+          "sku": "DBI233IB.S.TW",
+          "brand": "Asko",
+          "featureTags": [
+            "110V"
+          ],
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -374,7 +390,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -383,7 +399,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -392,14 +408,14 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "DBI544ID.W.TW",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -408,7 +424,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -417,14 +433,14 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "DBI644MIB.S.TW",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -433,21 +449,21 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "DBI654IB",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "DBI654IB.W",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -456,7 +472,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -465,14 +481,14 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "DFI433B",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -481,7 +497,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -490,7 +506,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "220V"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -499,28 +515,28 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "DFI644MB",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "DFI654B",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "DFS143I.S",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -529,7 +545,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -538,7 +554,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -547,7 +563,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -556,7 +572,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -565,18 +581,28 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "DFS244IB.S",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         }
       ],
-      "newCandidates": [],
+      "newCandidates": [
+        {
+          "sku": "DBI233IB.S.TW",
+          "brand": "Asko",
+          "featureTags": [
+            "110V"
+          ],
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
+          "status": "New since baseline"
+        }
+      ],
       "sources": [
         {
           "url": "https://tw.asko.com/",
@@ -594,7 +620,7 @@ window.PRODUCT_LIST_UPDATES = {
           "url": "https://feebee.com.tw/s/Asko%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "status": "Scanned",
           "httpStatus": 200,
-          "candidateCount": 12
+          "candidateCount": 15
         }
       ]
     },
@@ -746,7 +772,7 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "G5001",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -755,7 +781,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -765,7 +791,7 @@ window.PRODUCT_LIST_UPDATES = {
             "220V",
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -775,14 +801,14 @@ window.PRODUCT_LIST_UPDATES = {
             "220V",
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "G5214CSC",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -792,7 +818,7 @@ window.PRODUCT_LIST_UPDATES = {
             "220V",
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -801,7 +827,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "220V"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -811,7 +837,7 @@ window.PRODUCT_LIST_UPDATES = {
             "220V",
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -821,14 +847,14 @@ window.PRODUCT_LIST_UPDATES = {
             "220V",
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "G5314CSCI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -837,21 +863,21 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "220V"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "G5364CSCVI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "G7101",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -861,7 +887,7 @@ window.PRODUCT_LIST_UPDATES = {
             "220V",
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -871,7 +897,7 @@ window.PRODUCT_LIST_UPDATES = {
             "220V",
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -880,28 +906,28 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "220V"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "G7130CSCI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "G7180C",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "G7180CSCVI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -910,21 +936,21 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "220V"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "G7604CSCI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "G7714CSCI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         }
       ],
@@ -933,28 +959,28 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "G5214CSC",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "New since baseline"
         },
         {
           "sku": "G5314CSCI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "New since baseline"
         },
         {
           "sku": "G7604CSCI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "New since baseline"
         },
         {
           "sku": "G7714CSCI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "New since baseline"
         }
       ],
@@ -982,13 +1008,14 @@ window.PRODUCT_LIST_UPDATES = {
     {
       "brand": "Electrolux",
       "sourceCount": 2,
-      "foundCount": 17,
+      "foundCount": 18,
       "knownCount": 7,
-      "unmappedCandidateCount": 10,
-      "newCandidateCount": 0,
+      "unmappedCandidateCount": 11,
+      "newCandidateCount": 1,
       "foundSkus": [
         "EBF7531SBA",
         "EBF9442SBA",
+        "EBF9531SBA",
         "EEEM9420L",
         "EEM48300IX",
         "EEZB9410L",
@@ -1033,7 +1060,7 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "EBF7531SBA",
           "brand": "Electrolux",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -1042,21 +1069,28 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "220V"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
+          "status": "Unmapped"
+        },
+        {
+          "sku": "EBF9531SBA",
+          "brand": "Electrolux",
+          "featureTags": [],
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "EEEM9420L",
           "brand": "Electrolux",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "EEM48300IX",
           "brand": "Electrolux",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -1065,46 +1099,54 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "EFS3060VWB",
           "brand": "Electrolux",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "KEE27200IW",
           "brand": "Electrolux",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "KEE27200LW",
           "brand": "Electrolux",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "KEE47200IW",
           "brand": "Electrolux",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "KSE43200SW",
           "brand": "Electrolux",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         }
       ],
-      "newCandidates": [],
+      "newCandidates": [
+        {
+          "sku": "EBF9531SBA",
+          "brand": "Electrolux",
+          "featureTags": [],
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
+          "status": "New since baseline"
+        }
+      ],
       "sources": [
         {
           "url": "https://biggo.com.tw/s/Electrolux%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
@@ -1116,7 +1158,7 @@ window.PRODUCT_LIST_UPDATES = {
           "url": "https://feebee.com.tw/s/Electrolux%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "status": "Scanned",
           "httpStatus": 200,
-          "candidateCount": 16
+          "candidateCount": 17
         }
       ]
     },
@@ -1165,19 +1207,6 @@ window.PRODUCT_LIST_UPDATES = {
           "tags": [
             "110V"
           ]
-        },
-        {
-          "sku": "NP-K1YWHR2TW",
-          "tags": [
-            "Wi-Fi"
-          ]
-        },
-        {
-          "sku": "NP-TH4WHR1TW",
-          "tags": [
-            "Solo Dry",
-            "Wi-Fi"
-          ]
         }
       ],
       "unmappedCandidates": [
@@ -1185,75 +1214,70 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "NP-DXK1E6",
           "brand": "Panasonic",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "NP-DXK1E6-2H",
           "brand": "Panasonic",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "NP-FKABGJBTW",
           "brand": "Panasonic",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "NP-FKAKGJKTW",
           "brand": "Panasonic",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "NP-K1YWHR2TW",
           "brand": "Panasonic",
-          "featureTags": [
-            "Wi-Fi"
-          ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "featureTags": [],
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "NP-TH4WHR1TW",
           "brand": "Panasonic",
-          "featureTags": [
-            "Solo Dry",
-            "Wi-Fi"
-          ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "featureTags": [],
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "NP-TH4WHR1TW-D",
           "brand": "Panasonic",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "NP-TSK1",
           "brand": "Panasonic",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "NP-TSP1",
           "brand": "Panasonic",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "NP-TZ300",
           "brand": "Panasonic",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         }
       ],
@@ -1262,7 +1286,7 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "NP-TH4WHR1TW-D",
           "brand": "Panasonic",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "New since baseline"
         }
       ],
@@ -1373,7 +1397,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -1382,7 +1406,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Hot air dry"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -1391,7 +1415,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Hot air dry"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -1400,7 +1424,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -1409,7 +1433,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -1418,7 +1442,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -1427,7 +1451,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -1436,7 +1460,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         }
       ],
@@ -1510,7 +1534,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -1519,21 +1543,21 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "E7782",
           "brand": "Sakura",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
           "sku": "E9322D",
           "brand": "Sakura",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         }
       ],
@@ -1590,7 +1614,7 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "ZIV-645T",
           "brand": "Amica",
           "featureTags": [],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         }
       ],
@@ -1672,7 +1696,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         },
         {
@@ -1681,7 +1705,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         }
       ],
@@ -1737,7 +1761,8 @@ window.PRODUCT_LIST_UPDATES = {
         {
           "sku": "DFB533FW",
           "tags": [
-            "Steam"
+            "Steam",
+            "Wi-Fi"
           ]
         }
       ],
@@ -1804,7 +1829,7 @@ window.PRODUCT_LIST_UPDATES = {
             "110V",
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+          "firstDetectedAt": "2026-06-26T04:00:48.531Z",
           "status": "Unmapped"
         }
       ],
@@ -1832,14 +1857,14 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Zeolith"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "SMS63M12TC",
       "brand": "Bosch",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -1848,7 +1873,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Zeolith"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -1857,42 +1882,51 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "SPS2IKI06X",
       "brand": "Bosch",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "SPS4IMW0",
       "brand": "Bosch",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "SPS4IMW00X",
       "brand": "Bosch",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "SPS63M02TC",
       "brand": "Bosch",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "DBI233IB.S",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
+      "status": "Unmapped"
+    },
+    {
+      "sku": "DBI233IB.S.TW",
+      "brand": "Asko",
+      "featureTags": [
+        "110V"
+      ],
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -1901,7 +1935,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -1910,7 +1944,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -1919,14 +1953,14 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "DBI544ID.W.TW",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -1935,7 +1969,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -1944,14 +1978,14 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "DBI644MIB.S.TW",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -1960,21 +1994,21 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "DBI654IB",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "DBI654IB.W",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -1983,7 +2017,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -1992,14 +2026,14 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "DFI433B",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2008,7 +2042,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2017,7 +2051,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "220V"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2026,28 +2060,28 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "DFI644MB",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "DFI654B",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "DFS143I.S",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2056,7 +2090,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2065,7 +2099,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2074,7 +2108,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2083,7 +2117,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2092,21 +2126,21 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "DFS244IB.S",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "G5001",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2115,7 +2149,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2125,7 +2159,7 @@ window.PRODUCT_LIST_UPDATES = {
         "220V",
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2135,14 +2169,14 @@ window.PRODUCT_LIST_UPDATES = {
         "220V",
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "G5214CSC",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2152,7 +2186,7 @@ window.PRODUCT_LIST_UPDATES = {
         "220V",
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2161,7 +2195,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "220V"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2171,7 +2205,7 @@ window.PRODUCT_LIST_UPDATES = {
         "220V",
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2181,14 +2215,14 @@ window.PRODUCT_LIST_UPDATES = {
         "220V",
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "G5314CSCI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2197,21 +2231,21 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "220V"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "G5364CSCVI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "G7101",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2221,7 +2255,7 @@ window.PRODUCT_LIST_UPDATES = {
         "220V",
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2231,7 +2265,7 @@ window.PRODUCT_LIST_UPDATES = {
         "220V",
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2240,28 +2274,28 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "220V"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "G7130CSCI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "G7180C",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "G7180CSCVI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2270,28 +2304,28 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "220V"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "G7604CSCI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "G7714CSCI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "EBF7531SBA",
       "brand": "Electrolux",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2300,21 +2334,28 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "220V"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
+      "status": "Unmapped"
+    },
+    {
+      "sku": "EBF9531SBA",
+      "brand": "Electrolux",
+      "featureTags": [],
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "EEEM9420L",
       "brand": "Electrolux",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "EEM48300IX",
       "brand": "Electrolux",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2323,117 +2364,112 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "EFS3060VWB",
       "brand": "Electrolux",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "KEE27200IW",
       "brand": "Electrolux",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "KEE27200LW",
       "brand": "Electrolux",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "KEE47200IW",
       "brand": "Electrolux",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "KSE43200SW",
       "brand": "Electrolux",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "NP-DXK1E6",
       "brand": "Panasonic",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "NP-DXK1E6-2H",
       "brand": "Panasonic",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "NP-FKABGJBTW",
       "brand": "Panasonic",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "NP-FKAKGJKTW",
       "brand": "Panasonic",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "NP-K1YWHR2TW",
       "brand": "Panasonic",
-      "featureTags": [
-        "Wi-Fi"
-      ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "featureTags": [],
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "NP-TH4WHR1TW",
       "brand": "Panasonic",
-      "featureTags": [
-        "Solo Dry",
-        "Wi-Fi"
-      ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "featureTags": [],
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "NP-TH4WHR1TW-D",
       "brand": "Panasonic",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "NP-TSK1",
       "brand": "Panasonic",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "NP-TSP1",
       "brand": "Panasonic",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "NP-TZ300",
       "brand": "Panasonic",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2442,7 +2478,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2451,7 +2487,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Hot air dry"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2460,7 +2496,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Hot air dry"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2469,7 +2505,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2478,7 +2514,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2487,7 +2523,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2496,7 +2532,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2505,7 +2541,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2514,7 +2550,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2523,28 +2559,28 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "E7782",
       "brand": "Sakura",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "E9322D",
       "brand": "Sakura",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
       "sku": "ZIV-645T",
       "brand": "Amica",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2553,7 +2589,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2562,7 +2598,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     },
     {
@@ -2572,44 +2608,60 @@ window.PRODUCT_LIST_UPDATES = {
         "110V",
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "Unmapped"
     }
   ],
   "newCandidates": [
     {
+      "sku": "DBI233IB.S.TW",
+      "brand": "Asko",
+      "featureTags": [
+        "110V"
+      ],
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
+      "status": "New since baseline"
+    },
+    {
       "sku": "G5214CSC",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "New since baseline"
     },
     {
       "sku": "G5314CSCI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "New since baseline"
     },
     {
       "sku": "G7604CSCI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "New since baseline"
     },
     {
       "sku": "G7714CSCI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
+      "status": "New since baseline"
+    },
+    {
+      "sku": "EBF9531SBA",
+      "brand": "Electrolux",
+      "featureTags": [],
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "New since baseline"
     },
     {
       "sku": "NP-TH4WHR1TW-D",
       "brand": "Panasonic",
       "featureTags": [],
-      "firstDetectedAt": "2026-06-26T02:10:37.997Z",
+      "firstDetectedAt": "2026-06-26T04:00:48.531Z",
       "status": "New since baseline"
     }
   ]
