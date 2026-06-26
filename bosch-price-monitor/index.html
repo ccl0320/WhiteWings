@@ -776,7 +776,7 @@
                 <th data-sort="sku">SKU / source</th>
                 <th data-sort="type">Type</th>
                 <th data-sort="width">Width</th>
-                <th data-sort="rsp">Seed RSP</th>
+                <th data-sort="rsp">RSP / MSRP</th>
                 <th data-sort="going">Going price range</th>
                 <th data-sort="band">Band</th>
                 <th>Feature tags</th>
@@ -868,6 +868,26 @@
     const updateBySku = new Map((scanUpdates.items || []).map(item => [normalizeSku(item.sku), item]));
     const seedBySku = new Map(seedProducts.map(product => [normalizeSku(product.sku), product]));
 
+    function priceStatusFor(update) {
+      if (!update) return "No price source";
+      if ((update.minPrice ?? update.price) != null) return update.status || "Updated";
+      return update.status || "Price not found";
+    }
+
+    function priceNoteFor(p) {
+      if (p.goingMin != null && p.goingMax != null && p.goingMin !== p.goingMax) return "Lowest - highest found";
+      if (p.goingMin != null || p.goingMax != null) return "Latest found price";
+      if (p.priceStatus === "No price source") return "Detected SKU, waiting for price scan";
+      if (p.priceStatus === "Fetch failed") return "Source fetch failed";
+      if (p.priceStatus === "Price not found") return "Scanned, no valid price found";
+      return p.priceStatus || "Pending price scan";
+    }
+
+    function rspNoteFor(p) {
+      if (p.rsp == null) return "No RSP source yet";
+      return p.rspSource || "Reference price";
+    }
+
     function buildProductFromSearch(brand, sku) {
       const known = seedBySku.get(normalizeSku(sku)) || {};
       const update = updateBySku.get(normalizeSku(sku));
@@ -878,7 +898,8 @@
         sku,
         type: known.type || "TBC",
         width: known.width || "TBC",
-        rsp: null,
+        rsp: known.rsp ?? null,
+        rspSource: known.rsp != null ? known.source || "PPT reference" : "No RSP source",
         going: update?.minPrice ?? update?.price ?? null,
         goingMin: update?.minPrice ?? update?.price ?? null,
         goingMax: update?.maxPrice ?? update?.price ?? null,
@@ -887,9 +908,10 @@
         features: scannedFeatures.length ? scannedFeatures : known.features || [],
         scannedFeatures,
         source: "Search result scan",
-        status: update ? update.status || "Updated" : known.sku ? "Detected" : "Unmapped",
+        status: update ? priceStatusFor(update) : known.sku ? "Detected" : "Unmapped",
         lastChecked: update?.checkedAt || productListUpdates.generatedAt || null,
-        liveStatus: update ? update.status || "Updated" : "Detected in product search",
+        liveStatus: update ? priceStatusFor(update) : "No price source",
+        priceStatus: priceStatusFor(update),
         monitorUrl: update?.url || "",
         knownInSeed: Boolean(known.sku)
       };
@@ -902,8 +924,11 @@
       ? searchProducts
       : seedProducts.map(product => ({
           ...product,
-          rsp: null,
+          rspSource: product.source || "PPT reference",
           going: null,
+          goingMin: null,
+          goingMax: null,
+          priceStatus: "Pending scan",
           source: "Fallback only - waiting for search scan",
           lastChecked: null,
           livePrice: null,
@@ -1139,8 +1164,8 @@
           <td><span class="sku">${p.sku}</span><span class="cell-note">${sourceNote(p)}</span></td>
           <td>${p.type}<span class="cell-note">${p.type === "TBC" ? "Missing online/seed type" : "Seed-assisted if needed"}</span></td>
           <td>${p.width}<span class="cell-note">${p.width === "TBC" ? "Missing online/seed width" : "Seed-assisted if needed"}</span></td>
-          <td>${currency(p.rsp)}</td>
-          <td><span class="price-cell">${priceRangeText(p)}</span><span class="cell-note">${p.goingMin != null && p.goingMax != null && p.goingMin !== p.goingMax ? "Lowest - highest found" : "Latest found price"}</span></td>
+          <td>${currency(p.rsp)}<span class="cell-note">${rspNoteFor(p)}</span></td>
+          <td><span class="price-cell">${priceRangeText(p)}</span><span class="cell-note">${priceNoteFor(p)}</span></td>
           <td>${bandOf(p)}</td>
           <td>${p.features.map(f => `<span class="tag">${f}</span>`).join("") || `<span class="subtle">No tags</span>`}<span class="cell-note">${featureNote(p)}</span></td>
           <td><span class="status ${statusClass}">${status}</span><span class="cell-note">${formatDate(p.lastChecked)}</span></td>
@@ -1156,7 +1181,7 @@
         <dl>
           <dt>Install type</dt><dd>${p.type}</dd>
           <dt>Width</dt><dd>${p.width}</dd>
-          <dt>RSP</dt><dd>${currency(p.rsp)}</dd>
+          <dt>RSP</dt><dd>${currency(p.rsp)} (${rspNoteFor(p)})</dd>
           <dt>Going price</dt><dd>${priceRangeText(p)}</dd>
           <dt>Price band</dt><dd>${bandOf(p)}</dd>
           <dt>Status</dt><dd>${p.liveStatus || p.status}</dd>

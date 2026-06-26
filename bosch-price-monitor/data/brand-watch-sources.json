@@ -7,6 +7,7 @@
   "brands": [
     {
       "brand": "Bosch",
+      "priceScanDiscovered": true,
       "urls": [
         "https://biggo.com.tw/s/Bosch%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
         "https://feebee.com.tw/s/Bosch%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
@@ -21,6 +22,7 @@
     },
     {
       "brand": "Asko",
+      "priceScanDiscovered": true,
       "urls": [
         "https://tw.asko.com/",
         "https://biggo.com.tw/s/Asko%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
@@ -33,6 +35,7 @@
     },
     {
       "brand": "Miele",
+      "priceScanDiscovered": true,
       "urls": [
         "https://miele.kenk.com.tw/application/dish-washer",
         "https://biggo.com.tw/s/Miele%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
@@ -44,6 +47,7 @@
     },
     {
       "brand": "Electrolux",
+      "priceScanDiscovered": true,
       "urls": [
         "https://biggo.com.tw/s/Electrolux%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
         "https://feebee.com.tw/s/Electrolux%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
@@ -65,6 +69,7 @@
     },
     {
       "brand": "Svago",
+      "priceScanDiscovered": true,
       "urls": [
         "https://svago-kitchens.com.tw/product?Category=83013",
         "https://biggo.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
@@ -76,6 +81,7 @@
     },
     {
       "brand": "Sakura",
+      "priceScanDiscovered": true,
       "urls": [
         "https://biggo.com.tw/s/Sakura%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
         "https://feebee.com.tw/s/Sakura%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
@@ -86,6 +92,7 @@
     },
     {
       "brand": "Amica",
+      "priceScanDiscovered": true,
       "urls": [
         "https://biggo.com.tw/s/Amica%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
         "https://feebee.com.tw/s/Amica%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
@@ -96,6 +103,7 @@
     },
     {
       "brand": "Teka",
+      "priceScanDiscovered": true,
       "urls": [
         "https://biggo.com.tw/s/Teka%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
         "https://feebee.com.tw/s/Teka%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
@@ -108,6 +116,7 @@
     },
     {
       "brand": "LG",
+      "priceScanDiscovered": true,
       "urls": [
         "https://biggo.com.tw/s/LG%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
         "https://feebee.com.tw/s/LG%20%E6%B4%97%E7%A2%97%E6%A9%9F/"
@@ -118,6 +127,7 @@
     },
     {
       "brand": "Whirlpool",
+      "priceScanDiscovered": true,
       "urls": [
         "https://biggo.com.tw/s/Whirlpool%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
         "https://feebee.com.tw/s/Whirlpool%20%E6%B4%97%E7%A2%97%E6%A9%9F/"

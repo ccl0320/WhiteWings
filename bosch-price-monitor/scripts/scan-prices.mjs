@@ -147,10 +147,11 @@ async function scanPrices(sources) {
 }
 
 function priceSearchUrlsForSku(sku, brand = "") {
+  const dishwasherKeyword = "\u6d17\u7897\u6a5f";
   const queries = [
     sku,
     brand ? `${brand} ${sku}` : "",
-    brand ? `${brand} ${sku} 洗碗機` : ""
+    brand ? `${brand} ${sku} ${dishwasherKeyword}` : ""
   ].filter(Boolean);
 
   return [...new Set(queries.flatMap(query => {

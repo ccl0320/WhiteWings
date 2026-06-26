@@ -1,6 +1,6 @@
 window.PRICE_UPDATES = {
-  "generatedAt": "2026-06-26T04:00:48.531Z",
-  "itemCount": 70,
+  "generatedAt": "2026-06-26T06:18:32.926Z",
+  "itemCount": 164,
   "items": [
     {
       "sku": "SMS8ZCI00X",
@@ -13,7 +13,7 @@ window.PRICE_UPDATES = {
         "min": 64618,
         "max": 85000
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -31,7 +31,7 @@ window.PRICE_UPDATES = {
             80600,
             85000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -50,7 +50,7 @@ window.PRICE_UPDATES = {
             80750,
             85000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -60,25 +60,24 @@ window.PRICE_UPDATES = {
       "sku": "SMS6ZCW00X",
       "brand": "Bosch",
       "url": "https://biggo.com.tw/s/SMS6ZCW00X/",
-      "price": 55800,
-      "minPrice": 55800,
+      "price": 58000,
+      "minPrice": 58000,
       "maxPrice": 83900,
       "priceRange": {
-        "min": 55800,
+        "min": 58000,
         "max": 83900
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
         {
           "sku": "SMS6ZCW00X",
           "url": "https://biggo.com.tw/s/SMS6ZCW00X/",
-          "price": 55800,
-          "minPrice": 55800,
+          "price": 58000,
+          "minPrice": 58000,
           "maxPrice": 83900,
           "priceCandidates": [
-            55800,
             58000,
             60000,
             69000,
@@ -86,7 +85,7 @@ window.PRICE_UPDATES = {
             72800,
             83900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -106,7 +105,7 @@ window.PRICE_UPDATES = {
             72800,
             83900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -123,7 +122,7 @@ window.PRICE_UPDATES = {
         "min": 38900,
         "max": 53800
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -144,7 +143,7 @@ window.PRICE_UPDATES = {
             51000,
             53800
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -167,7 +166,7 @@ window.PRICE_UPDATES = {
             51110,
             53800
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -184,7 +183,7 @@ window.PRICE_UPDATES = {
         "min": 38595,
         "max": 91800
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -208,7 +207,7 @@ window.PRICE_UPDATES = {
             63900,
             91800
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -228,13 +227,14 @@ window.PRICE_UPDATES = {
             41400,
             41500,
             42900,
+            45000,
             47200,
             47310,
             48000,
             49800,
             63900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -251,7 +251,7 @@ window.PRICE_UPDATES = {
         "min": 48575,
         "max": 59500
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -265,7 +265,7 @@ window.PRICE_UPDATES = {
             50575,
             59500
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -282,7 +282,7 @@ window.PRICE_UPDATES = {
             53550,
             59000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -299,7 +299,7 @@ window.PRICE_UPDATES = {
         "min": 40075,
         "max": 49500
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -316,7 +316,7 @@ window.PRICE_UPDATES = {
             47550,
             49500
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -335,7 +335,7 @@ window.PRICE_UPDATES = {
             49000,
             49500
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -352,7 +352,7 @@ window.PRICE_UPDATES = {
         "min": 26000,
         "max": 52000
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -375,7 +375,7 @@ window.PRICE_UPDATES = {
             46800,
             49800
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -396,7 +396,7 @@ window.PRICE_UPDATES = {
             49800,
             52000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -413,7 +413,7 @@ window.PRICE_UPDATES = {
         "min": 29900,
         "max": 45500
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -432,7 +432,7 @@ window.PRICE_UPDATES = {
             43200,
             45500
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -454,7 +454,7 @@ window.PRICE_UPDATES = {
             43225,
             45500
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -471,7 +471,7 @@ window.PRICE_UPDATES = {
         "min": 27900,
         "max": 44400
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -489,7 +489,7 @@ window.PRICE_UPDATES = {
             42200,
             44400
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -512,7 +512,7 @@ window.PRICE_UPDATES = {
             42200,
             44400
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -529,7 +529,7 @@ window.PRICE_UPDATES = {
         "min": 58800,
         "max": 99000
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -542,8 +542,8 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             66900,
             70900,
-            78585,
             79200,
+            81900,
             83200,
             84500,
             85000,
@@ -551,7 +551,7 @@ window.PRICE_UPDATES = {
             90000,
             99000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -575,7 +575,7 @@ window.PRICE_UPDATES = {
             90000,
             99000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -592,7 +592,7 @@ window.PRICE_UPDATES = {
         "min": 64000,
         "max": 81000
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -612,7 +612,7 @@ window.PRICE_UPDATES = {
             78000,
             81000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -635,7 +635,7 @@ window.PRICE_UPDATES = {
             78000,
             81000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -652,7 +652,7 @@ window.PRICE_UPDATES = {
         "min": 56618,
         "max": 86300
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -664,7 +664,6 @@ window.PRICE_UPDATES = {
           "maxPrice": 86300,
           "priceCandidates": [
             56618,
-            57400,
             59000,
             61500,
             62000,
@@ -674,7 +673,7 @@ window.PRICE_UPDATES = {
             72500,
             86300
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -696,7 +695,7 @@ window.PRICE_UPDATES = {
             67000,
             72500
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -713,24 +712,24 @@ window.PRICE_UPDATES = {
         "min": 39100,
         "max": 49800
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
         {
           "sku": "SMV4HAX00X",
           "url": "https://biggo.com.tw/s/SMV4HAX00X/",
-          "price": 39525,
-          "minPrice": 39525,
+          "price": 41480,
+          "minPrice": 41480,
           "maxPrice": 49800,
           "priceCandidates": [
-            39525,
+            41480,
             42500,
             45410,
             47800,
             49800
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -748,7 +747,7 @@ window.PRICE_UPDATES = {
             45410,
             47800
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -765,7 +764,7 @@ window.PRICE_UPDATES = {
         "min": 36400,
         "max": 52000
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -791,7 +790,7 @@ window.PRICE_UPDATES = {
             48500,
             52000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -817,7 +816,7 @@ window.PRICE_UPDATES = {
             48500,
             52000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -834,7 +833,7 @@ window.PRICE_UPDATES = {
         "min": 33600,
         "max": 43600
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -858,7 +857,7 @@ window.PRICE_UPDATES = {
             41600,
             43600
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -886,7 +885,7 @@ window.PRICE_UPDATES = {
             41600,
             42800
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -903,7 +902,7 @@ window.PRICE_UPDATES = {
         "min": 37000,
         "max": 46800
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -928,7 +927,7 @@ window.PRICE_UPDATES = {
             46100,
             46500
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -945,7 +944,6 @@ window.PRICE_UPDATES = {
             38000,
             39900,
             40000,
-            41000,
             41297,
             42000,
             42120,
@@ -957,7 +955,7 @@ window.PRICE_UPDATES = {
             46500,
             46800
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -974,7 +972,7 @@ window.PRICE_UPDATES = {
         "min": 38900,
         "max": 58900
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -995,7 +993,7 @@ window.PRICE_UPDATES = {
             51200,
             58900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1008,6 +1006,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             46000,
             46100,
+            46600,
             46900,
             48000,
             48988,
@@ -1017,7 +1016,7 @@ window.PRICE_UPDATES = {
             51200,
             58900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1034,7 +1033,7 @@ window.PRICE_UPDATES = {
         "min": 38180,
         "max": 48900
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1055,7 +1054,7 @@ window.PRICE_UPDATES = {
             46500,
             48900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1078,7 +1077,7 @@ window.PRICE_UPDATES = {
             44200,
             46500
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1095,7 +1094,7 @@ window.PRICE_UPDATES = {
         "min": 33210,
         "max": 42000
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1120,7 +1119,7 @@ window.PRICE_UPDATES = {
             40500,
             41600
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1150,7 +1149,7 @@ window.PRICE_UPDATES = {
             41600,
             42000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1167,7 +1166,7 @@ window.PRICE_UPDATES = {
         "min": 89900,
         "max": 92000
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1178,7 +1177,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -1192,7 +1191,7 @@ window.PRICE_UPDATES = {
             89900,
             92000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1209,7 +1208,7 @@ window.PRICE_UPDATES = {
         "min": 88000,
         "max": 88000
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1220,7 +1219,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -1233,7 +1232,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             88000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1250,7 +1249,7 @@ window.PRICE_UPDATES = {
         "min": 66060,
         "max": 92400
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1270,7 +1269,7 @@ window.PRICE_UPDATES = {
             85999,
             88000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1291,7 +1290,7 @@ window.PRICE_UPDATES = {
             88000,
             92400
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1308,7 +1307,7 @@ window.PRICE_UPDATES = {
         "min": 69000,
         "max": 88200
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1326,7 +1325,7 @@ window.PRICE_UPDATES = {
             82999,
             84000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1345,7 +1344,7 @@ window.PRICE_UPDATES = {
             84000,
             88200
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1362,7 +1361,7 @@ window.PRICE_UPDATES = {
         "min": 110000,
         "max": 122570
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1378,7 +1377,7 @@ window.PRICE_UPDATES = {
             119000,
             122570
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1393,7 +1392,7 @@ window.PRICE_UPDATES = {
             119000,
             122570
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1410,7 +1409,7 @@ window.PRICE_UPDATES = {
         "min": 52000,
         "max": 64000
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1423,7 +1422,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             54400
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1439,7 +1438,7 @@ window.PRICE_UPDATES = {
             63000,
             64000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1456,7 +1455,7 @@ window.PRICE_UPDATES = {
         "min": 74100,
         "max": 79500
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1473,7 +1472,7 @@ window.PRICE_UPDATES = {
             78000,
             79500
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1490,7 +1489,7 @@ window.PRICE_UPDATES = {
             78000,
             79500
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1507,7 +1506,7 @@ window.PRICE_UPDATES = {
         "min": 137700,
         "max": 145000
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1521,7 +1520,7 @@ window.PRICE_UPDATES = {
             137700,
             145000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1534,7 +1533,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             145000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1551,7 +1550,7 @@ window.PRICE_UPDATES = {
         "min": 121500,
         "max": 139050
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1567,7 +1566,7 @@ window.PRICE_UPDATES = {
             135000,
             139050
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1581,7 +1580,7 @@ window.PRICE_UPDATES = {
             128000,
             135000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1598,7 +1597,7 @@ window.PRICE_UPDATES = {
         "min": 93600,
         "max": 104000
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1612,7 +1611,7 @@ window.PRICE_UPDATES = {
             93600,
             98000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1626,7 +1625,7 @@ window.PRICE_UPDATES = {
             98000,
             104000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1643,7 +1642,7 @@ window.PRICE_UPDATES = {
         "min": 51888,
         "max": 62000
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1660,7 +1659,7 @@ window.PRICE_UPDATES = {
             56000,
             62000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1676,7 +1675,7 @@ window.PRICE_UPDATES = {
             55800,
             62000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1693,7 +1692,7 @@ window.PRICE_UPDATES = {
         "min": 42888,
         "max": 52000
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1709,7 +1708,7 @@ window.PRICE_UPDATES = {
             49400,
             52000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1725,7 +1724,7 @@ window.PRICE_UPDATES = {
             49400,
             52000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1742,7 +1741,7 @@ window.PRICE_UPDATES = {
         "min": 19900,
         "max": 44900
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1763,7 +1762,7 @@ window.PRICE_UPDATES = {
             42900,
             44900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1787,7 +1786,7 @@ window.PRICE_UPDATES = {
             42900,
             44900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1804,7 +1803,7 @@ window.PRICE_UPDATES = {
         "min": 23111,
         "max": 62000
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1824,7 +1823,7 @@ window.PRICE_UPDATES = {
             52000,
             62000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1843,7 +1842,7 @@ window.PRICE_UPDATES = {
             52000,
             62000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1860,7 +1859,7 @@ window.PRICE_UPDATES = {
         "min": 56176,
         "max": 94760
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1878,7 +1877,7 @@ window.PRICE_UPDATES = {
             92000,
             94760
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1896,7 +1895,7 @@ window.PRICE_UPDATES = {
             92000,
             94760
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1913,7 +1912,7 @@ window.PRICE_UPDATES = {
         "min": 49087,
         "max": 72000
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1931,7 +1930,7 @@ window.PRICE_UPDATES = {
             68000,
             72000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1949,7 +1948,7 @@ window.PRICE_UPDATES = {
             68000,
             72000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1966,7 +1965,7 @@ window.PRICE_UPDATES = {
         "min": 26208,
         "max": 61750
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -1986,7 +1985,7 @@ window.PRICE_UPDATES = {
             42327,
             61750
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2005,7 +2004,7 @@ window.PRICE_UPDATES = {
             42327,
             61750
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2022,7 +2021,7 @@ window.PRICE_UPDATES = {
         "min": 29205,
         "max": 49900
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2035,7 +2034,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             33600
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2058,7 +2057,7 @@ window.PRICE_UPDATES = {
             47900,
             49900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2075,7 +2074,7 @@ window.PRICE_UPDATES = {
         "min": 36000,
         "max": 43780
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2088,7 +2087,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             36000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2113,7 +2112,7 @@ window.PRICE_UPDATES = {
             42900,
             43780
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2130,7 +2129,7 @@ window.PRICE_UPDATES = {
         "min": 41455,
         "max": 55000
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2154,7 +2153,7 @@ window.PRICE_UPDATES = {
             53833,
             55000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2176,7 +2175,7 @@ window.PRICE_UPDATES = {
             53833,
             55000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2186,14 +2185,14 @@ window.PRICE_UPDATES = {
       "sku": "VE7190",
       "brand": "Svago",
       "url": "https://feebee.com.tw/s/VE7190/",
-      "price": 32319,
-      "minPrice": 32319,
+      "price": 33910,
+      "minPrice": 33910,
       "maxPrice": 39900,
       "priceRange": {
-        "min": 32319,
+        "min": 33910,
         "max": 39900
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2209,25 +2208,25 @@ window.PRICE_UPDATES = {
             37905,
             39900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "VE7190",
           "url": "https://feebee.com.tw/s/VE7190/",
-          "price": 32319,
-          "minPrice": 32319,
+          "price": 33910,
+          "minPrice": 33910,
           "maxPrice": 39900,
           "priceCandidates": [
-            32319,
+            33910,
             34114,
             35129,
             35910,
             37905,
             39900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2244,7 +2243,7 @@ window.PRICE_UPDATES = {
         "min": 19799,
         "max": 33000
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2265,7 +2264,7 @@ window.PRICE_UPDATES = {
             29700,
             32400
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2287,7 +2286,7 @@ window.PRICE_UPDATES = {
             32400,
             33000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2301,7 +2300,7 @@ window.PRICE_UPDATES = {
       "minPrice": null,
       "maxPrice": null,
       "priceRange": null,
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Price not found",
       "sourceCount": 2,
       "allResults": [
@@ -2312,7 +2311,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -2323,7 +2322,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Price not found",
           "httpStatus": 200
         }
@@ -2340,7 +2339,7 @@ window.PRICE_UPDATES = {
         "min": 32785,
         "max": 39500
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2357,7 +2356,7 @@ window.PRICE_UPDATES = {
             37525,
             39500
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2373,7 +2372,7 @@ window.PRICE_UPDATES = {
             37525,
             39500
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2390,7 +2389,7 @@ window.PRICE_UPDATES = {
         "min": 26932,
         "max": 35550
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2408,7 +2407,7 @@ window.PRICE_UPDATES = {
             31500,
             35550
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2426,7 +2425,7 @@ window.PRICE_UPDATES = {
             31500,
             35550
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2443,7 +2442,7 @@ window.PRICE_UPDATES = {
         "min": 19990,
         "max": 25900
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2460,7 +2459,7 @@ window.PRICE_UPDATES = {
             25400,
             25900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2478,7 +2477,7 @@ window.PRICE_UPDATES = {
             25400,
             25900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2495,7 +2494,7 @@ window.PRICE_UPDATES = {
         "min": 47200,
         "max": 59000
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2515,7 +2514,7 @@ window.PRICE_UPDATES = {
             55100,
             57230
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2532,7 +2531,7 @@ window.PRICE_UPDATES = {
             53100,
             59000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2549,7 +2548,7 @@ window.PRICE_UPDATES = {
         "min": 34020,
         "max": 42000
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2568,7 +2567,7 @@ window.PRICE_UPDATES = {
             39600,
             42000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2586,7 +2585,7 @@ window.PRICE_UPDATES = {
             38000,
             42000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2603,7 +2602,7 @@ window.PRICE_UPDATES = {
         "min": 27200,
         "max": 32000
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2621,7 +2620,7 @@ window.PRICE_UPDATES = {
             30300,
             32000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2639,7 +2638,7 @@ window.PRICE_UPDATES = {
             29000,
             32000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2656,7 +2655,7 @@ window.PRICE_UPDATES = {
         "min": 34800,
         "max": 42230
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2672,7 +2671,7 @@ window.PRICE_UPDATES = {
             41000,
             42230
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2688,7 +2687,7 @@ window.PRICE_UPDATES = {
             41000,
             42230
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2705,7 +2704,7 @@ window.PRICE_UPDATES = {
         "min": 42120,
         "max": 55000
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2725,7 +2724,7 @@ window.PRICE_UPDATES = {
             53560,
             55000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2747,7 +2746,7 @@ window.PRICE_UPDATES = {
             52000,
             53560
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2764,7 +2763,7 @@ window.PRICE_UPDATES = {
         "min": 35000,
         "max": 59000
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2783,7 +2782,7 @@ window.PRICE_UPDATES = {
             57680,
             59000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2804,7 +2803,7 @@ window.PRICE_UPDATES = {
             56000,
             57680
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2821,7 +2820,7 @@ window.PRICE_UPDATES = {
         "min": 46168,
         "max": 69900
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2847,7 +2846,7 @@ window.PRICE_UPDATES = {
             66900,
             69900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2877,7 +2876,7 @@ window.PRICE_UPDATES = {
             66900,
             69900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2894,7 +2893,7 @@ window.PRICE_UPDATES = {
         "min": 46618,
         "max": 70000
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -2921,7 +2920,7 @@ window.PRICE_UPDATES = {
             69900,
             70000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2945,7 +2944,7 @@ window.PRICE_UPDATES = {
             69900,
             70000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2962,7 +2961,7 @@ window.PRICE_UPDATES = {
         "min": 22000,
         "max": 59900
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 3,
       "allResults": [
@@ -2984,7 +2983,7 @@ window.PRICE_UPDATES = {
             53900,
             59900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3011,7 +3010,7 @@ window.PRICE_UPDATES = {
             53910,
             59900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3029,7 +3028,7 @@ window.PRICE_UPDATES = {
             33999,
             52999
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -3046,7 +3045,7 @@ window.PRICE_UPDATES = {
         "min": 20000,
         "max": 42900
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -3068,7 +3067,7 @@ window.PRICE_UPDATES = {
             39900,
             42900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3083,14 +3082,13 @@ window.PRICE_UPDATES = {
             27999,
             28405,
             29900,
-            33222,
             34540,
             36800,
             36900,
             39900,
             42900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -3107,7 +3105,7 @@ window.PRICE_UPDATES = {
         "min": 27321,
         "max": 37400
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -3130,7 +3128,7 @@ window.PRICE_UPDATES = {
             32900,
             37400
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3151,7 +3149,7 @@ window.PRICE_UPDATES = {
             31900,
             32900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -3168,7 +3166,7 @@ window.PRICE_UPDATES = {
         "min": 28800,
         "max": 44000
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 2,
       "allResults": [
@@ -3186,7 +3184,7 @@ window.PRICE_UPDATES = {
             42000,
             44000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3205,7 +3203,9495 @@ window.PRICE_UPDATES = {
             42000,
             44000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "SMI8ZCS00X",
+      "brand": "Bosch",
+      "url": "https://biggo.com.tw/s/SMI8ZCS00X/",
+      "price": 58300,
+      "minPrice": 58300,
+      "maxPrice": 84500,
+      "priceRange": {
+        "min": 58300,
+        "max": 84500
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "SMI8ZCS00X",
+          "url": "https://biggo.com.tw/s/SMI8ZCS00X/",
+          "price": 58300,
+          "minPrice": 58300,
+          "maxPrice": 84500,
+          "priceCandidates": [
+            58300,
+            63000,
+            66400,
+            66900,
+            68040,
+            69000,
+            70953,
+            77000,
+            81000,
+            84500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMI8ZCS00X",
+          "url": "https://feebee.com.tw/s/SMI8ZCS00X/",
+          "price": 63480,
+          "minPrice": 63480,
+          "maxPrice": 81000,
+          "priceCandidates": [
+            63480,
+            64170,
+            66500,
+            67200,
+            67230,
+            68040,
+            68900,
+            69000,
+            70953,
+            77000,
+            81000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMI8ZCS00X",
+          "url": "https://biggo.com.tw/s/Bosch%20SMI8ZCS00X/",
+          "price": 58300,
+          "minPrice": 58300,
+          "maxPrice": 84500,
+          "priceCandidates": [
+            58300,
+            63000,
+            66400,
+            66900,
+            68040,
+            69000,
+            70953,
+            77000,
+            81000,
+            84500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMI8ZCS00X",
+          "url": "https://feebee.com.tw/s/Bosch%20SMI8ZCS00X/",
+          "price": 58300,
+          "minPrice": 58300,
+          "maxPrice": 81000,
+          "priceCandidates": [
+            58300,
+            63480,
+            64170,
+            65100,
+            66000,
+            66500,
+            67200,
+            67230,
+            68040,
+            68900,
+            69000,
+            70953,
+            77000,
+            81000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMI8ZCS00X",
+          "url": "https://biggo.com.tw/s/Bosch%20SMI8ZCS00X%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 58300,
+          "minPrice": 58300,
+          "maxPrice": 84500,
+          "priceCandidates": [
+            58300,
+            63000,
+            66400,
+            66900,
+            68040,
+            69000,
+            70953,
+            77000,
+            81000,
+            84500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMI8ZCS00X",
+          "url": "https://feebee.com.tw/s/Bosch%20SMI8ZCS00X%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 58300,
+          "minPrice": 58300,
+          "maxPrice": 81000,
+          "priceCandidates": [
+            58300,
+            63480,
+            64170,
+            65100,
+            66000,
+            66500,
+            67200,
+            67230,
+            68040,
+            68900,
+            69000,
+            70953,
+            77000,
+            81000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "SMS4HAW0",
+      "brand": "Bosch",
+      "url": "https://biggo.com.tw/s/SMS4HAW0/",
+      "price": 29900,
+      "minPrice": 29900,
+      "maxPrice": 45500,
+      "priceRange": {
+        "min": 29900,
+        "max": 45500
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "SMS4HAW0",
+          "url": "https://biggo.com.tw/s/SMS4HAW0/",
+          "price": 29900,
+          "minPrice": 29900,
+          "maxPrice": 45500,
+          "priceCandidates": [
+            29900,
+            37310,
+            37500,
+            37765,
+            43200,
+            45500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMS4HAW0",
+          "url": "https://feebee.com.tw/s/SMS4HAW0/",
+          "price": 35500,
+          "minPrice": 35500,
+          "maxPrice": 45500,
+          "priceCandidates": [
+            35500,
+            37310,
+            37400,
+            37500,
+            37765,
+            37900,
+            40950,
+            43200,
+            43225,
+            45500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMS4HAW0",
+          "url": "https://biggo.com.tw/s/Bosch%20SMS4HAW0/",
+          "price": 37310,
+          "minPrice": 37310,
+          "maxPrice": 45500,
+          "priceCandidates": [
+            37310,
+            37500,
+            37765,
+            43200,
+            45500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMS4HAW0",
+          "url": "https://feebee.com.tw/s/Bosch%20SMS4HAW0/",
+          "price": 35500,
+          "minPrice": 35500,
+          "maxPrice": 45500,
+          "priceCandidates": [
+            35500,
+            36375,
+            37310,
+            37400,
+            37500,
+            37765,
+            37900,
+            40950,
+            43200,
+            43225,
+            45500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMS4HAW0",
+          "url": "https://biggo.com.tw/s/Bosch%20SMS4HAW0%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 37310,
+          "minPrice": 37310,
+          "maxPrice": 45500,
+          "priceCandidates": [
+            37310,
+            37500,
+            37765,
+            43200,
+            45500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMS4HAW0",
+          "url": "https://feebee.com.tw/s/Bosch%20SMS4HAW0%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 35500,
+          "minPrice": 35500,
+          "maxPrice": 45500,
+          "priceCandidates": [
+            35500,
+            36375,
+            37310,
+            37400,
+            37500,
+            37765,
+            37900,
+            40950,
+            43200,
+            43225,
+            45500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "SMS63M12TC",
+      "brand": "Bosch",
+      "url": "https://biggo.com.tw/s/SMS63M12TC/",
+      "price": 36900,
+      "minPrice": 36900,
+      "maxPrice": 52000,
+      "priceRange": {
+        "min": 36900,
+        "max": 52000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "SMS63M12TC",
+          "url": "https://biggo.com.tw/s/SMS63M12TC/",
+          "price": 36900,
+          "minPrice": 36900,
+          "maxPrice": 52000,
+          "priceCandidates": [
+            36900,
+            48999,
+            52000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMS63M12TC",
+          "url": "https://feebee.com.tw/s/SMS63M12TC/",
+          "price": 36900,
+          "minPrice": 36900,
+          "maxPrice": 52000,
+          "priceCandidates": [
+            36900,
+            52000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMS63M12TC",
+          "url": "https://biggo.com.tw/s/Bosch%20SMS63M12TC/",
+          "price": 36900,
+          "minPrice": 36900,
+          "maxPrice": 52000,
+          "priceCandidates": [
+            36900,
+            48999,
+            52000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMS63M12TC",
+          "url": "https://feebee.com.tw/s/Bosch%20SMS63M12TC/",
+          "price": 36900,
+          "minPrice": 36900,
+          "maxPrice": 52000,
+          "priceCandidates": [
+            36900,
+            52000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMS63M12TC",
+          "url": "https://biggo.com.tw/s/Bosch%20SMS63M12TC%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 36900,
+          "minPrice": 36900,
+          "maxPrice": 52000,
+          "priceCandidates": [
+            36900,
+            48999,
+            52000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMS63M12TC",
+          "url": "https://feebee.com.tw/s/Bosch%20SMS63M12TC%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 36900,
+          "minPrice": 36900,
+          "maxPrice": 52000,
+          "priceCandidates": [
+            36900,
+            52000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "SMS6ZCW0",
+      "brand": "Bosch",
+      "url": "https://biggo.com.tw/s/SMS6ZCW0/",
+      "price": 58000,
+      "minPrice": 58000,
+      "maxPrice": 83900,
+      "priceRange": {
+        "min": 58000,
+        "max": 83900
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "SMS6ZCW0",
+          "url": "https://biggo.com.tw/s/SMS6ZCW0/",
+          "price": 58000,
+          "minPrice": 58000,
+          "maxPrice": 83900,
+          "priceCandidates": [
+            58000,
+            60000,
+            69000,
+            70000,
+            72800,
+            83900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMS6ZCW0",
+          "url": "https://feebee.com.tw/s/SMS6ZCW0/",
+          "price": 60000,
+          "minPrice": 60000,
+          "maxPrice": 83900,
+          "priceCandidates": [
+            60000,
+            64900,
+            69000,
+            69160,
+            69999,
+            70000,
+            72800,
+            83900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMS6ZCW0",
+          "url": "https://biggo.com.tw/s/Bosch%20SMS6ZCW0/",
+          "price": null,
+          "minPrice": null,
+          "maxPrice": null,
+          "priceCandidates": [],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Price not found",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMS6ZCW0",
+          "url": "https://feebee.com.tw/s/Bosch%20SMS6ZCW0/",
+          "price": 58968,
+          "minPrice": 58968,
+          "maxPrice": 83900,
+          "priceCandidates": [
+            58968,
+            59500,
+            59900,
+            60000,
+            64900,
+            69000,
+            69160,
+            69999,
+            70000,
+            72800,
+            83900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMS6ZCW0",
+          "url": "https://biggo.com.tw/s/Bosch%20SMS6ZCW0%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": null,
+          "minPrice": null,
+          "maxPrice": null,
+          "priceCandidates": [],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Price not found",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMS6ZCW0",
+          "url": "https://feebee.com.tw/s/Bosch%20SMS6ZCW0%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 58968,
+          "minPrice": 58968,
+          "maxPrice": 83900,
+          "priceCandidates": [
+            58968,
+            59500,
+            59900,
+            60000,
+            64900,
+            69000,
+            69160,
+            69999,
+            70000,
+            72800,
+            83900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "SMS88MI01X",
+      "brand": "Bosch",
+      "url": "https://biggo.com.tw/s/SMS88MI01X/",
+      "price": 23900,
+      "minPrice": 23900,
+      "maxPrice": 68000,
+      "priceRange": {
+        "min": 23900,
+        "max": 68000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "SMS88MI01X",
+          "url": "https://biggo.com.tw/s/SMS88MI01X/",
+          "price": 23900,
+          "minPrice": 23900,
+          "maxPrice": 68000,
+          "priceCandidates": [
+            23900,
+            45000,
+            55800,
+            56800,
+            60900,
+            68000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMS88MI01X",
+          "url": "https://feebee.com.tw/s/SMS88MI01X/",
+          "price": 27900,
+          "minPrice": 27900,
+          "maxPrice": 60900,
+          "priceCandidates": [
+            27900,
+            60900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMS88MI01X",
+          "url": "https://biggo.com.tw/s/Bosch%20SMS88MI01X/",
+          "price": 23900,
+          "minPrice": 23900,
+          "maxPrice": 68000,
+          "priceCandidates": [
+            23900,
+            45000,
+            55800,
+            56800,
+            60900,
+            68000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMS88MI01X",
+          "url": "https://feebee.com.tw/s/Bosch%20SMS88MI01X/",
+          "price": 27900,
+          "minPrice": 27900,
+          "maxPrice": 60900,
+          "priceCandidates": [
+            27900,
+            60900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMS88MI01X",
+          "url": "https://biggo.com.tw/s/Bosch%20SMS88MI01X%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 23900,
+          "minPrice": 23900,
+          "maxPrice": 68000,
+          "priceCandidates": [
+            23900,
+            45000,
+            55800,
+            56800,
+            60900,
+            68000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMS88MI01X",
+          "url": "https://feebee.com.tw/s/Bosch%20SMS88MI01X%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 27900,
+          "minPrice": 27900,
+          "maxPrice": 60900,
+          "priceCandidates": [
+            27900,
+            60900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "SMS8ZCI00",
+      "brand": "Bosch",
+      "url": "https://feebee.com.tw/s/SMS8ZCI00/",
+      "price": 67068,
+      "minPrice": 67068,
+      "maxPrice": 85000,
+      "priceRange": {
+        "min": 67068,
+        "max": 85000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "SMS8ZCI00",
+          "url": "https://biggo.com.tw/s/SMS8ZCI00/",
+          "price": 70713,
+          "minPrice": 70713,
+          "maxPrice": 85000,
+          "priceCandidates": [
+            70713,
+            70900,
+            72900,
+            80600,
+            85000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMS8ZCI00",
+          "url": "https://feebee.com.tw/s/SMS8ZCI00/",
+          "price": 67068,
+          "minPrice": 67068,
+          "maxPrice": 85000,
+          "priceCandidates": [
+            67068,
+            70380,
+            70900,
+            72900,
+            80600,
+            80750,
+            85000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMS8ZCI00",
+          "url": "https://biggo.com.tw/s/Bosch%20SMS8ZCI00/",
+          "price": 70713,
+          "minPrice": 70713,
+          "maxPrice": 85000,
+          "priceCandidates": [
+            70713,
+            70900,
+            72900,
+            80600,
+            85000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMS8ZCI00",
+          "url": "https://feebee.com.tw/s/Bosch%20SMS8ZCI00/",
+          "price": 67068,
+          "minPrice": 67068,
+          "maxPrice": 85000,
+          "priceCandidates": [
+            67068,
+            70380,
+            70900,
+            71300,
+            72900,
+            80600,
+            80750,
+            85000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMS8ZCI00",
+          "url": "https://biggo.com.tw/s/Bosch%20SMS8ZCI00%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 70713,
+          "minPrice": 70713,
+          "maxPrice": 85000,
+          "priceCandidates": [
+            70713,
+            70900,
+            72900,
+            80600,
+            85000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMS8ZCI00",
+          "url": "https://feebee.com.tw/s/Bosch%20SMS8ZCI00%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 67068,
+          "minPrice": 67068,
+          "maxPrice": 85000,
+          "priceCandidates": [
+            67068,
+            70380,
+            70900,
+            71300,
+            72900,
+            80600,
+            80750,
+            85000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "SMV4ECX00X",
+      "brand": "Bosch",
+      "url": "https://feebee.com.tw/s/SMV4ECX00X/",
+      "price": 43930,
+      "minPrice": 43930,
+      "maxPrice": 51800,
+      "priceRange": {
+        "min": 43930,
+        "max": 51800
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "SMV4ECX00X",
+          "url": "https://biggo.com.tw/s/SMV4ECX00X/",
+          "price": 44030,
+          "minPrice": 44030,
+          "maxPrice": 51800,
+          "priceCandidates": [
+            44030,
+            45000,
+            51800
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMV4ECX00X",
+          "url": "https://feebee.com.tw/s/SMV4ECX00X/",
+          "price": 43930,
+          "minPrice": 43930,
+          "maxPrice": 51800,
+          "priceCandidates": [
+            43930,
+            44030,
+            45000,
+            46620,
+            51000,
+            51800
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMV4ECX00X",
+          "url": "https://biggo.com.tw/s/Bosch%20SMV4ECX00X/",
+          "price": 44030,
+          "minPrice": 44030,
+          "maxPrice": 51800,
+          "priceCandidates": [
+            44030,
+            45000,
+            51800
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMV4ECX00X",
+          "url": "https://feebee.com.tw/s/Bosch%20SMV4ECX00X/",
+          "price": 43930,
+          "minPrice": 43930,
+          "maxPrice": 51800,
+          "priceCandidates": [
+            43930,
+            44030,
+            45000,
+            46620,
+            51000,
+            51800
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMV4ECX00X",
+          "url": "https://biggo.com.tw/s/Bosch%20SMV4ECX00X%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 44030,
+          "minPrice": 44030,
+          "maxPrice": 51800,
+          "priceCandidates": [
+            44030,
+            45000,
+            51800
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMV4ECX00X",
+          "url": "https://feebee.com.tw/s/Bosch%20SMV4ECX00X%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 43930,
+          "minPrice": 43930,
+          "maxPrice": 51800,
+          "priceCandidates": [
+            43930,
+            44030,
+            45000,
+            46620,
+            51000,
+            51800
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "SPS2IKI06X",
+      "brand": "Bosch",
+      "url": "https://feebee.com.tw/s/SPS2IKI06X/",
+      "price": 26900,
+      "minPrice": 26900,
+      "maxPrice": 59900,
+      "priceRange": {
+        "min": 26900,
+        "max": 59900
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "SPS2IKI06X",
+          "url": "https://biggo.com.tw/s/SPS2IKI06X/",
+          "price": 28900,
+          "minPrice": 28900,
+          "maxPrice": 59900,
+          "priceCandidates": [
+            28900,
+            32900,
+            35500,
+            37400,
+            37430,
+            39400,
+            47900,
+            59900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SPS2IKI06X",
+          "url": "https://feebee.com.tw/s/SPS2IKI06X/",
+          "price": 26900,
+          "minPrice": 26900,
+          "maxPrice": 59900,
+          "priceCandidates": [
+            26900,
+            28900,
+            31205,
+            32800,
+            32900,
+            35500,
+            37400,
+            37430,
+            39400,
+            47900,
+            59900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SPS2IKI06X",
+          "url": "https://biggo.com.tw/s/Bosch%20SPS2IKI06X/",
+          "price": 28900,
+          "minPrice": 28900,
+          "maxPrice": 59900,
+          "priceCandidates": [
+            28900,
+            32900,
+            35500,
+            37400,
+            37430,
+            39400,
+            47900,
+            59900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SPS2IKI06X",
+          "url": "https://feebee.com.tw/s/Bosch%20SPS2IKI06X/",
+          "price": 26900,
+          "minPrice": 26900,
+          "maxPrice": 59900,
+          "priceCandidates": [
+            26900,
+            28900,
+            31205,
+            32800,
+            32900,
+            35500,
+            37400,
+            37430,
+            39400,
+            47900,
+            59900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SPS2IKI06X",
+          "url": "https://biggo.com.tw/s/Bosch%20SPS2IKI06X%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 28900,
+          "minPrice": 28900,
+          "maxPrice": 59900,
+          "priceCandidates": [
+            28900,
+            32900,
+            35500,
+            37400,
+            37430,
+            39400,
+            47900,
+            59900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SPS2IKI06X",
+          "url": "https://feebee.com.tw/s/Bosch%20SPS2IKI06X%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 26900,
+          "minPrice": 26900,
+          "maxPrice": 59900,
+          "priceCandidates": [
+            26900,
+            28900,
+            31205,
+            32800,
+            32900,
+            35500,
+            37400,
+            37430,
+            39400,
+            47900,
+            59900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "SPS4IMW0",
+      "brand": "Bosch",
+      "url": "https://feebee.com.tw/s/SPS4IMW0/",
+      "price": 37754,
+      "minPrice": 37754,
+      "maxPrice": 48800,
+      "priceRange": {
+        "min": 37754,
+        "max": 48800
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "SPS4IMW0",
+          "url": "https://biggo.com.tw/s/SPS4IMW0/",
+          "price": 38000,
+          "minPrice": 38000,
+          "maxPrice": 48800,
+          "priceCandidates": [
+            38000,
+            40000,
+            40504,
+            43920,
+            46300,
+            46360,
+            48800
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SPS4IMW0",
+          "url": "https://feebee.com.tw/s/SPS4IMW0/",
+          "price": 37754,
+          "minPrice": 37754,
+          "maxPrice": 48800,
+          "priceCandidates": [
+            37754,
+            38000,
+            39900,
+            40000,
+            40504,
+            43920,
+            46300,
+            46360,
+            48800
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SPS4IMW0",
+          "url": "https://biggo.com.tw/s/Bosch%20SPS4IMW0/",
+          "price": null,
+          "minPrice": null,
+          "maxPrice": null,
+          "priceCandidates": [],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Price not found",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SPS4IMW0",
+          "url": "https://feebee.com.tw/s/Bosch%20SPS4IMW0/",
+          "price": 37754,
+          "minPrice": 37754,
+          "maxPrice": 48800,
+          "priceCandidates": [
+            37754,
+            39900,
+            40000,
+            40504,
+            43920,
+            46300,
+            46360,
+            48800
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SPS4IMW0",
+          "url": "https://biggo.com.tw/s/Bosch%20SPS4IMW0%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": null,
+          "minPrice": null,
+          "maxPrice": null,
+          "priceCandidates": [],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Price not found",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SPS4IMW0",
+          "url": "https://feebee.com.tw/s/Bosch%20SPS4IMW0%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 37754,
+          "minPrice": 37754,
+          "maxPrice": 48800,
+          "priceCandidates": [
+            37754,
+            39900,
+            40000,
+            40504,
+            43920,
+            46300,
+            46360,
+            48800
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "SPS4IMW00X",
+      "brand": "Bosch",
+      "url": "https://biggo.com.tw/s/SPS4IMW00X/",
+      "price": 37754,
+      "minPrice": 37754,
+      "maxPrice": 48800,
+      "priceRange": {
+        "min": 37754,
+        "max": 48800
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "SPS4IMW00X",
+          "url": "https://biggo.com.tw/s/SPS4IMW00X/",
+          "price": 37754,
+          "minPrice": 37754,
+          "maxPrice": 48800,
+          "priceCandidates": [
+            37754,
+            38000,
+            40000,
+            40504,
+            43920,
+            46300,
+            46360,
+            48800
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SPS4IMW00X",
+          "url": "https://feebee.com.tw/s/SPS4IMW00X/",
+          "price": 37754,
+          "minPrice": 37754,
+          "maxPrice": 48800,
+          "priceCandidates": [
+            37754,
+            38000,
+            39900,
+            40000,
+            40504,
+            43920,
+            46300,
+            46360,
+            48800
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SPS4IMW00X",
+          "url": "https://biggo.com.tw/s/Bosch%20SPS4IMW00X/",
+          "price": 37754,
+          "minPrice": 37754,
+          "maxPrice": 48800,
+          "priceCandidates": [
+            37754,
+            38000,
+            40000,
+            40504,
+            43920,
+            46300,
+            46360,
+            48800
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SPS4IMW00X",
+          "url": "https://feebee.com.tw/s/Bosch%20SPS4IMW00X/",
+          "price": 37754,
+          "minPrice": 37754,
+          "maxPrice": 48800,
+          "priceCandidates": [
+            37754,
+            39900,
+            40000,
+            40504,
+            43920,
+            46300,
+            46360,
+            48800
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SPS4IMW00X",
+          "url": "https://biggo.com.tw/s/Bosch%20SPS4IMW00X%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 37754,
+          "minPrice": 37754,
+          "maxPrice": 48800,
+          "priceCandidates": [
+            37754,
+            38000,
+            40000,
+            40504,
+            43920,
+            46300,
+            46360,
+            48800
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SPS4IMW00X",
+          "url": "https://feebee.com.tw/s/Bosch%20SPS4IMW00X%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 37754,
+          "minPrice": 37754,
+          "maxPrice": 48800,
+          "priceCandidates": [
+            37754,
+            39900,
+            40000,
+            40504,
+            43920,
+            46300,
+            46360,
+            48800
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "SPS63M02TC",
+      "brand": "Bosch",
+      "url": "https://biggo.com.tw/s/SPS63M02TC/",
+      "price": 30300,
+      "minPrice": 30300,
+      "maxPrice": 47000,
+      "priceRange": {
+        "min": 30300,
+        "max": 47000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "SPS63M02TC",
+          "url": "https://biggo.com.tw/s/SPS63M02TC/",
+          "price": 30300,
+          "minPrice": 30300,
+          "maxPrice": 47000,
+          "priceCandidates": [
+            30300,
+            36900,
+            37900,
+            40900,
+            43999,
+            47000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SPS63M02TC",
+          "url": "https://feebee.com.tw/s/SPS63M02TC/",
+          "price": 30300,
+          "minPrice": 30300,
+          "maxPrice": 40900,
+          "priceCandidates": [
+            30300,
+            36900,
+            37900,
+            40900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SPS63M02TC",
+          "url": "https://biggo.com.tw/s/Bosch%20SPS63M02TC/",
+          "price": 30300,
+          "minPrice": 30300,
+          "maxPrice": 47000,
+          "priceCandidates": [
+            30300,
+            36900,
+            37900,
+            40900,
+            43999,
+            47000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SPS63M02TC",
+          "url": "https://feebee.com.tw/s/Bosch%20SPS63M02TC/",
+          "price": 30300,
+          "minPrice": 30300,
+          "maxPrice": 40900,
+          "priceCandidates": [
+            30300,
+            36900,
+            37900,
+            40900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SPS63M02TC",
+          "url": "https://biggo.com.tw/s/Bosch%20SPS63M02TC%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 30300,
+          "minPrice": 30300,
+          "maxPrice": 47000,
+          "priceCandidates": [
+            30300,
+            36900,
+            37900,
+            40900,
+            43999,
+            47000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SPS63M02TC",
+          "url": "https://feebee.com.tw/s/Bosch%20SPS63M02TC%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 30300,
+          "minPrice": 30300,
+          "maxPrice": 40900,
+          "priceCandidates": [
+            30300,
+            36900,
+            37900,
+            40900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DBI233IB.S",
+      "brand": "Asko",
+      "url": "https://biggo.com.tw/s/DBI233IB.S/",
+      "price": 62999,
+      "minPrice": 62999,
+      "maxPrice": 79000,
+      "priceRange": {
+        "min": 62999,
+        "max": 79000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DBI233IB.S",
+          "url": "https://biggo.com.tw/s/DBI233IB.S/",
+          "price": 62999,
+          "minPrice": 62999,
+          "maxPrice": 79000,
+          "priceCandidates": [
+            62999,
+            66500,
+            67000,
+            68000,
+            71000,
+            71100,
+            77000,
+            78000,
+            79000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI233IB.S",
+          "url": "https://feebee.com.tw/s/DBI233IB.S/",
+          "price": 62999,
+          "minPrice": 62999,
+          "maxPrice": 79000,
+          "priceCandidates": [
+            62999,
+            66500,
+            68000,
+            71000,
+            73000,
+            77000,
+            79000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI233IB.S",
+          "url": "https://biggo.com.tw/s/Asko%20DBI233IB.S/",
+          "price": 62999,
+          "minPrice": 62999,
+          "maxPrice": 79000,
+          "priceCandidates": [
+            62999,
+            66500,
+            67000,
+            68000,
+            71000,
+            71100,
+            77000,
+            78000,
+            79000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI233IB.S",
+          "url": "https://feebee.com.tw/s/Asko%20DBI233IB.S/",
+          "price": 62999,
+          "minPrice": 62999,
+          "maxPrice": 79000,
+          "priceCandidates": [
+            62999,
+            66500,
+            68000,
+            71000,
+            73000,
+            77000,
+            79000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI233IB.S",
+          "url": "https://biggo.com.tw/s/Asko%20DBI233IB.S%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 62999,
+          "minPrice": 62999,
+          "maxPrice": 79000,
+          "priceCandidates": [
+            62999,
+            66500,
+            67000,
+            68000,
+            71000,
+            71100,
+            77000,
+            78000,
+            79000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI233IB.S",
+          "url": "https://feebee.com.tw/s/Asko%20DBI233IB.S%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 62999,
+          "minPrice": 62999,
+          "maxPrice": 79000,
+          "priceCandidates": [
+            62999,
+            66500,
+            68000,
+            71000,
+            73000,
+            77000,
+            79000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DBI233IB.S.TW/1",
+      "brand": "Asko",
+      "url": "https://biggo.com.tw/s/DBI233IB.S.TW%2F1/",
+      "price": 62999,
+      "minPrice": 62999,
+      "maxPrice": 79000,
+      "priceRange": {
+        "min": 62999,
+        "max": 79000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DBI233IB.S.TW/1",
+          "url": "https://biggo.com.tw/s/DBI233IB.S.TW%2F1/",
+          "price": 62999,
+          "minPrice": 62999,
+          "maxPrice": 79000,
+          "priceCandidates": [
+            62999,
+            67000,
+            68000,
+            79000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI233IB.S.TW/1",
+          "url": "https://feebee.com.tw/s/DBI233IB.S.TW%2F1/",
+          "price": 62999,
+          "minPrice": 62999,
+          "maxPrice": 79000,
+          "priceCandidates": [
+            62999,
+            68000,
+            79000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI233IB.S.TW/1",
+          "url": "https://biggo.com.tw/s/Asko%20DBI233IB.S.TW%2F1/",
+          "price": 62999,
+          "minPrice": 62999,
+          "maxPrice": 79000,
+          "priceCandidates": [
+            62999,
+            67000,
+            68000,
+            79000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI233IB.S.TW/1",
+          "url": "https://feebee.com.tw/s/Asko%20DBI233IB.S.TW%2F1/",
+          "price": 62999,
+          "minPrice": 62999,
+          "maxPrice": 79000,
+          "priceCandidates": [
+            62999,
+            68000,
+            79000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI233IB.S.TW/1",
+          "url": "https://biggo.com.tw/s/Asko%20DBI233IB.S.TW%2F1%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 62999,
+          "minPrice": 62999,
+          "maxPrice": 79000,
+          "priceCandidates": [
+            62999,
+            67000,
+            68000,
+            79000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI233IB.S.TW/1",
+          "url": "https://feebee.com.tw/s/Asko%20DBI233IB.S.TW%2F1%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 62999,
+          "minPrice": 62999,
+          "maxPrice": 79000,
+          "priceCandidates": [
+            62999,
+            68000,
+            79000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DBI233IB.W",
+      "brand": "Asko",
+      "url": "https://biggo.com.tw/s/DBI233IB.W/",
+      "price": 57230,
+      "minPrice": 57230,
+      "maxPrice": 76000,
+      "priceRange": {
+        "min": 57230,
+        "max": 76000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DBI233IB.W",
+          "url": "https://biggo.com.tw/s/DBI233IB.W/",
+          "price": 57230,
+          "minPrice": 57230,
+          "maxPrice": 73000,
+          "priceCandidates": [
+            57230,
+            62000,
+            65700,
+            67000,
+            68000,
+            71000,
+            73000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI233IB.W",
+          "url": "https://feebee.com.tw/s/DBI233IB.W/",
+          "price": 58999,
+          "minPrice": 58999,
+          "maxPrice": 76000,
+          "priceCandidates": [
+            58999,
+            62000,
+            65600,
+            65700,
+            67000,
+            68000,
+            71000,
+            73000,
+            76000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI233IB.W",
+          "url": "https://biggo.com.tw/s/Asko%20DBI233IB.W/",
+          "price": 57230,
+          "minPrice": 57230,
+          "maxPrice": 73000,
+          "priceCandidates": [
+            57230,
+            62000,
+            65700,
+            67000,
+            68000,
+            71000,
+            73000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI233IB.W",
+          "url": "https://feebee.com.tw/s/Asko%20DBI233IB.W/",
+          "price": 58999,
+          "minPrice": 58999,
+          "maxPrice": 76000,
+          "priceCandidates": [
+            58999,
+            62000,
+            65600,
+            65700,
+            67000,
+            68000,
+            71000,
+            73000,
+            76000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI233IB.W",
+          "url": "https://biggo.com.tw/s/Asko%20DBI233IB.W%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 57230,
+          "minPrice": 57230,
+          "maxPrice": 73000,
+          "priceCandidates": [
+            57230,
+            62000,
+            65700,
+            67000,
+            68000,
+            71000,
+            73000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI233IB.W",
+          "url": "https://feebee.com.tw/s/Asko%20DBI233IB.W%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 58999,
+          "minPrice": 58999,
+          "maxPrice": 76000,
+          "priceCandidates": [
+            58999,
+            62000,
+            65600,
+            65700,
+            67000,
+            68000,
+            71000,
+            73000,
+            76000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DBI233IB.W.TW",
+      "brand": "Asko",
+      "url": "https://biggo.com.tw/s/DBI233IB.W.TW/",
+      "price": 62000,
+      "minPrice": 62000,
+      "maxPrice": 73000,
+      "priceRange": {
+        "min": 62000,
+        "max": 73000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DBI233IB.W.TW",
+          "url": "https://biggo.com.tw/s/DBI233IB.W.TW/",
+          "price": 62000,
+          "minPrice": 62000,
+          "maxPrice": 73000,
+          "priceCandidates": [
+            62000,
+            67000,
+            68000,
+            71000,
+            73000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI233IB.W.TW",
+          "url": "https://feebee.com.tw/s/DBI233IB.W.TW/",
+          "price": 62000,
+          "minPrice": 62000,
+          "maxPrice": 73000,
+          "priceCandidates": [
+            62000,
+            68000,
+            71000,
+            73000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI233IB.W.TW",
+          "url": "https://biggo.com.tw/s/Asko%20DBI233IB.W.TW/",
+          "price": 62000,
+          "minPrice": 62000,
+          "maxPrice": 73000,
+          "priceCandidates": [
+            62000,
+            67000,
+            68000,
+            71000,
+            73000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI233IB.W.TW",
+          "url": "https://feebee.com.tw/s/Asko%20DBI233IB.W.TW/",
+          "price": 62000,
+          "minPrice": 62000,
+          "maxPrice": 73000,
+          "priceCandidates": [
+            62000,
+            68000,
+            71000,
+            73000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI233IB.W.TW",
+          "url": "https://biggo.com.tw/s/Asko%20DBI233IB.W.TW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 62000,
+          "minPrice": 62000,
+          "maxPrice": 73000,
+          "priceCandidates": [
+            62000,
+            67000,
+            68000,
+            71000,
+            73000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI233IB.W.TW",
+          "url": "https://feebee.com.tw/s/Asko%20DBI233IB.W.TW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 62000,
+          "minPrice": 62000,
+          "maxPrice": 73000,
+          "priceCandidates": [
+            62000,
+            68000,
+            71000,
+            73000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DBI544ID.W.TW",
+      "brand": "Asko",
+      "url": "https://biggo.com.tw/s/DBI544ID.W.TW/",
+      "price": 70199,
+      "minPrice": 70199,
+      "maxPrice": 90300,
+      "priceRange": {
+        "min": 70199,
+        "max": 90300
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DBI544ID.W.TW",
+          "url": "https://biggo.com.tw/s/DBI544ID.W.TW/",
+          "price": 70199,
+          "minPrice": 70199,
+          "maxPrice": 86000,
+          "priceCandidates": [
+            70199,
+            70200,
+            77999,
+            80000,
+            80340,
+            84000,
+            86000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI544ID.W.TW",
+          "url": "https://feebee.com.tw/s/DBI544ID.W.TW/",
+          "price": 70200,
+          "minPrice": 70200,
+          "maxPrice": 90300,
+          "priceCandidates": [
+            70200,
+            77999,
+            80000,
+            80340,
+            83800,
+            84000,
+            86000,
+            90300
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI544ID.W.TW",
+          "url": "https://biggo.com.tw/s/Asko%20DBI544ID.W.TW/",
+          "price": 70199,
+          "minPrice": 70199,
+          "maxPrice": 86000,
+          "priceCandidates": [
+            70199,
+            70200,
+            77999,
+            80000,
+            80340,
+            84000,
+            86000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI544ID.W.TW",
+          "url": "https://feebee.com.tw/s/Asko%20DBI544ID.W.TW/",
+          "price": 70200,
+          "minPrice": 70200,
+          "maxPrice": 90300,
+          "priceCandidates": [
+            70200,
+            77999,
+            80000,
+            80340,
+            83800,
+            84000,
+            86000,
+            90300
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI544ID.W.TW",
+          "url": "https://biggo.com.tw/s/Asko%20DBI544ID.W.TW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 70199,
+          "minPrice": 70199,
+          "maxPrice": 86000,
+          "priceCandidates": [
+            70199,
+            70200,
+            77999,
+            80000,
+            80340,
+            84000,
+            86000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI544ID.W.TW",
+          "url": "https://feebee.com.tw/s/Asko%20DBI544ID.W.TW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 70200,
+          "minPrice": 70200,
+          "maxPrice": 90300,
+          "priceCandidates": [
+            70200,
+            77999,
+            80000,
+            80340,
+            83800,
+            84000,
+            86000,
+            90300
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DBI545IK.S.TW",
+      "brand": "Asko",
+      "url": "https://biggo.com.tw/s/DBI545IK.S.TW/",
+      "price": 79199,
+      "minPrice": 79199,
+      "maxPrice": 99750,
+      "priceRange": {
+        "min": 79199,
+        "max": 99750
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DBI545IK.S.TW",
+          "url": "https://biggo.com.tw/s/DBI545IK.S.TW/",
+          "price": 79199,
+          "minPrice": 79199,
+          "maxPrice": 95000,
+          "priceCandidates": [
+            79199,
+            79200,
+            80000,
+            87999,
+            89000,
+            90999,
+            93000,
+            94000,
+            95000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI545IK.S.TW",
+          "url": "https://feebee.com.tw/s/DBI545IK.S.TW/",
+          "price": 79200,
+          "minPrice": 79200,
+          "maxPrice": 99750,
+          "priceCandidates": [
+            79200,
+            80000,
+            87999,
+            89000,
+            90999,
+            92800,
+            93000,
+            95000,
+            99750
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI545IK.S.TW",
+          "url": "https://biggo.com.tw/s/Asko%20DBI545IK.S.TW/",
+          "price": 79199,
+          "minPrice": 79199,
+          "maxPrice": 95000,
+          "priceCandidates": [
+            79199,
+            79200,
+            80000,
+            87999,
+            89000,
+            90999,
+            93000,
+            94000,
+            95000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI545IK.S.TW",
+          "url": "https://feebee.com.tw/s/Asko%20DBI545IK.S.TW/",
+          "price": 79200,
+          "minPrice": 79200,
+          "maxPrice": 99750,
+          "priceCandidates": [
+            79200,
+            80000,
+            87999,
+            89000,
+            90999,
+            92800,
+            93000,
+            95000,
+            99750
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI545IK.S.TW",
+          "url": "https://biggo.com.tw/s/Asko%20DBI545IK.S.TW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 79199,
+          "minPrice": 79199,
+          "maxPrice": 95000,
+          "priceCandidates": [
+            79199,
+            79200,
+            80000,
+            87999,
+            89000,
+            90999,
+            93000,
+            94000,
+            95000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI545IK.S.TW",
+          "url": "https://feebee.com.tw/s/Asko%20DBI545IK.S.TW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 79200,
+          "minPrice": 79200,
+          "maxPrice": 99750,
+          "priceCandidates": [
+            79200,
+            80000,
+            87999,
+            89000,
+            90999,
+            92800,
+            93000,
+            95000,
+            99750
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DBI545IK.W.TW",
+      "brand": "Asko",
+      "url": "https://biggo.com.tw/s/DBI545IK.W.TW/",
+      "price": 75000,
+      "minPrice": 75000,
+      "maxPrice": 95550,
+      "priceRange": {
+        "min": 75000,
+        "max": 95550
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DBI545IK.W.TW",
+          "url": "https://biggo.com.tw/s/DBI545IK.W.TW/",
+          "price": 75000,
+          "minPrice": 75000,
+          "maxPrice": 94000,
+          "priceCandidates": [
+            75000,
+            76499,
+            76500,
+            77000,
+            78000,
+            80000,
+            84999,
+            86500,
+            87999,
+            88000,
+            89000,
+            91000,
+            93730,
+            94000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI545IK.W.TW",
+          "url": "https://feebee.com.tw/s/DBI545IK.W.TW/",
+          "price": 75000,
+          "minPrice": 75000,
+          "maxPrice": 95550,
+          "priceCandidates": [
+            75000,
+            76500,
+            77000,
+            78000,
+            80000,
+            84999,
+            86500,
+            87999,
+            88800,
+            89000,
+            91000,
+            93730,
+            95550
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI545IK.W.TW",
+          "url": "https://biggo.com.tw/s/Asko%20DBI545IK.W.TW/",
+          "price": 75000,
+          "minPrice": 75000,
+          "maxPrice": 94000,
+          "priceCandidates": [
+            75000,
+            76499,
+            76500,
+            77000,
+            78000,
+            80000,
+            84999,
+            86500,
+            87999,
+            88000,
+            89000,
+            91000,
+            93730,
+            94000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI545IK.W.TW",
+          "url": "https://feebee.com.tw/s/Asko%20DBI545IK.W.TW/",
+          "price": 75000,
+          "minPrice": 75000,
+          "maxPrice": 95550,
+          "priceCandidates": [
+            75000,
+            76500,
+            77000,
+            78000,
+            80000,
+            84999,
+            86500,
+            87999,
+            88800,
+            89000,
+            91000,
+            93730,
+            95550
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI545IK.W.TW",
+          "url": "https://biggo.com.tw/s/Asko%20DBI545IK.W.TW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 75000,
+          "minPrice": 75000,
+          "maxPrice": 94000,
+          "priceCandidates": [
+            75000,
+            76499,
+            76500,
+            77000,
+            78000,
+            80000,
+            84999,
+            86500,
+            87999,
+            88000,
+            89000,
+            91000,
+            93730,
+            94000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI545IK.W.TW",
+          "url": "https://feebee.com.tw/s/Asko%20DBI545IK.W.TW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 75000,
+          "minPrice": 75000,
+          "maxPrice": 95550,
+          "priceCandidates": [
+            75000,
+            76500,
+            77000,
+            78000,
+            80000,
+            84999,
+            86500,
+            87999,
+            88800,
+            89000,
+            91000,
+            93730,
+            95550
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DBI644MIB",
+      "brand": "Asko",
+      "url": "https://biggo.com.tw/s/DBI644MIB/",
+      "price": 76500,
+      "minPrice": 76500,
+      "maxPrice": 110000,
+      "priceRange": {
+        "min": 76500,
+        "max": 110000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DBI644MIB",
+          "url": "https://biggo.com.tw/s/DBI644MIB/",
+          "price": 76500,
+          "minPrice": 76500,
+          "maxPrice": 110000,
+          "priceCandidates": [
+            76500,
+            94000,
+            96000,
+            99000,
+            100000,
+            102000,
+            110000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI644MIB",
+          "url": "https://feebee.com.tw/s/DBI644MIB/",
+          "price": 76500,
+          "minPrice": 76500,
+          "maxPrice": 102000,
+          "priceCandidates": [
+            76500,
+            94000,
+            96000,
+            99000,
+            102000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI644MIB",
+          "url": "https://biggo.com.tw/s/Asko%20DBI644MIB/",
+          "price": 76500,
+          "minPrice": 76500,
+          "maxPrice": 110000,
+          "priceCandidates": [
+            76500,
+            94000,
+            96000,
+            99000,
+            100000,
+            102000,
+            110000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI644MIB",
+          "url": "https://feebee.com.tw/s/Asko%20DBI644MIB/",
+          "price": 76500,
+          "minPrice": 76500,
+          "maxPrice": 102000,
+          "priceCandidates": [
+            76500,
+            94000,
+            96000,
+            99000,
+            102000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI644MIB",
+          "url": "https://biggo.com.tw/s/Asko%20DBI644MIB%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 76500,
+          "minPrice": 76500,
+          "maxPrice": 110000,
+          "priceCandidates": [
+            76500,
+            94000,
+            96000,
+            99000,
+            100000,
+            102000,
+            110000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI644MIB",
+          "url": "https://feebee.com.tw/s/Asko%20DBI644MIB%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 76500,
+          "minPrice": 76500,
+          "maxPrice": 102000,
+          "priceCandidates": [
+            76500,
+            94000,
+            96000,
+            99000,
+            102000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DBI644MIB.S.TW",
+      "brand": "Asko",
+      "url": "https://biggo.com.tw/s/DBI644MIB.S.TW/",
+      "price": 94000,
+      "minPrice": 94000,
+      "maxPrice": 102000,
+      "priceRange": {
+        "min": 94000,
+        "max": 102000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DBI644MIB.S.TW",
+          "url": "https://biggo.com.tw/s/DBI644MIB.S.TW/",
+          "price": 94000,
+          "minPrice": 94000,
+          "maxPrice": 102000,
+          "priceCandidates": [
+            94000,
+            100000,
+            102000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI644MIB.S.TW",
+          "url": "https://feebee.com.tw/s/DBI644MIB.S.TW/",
+          "price": 94000,
+          "minPrice": 94000,
+          "maxPrice": 102000,
+          "priceCandidates": [
+            94000,
+            102000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI644MIB.S.TW",
+          "url": "https://biggo.com.tw/s/Asko%20DBI644MIB.S.TW/",
+          "price": 94000,
+          "minPrice": 94000,
+          "maxPrice": 102000,
+          "priceCandidates": [
+            94000,
+            100000,
+            102000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI644MIB.S.TW",
+          "url": "https://feebee.com.tw/s/Asko%20DBI644MIB.S.TW/",
+          "price": 94000,
+          "minPrice": 94000,
+          "maxPrice": 102000,
+          "priceCandidates": [
+            94000,
+            102000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI644MIB.S.TW",
+          "url": "https://biggo.com.tw/s/Asko%20DBI644MIB.S.TW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 94000,
+          "minPrice": 94000,
+          "maxPrice": 102000,
+          "priceCandidates": [
+            94000,
+            100000,
+            102000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI644MIB.S.TW",
+          "url": "https://feebee.com.tw/s/Asko%20DBI644MIB.S.TW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 94000,
+          "minPrice": 94000,
+          "maxPrice": 102000,
+          "priceCandidates": [
+            94000,
+            102000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DBI644MIB.W",
+      "brand": "Asko",
+      "url": "https://biggo.com.tw/s/DBI644MIB.W/",
+      "price": 76500,
+      "minPrice": 76500,
+      "maxPrice": 110000,
+      "priceRange": {
+        "min": 76500,
+        "max": 110000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DBI644MIB.W",
+          "url": "https://biggo.com.tw/s/DBI644MIB.W/",
+          "price": 76500,
+          "minPrice": 76500,
+          "maxPrice": 110000,
+          "priceCandidates": [
+            76500,
+            94000,
+            96000,
+            99000,
+            100000,
+            102000,
+            110000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI644MIB.W",
+          "url": "https://feebee.com.tw/s/DBI644MIB.W/",
+          "price": 76500,
+          "minPrice": 76500,
+          "maxPrice": 99000,
+          "priceCandidates": [
+            76500,
+            94000,
+            96000,
+            99000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI644MIB.W",
+          "url": "https://biggo.com.tw/s/Asko%20DBI644MIB.W/",
+          "price": 76500,
+          "minPrice": 76500,
+          "maxPrice": 110000,
+          "priceCandidates": [
+            76500,
+            94000,
+            96000,
+            99000,
+            100000,
+            102000,
+            110000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI644MIB.W",
+          "url": "https://feebee.com.tw/s/Asko%20DBI644MIB.W/",
+          "price": 76500,
+          "minPrice": 76500,
+          "maxPrice": 99000,
+          "priceCandidates": [
+            76500,
+            94000,
+            96000,
+            99000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI644MIB.W",
+          "url": "https://biggo.com.tw/s/Asko%20DBI644MIB.W%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 76500,
+          "minPrice": 76500,
+          "maxPrice": 110000,
+          "priceCandidates": [
+            76500,
+            94000,
+            96000,
+            99000,
+            100000,
+            102000,
+            110000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI644MIB.W",
+          "url": "https://feebee.com.tw/s/Asko%20DBI644MIB.W%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 76500,
+          "minPrice": 76500,
+          "maxPrice": 99000,
+          "priceCandidates": [
+            76500,
+            94000,
+            96000,
+            99000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DBI644MIB.W.TW/1",
+      "brand": "Asko",
+      "url": "https://biggo.com.tw/s/DBI644MIB.W.TW%2F1/",
+      "price": 76500,
+      "minPrice": 76500,
+      "maxPrice": 96000,
+      "priceRange": {
+        "min": 76500,
+        "max": 96000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DBI644MIB.W.TW/1",
+          "url": "https://biggo.com.tw/s/DBI644MIB.W.TW%2F1/",
+          "price": 76500,
+          "minPrice": 76500,
+          "maxPrice": 96000,
+          "priceCandidates": [
+            76500,
+            96000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI644MIB.W.TW/1",
+          "url": "https://feebee.com.tw/s/DBI644MIB.W.TW%2F1/",
+          "price": 76500,
+          "minPrice": 76500,
+          "maxPrice": 96000,
+          "priceCandidates": [
+            76500,
+            96000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI644MIB.W.TW/1",
+          "url": "https://biggo.com.tw/s/Asko%20DBI644MIB.W.TW%2F1/",
+          "price": 76500,
+          "minPrice": 76500,
+          "maxPrice": 96000,
+          "priceCandidates": [
+            76500,
+            96000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI644MIB.W.TW/1",
+          "url": "https://feebee.com.tw/s/Asko%20DBI644MIB.W.TW%2F1/",
+          "price": 76500,
+          "minPrice": 76500,
+          "maxPrice": 96000,
+          "priceCandidates": [
+            76500,
+            96000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI644MIB.W.TW/1",
+          "url": "https://biggo.com.tw/s/Asko%20DBI644MIB.W.TW%2F1%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 76500,
+          "minPrice": 76500,
+          "maxPrice": 96000,
+          "priceCandidates": [
+            76500,
+            96000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI644MIB.W.TW/1",
+          "url": "https://feebee.com.tw/s/Asko%20DBI644MIB.W.TW%2F1%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 76500,
+          "minPrice": 76500,
+          "maxPrice": 96000,
+          "priceCandidates": [
+            76500,
+            96000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DBI654IB",
+      "brand": "Asko",
+      "url": "https://feebee.com.tw/s/DBI654IB/",
+      "price": 79100,
+      "minPrice": 79100,
+      "maxPrice": 88000,
+      "priceRange": {
+        "min": 79100,
+        "max": 88000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DBI654IB",
+          "url": "https://biggo.com.tw/s/DBI654IB/",
+          "price": 79200,
+          "minPrice": 79200,
+          "maxPrice": 88000,
+          "priceCandidates": [
+            79200,
+            86000,
+            88000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI654IB",
+          "url": "https://feebee.com.tw/s/DBI654IB/",
+          "price": 79100,
+          "minPrice": 79100,
+          "maxPrice": 88000,
+          "priceCandidates": [
+            79100,
+            86000,
+            88000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI654IB",
+          "url": "https://biggo.com.tw/s/Asko%20DBI654IB/",
+          "price": 79200,
+          "minPrice": 79200,
+          "maxPrice": 88000,
+          "priceCandidates": [
+            79200,
+            86000,
+            88000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI654IB",
+          "url": "https://feebee.com.tw/s/Asko%20DBI654IB/",
+          "price": 79100,
+          "minPrice": 79100,
+          "maxPrice": 88000,
+          "priceCandidates": [
+            79100,
+            86000,
+            88000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI654IB",
+          "url": "https://biggo.com.tw/s/Asko%20DBI654IB%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 79200,
+          "minPrice": 79200,
+          "maxPrice": 88000,
+          "priceCandidates": [
+            79200,
+            86000,
+            88000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI654IB",
+          "url": "https://feebee.com.tw/s/Asko%20DBI654IB%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 79100,
+          "minPrice": 79100,
+          "maxPrice": 88000,
+          "priceCandidates": [
+            79100,
+            86000,
+            88000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DBI654IB.W",
+      "brand": "Asko",
+      "url": "https://feebee.com.tw/s/DBI654IB.W/",
+      "price": 79100,
+      "minPrice": 79100,
+      "maxPrice": 88000,
+      "priceRange": {
+        "min": 79100,
+        "max": 88000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DBI654IB.W",
+          "url": "https://biggo.com.tw/s/DBI654IB.W/",
+          "price": 79200,
+          "minPrice": 79200,
+          "maxPrice": 88000,
+          "priceCandidates": [
+            79200,
+            86000,
+            88000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI654IB.W",
+          "url": "https://feebee.com.tw/s/DBI654IB.W/",
+          "price": 79100,
+          "minPrice": 79100,
+          "maxPrice": 88000,
+          "priceCandidates": [
+            79100,
+            86000,
+            88000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI654IB.W",
+          "url": "https://biggo.com.tw/s/Asko%20DBI654IB.W/",
+          "price": 79200,
+          "minPrice": 79200,
+          "maxPrice": 88000,
+          "priceCandidates": [
+            79200,
+            86000,
+            88000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI654IB.W",
+          "url": "https://feebee.com.tw/s/Asko%20DBI654IB.W/",
+          "price": 79100,
+          "minPrice": 79100,
+          "maxPrice": 88000,
+          "priceCandidates": [
+            79100,
+            86000,
+            88000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI654IB.W",
+          "url": "https://biggo.com.tw/s/Asko%20DBI654IB.W%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 79200,
+          "minPrice": 79200,
+          "maxPrice": 88000,
+          "priceCandidates": [
+            79200,
+            86000,
+            88000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI654IB.W",
+          "url": "https://feebee.com.tw/s/Asko%20DBI654IB.W%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 79100,
+          "minPrice": 79100,
+          "maxPrice": 88000,
+          "priceCandidates": [
+            79100,
+            86000,
+            88000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DBI746MIQ.S.TW",
+      "brand": "Asko",
+      "url": "https://biggo.com.tw/s/DBI746MIQ.S.TW/",
+      "price": 96200,
+      "minPrice": 96200,
+      "maxPrice": 121800,
+      "priceRange": {
+        "min": 96200,
+        "max": 121800
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DBI746MIQ.S.TW",
+          "url": "https://biggo.com.tw/s/DBI746MIQ.S.TW/",
+          "price": 96200,
+          "minPrice": 96200,
+          "maxPrice": 119480,
+          "priceCandidates": [
+            96200,
+            100000,
+            101699,
+            101700,
+            101800,
+            106000,
+            110000,
+            112999,
+            114000,
+            116000,
+            119480
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI746MIQ.S.TW",
+          "url": "https://feebee.com.tw/s/DBI746MIQ.S.TW/",
+          "price": 96200,
+          "minPrice": 96200,
+          "maxPrice": 121800,
+          "priceCandidates": [
+            96200,
+            100000,
+            101699,
+            101700,
+            106000,
+            110000,
+            112999,
+            114000,
+            114800,
+            116000,
+            121800
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI746MIQ.S.TW",
+          "url": "https://biggo.com.tw/s/Asko%20DBI746MIQ.S.TW/",
+          "price": 96200,
+          "minPrice": 96200,
+          "maxPrice": 119480,
+          "priceCandidates": [
+            96200,
+            100000,
+            101699,
+            101700,
+            101800,
+            106000,
+            110000,
+            112999,
+            114000,
+            116000,
+            119480
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI746MIQ.S.TW",
+          "url": "https://feebee.com.tw/s/Asko%20DBI746MIQ.S.TW/",
+          "price": 96200,
+          "minPrice": 96200,
+          "maxPrice": 121800,
+          "priceCandidates": [
+            96200,
+            100000,
+            101699,
+            101700,
+            106000,
+            110000,
+            112999,
+            114000,
+            114800,
+            116000,
+            121800
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI746MIQ.S.TW",
+          "url": "https://biggo.com.tw/s/Asko%20DBI746MIQ.S.TW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 96200,
+          "minPrice": 96200,
+          "maxPrice": 119480,
+          "priceCandidates": [
+            96200,
+            100000,
+            101699,
+            101700,
+            101800,
+            106000,
+            110000,
+            112999,
+            114000,
+            116000,
+            119480
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI746MIQ.S.TW",
+          "url": "https://feebee.com.tw/s/Asko%20DBI746MIQ.S.TW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 96200,
+          "minPrice": 96200,
+          "maxPrice": 121800,
+          "priceCandidates": [
+            96200,
+            100000,
+            101699,
+            101700,
+            106000,
+            110000,
+            112999,
+            114000,
+            114800,
+            116000,
+            121800
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DBI746MIQ.W.TW",
+      "brand": "Asko",
+      "url": "https://biggo.com.tw/s/DBI746MIQ.W.TW/",
+      "price": 95399,
+      "minPrice": 95399,
+      "maxPrice": 115500,
+      "priceRange": {
+        "min": 95399,
+        "max": 115500
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DBI746MIQ.W.TW",
+          "url": "https://biggo.com.tw/s/DBI746MIQ.W.TW/",
+          "price": 95399,
+          "minPrice": 95399,
+          "maxPrice": 110000,
+          "priceCandidates": [
+            95399,
+            95400,
+            96000,
+            96200,
+            96800,
+            99000,
+            101800,
+            105999,
+            107640,
+            109000,
+            110000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI746MIQ.W.TW",
+          "url": "https://feebee.com.tw/s/DBI746MIQ.W.TW/",
+          "price": 95400,
+          "minPrice": 95400,
+          "maxPrice": 115500,
+          "priceCandidates": [
+            95400,
+            96000,
+            96200,
+            96800,
+            99000,
+            105999,
+            107640,
+            108800,
+            109000,
+            110000,
+            115500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI746MIQ.W.TW",
+          "url": "https://biggo.com.tw/s/Asko%20DBI746MIQ.W.TW/",
+          "price": 95399,
+          "minPrice": 95399,
+          "maxPrice": 110000,
+          "priceCandidates": [
+            95399,
+            95400,
+            96000,
+            96200,
+            96800,
+            99000,
+            101800,
+            105999,
+            107640,
+            109000,
+            110000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI746MIQ.W.TW",
+          "url": "https://feebee.com.tw/s/Asko%20DBI746MIQ.W.TW/",
+          "price": 95400,
+          "minPrice": 95400,
+          "maxPrice": 115500,
+          "priceCandidates": [
+            95400,
+            96000,
+            96200,
+            96800,
+            99000,
+            105999,
+            107640,
+            108800,
+            109000,
+            110000,
+            115500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI746MIQ.W.TW",
+          "url": "https://biggo.com.tw/s/Asko%20DBI746MIQ.W.TW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 95399,
+          "minPrice": 95399,
+          "maxPrice": 110000,
+          "priceCandidates": [
+            95399,
+            95400,
+            96000,
+            96200,
+            96800,
+            99000,
+            101800,
+            105999,
+            107640,
+            109000,
+            110000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DBI746MIQ.W.TW",
+          "url": "https://feebee.com.tw/s/Asko%20DBI746MIQ.W.TW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 95400,
+          "minPrice": 95400,
+          "maxPrice": 115500,
+          "priceCandidates": [
+            95400,
+            96000,
+            96200,
+            96800,
+            99000,
+            105999,
+            107640,
+            108800,
+            109000,
+            110000,
+            115500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DFI433B",
+      "brand": "Asko",
+      "url": "https://feebee.com.tw/s/DFI433B/",
+      "price": 40000,
+      "minPrice": 40000,
+      "maxPrice": 86500,
+      "priceRange": {
+        "min": 40000,
+        "max": 86500
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DFI433B",
+          "url": "https://biggo.com.tw/s/DFI433B/",
+          "price": 49999,
+          "minPrice": 49999,
+          "maxPrice": 86500,
+          "priceCandidates": [
+            49999,
+            52740,
+            54600,
+            62400,
+            70000,
+            70200,
+            78000,
+            86500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI433B",
+          "url": "https://feebee.com.tw/s/DFI433B/",
+          "price": 40000,
+          "minPrice": 40000,
+          "maxPrice": 86500,
+          "priceCandidates": [
+            40000,
+            49999,
+            52740,
+            54600,
+            62400,
+            68100,
+            70000,
+            72000,
+            77800,
+            78000,
+            86500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI433B",
+          "url": "https://biggo.com.tw/s/Asko%20DFI433B/",
+          "price": 49999,
+          "minPrice": 49999,
+          "maxPrice": 86500,
+          "priceCandidates": [
+            49999,
+            52740,
+            54600,
+            62400,
+            70000,
+            70200,
+            78000,
+            86500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI433B",
+          "url": "https://feebee.com.tw/s/Asko%20DFI433B/",
+          "price": 40000,
+          "minPrice": 40000,
+          "maxPrice": 86500,
+          "priceCandidates": [
+            40000,
+            49999,
+            52740,
+            54600,
+            62400,
+            68100,
+            70000,
+            72000,
+            77800,
+            78000,
+            86500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI433B",
+          "url": "https://biggo.com.tw/s/Asko%20DFI433B%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 49999,
+          "minPrice": 49999,
+          "maxPrice": 86500,
+          "priceCandidates": [
+            49999,
+            52740,
+            54600,
+            62400,
+            70000,
+            70200,
+            78000,
+            86500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI433B",
+          "url": "https://feebee.com.tw/s/Asko%20DFI433B%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 40000,
+          "minPrice": 40000,
+          "maxPrice": 86500,
+          "priceCandidates": [
+            40000,
+            49999,
+            52740,
+            54600,
+            62400,
+            68100,
+            70000,
+            72000,
+            77800,
+            78000,
+            86500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DFI433B.TW/1",
+      "brand": "Asko",
+      "url": "https://biggo.com.tw/s/DFI433B.TW%2F1/",
+      "price": 49999,
+      "minPrice": 49999,
+      "maxPrice": 86500,
+      "priceRange": {
+        "min": 49999,
+        "max": 86500
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DFI433B.TW/1",
+          "url": "https://biggo.com.tw/s/DFI433B.TW%2F1/",
+          "price": 49999,
+          "minPrice": 49999,
+          "maxPrice": 86500,
+          "priceCandidates": [
+            49999,
+            52740,
+            54600,
+            62400,
+            70000,
+            86500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI433B.TW/1",
+          "url": "https://feebee.com.tw/s/DFI433B.TW%2F1/",
+          "price": 49999,
+          "minPrice": 49999,
+          "maxPrice": 86500,
+          "priceCandidates": [
+            49999,
+            52740,
+            54600,
+            62400,
+            70000,
+            78000,
+            86500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI433B.TW/1",
+          "url": "https://biggo.com.tw/s/Asko%20DFI433B.TW%2F1/",
+          "price": 49999,
+          "minPrice": 49999,
+          "maxPrice": 86500,
+          "priceCandidates": [
+            49999,
+            52740,
+            54600,
+            62400,
+            70000,
+            86500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI433B.TW/1",
+          "url": "https://feebee.com.tw/s/Asko%20DFI433B.TW%2F1/",
+          "price": 49999,
+          "minPrice": 49999,
+          "maxPrice": 86500,
+          "priceCandidates": [
+            49999,
+            52740,
+            54600,
+            62400,
+            70000,
+            78000,
+            86500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI433B.TW/1",
+          "url": "https://biggo.com.tw/s/Asko%20DFI433B.TW%2F1%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 49999,
+          "minPrice": 49999,
+          "maxPrice": 86500,
+          "priceCandidates": [
+            49999,
+            52740,
+            54600,
+            62400,
+            70000,
+            86500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI433B.TW/1",
+          "url": "https://feebee.com.tw/s/Asko%20DFI433B.TW%2F1%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 49999,
+          "minPrice": 49999,
+          "maxPrice": 86500,
+          "priceCandidates": [
+            49999,
+            52740,
+            54600,
+            62400,
+            70000,
+            78000,
+            86500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DFI5244A.TW",
+      "brand": "Asko",
+      "url": "https://biggo.com.tw/s/DFI5244A.TW/",
+      "price": 63000,
+      "minPrice": 63000,
+      "maxPrice": 84000,
+      "priceRange": {
+        "min": 63000,
+        "max": 84000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DFI5244A.TW",
+          "url": "https://biggo.com.tw/s/DFI5244A.TW/",
+          "price": 63000,
+          "minPrice": 63000,
+          "maxPrice": 78280,
+          "priceCandidates": [
+            63000,
+            69000,
+            74000,
+            76000,
+            78000,
+            78280
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI5244A.TW",
+          "url": "https://feebee.com.tw/s/DFI5244A.TW/",
+          "price": 69000,
+          "minPrice": 69000,
+          "maxPrice": 84000,
+          "priceCandidates": [
+            69000,
+            74000,
+            76000,
+            78000,
+            78280,
+            84000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI5244A.TW",
+          "url": "https://biggo.com.tw/s/Asko%20DFI5244A.TW/",
+          "price": 63000,
+          "minPrice": 63000,
+          "maxPrice": 78280,
+          "priceCandidates": [
+            63000,
+            69000,
+            74000,
+            76000,
+            78000,
+            78280
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI5244A.TW",
+          "url": "https://feebee.com.tw/s/Asko%20DFI5244A.TW/",
+          "price": 69000,
+          "minPrice": 69000,
+          "maxPrice": 84000,
+          "priceCandidates": [
+            69000,
+            74000,
+            76000,
+            78000,
+            78280,
+            84000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI5244A.TW",
+          "url": "https://biggo.com.tw/s/Asko%20DFI5244A.TW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 63000,
+          "minPrice": 63000,
+          "maxPrice": 78280,
+          "priceCandidates": [
+            63000,
+            69000,
+            74000,
+            76000,
+            78000,
+            78280
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI5244A.TW",
+          "url": "https://feebee.com.tw/s/Asko%20DFI5244A.TW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 69000,
+          "minPrice": 69000,
+          "maxPrice": 84000,
+          "priceCandidates": [
+            69000,
+            74000,
+            76000,
+            78000,
+            78280,
+            84000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DFI544D.TW",
+      "brand": "Asko",
+      "url": "https://biggo.com.tw/s/DFI544D.TW/",
+      "price": 70199,
+      "minPrice": 70199,
+      "maxPrice": 88200,
+      "priceRange": {
+        "min": 70199,
+        "max": 88200
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DFI544D.TW",
+          "url": "https://biggo.com.tw/s/DFI544D.TW/",
+          "price": 70199,
+          "minPrice": 70199,
+          "maxPrice": 86520,
+          "priceCandidates": [
+            70199,
+            70200,
+            73000,
+            73900,
+            76000,
+            77999,
+            78000,
+            82000,
+            84000,
+            86520
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI544D.TW",
+          "url": "https://feebee.com.tw/s/DFI544D.TW/",
+          "price": 70200,
+          "minPrice": 70200,
+          "maxPrice": 88200,
+          "priceCandidates": [
+            70200,
+            73000,
+            73900,
+            76000,
+            77999,
+            78000,
+            82000,
+            82800,
+            84000,
+            86520,
+            88200
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI544D.TW",
+          "url": "https://biggo.com.tw/s/Asko%20DFI544D.TW/",
+          "price": 70199,
+          "minPrice": 70199,
+          "maxPrice": 86520,
+          "priceCandidates": [
+            70199,
+            70200,
+            73000,
+            73900,
+            76000,
+            77999,
+            78000,
+            82000,
+            84000,
+            86520
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI544D.TW",
+          "url": "https://feebee.com.tw/s/Asko%20DFI544D.TW/",
+          "price": 70200,
+          "minPrice": 70200,
+          "maxPrice": 88200,
+          "priceCandidates": [
+            70200,
+            73000,
+            73900,
+            76000,
+            77999,
+            78000,
+            82000,
+            82800,
+            84000,
+            86520,
+            88200
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI544D.TW",
+          "url": "https://biggo.com.tw/s/Asko%20DFI544D.TW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 70199,
+          "minPrice": 70199,
+          "maxPrice": 86520,
+          "priceCandidates": [
+            70199,
+            70200,
+            73000,
+            73900,
+            76000,
+            77999,
+            78000,
+            82000,
+            84000,
+            86520
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI544D.TW",
+          "url": "https://feebee.com.tw/s/Asko%20DFI544D.TW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 70200,
+          "minPrice": 70200,
+          "maxPrice": 88200,
+          "priceCandidates": [
+            70200,
+            73000,
+            73900,
+            76000,
+            77999,
+            78000,
+            82000,
+            82800,
+            84000,
+            86520,
+            88200
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DFI644MB",
+      "brand": "Asko",
+      "url": "https://biggo.com.tw/s/DFI644MB/",
+      "price": 92000,
+      "minPrice": 92000,
+      "maxPrice": 99000,
+      "priceRange": {
+        "min": 92000,
+        "max": 99000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DFI644MB",
+          "url": "https://biggo.com.tw/s/DFI644MB/",
+          "price": 92000,
+          "minPrice": 92000,
+          "maxPrice": 99000,
+          "priceCandidates": [
+            92000,
+            99000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI644MB",
+          "url": "https://feebee.com.tw/s/DFI644MB/",
+          "price": 92000,
+          "minPrice": 92000,
+          "maxPrice": 99000,
+          "priceCandidates": [
+            92000,
+            99000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI644MB",
+          "url": "https://biggo.com.tw/s/Asko%20DFI644MB/",
+          "price": 92000,
+          "minPrice": 92000,
+          "maxPrice": 99000,
+          "priceCandidates": [
+            92000,
+            99000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI644MB",
+          "url": "https://feebee.com.tw/s/Asko%20DFI644MB/",
+          "price": 92000,
+          "minPrice": 92000,
+          "maxPrice": 99000,
+          "priceCandidates": [
+            92000,
+            99000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI644MB",
+          "url": "https://biggo.com.tw/s/Asko%20DFI644MB%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 92000,
+          "minPrice": 92000,
+          "maxPrice": 99000,
+          "priceCandidates": [
+            92000,
+            99000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI644MB",
+          "url": "https://feebee.com.tw/s/Asko%20DFI644MB%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 92000,
+          "minPrice": 92000,
+          "maxPrice": 99000,
+          "priceCandidates": [
+            92000,
+            99000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DFI654B",
+      "brand": "Asko",
+      "url": "https://feebee.com.tw/s/DFI654B/",
+      "price": 82700,
+      "minPrice": 82700,
+      "maxPrice": 92000,
+      "priceRange": {
+        "min": 82700,
+        "max": 92000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DFI654B",
+          "url": "https://biggo.com.tw/s/DFI654B/",
+          "price": 82800,
+          "minPrice": 82800,
+          "maxPrice": 92000,
+          "priceCandidates": [
+            82800,
+            92000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI654B",
+          "url": "https://feebee.com.tw/s/DFI654B/",
+          "price": 82700,
+          "minPrice": 82700,
+          "maxPrice": 92000,
+          "priceCandidates": [
+            82700,
+            92000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI654B",
+          "url": "https://biggo.com.tw/s/Asko%20DFI654B/",
+          "price": 82800,
+          "minPrice": 82800,
+          "maxPrice": 92000,
+          "priceCandidates": [
+            82800,
+            92000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI654B",
+          "url": "https://feebee.com.tw/s/Asko%20DFI654B/",
+          "price": 82700,
+          "minPrice": 82700,
+          "maxPrice": 92000,
+          "priceCandidates": [
+            82700,
+            92000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI654B",
+          "url": "https://biggo.com.tw/s/Asko%20DFI654B%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 82800,
+          "minPrice": 82800,
+          "maxPrice": 92000,
+          "priceCandidates": [
+            82800,
+            92000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI654B",
+          "url": "https://feebee.com.tw/s/Asko%20DFI654B%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 82700,
+          "minPrice": 82700,
+          "maxPrice": 92000,
+          "priceCandidates": [
+            82700,
+            92000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DFS143I.S",
+      "brand": "Asko",
+      "url": "https://biggo.com.tw/s/DFS143I.S/",
+      "price": 82300,
+      "minPrice": 82300,
+      "maxPrice": 84000,
+      "priceRange": {
+        "min": 82300,
+        "max": 84000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DFS143I.S",
+          "url": "https://biggo.com.tw/s/DFS143I.S/",
+          "price": 82300,
+          "minPrice": 82300,
+          "maxPrice": 84000,
+          "priceCandidates": [
+            82300,
+            84000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS143I.S",
+          "url": "https://feebee.com.tw/s/DFS143I.S/",
+          "price": 82300,
+          "minPrice": 82300,
+          "maxPrice": 84000,
+          "priceCandidates": [
+            82300,
+            84000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS143I.S",
+          "url": "https://biggo.com.tw/s/Asko%20DFS143I.S/",
+          "price": 82300,
+          "minPrice": 82300,
+          "maxPrice": 84000,
+          "priceCandidates": [
+            82300,
+            84000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS143I.S",
+          "url": "https://feebee.com.tw/s/Asko%20DFS143I.S/",
+          "price": 82300,
+          "minPrice": 82300,
+          "maxPrice": 84000,
+          "priceCandidates": [
+            82300,
+            84000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS143I.S",
+          "url": "https://biggo.com.tw/s/Asko%20DFS143I.S%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 82300,
+          "minPrice": 82300,
+          "maxPrice": 84000,
+          "priceCandidates": [
+            82300,
+            84000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS143I.S",
+          "url": "https://feebee.com.tw/s/Asko%20DFS143I.S%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 82300,
+          "minPrice": 82300,
+          "maxPrice": 84000,
+          "priceCandidates": [
+            82300,
+            84000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DFS233IB.S",
+      "brand": "Asko",
+      "url": "https://biggo.com.tw/s/DFS233IB.S/",
+      "price": 56699,
+      "minPrice": 56699,
+      "maxPrice": 89000,
+      "priceRange": {
+        "min": 56699,
+        "max": 89000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DFS233IB.S",
+          "url": "https://biggo.com.tw/s/DFS233IB.S/",
+          "price": 56699,
+          "minPrice": 56699,
+          "maxPrice": 89000,
+          "priceCandidates": [
+            56699,
+            57960,
+            62999,
+            73800,
+            76000,
+            77000,
+            78000,
+            79000,
+            80000,
+            82000,
+            86000,
+            89000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS233IB.S",
+          "url": "https://feebee.com.tw/s/DFS233IB.S/",
+          "price": 56699,
+          "minPrice": 56699,
+          "maxPrice": 86100,
+          "priceCandidates": [
+            56699,
+            57960,
+            62999,
+            73700,
+            76000,
+            78000,
+            78500,
+            80000,
+            82000,
+            86100
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS233IB.S",
+          "url": "https://biggo.com.tw/s/Asko%20DFS233IB.S/",
+          "price": 56699,
+          "minPrice": 56699,
+          "maxPrice": 89000,
+          "priceCandidates": [
+            56699,
+            57960,
+            62999,
+            73800,
+            76000,
+            77000,
+            78000,
+            79000,
+            80000,
+            82000,
+            86000,
+            89000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS233IB.S",
+          "url": "https://feebee.com.tw/s/Asko%20DFS233IB.S/",
+          "price": 56699,
+          "minPrice": 56699,
+          "maxPrice": 86100,
+          "priceCandidates": [
+            56699,
+            57960,
+            62999,
+            73700,
+            76000,
+            78000,
+            78500,
+            80000,
+            82000,
+            86100
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS233IB.S",
+          "url": "https://biggo.com.tw/s/Asko%20DFS233IB.S%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 56699,
+          "minPrice": 56699,
+          "maxPrice": 89000,
+          "priceCandidates": [
+            56699,
+            57960,
+            62999,
+            73800,
+            76000,
+            77000,
+            78000,
+            79000,
+            80000,
+            82000,
+            86000,
+            89000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS233IB.S",
+          "url": "https://feebee.com.tw/s/Asko%20DFS233IB.S%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 56699,
+          "minPrice": 56699,
+          "maxPrice": 86100,
+          "priceCandidates": [
+            56699,
+            57960,
+            62999,
+            73700,
+            76000,
+            78000,
+            78500,
+            80000,
+            82000,
+            86100
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DFS233IB.S.TW",
+      "brand": "Asko",
+      "url": "https://biggo.com.tw/s/DFS233IB.S.TW/",
+      "price": 56699,
+      "minPrice": 56699,
+      "maxPrice": 86100,
+      "priceRange": {
+        "min": 56699,
+        "max": 86100
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DFS233IB.S.TW",
+          "url": "https://biggo.com.tw/s/DFS233IB.S.TW/",
+          "price": 56699,
+          "minPrice": 56699,
+          "maxPrice": 86000,
+          "priceCandidates": [
+            56699,
+            57960,
+            62999,
+            76000,
+            78000,
+            82000,
+            86000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS233IB.S.TW",
+          "url": "https://feebee.com.tw/s/DFS233IB.S.TW/",
+          "price": 56699,
+          "minPrice": 56699,
+          "maxPrice": 86100,
+          "priceCandidates": [
+            56699,
+            57960,
+            62999,
+            76000,
+            78000,
+            82000,
+            86100
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS233IB.S.TW",
+          "url": "https://biggo.com.tw/s/Asko%20DFS233IB.S.TW/",
+          "price": 56699,
+          "minPrice": 56699,
+          "maxPrice": 86000,
+          "priceCandidates": [
+            56699,
+            57960,
+            62999,
+            76000,
+            78000,
+            82000,
+            86000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS233IB.S.TW",
+          "url": "https://feebee.com.tw/s/Asko%20DFS233IB.S.TW/",
+          "price": 56699,
+          "minPrice": 56699,
+          "maxPrice": 86100,
+          "priceCandidates": [
+            56699,
+            57960,
+            62999,
+            76000,
+            78000,
+            82000,
+            86100
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS233IB.S.TW",
+          "url": "https://biggo.com.tw/s/Asko%20DFS233IB.S.TW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 56699,
+          "minPrice": 56699,
+          "maxPrice": 86000,
+          "priceCandidates": [
+            56699,
+            57960,
+            62999,
+            76000,
+            78000,
+            82000,
+            86000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS233IB.S.TW",
+          "url": "https://feebee.com.tw/s/Asko%20DFS233IB.S.TW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 56699,
+          "minPrice": 56699,
+          "maxPrice": 86100,
+          "priceCandidates": [
+            56699,
+            57960,
+            62999,
+            76000,
+            78000,
+            82000,
+            86100
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DFS233IB.S.TW/1",
+      "brand": "Asko",
+      "url": "https://biggo.com.tw/s/DFS233IB.S.TW%2F1/",
+      "price": 56699,
+      "minPrice": 56699,
+      "maxPrice": 86100,
+      "priceRange": {
+        "min": 56699,
+        "max": 86100
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DFS233IB.S.TW/1",
+          "url": "https://biggo.com.tw/s/DFS233IB.S.TW%2F1/",
+          "price": 56699,
+          "minPrice": 56699,
+          "maxPrice": 86000,
+          "priceCandidates": [
+            56699,
+            57960,
+            62999,
+            76000,
+            78000,
+            82000,
+            86000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS233IB.S.TW/1",
+          "url": "https://feebee.com.tw/s/DFS233IB.S.TW%2F1/",
+          "price": 56699,
+          "minPrice": 56699,
+          "maxPrice": 86100,
+          "priceCandidates": [
+            56699,
+            57960,
+            62999,
+            76000,
+            78000,
+            82000,
+            86100
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS233IB.S.TW/1",
+          "url": "https://biggo.com.tw/s/Asko%20DFS233IB.S.TW%2F1/",
+          "price": 56699,
+          "minPrice": 56699,
+          "maxPrice": 86000,
+          "priceCandidates": [
+            56699,
+            57960,
+            62999,
+            76000,
+            78000,
+            82000,
+            86000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS233IB.S.TW/1",
+          "url": "https://feebee.com.tw/s/Asko%20DFS233IB.S.TW%2F1/",
+          "price": 56699,
+          "minPrice": 56699,
+          "maxPrice": 86100,
+          "priceCandidates": [
+            56699,
+            57960,
+            62999,
+            76000,
+            78000,
+            82000,
+            86100
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS233IB.S.TW/1",
+          "url": "https://biggo.com.tw/s/Asko%20DFS233IB.S.TW%2F1%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 56699,
+          "minPrice": 56699,
+          "maxPrice": 86000,
+          "priceCandidates": [
+            56699,
+            57960,
+            62999,
+            76000,
+            78000,
+            82000,
+            86000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS233IB.S.TW/1",
+          "url": "https://feebee.com.tw/s/Asko%20DFS233IB.S.TW%2F1%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 56699,
+          "minPrice": 56699,
+          "maxPrice": 86100,
+          "priceCandidates": [
+            56699,
+            57960,
+            62999,
+            76000,
+            78000,
+            82000,
+            86100
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DFS233IB.W",
+      "brand": "Asko",
+      "url": "https://biggo.com.tw/s/DFS233IB.W/",
+      "price": 53900,
+      "minPrice": 53900,
+      "maxPrice": 86000,
+      "priceRange": {
+        "min": 53900,
+        "max": 86000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DFS233IB.W",
+          "url": "https://biggo.com.tw/s/DFS233IB.W/",
+          "price": 53900,
+          "minPrice": 53900,
+          "maxPrice": 86000,
+          "priceCandidates": [
+            53900,
+            58054,
+            59900,
+            64000,
+            67000,
+            69300,
+            75000,
+            76000,
+            77000,
+            86000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS233IB.W",
+          "url": "https://feebee.com.tw/s/DFS233IB.W/",
+          "price": 53900,
+          "minPrice": 53900,
+          "maxPrice": 77000,
+          "priceCandidates": [
+            53900,
+            59849,
+            59900,
+            67000,
+            69200,
+            75000,
+            76000,
+            77000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS233IB.W",
+          "url": "https://biggo.com.tw/s/Asko%20DFS233IB.W/",
+          "price": 53900,
+          "minPrice": 53900,
+          "maxPrice": 86000,
+          "priceCandidates": [
+            53900,
+            58054,
+            59900,
+            64000,
+            67000,
+            69300,
+            75000,
+            76000,
+            77000,
+            86000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS233IB.W",
+          "url": "https://feebee.com.tw/s/Asko%20DFS233IB.W/",
+          "price": 53900,
+          "minPrice": 53900,
+          "maxPrice": 77000,
+          "priceCandidates": [
+            53900,
+            59849,
+            59900,
+            67000,
+            69200,
+            75000,
+            76000,
+            77000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS233IB.W",
+          "url": "https://biggo.com.tw/s/Asko%20DFS233IB.W%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 53900,
+          "minPrice": 53900,
+          "maxPrice": 86000,
+          "priceCandidates": [
+            53900,
+            58054,
+            59900,
+            64000,
+            67000,
+            69300,
+            75000,
+            76000,
+            77000,
+            86000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS233IB.W",
+          "url": "https://feebee.com.tw/s/Asko%20DFS233IB.W%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 53900,
+          "minPrice": 53900,
+          "maxPrice": 77000,
+          "priceCandidates": [
+            53900,
+            59849,
+            59900,
+            67000,
+            69200,
+            75000,
+            76000,
+            77000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DFS233IB.W.TW",
+      "brand": "Asko",
+      "url": "https://biggo.com.tw/s/DFS233IB.W.TW/",
+      "price": 53900,
+      "minPrice": 53900,
+      "maxPrice": 86000,
+      "priceRange": {
+        "min": 53900,
+        "max": 86000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DFS233IB.W.TW",
+          "url": "https://biggo.com.tw/s/DFS233IB.W.TW/",
+          "price": 53900,
+          "minPrice": 53900,
+          "maxPrice": 86000,
+          "priceCandidates": [
+            53900,
+            75000,
+            76000,
+            77000,
+            86000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS233IB.W.TW",
+          "url": "https://feebee.com.tw/s/DFS233IB.W.TW/",
+          "price": 53900,
+          "minPrice": 53900,
+          "maxPrice": 77000,
+          "priceCandidates": [
+            53900,
+            75000,
+            76000,
+            77000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS233IB.W.TW",
+          "url": "https://biggo.com.tw/s/Asko%20DFS233IB.W.TW/",
+          "price": 53900,
+          "minPrice": 53900,
+          "maxPrice": 86000,
+          "priceCandidates": [
+            53900,
+            75000,
+            76000,
+            77000,
+            86000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS233IB.W.TW",
+          "url": "https://feebee.com.tw/s/Asko%20DFS233IB.W.TW/",
+          "price": 53900,
+          "minPrice": 53900,
+          "maxPrice": 77000,
+          "priceCandidates": [
+            53900,
+            75000,
+            76000,
+            77000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS233IB.W.TW",
+          "url": "https://biggo.com.tw/s/Asko%20DFS233IB.W.TW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 53900,
+          "minPrice": 53900,
+          "maxPrice": 86000,
+          "priceCandidates": [
+            53900,
+            75000,
+            76000,
+            77000,
+            86000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS233IB.W.TW",
+          "url": "https://feebee.com.tw/s/Asko%20DFS233IB.W.TW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 53900,
+          "minPrice": 53900,
+          "maxPrice": 77000,
+          "priceCandidates": [
+            53900,
+            75000,
+            76000,
+            77000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DFS244IB",
+      "brand": "Asko",
+      "url": "https://biggo.com.tw/s/DFS244IB/",
+      "price": 76000,
+      "minPrice": 76000,
+      "maxPrice": 89000,
+      "priceRange": {
+        "min": 76000,
+        "max": 89000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DFS244IB",
+          "url": "https://biggo.com.tw/s/DFS244IB/",
+          "price": 76000,
+          "minPrice": 76000,
+          "maxPrice": 89000,
+          "priceCandidates": [
+            76000,
+            76800,
+            79000,
+            80100,
+            87000,
+            89000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS244IB",
+          "url": "https://feebee.com.tw/s/DFS244IB/",
+          "price": 76000,
+          "minPrice": 76000,
+          "maxPrice": 89000,
+          "priceCandidates": [
+            76000,
+            76800,
+            78100,
+            87000,
+            89000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS244IB",
+          "url": "https://biggo.com.tw/s/Asko%20DFS244IB/",
+          "price": 76000,
+          "minPrice": 76000,
+          "maxPrice": 89000,
+          "priceCandidates": [
+            76000,
+            76800,
+            79000,
+            80100,
+            87000,
+            89000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS244IB",
+          "url": "https://feebee.com.tw/s/Asko%20DFS244IB/",
+          "price": 76000,
+          "minPrice": 76000,
+          "maxPrice": 89000,
+          "priceCandidates": [
+            76000,
+            76800,
+            78100,
+            87000,
+            89000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS244IB",
+          "url": "https://biggo.com.tw/s/Asko%20DFS244IB%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 76000,
+          "minPrice": 76000,
+          "maxPrice": 89000,
+          "priceCandidates": [
+            76000,
+            76800,
+            79000,
+            80100,
+            87000,
+            89000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS244IB",
+          "url": "https://feebee.com.tw/s/Asko%20DFS244IB%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 76000,
+          "minPrice": 76000,
+          "maxPrice": 89000,
+          "priceCandidates": [
+            76000,
+            76800,
+            78100,
+            87000,
+            89000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DFS244IB.S",
+      "brand": "Asko",
+      "url": "https://feebee.com.tw/s/DFS244IB.S/",
+      "price": 22364,
+      "minPrice": 22364,
+      "maxPrice": 89000,
+      "priceRange": {
+        "min": 22364,
+        "max": 89000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DFS244IB.S",
+          "url": "https://biggo.com.tw/s/DFS244IB.S/",
+          "price": 76000,
+          "minPrice": 76000,
+          "maxPrice": 89000,
+          "priceCandidates": [
+            76000,
+            76800,
+            79000,
+            80100,
+            87000,
+            89000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS244IB.S",
+          "url": "https://feebee.com.tw/s/DFS244IB.S/",
+          "price": 22364,
+          "minPrice": 22364,
+          "maxPrice": 89000,
+          "priceCandidates": [
+            22364,
+            76000,
+            76800,
+            78100,
+            87000,
+            89000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS244IB.S",
+          "url": "https://biggo.com.tw/s/Asko%20DFS244IB.S/",
+          "price": 76000,
+          "minPrice": 76000,
+          "maxPrice": 89000,
+          "priceCandidates": [
+            76000,
+            76800,
+            79000,
+            80100,
+            87000,
+            89000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS244IB.S",
+          "url": "https://feebee.com.tw/s/Asko%20DFS244IB.S/",
+          "price": 76000,
+          "minPrice": 76000,
+          "maxPrice": 89000,
+          "priceCandidates": [
+            76000,
+            76800,
+            78100,
+            87000,
+            89000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS244IB.S",
+          "url": "https://biggo.com.tw/s/Asko%20DFS244IB.S%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 76000,
+          "minPrice": 76000,
+          "maxPrice": 89000,
+          "priceCandidates": [
+            76000,
+            76800,
+            79000,
+            80100,
+            87000,
+            89000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFS244IB.S",
+          "url": "https://feebee.com.tw/s/Asko%20DFS244IB.S%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 76000,
+          "minPrice": 76000,
+          "maxPrice": 89000,
+          "priceCandidates": [
+            76000,
+            76800,
+            78100,
+            87000,
+            89000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "G5001",
+      "brand": "Miele",
+      "url": "https://biggo.com.tw/s/G5001/",
+      "price": 23180,
+      "minPrice": 23180,
+      "maxPrice": 150150,
+      "priceRange": {
+        "min": 23180,
+        "max": 150150
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "G5001",
+          "url": "https://biggo.com.tw/s/G5001/",
+          "price": 23180,
+          "minPrice": 23180,
+          "maxPrice": 150150,
+          "priceCandidates": [
+            23180,
+            25650,
+            33150,
+            35400,
+            40150,
+            40370,
+            48300,
+            51680,
+            59000,
+            62600,
+            63000,
+            64000,
+            150150
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5001",
+          "url": "https://feebee.com.tw/s/G5001/",
+          "price": 59000,
+          "minPrice": 59000,
+          "maxPrice": 63000,
+          "priceCandidates": [
+            59000,
+            63000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5001",
+          "url": "https://biggo.com.tw/s/Miele%20G5001/",
+          "price": 51680,
+          "minPrice": 51680,
+          "maxPrice": 64000,
+          "priceCandidates": [
+            51680,
+            58650,
+            59000,
+            63000,
+            64000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5001",
+          "url": "https://feebee.com.tw/s/Miele%20G5001/",
+          "price": 54400,
+          "minPrice": 54400,
+          "maxPrice": 64000,
+          "priceCandidates": [
+            54400,
+            58650,
+            59000,
+            63000,
+            64000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5001",
+          "url": "https://biggo.com.tw/s/Miele%20G5001%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 51680,
+          "minPrice": 51680,
+          "maxPrice": 64000,
+          "priceCandidates": [
+            51680,
+            58650,
+            59000,
+            63000,
+            64000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5001",
+          "url": "https://feebee.com.tw/s/Miele%20G5001%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 54400,
+          "minPrice": 54400,
+          "maxPrice": 64000,
+          "priceCandidates": [
+            54400,
+            58650,
+            59000,
+            63000,
+            64000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "G5001C",
+      "brand": "Miele",
+      "url": "https://biggo.com.tw/s/G5001C/",
+      "price": 54000,
+      "minPrice": 54000,
+      "maxPrice": 63000,
+      "priceRange": {
+        "min": 54000,
+        "max": 63000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "G5001C",
+          "url": "https://biggo.com.tw/s/G5001C/",
+          "price": 54000,
+          "minPrice": 54000,
+          "maxPrice": 63000,
+          "priceCandidates": [
+            54000,
+            54400,
+            55000,
+            56040,
+            58000,
+            59000,
+            59850,
+            60800,
+            62000,
+            63000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5001C",
+          "url": "https://feebee.com.tw/s/G5001C/",
+          "price": 54000,
+          "minPrice": 54000,
+          "maxPrice": 63000,
+          "priceCandidates": [
+            54000,
+            55000,
+            56040,
+            57600,
+            58000,
+            59000,
+            59850,
+            60800,
+            62000,
+            63000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5001C",
+          "url": "https://biggo.com.tw/s/Miele%20G5001C/",
+          "price": 54000,
+          "minPrice": 54000,
+          "maxPrice": 63000,
+          "priceCandidates": [
+            54000,
+            54400,
+            55000,
+            56040,
+            58000,
+            59000,
+            59850,
+            60800,
+            62000,
+            63000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5001C",
+          "url": "https://feebee.com.tw/s/Miele%20G5001C/",
+          "price": 54000,
+          "minPrice": 54000,
+          "maxPrice": 63000,
+          "priceCandidates": [
+            54000,
+            55000,
+            56040,
+            57600,
+            58000,
+            59000,
+            59850,
+            60800,
+            62000,
+            63000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5001C",
+          "url": "https://biggo.com.tw/s/Miele%20G5001C%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 54000,
+          "minPrice": 54000,
+          "maxPrice": 63000,
+          "priceCandidates": [
+            54000,
+            54400,
+            55000,
+            56040,
+            58000,
+            59000,
+            59850,
+            60800,
+            62000,
+            63000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5001C",
+          "url": "https://feebee.com.tw/s/Miele%20G5001C%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 54000,
+          "minPrice": 54000,
+          "maxPrice": 63000,
+          "priceCandidates": [
+            54000,
+            55000,
+            56040,
+            57600,
+            58000,
+            59000,
+            59850,
+            60800,
+            62000,
+            63000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "G5001SC",
+      "brand": "Miele",
+      "url": "https://biggo.com.tw/s/G5001SC/",
+      "price": 54400,
+      "minPrice": 54400,
+      "maxPrice": 70000,
+      "priceRange": {
+        "min": 54400,
+        "max": 70000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "G5001SC",
+          "url": "https://biggo.com.tw/s/G5001SC/",
+          "price": 54400,
+          "minPrice": 54400,
+          "maxPrice": 70000,
+          "priceCandidates": [
+            54400,
+            56700,
+            59000,
+            59850,
+            62000,
+            63000,
+            64000,
+            70000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5001SC",
+          "url": "https://feebee.com.tw/s/G5001SC/",
+          "price": 54400,
+          "minPrice": 54400,
+          "maxPrice": 70000,
+          "priceCandidates": [
+            54400,
+            56700,
+            59000,
+            59850,
+            60800,
+            63000,
+            64000,
+            70000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5001SC",
+          "url": "https://biggo.com.tw/s/Miele%20G5001SC/",
+          "price": 54400,
+          "minPrice": 54400,
+          "maxPrice": 70000,
+          "priceCandidates": [
+            54400,
+            56700,
+            59000,
+            62000,
+            63000,
+            64000,
+            70000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5001SC",
+          "url": "https://feebee.com.tw/s/Miele%20G5001SC/",
+          "price": 54400,
+          "minPrice": 54400,
+          "maxPrice": 70000,
+          "priceCandidates": [
+            54400,
+            56700,
+            59000,
+            60800,
+            63000,
+            64000,
+            70000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5001SC",
+          "url": "https://biggo.com.tw/s/Miele%20G5001SC%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 54400,
+          "minPrice": 54400,
+          "maxPrice": 70000,
+          "priceCandidates": [
+            54400,
+            56700,
+            59000,
+            62000,
+            63000,
+            64000,
+            70000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5001SC",
+          "url": "https://feebee.com.tw/s/Miele%20G5001SC%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 54400,
+          "minPrice": 54400,
+          "maxPrice": 70000,
+          "priceCandidates": [
+            54400,
+            56700,
+            59000,
+            60800,
+            63000,
+            64000,
+            70000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "G5214",
+      "brand": "Miele",
+      "url": "https://biggo.com.tw/s/G5214/",
+      "price": 69795,
+      "minPrice": 69795,
+      "maxPrice": 69795,
+      "priceRange": {
+        "min": 69795,
+        "max": 69795
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "G5214",
+          "url": "https://biggo.com.tw/s/G5214/",
+          "price": 69795,
+          "minPrice": 69795,
+          "maxPrice": 69795,
+          "priceCandidates": [
+            69795
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5214",
+          "url": "https://feebee.com.tw/s/G5214/",
+          "price": 69795,
+          "minPrice": 69795,
+          "maxPrice": 69795,
+          "priceCandidates": [
+            69795
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5214",
+          "url": "https://biggo.com.tw/s/Miele%20G5214/",
+          "price": 69795,
+          "minPrice": 69795,
+          "maxPrice": 69795,
+          "priceCandidates": [
+            69795
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5214",
+          "url": "https://feebee.com.tw/s/Miele%20G5214/",
+          "price": 69795,
+          "minPrice": 69795,
+          "maxPrice": 69795,
+          "priceCandidates": [
+            69795
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5214",
+          "url": "https://biggo.com.tw/s/Miele%20G5214%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 69795,
+          "minPrice": 69795,
+          "maxPrice": 69795,
+          "priceCandidates": [
+            69795
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5214",
+          "url": "https://feebee.com.tw/s/Miele%20G5214%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 69795,
+          "minPrice": 69795,
+          "maxPrice": 69795,
+          "priceCandidates": [
+            69795
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "G5214C",
+      "brand": "Miele",
+      "url": "https://biggo.com.tw/s/G5214C/",
+      "price": 62900,
+      "minPrice": 62900,
+      "maxPrice": 76000,
+      "priceRange": {
+        "min": 62900,
+        "max": 76000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "G5214C",
+          "url": "https://biggo.com.tw/s/G5214C/",
+          "price": 62900,
+          "minPrice": 62900,
+          "maxPrice": 76000,
+          "priceCandidates": [
+            62900,
+            65250,
+            66000,
+            67050,
+            68000,
+            69795,
+            70300,
+            72500,
+            74000,
+            74500,
+            76000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5214C",
+          "url": "https://feebee.com.tw/s/G5214C/",
+          "price": 62900,
+          "minPrice": 62900,
+          "maxPrice": 76000,
+          "priceCandidates": [
+            62900,
+            65000,
+            65250,
+            67000,
+            67050,
+            69795,
+            70300,
+            72200,
+            72500,
+            73000,
+            74000,
+            74500,
+            76000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5214C",
+          "url": "https://biggo.com.tw/s/Miele%20G5214C/",
+          "price": 62900,
+          "minPrice": 62900,
+          "maxPrice": 76000,
+          "priceCandidates": [
+            62900,
+            65250,
+            66000,
+            67050,
+            68000,
+            69795,
+            70300,
+            72500,
+            74000,
+            74500,
+            76000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5214C",
+          "url": "https://feebee.com.tw/s/Miele%20G5214C/",
+          "price": 62900,
+          "minPrice": 62900,
+          "maxPrice": 76000,
+          "priceCandidates": [
+            62900,
+            65000,
+            65250,
+            67000,
+            67050,
+            69795,
+            70300,
+            72200,
+            72500,
+            73000,
+            74000,
+            74500,
+            76000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5214C",
+          "url": "https://biggo.com.tw/s/Miele%20G5214C%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 62900,
+          "minPrice": 62900,
+          "maxPrice": 76000,
+          "priceCandidates": [
+            62900,
+            65250,
+            66000,
+            67050,
+            69795,
+            70300,
+            72500,
+            74000,
+            74500,
+            76000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5214C",
+          "url": "https://feebee.com.tw/s/Miele%20G5214C%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 62900,
+          "minPrice": 62900,
+          "maxPrice": 76000,
+          "priceCandidates": [
+            62900,
+            65000,
+            65250,
+            67000,
+            67050,
+            69795,
+            70300,
+            72200,
+            72500,
+            73000,
+            74000,
+            74500,
+            76000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "G5214CSC",
+      "brand": "Miele",
+      "url": "https://feebee.com.tw/s/G5214CSC/",
+      "price": 62000,
+      "minPrice": 62000,
+      "maxPrice": 72500,
+      "priceRange": {
+        "min": 62000,
+        "max": 72500
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "G5214CSC",
+          "url": "https://biggo.com.tw/s/G5214CSC/",
+          "price": 62900,
+          "minPrice": 62900,
+          "maxPrice": 65250,
+          "priceCandidates": [
+            62900,
+            65250
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5214CSC",
+          "url": "https://feebee.com.tw/s/G5214CSC/",
+          "price": 62000,
+          "minPrice": 62000,
+          "maxPrice": 72500,
+          "priceCandidates": [
+            62000,
+            65250,
+            72500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5214CSC",
+          "url": "https://biggo.com.tw/s/Miele%20G5214CSC/",
+          "price": 62900,
+          "minPrice": 62900,
+          "maxPrice": 65250,
+          "priceCandidates": [
+            62900,
+            65250
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5214CSC",
+          "url": "https://feebee.com.tw/s/Miele%20G5214CSC/",
+          "price": 62000,
+          "minPrice": 62000,
+          "maxPrice": 72500,
+          "priceCandidates": [
+            62000,
+            65250,
+            72500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5214CSC",
+          "url": "https://biggo.com.tw/s/Miele%20G5214CSC%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 62900,
+          "minPrice": 62900,
+          "maxPrice": 65250,
+          "priceCandidates": [
+            62900,
+            65250
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5214CSC",
+          "url": "https://feebee.com.tw/s/Miele%20G5214CSC%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 62000,
+          "minPrice": 62000,
+          "maxPrice": 72500,
+          "priceCandidates": [
+            62000,
+            65250,
+            72500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "G5214SC",
+      "brand": "Miele",
+      "url": "https://biggo.com.tw/s/G5214SC/",
+      "price": 66600,
+      "minPrice": 66600,
+      "maxPrice": 80556,
+      "priceRange": {
+        "min": 66600,
+        "max": 80556
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "G5214SC",
+          "url": "https://biggo.com.tw/s/G5214SC/",
+          "price": 66600,
+          "minPrice": 66600,
+          "maxPrice": 80556,
+          "priceCandidates": [
+            66600,
+            67500,
+            69795,
+            72500,
+            74000,
+            80556
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5214SC",
+          "url": "https://feebee.com.tw/s/G5214SC/",
+          "price": 67500,
+          "minPrice": 67500,
+          "maxPrice": 80556,
+          "priceCandidates": [
+            67500,
+            69795,
+            72500,
+            80556
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5214SC",
+          "url": "https://biggo.com.tw/s/Miele%20G5214SC/",
+          "price": 67500,
+          "minPrice": 67500,
+          "maxPrice": 80556,
+          "priceCandidates": [
+            67500,
+            69795,
+            72500,
+            74000,
+            80556
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5214SC",
+          "url": "https://feebee.com.tw/s/Miele%20G5214SC/",
+          "price": 67500,
+          "minPrice": 67500,
+          "maxPrice": 80556,
+          "priceCandidates": [
+            67500,
+            69795,
+            72500,
+            80556
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5214SC",
+          "url": "https://biggo.com.tw/s/Miele%20G5214SC%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 67500,
+          "minPrice": 67500,
+          "maxPrice": 80556,
+          "priceCandidates": [
+            67500,
+            69795,
+            72500,
+            74000,
+            80556
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5214SC",
+          "url": "https://feebee.com.tw/s/Miele%20G5214SC%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 67500,
+          "minPrice": 67500,
+          "maxPrice": 80556,
+          "priceCandidates": [
+            67500,
+            69795,
+            72500,
+            80556
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "G5264C",
+      "brand": "Miele",
+      "url": "https://biggo.com.tw/s/G5264C/",
+      "price": 70650,
+      "minPrice": 70650,
+      "maxPrice": 80500,
+      "priceRange": {
+        "min": 70650,
+        "max": 80500
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "G5264C",
+          "url": "https://biggo.com.tw/s/G5264C/",
+          "price": 70650,
+          "minPrice": 70650,
+          "maxPrice": 80500,
+          "priceCandidates": [
+            70650,
+            72000,
+            75000,
+            78500,
+            80500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5264C",
+          "url": "https://feebee.com.tw/s/G5264C/",
+          "price": 70650,
+          "minPrice": 70650,
+          "maxPrice": 80500,
+          "priceCandidates": [
+            70650,
+            72000,
+            75000,
+            76400,
+            76475,
+            78500,
+            80500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5264C",
+          "url": "https://biggo.com.tw/s/Miele%20G5264C/",
+          "price": 70650,
+          "minPrice": 70650,
+          "maxPrice": 80500,
+          "priceCandidates": [
+            70650,
+            72000,
+            75000,
+            78500,
+            80500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5264C",
+          "url": "https://feebee.com.tw/s/Miele%20G5264C/",
+          "price": 70650,
+          "minPrice": 70650,
+          "maxPrice": 80500,
+          "priceCandidates": [
+            70650,
+            72000,
+            75000,
+            76400,
+            76475,
+            78500,
+            80500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5264C",
+          "url": "https://biggo.com.tw/s/Miele%20G5264C%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 70650,
+          "minPrice": 70650,
+          "maxPrice": 80500,
+          "priceCandidates": [
+            70650,
+            72000,
+            75000,
+            78500,
+            80500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5264C",
+          "url": "https://feebee.com.tw/s/Miele%20G5264C%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 70650,
+          "minPrice": 70650,
+          "maxPrice": 80500,
+          "priceCandidates": [
+            70650,
+            72000,
+            75000,
+            76400,
+            76475,
+            78500,
+            80500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "G5314",
+      "brand": "Miele",
+      "url": "https://biggo.com.tw/s/G5314/",
+      "price": 79000,
+      "minPrice": 79000,
+      "maxPrice": 79000,
+      "priceRange": {
+        "min": 79000,
+        "max": 79000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "G5314",
+          "url": "https://biggo.com.tw/s/G5314/",
+          "price": 79000,
+          "minPrice": 79000,
+          "maxPrice": 79000,
+          "priceCandidates": [
+            79000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5314",
+          "url": "https://feebee.com.tw/s/G5314/",
+          "price": 79000,
+          "minPrice": 79000,
+          "maxPrice": 79000,
+          "priceCandidates": [
+            79000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5314",
+          "url": "https://biggo.com.tw/s/Miele%20G5314/",
+          "price": 79000,
+          "minPrice": 79000,
+          "maxPrice": 79000,
+          "priceCandidates": [
+            79000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5314",
+          "url": "https://feebee.com.tw/s/Miele%20G5314/",
+          "price": 79000,
+          "minPrice": 79000,
+          "maxPrice": 79000,
+          "priceCandidates": [
+            79000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5314",
+          "url": "https://biggo.com.tw/s/Miele%20G5314%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 79000,
+          "minPrice": 79000,
+          "maxPrice": 79000,
+          "priceCandidates": [
+            79000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5314",
+          "url": "https://feebee.com.tw/s/Miele%20G5314%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 79000,
+          "minPrice": 79000,
+          "maxPrice": 79000,
+          "priceCandidates": [
+            79000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "G5314C",
+      "brand": "Miele",
+      "url": "https://biggo.com.tw/s/G5314C/",
+      "price": 20000,
+      "minPrice": 20000,
+      "maxPrice": 81370,
+      "priceRange": {
+        "min": 20000,
+        "max": 81370
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "G5314C",
+          "url": "https://biggo.com.tw/s/G5314C/",
+          "price": 20000,
+          "minPrice": 20000,
+          "maxPrice": 81370,
+          "priceCandidates": [
+            20000,
+            70000,
+            75000,
+            79000,
+            81370
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5314C",
+          "url": "https://feebee.com.tw/s/G5314C/",
+          "price": 70000,
+          "minPrice": 70000,
+          "maxPrice": 81370,
+          "priceCandidates": [
+            70000,
+            75000,
+            78000,
+            79000,
+            81370
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5314C",
+          "url": "https://biggo.com.tw/s/Miele%20G5314C/",
+          "price": 20000,
+          "minPrice": 20000,
+          "maxPrice": 81370,
+          "priceCandidates": [
+            20000,
+            70000,
+            75000,
+            79000,
+            81370
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5314C",
+          "url": "https://feebee.com.tw/s/Miele%20G5314C/",
+          "price": 70000,
+          "minPrice": 70000,
+          "maxPrice": 81370,
+          "priceCandidates": [
+            70000,
+            75000,
+            78000,
+            79000,
+            81370
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5314C",
+          "url": "https://biggo.com.tw/s/Miele%20G5314C%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 20000,
+          "minPrice": 20000,
+          "maxPrice": 81370,
+          "priceCandidates": [
+            20000,
+            70000,
+            75000,
+            79000,
+            81370
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5314C",
+          "url": "https://feebee.com.tw/s/Miele%20G5314C%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 70000,
+          "minPrice": 70000,
+          "maxPrice": 81370,
+          "priceCandidates": [
+            70000,
+            75000,
+            78000,
+            79000,
+            81370
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "G5314CSCI",
+      "brand": "Miele",
+      "url": "https://biggo.com.tw/s/G5314CSCI/",
+      "price": 71100,
+      "minPrice": 71100,
+      "maxPrice": 81370,
+      "priceRange": {
+        "min": 71100,
+        "max": 81370
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "G5314CSCI",
+          "url": "https://biggo.com.tw/s/G5314CSCI/",
+          "price": 71100,
+          "minPrice": 71100,
+          "maxPrice": 81370,
+          "priceCandidates": [
+            71100,
+            79000,
+            81370
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5314CSCI",
+          "url": "https://feebee.com.tw/s/G5314CSCI/",
+          "price": 79000,
+          "minPrice": 79000,
+          "maxPrice": 79000,
+          "priceCandidates": [
+            79000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5314CSCI",
+          "url": "https://biggo.com.tw/s/Miele%20G5314CSCI/",
+          "price": 71100,
+          "minPrice": 71100,
+          "maxPrice": 81370,
+          "priceCandidates": [
+            71100,
+            79000,
+            81370
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5314CSCI",
+          "url": "https://feebee.com.tw/s/Miele%20G5314CSCI/",
+          "price": 79000,
+          "minPrice": 79000,
+          "maxPrice": 79000,
+          "priceCandidates": [
+            79000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5314CSCI",
+          "url": "https://biggo.com.tw/s/Miele%20G5314CSCI%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 71100,
+          "minPrice": 71100,
+          "maxPrice": 81370,
+          "priceCandidates": [
+            71100,
+            79000,
+            81370
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5314CSCI",
+          "url": "https://feebee.com.tw/s/Miele%20G5314CSCI%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 79000,
+          "minPrice": 79000,
+          "maxPrice": 79000,
+          "priceCandidates": [
+            79000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "G5364C",
+      "brand": "Miele",
+      "url": "https://biggo.com.tw/s/G5364C/",
+      "price": 26000,
+      "minPrice": 26000,
+      "maxPrice": 85490,
+      "priceRange": {
+        "min": 26000,
+        "max": 85490
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "G5364C",
+          "url": "https://biggo.com.tw/s/G5364C/",
+          "price": 26000,
+          "minPrice": 26000,
+          "maxPrice": 85490,
+          "priceCandidates": [
+            26000,
+            78800,
+            78850,
+            83000,
+            85490
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5364C",
+          "url": "https://feebee.com.tw/s/G5364C/",
+          "price": 78800,
+          "minPrice": 78800,
+          "maxPrice": 85490,
+          "priceCandidates": [
+            78800,
+            78850,
+            81000,
+            83000,
+            85490
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5364C",
+          "url": "https://biggo.com.tw/s/Miele%20G5364C/",
+          "price": 26000,
+          "minPrice": 26000,
+          "maxPrice": 85490,
+          "priceCandidates": [
+            26000,
+            78800,
+            78850,
+            83000,
+            85490
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5364C",
+          "url": "https://feebee.com.tw/s/Miele%20G5364C/",
+          "price": 78800,
+          "minPrice": 78800,
+          "maxPrice": 85490,
+          "priceCandidates": [
+            78800,
+            78850,
+            81000,
+            83000,
+            85490
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5364C",
+          "url": "https://biggo.com.tw/s/Miele%20G5364C%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 26000,
+          "minPrice": 26000,
+          "maxPrice": 85490,
+          "priceCandidates": [
+            26000,
+            78800,
+            78850,
+            83000,
+            85490
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5364C",
+          "url": "https://feebee.com.tw/s/Miele%20G5364C%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 78800,
+          "minPrice": 78800,
+          "maxPrice": 85490,
+          "priceCandidates": [
+            78800,
+            78850,
+            81000,
+            83000,
+            85490
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "G5364CSCVI",
+      "brand": "Miele",
+      "url": "https://biggo.com.tw/s/G5364CSCVI/",
+      "price": 74700,
+      "minPrice": 74700,
+      "maxPrice": 85490,
+      "priceRange": {
+        "min": 74700,
+        "max": 85490
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "G5364CSCVI",
+          "url": "https://biggo.com.tw/s/G5364CSCVI/",
+          "price": 74700,
+          "minPrice": 74700,
+          "maxPrice": 85490,
+          "priceCandidates": [
+            74700,
+            83000,
+            85490
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5364CSCVI",
+          "url": "https://feebee.com.tw/s/G5364CSCVI/",
+          "price": 83000,
+          "minPrice": 83000,
+          "maxPrice": 83000,
+          "priceCandidates": [
+            83000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5364CSCVI",
+          "url": "https://biggo.com.tw/s/Miele%20G5364CSCVI/",
+          "price": 74700,
+          "minPrice": 74700,
+          "maxPrice": 85490,
+          "priceCandidates": [
+            74700,
+            83000,
+            85490
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5364CSCVI",
+          "url": "https://feebee.com.tw/s/Miele%20G5364CSCVI/",
+          "price": 83000,
+          "minPrice": 83000,
+          "maxPrice": 83000,
+          "priceCandidates": [
+            83000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5364CSCVI",
+          "url": "https://biggo.com.tw/s/Miele%20G5364CSCVI%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 74700,
+          "minPrice": 74700,
+          "maxPrice": 85490,
+          "priceCandidates": [
+            74700,
+            83000,
+            85490
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G5364CSCVI",
+          "url": "https://feebee.com.tw/s/Miele%20G5364CSCVI%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 83000,
+          "minPrice": 83000,
+          "maxPrice": 83000,
+          "priceCandidates": [
+            83000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "G7101",
+      "brand": "Miele",
+      "url": "https://feebee.com.tw/s/G7101/",
+      "price": 78500,
+      "minPrice": 78500,
+      "maxPrice": 84000,
+      "priceRange": {
+        "min": 78500,
+        "max": 84000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "G7101",
+          "url": "https://biggo.com.tw/s/G7101/",
+          "price": 84000,
+          "minPrice": 84000,
+          "maxPrice": 84000,
+          "priceCandidates": [
+            84000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7101",
+          "url": "https://feebee.com.tw/s/G7101/",
+          "price": 78500,
+          "minPrice": 78500,
+          "maxPrice": 84000,
+          "priceCandidates": [
+            78500,
+            84000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7101",
+          "url": "https://biggo.com.tw/s/Miele%20G7101/",
+          "price": 84000,
+          "minPrice": 84000,
+          "maxPrice": 84000,
+          "priceCandidates": [
+            84000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7101",
+          "url": "https://feebee.com.tw/s/Miele%20G7101/",
+          "price": 78500,
+          "minPrice": 78500,
+          "maxPrice": 84000,
+          "priceCandidates": [
+            78500,
+            84000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7101",
+          "url": "https://biggo.com.tw/s/Miele%20G7101%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 84000,
+          "minPrice": 84000,
+          "maxPrice": 84000,
+          "priceCandidates": [
+            84000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7101",
+          "url": "https://feebee.com.tw/s/Miele%20G7101%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 78500,
+          "minPrice": 78500,
+          "maxPrice": 84000,
+          "priceCandidates": [
+            78500,
+            84000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "G7101C",
+      "brand": "Miele",
+      "url": "https://biggo.com.tw/s/G7101C/",
+      "price": 73350,
+      "minPrice": 73350,
+      "maxPrice": 84000,
+      "priceRange": {
+        "min": 73350,
+        "max": 84000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "G7101C",
+          "url": "https://biggo.com.tw/s/G7101C/",
+          "price": 73350,
+          "minPrice": 73350,
+          "maxPrice": 84000,
+          "priceCandidates": [
+            73350,
+            74100,
+            74500,
+            75600,
+            76000,
+            77115,
+            79500,
+            79600,
+            79800,
+            84000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7101C",
+          "url": "https://feebee.com.tw/s/G7101C/",
+          "price": 73350,
+          "minPrice": 73350,
+          "maxPrice": 84000,
+          "priceCandidates": [
+            73350,
+            74100,
+            75600,
+            76000,
+            76020,
+            79500,
+            79600,
+            79800,
+            84000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7101C",
+          "url": "https://biggo.com.tw/s/Miele%20G7101C/",
+          "price": 73350,
+          "minPrice": 73350,
+          "maxPrice": 84000,
+          "priceCandidates": [
+            73350,
+            74100,
+            74500,
+            75600,
+            76000,
+            77115,
+            79500,
+            79600,
+            79800,
+            84000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7101C",
+          "url": "https://feebee.com.tw/s/Miele%20G7101C/",
+          "price": 73350,
+          "minPrice": 73350,
+          "maxPrice": 84000,
+          "priceCandidates": [
+            73350,
+            74100,
+            75600,
+            76000,
+            76020,
+            79500,
+            79600,
+            79800,
+            84000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7101C",
+          "url": "https://biggo.com.tw/s/Miele%20G7101C%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 73350,
+          "minPrice": 73350,
+          "maxPrice": 84000,
+          "priceCandidates": [
+            73350,
+            74100,
+            74500,
+            75600,
+            76000,
+            77115,
+            79500,
+            79600,
+            79800,
+            84000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7101C",
+          "url": "https://feebee.com.tw/s/Miele%20G7101C%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 73350,
+          "minPrice": 73350,
+          "maxPrice": 84000,
+          "priceCandidates": [
+            73350,
+            74100,
+            75600,
+            76000,
+            76020,
+            79500,
+            79600,
+            79800,
+            84000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "G7104C",
+      "brand": "Miele",
+      "url": "https://biggo.com.tw/s/G7104C/",
+      "price": 68000,
+      "minPrice": 68000,
+      "maxPrice": 99999,
+      "priceRange": {
+        "min": 68000,
+        "max": 99999
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "G7104C",
+          "url": "https://biggo.com.tw/s/G7104C/",
+          "price": 68000,
+          "minPrice": 68000,
+          "maxPrice": 99999,
+          "priceCandidates": [
+            68000,
+            79000,
+            79500,
+            79800,
+            84000,
+            86000,
+            89000,
+            99999
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7104C",
+          "url": "https://feebee.com.tw/s/G7104C/",
+          "price": 68000,
+          "minPrice": 68000,
+          "maxPrice": 99999,
+          "priceCandidates": [
+            68000,
+            74000,
+            79000,
+            79800,
+            83000,
+            84000,
+            86000,
+            89000,
+            99999
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7104C",
+          "url": "https://biggo.com.tw/s/Miele%20G7104C/",
+          "price": 68000,
+          "minPrice": 68000,
+          "maxPrice": 99999,
+          "priceCandidates": [
+            68000,
+            79000,
+            79500,
+            79800,
+            84000,
+            86000,
+            89000,
+            99999
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7104C",
+          "url": "https://feebee.com.tw/s/Miele%20G7104C/",
+          "price": 68000,
+          "minPrice": 68000,
+          "maxPrice": 99999,
+          "priceCandidates": [
+            68000,
+            74000,
+            79000,
+            79800,
+            83000,
+            84000,
+            86000,
+            89000,
+            99999
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7104C",
+          "url": "https://biggo.com.tw/s/Miele%20G7104C%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 68000,
+          "minPrice": 68000,
+          "maxPrice": 99999,
+          "priceCandidates": [
+            68000,
+            79000,
+            79500,
+            79800,
+            84000,
+            86000,
+            89000,
+            99999
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7104C",
+          "url": "https://feebee.com.tw/s/Miele%20G7104C%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 68000,
+          "minPrice": 68000,
+          "maxPrice": 99999,
+          "priceCandidates": [
+            68000,
+            74000,
+            79000,
+            79800,
+            83000,
+            84000,
+            86000,
+            89000,
+            99999
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "G7114C",
+      "brand": "Miele",
+      "url": "https://feebee.com.tw/s/G7114C/",
+      "price": 83999,
+      "minPrice": 83999,
+      "maxPrice": 94000,
+      "priceRange": {
+        "min": 83999,
+        "max": 94000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "G7114C",
+          "url": "https://biggo.com.tw/s/G7114C/",
+          "price": 84000,
+          "minPrice": 84000,
+          "maxPrice": 94000,
+          "priceCandidates": [
+            84000,
+            86520,
+            88500,
+            89000,
+            89300,
+            94000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7114C",
+          "url": "https://feebee.com.tw/s/G7114C/",
+          "price": 83999,
+          "minPrice": 83999,
+          "maxPrice": 94000,
+          "priceCandidates": [
+            83999,
+            84000,
+            88500,
+            89000,
+            89300,
+            94000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7114C",
+          "url": "https://biggo.com.tw/s/Miele%20G7114C/",
+          "price": 84000,
+          "minPrice": 84000,
+          "maxPrice": 94000,
+          "priceCandidates": [
+            84000,
+            86520,
+            88500,
+            89000,
+            89300,
+            94000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7114C",
+          "url": "https://feebee.com.tw/s/Miele%20G7114C/",
+          "price": 83999,
+          "minPrice": 83999,
+          "maxPrice": 94000,
+          "priceCandidates": [
+            83999,
+            84000,
+            88500,
+            89000,
+            89300,
+            94000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7114C",
+          "url": "https://biggo.com.tw/s/Miele%20G7114C%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 84000,
+          "minPrice": 84000,
+          "maxPrice": 94000,
+          "priceCandidates": [
+            84000,
+            86520,
+            88000,
+            88500,
+            89000,
+            89300,
+            94000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7114C",
+          "url": "https://feebee.com.tw/s/Miele%20G7114C%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 83999,
+          "minPrice": 83999,
+          "maxPrice": 94000,
+          "priceCandidates": [
+            83999,
+            84000,
+            88500,
+            89000,
+            89300,
+            94000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "G7130C",
+      "brand": "Miele",
+      "url": "https://biggo.com.tw/s/G7130C/",
+      "price": 22000,
+      "minPrice": 22000,
+      "maxPrice": 97000,
+      "priceRange": {
+        "min": 22000,
+        "max": 97000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "G7130C",
+          "url": "https://biggo.com.tw/s/G7130C/",
+          "price": 22000,
+          "minPrice": 22000,
+          "maxPrice": 97000,
+          "priceCandidates": [
+            22000,
+            92000,
+            97000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7130C",
+          "url": "https://feebee.com.tw/s/G7130C/",
+          "price": 92000,
+          "minPrice": 92000,
+          "maxPrice": 97000,
+          "priceCandidates": [
+            92000,
+            97000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7130C",
+          "url": "https://biggo.com.tw/s/Miele%20G7130C/",
+          "price": 22000,
+          "minPrice": 22000,
+          "maxPrice": 97000,
+          "priceCandidates": [
+            22000,
+            92000,
+            97000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7130C",
+          "url": "https://feebee.com.tw/s/Miele%20G7130C/",
+          "price": 92000,
+          "minPrice": 92000,
+          "maxPrice": 97000,
+          "priceCandidates": [
+            92000,
+            97000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7130C",
+          "url": "https://biggo.com.tw/s/Miele%20G7130C%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 22000,
+          "minPrice": 22000,
+          "maxPrice": 97000,
+          "priceCandidates": [
+            22000,
+            92000,
+            97000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7130C",
+          "url": "https://feebee.com.tw/s/Miele%20G7130C%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 92000,
+          "minPrice": 92000,
+          "maxPrice": 97000,
+          "priceCandidates": [
+            92000,
+            97000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "G7130CSCI",
+      "brand": "Miele",
+      "url": "https://biggo.com.tw/s/G7130CSCI/",
+      "price": 97000,
+      "minPrice": 97000,
+      "maxPrice": 99910,
+      "priceRange": {
+        "min": 97000,
+        "max": 99910
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "G7130CSCI",
+          "url": "https://biggo.com.tw/s/G7130CSCI/",
+          "price": 97000,
+          "minPrice": 97000,
+          "maxPrice": 99910,
+          "priceCandidates": [
+            97000,
+            99910
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7130CSCI",
+          "url": "https://feebee.com.tw/s/G7130CSCI/",
+          "price": 97000,
+          "minPrice": 97000,
+          "maxPrice": 99910,
+          "priceCandidates": [
+            97000,
+            99910
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7130CSCI",
+          "url": "https://biggo.com.tw/s/Miele%20G7130CSCI/",
+          "price": 97000,
+          "minPrice": 97000,
+          "maxPrice": 99910,
+          "priceCandidates": [
+            97000,
+            99910
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7130CSCI",
+          "url": "https://feebee.com.tw/s/Miele%20G7130CSCI/",
+          "price": 97000,
+          "minPrice": 97000,
+          "maxPrice": 99910,
+          "priceCandidates": [
+            97000,
+            99910
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7130CSCI",
+          "url": "https://biggo.com.tw/s/Miele%20G7130CSCI%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 97000,
+          "minPrice": 97000,
+          "maxPrice": 99910,
+          "priceCandidates": [
+            97000,
+            99910
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7130CSCI",
+          "url": "https://feebee.com.tw/s/Miele%20G7130CSCI%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 97000,
+          "minPrice": 97000,
+          "maxPrice": 99910,
+          "priceCandidates": [
+            97000,
+            99910
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "G7180C",
+      "brand": "Miele",
+      "url": "https://biggo.com.tw/s/G7180C/",
+      "price": 101700,
+      "minPrice": 101700,
+      "maxPrice": 107000,
+      "priceRange": {
+        "min": 101700,
+        "max": 107000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "G7180C",
+          "url": "https://biggo.com.tw/s/G7180C/",
+          "price": 101700,
+          "minPrice": 101700,
+          "maxPrice": 107000,
+          "priceCandidates": [
+            101700,
+            107000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7180C",
+          "url": "https://feebee.com.tw/s/G7180C/",
+          "price": 101700,
+          "minPrice": 101700,
+          "maxPrice": 107000,
+          "priceCandidates": [
+            101700,
+            107000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7180C",
+          "url": "https://biggo.com.tw/s/Miele%20G7180C/",
+          "price": 101700,
+          "minPrice": 101700,
+          "maxPrice": 107000,
+          "priceCandidates": [
+            101700,
+            107000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7180C",
+          "url": "https://feebee.com.tw/s/Miele%20G7180C/",
+          "price": 101700,
+          "minPrice": 101700,
+          "maxPrice": 107000,
+          "priceCandidates": [
+            101700,
+            107000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7180C",
+          "url": "https://biggo.com.tw/s/Miele%20G7180C%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 101700,
+          "minPrice": 101700,
+          "maxPrice": 107000,
+          "priceCandidates": [
+            101700,
+            107000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7180C",
+          "url": "https://feebee.com.tw/s/Miele%20G7180C%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 101700,
+          "minPrice": 101700,
+          "maxPrice": 107000,
+          "priceCandidates": [
+            101700,
+            107000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "G7180CSCVI",
+      "brand": "Miele",
+      "url": "https://biggo.com.tw/s/G7180CSCVI/",
+      "price": 96300,
+      "minPrice": 96300,
+      "maxPrice": 110210,
+      "priceRange": {
+        "min": 96300,
+        "max": 110210
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "G7180CSCVI",
+          "url": "https://biggo.com.tw/s/G7180CSCVI/",
+          "price": 96300,
+          "minPrice": 96300,
+          "maxPrice": 110210,
+          "priceCandidates": [
+            96300,
+            107000,
+            110210
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7180CSCVI",
+          "url": "https://feebee.com.tw/s/G7180CSCVI/",
+          "price": 107000,
+          "minPrice": 107000,
+          "maxPrice": 110210,
+          "priceCandidates": [
+            107000,
+            110210
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7180CSCVI",
+          "url": "https://biggo.com.tw/s/Miele%20G7180CSCVI/",
+          "price": 96300,
+          "minPrice": 96300,
+          "maxPrice": 110210,
+          "priceCandidates": [
+            96300,
+            107000,
+            110210
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7180CSCVI",
+          "url": "https://feebee.com.tw/s/Miele%20G7180CSCVI/",
+          "price": 107000,
+          "minPrice": 107000,
+          "maxPrice": 110210,
+          "priceCandidates": [
+            107000,
+            110210
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7180CSCVI",
+          "url": "https://biggo.com.tw/s/Miele%20G7180CSCVI%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 96300,
+          "minPrice": 96300,
+          "maxPrice": 110210,
+          "priceCandidates": [
+            96300,
+            107000,
+            110210
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7180CSCVI",
+          "url": "https://feebee.com.tw/s/Miele%20G7180CSCVI%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 107000,
+          "minPrice": 107000,
+          "maxPrice": 110210,
+          "priceCandidates": [
+            107000,
+            110210
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "G7314C",
+      "brand": "Miele",
+      "url": "https://biggo.com.tw/s/G7314C/",
+      "price": 88000,
+      "minPrice": 88000,
+      "maxPrice": 104000,
+      "priceRange": {
+        "min": 88000,
+        "max": 104000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "G7314C",
+          "url": "https://biggo.com.tw/s/G7314C/",
+          "price": 88000,
+          "minPrice": 88000,
+          "maxPrice": 104000,
+          "priceCandidates": [
+            88000,
+            90000,
+            91800,
+            92700,
+            93000,
+            93600,
+            98000,
+            98800,
+            104000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7314C",
+          "url": "https://feebee.com.tw/s/G7314C/",
+          "price": 88000,
+          "minPrice": 88000,
+          "maxPrice": 104000,
+          "priceCandidates": [
+            88000,
+            90000,
+            91800,
+            93000,
+            93100,
+            94350,
+            95000,
+            97000,
+            98000,
+            98800,
+            99000,
+            104000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7314C",
+          "url": "https://biggo.com.tw/s/Miele%20G7314C/",
+          "price": 88000,
+          "minPrice": 88000,
+          "maxPrice": 104000,
+          "priceCandidates": [
+            88000,
+            90000,
+            91800,
+            92700,
+            93000,
+            93600,
+            98000,
+            98800,
+            104000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7314C",
+          "url": "https://feebee.com.tw/s/Miele%20G7314C/",
+          "price": 88000,
+          "minPrice": 88000,
+          "maxPrice": 104000,
+          "priceCandidates": [
+            88000,
+            90000,
+            91800,
+            93000,
+            93100,
+            94350,
+            95000,
+            97000,
+            98000,
+            98800,
+            99000,
+            104000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7314C",
+          "url": "https://biggo.com.tw/s/Miele%20G7314C%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 88000,
+          "minPrice": 88000,
+          "maxPrice": 104000,
+          "priceCandidates": [
+            88000,
+            90000,
+            91800,
+            92700,
+            93000,
+            93600,
+            94350,
+            98000,
+            98800,
+            104000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7314C",
+          "url": "https://feebee.com.tw/s/Miele%20G7314C%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 88000,
+          "minPrice": 88000,
+          "maxPrice": 104000,
+          "priceCandidates": [
+            88000,
+            90000,
+            91800,
+            93000,
+            93100,
+            94350,
+            95000,
+            97000,
+            98000,
+            98800,
+            99000,
+            104000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "G7364C",
+      "brand": "Miele",
+      "url": "https://biggo.com.tw/s/G7364C/",
+      "price": 22790,
+      "minPrice": 22790,
+      "maxPrice": 104000,
+      "priceRange": {
+        "min": 22790,
+        "max": 104000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "G7364C",
+          "url": "https://biggo.com.tw/s/G7364C/",
+          "price": 22790,
+          "minPrice": 22790,
+          "maxPrice": 104000,
+          "priceCandidates": [
+            22790,
+            88000,
+            89600,
+            91000,
+            92120,
+            93000,
+            95060,
+            98000,
+            104000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7364C",
+          "url": "https://feebee.com.tw/s/G7364C/",
+          "price": 22790,
+          "minPrice": 22790,
+          "maxPrice": 104000,
+          "priceCandidates": [
+            22790,
+            85000,
+            89600,
+            91000,
+            93000,
+            97000,
+            98000,
+            104000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7364C",
+          "url": "https://biggo.com.tw/s/Miele%20G7364C/",
+          "price": 22790,
+          "minPrice": 22790,
+          "maxPrice": 104000,
+          "priceCandidates": [
+            22790,
+            88000,
+            89600,
+            91000,
+            92120,
+            93000,
+            95060,
+            98000,
+            104000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7364C",
+          "url": "https://feebee.com.tw/s/Miele%20G7364C/",
+          "price": 22790,
+          "minPrice": 22790,
+          "maxPrice": 104000,
+          "priceCandidates": [
+            22790,
+            85000,
+            89600,
+            91000,
+            93000,
+            97000,
+            98000,
+            104000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7364C",
+          "url": "https://biggo.com.tw/s/Miele%20G7364C%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 88000,
+          "minPrice": 88000,
+          "maxPrice": 104000,
+          "priceCandidates": [
+            88000,
+            89600,
+            91000,
+            92120,
+            93000,
+            95060,
+            98000,
+            104000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7364C",
+          "url": "https://feebee.com.tw/s/Miele%20G7364C%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 85000,
+          "minPrice": 85000,
+          "maxPrice": 104000,
+          "priceCandidates": [
+            85000,
+            89600,
+            91000,
+            93000,
+            97000,
+            98000,
+            104000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "G7604CSCI",
+      "brand": "Miele",
+      "url": "https://biggo.com.tw/s/G7604CSCI/",
+      "price": 96300,
+      "minPrice": 96300,
+      "maxPrice": 107000,
+      "priceRange": {
+        "min": 96300,
+        "max": 107000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "G7604CSCI",
+          "url": "https://biggo.com.tw/s/G7604CSCI/",
+          "price": 96300,
+          "minPrice": 96300,
+          "maxPrice": 107000,
+          "priceCandidates": [
+            96300,
+            107000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7604CSCI",
+          "url": "https://feebee.com.tw/s/G7604CSCI/",
+          "price": 107000,
+          "minPrice": 107000,
+          "maxPrice": 107000,
+          "priceCandidates": [
+            107000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7604CSCI",
+          "url": "https://biggo.com.tw/s/Miele%20G7604CSCI/",
+          "price": 96300,
+          "minPrice": 96300,
+          "maxPrice": 107000,
+          "priceCandidates": [
+            96300,
+            107000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7604CSCI",
+          "url": "https://feebee.com.tw/s/Miele%20G7604CSCI/",
+          "price": 107000,
+          "minPrice": 107000,
+          "maxPrice": 107000,
+          "priceCandidates": [
+            107000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7604CSCI",
+          "url": "https://biggo.com.tw/s/Miele%20G7604CSCI%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 96300,
+          "minPrice": 96300,
+          "maxPrice": 107000,
+          "priceCandidates": [
+            96300,
+            107000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7604CSCI",
+          "url": "https://feebee.com.tw/s/Miele%20G7604CSCI%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 107000,
+          "minPrice": 107000,
+          "maxPrice": 107000,
+          "priceCandidates": [
+            107000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "G7714CSCI",
+      "brand": "Miele",
+      "url": "https://biggo.com.tw/s/G7714CSCI/",
+      "price": 117000,
+      "minPrice": 117000,
+      "maxPrice": 130000,
+      "priceRange": {
+        "min": 117000,
+        "max": 130000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "G7714CSCI",
+          "url": "https://biggo.com.tw/s/G7714CSCI/",
+          "price": 117000,
+          "minPrice": 117000,
+          "maxPrice": 130000,
+          "priceCandidates": [
+            117000,
+            130000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7714CSCI",
+          "url": "https://feebee.com.tw/s/G7714CSCI/",
+          "price": 130000,
+          "minPrice": 130000,
+          "maxPrice": 130000,
+          "priceCandidates": [
+            130000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7714CSCI",
+          "url": "https://biggo.com.tw/s/Miele%20G7714CSCI/",
+          "price": 117000,
+          "minPrice": 117000,
+          "maxPrice": 130000,
+          "priceCandidates": [
+            117000,
+            130000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7714CSCI",
+          "url": "https://feebee.com.tw/s/Miele%20G7714CSCI/",
+          "price": 130000,
+          "minPrice": 130000,
+          "maxPrice": 130000,
+          "priceCandidates": [
+            130000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7714CSCI",
+          "url": "https://biggo.com.tw/s/Miele%20G7714CSCI%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 117000,
+          "minPrice": 117000,
+          "maxPrice": 130000,
+          "priceCandidates": [
+            117000,
+            130000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7714CSCI",
+          "url": "https://feebee.com.tw/s/Miele%20G7714CSCI%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 130000,
+          "minPrice": 130000,
+          "maxPrice": 130000,
+          "priceCandidates": [
+            130000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "G7964C",
+      "brand": "Miele",
+      "url": "https://biggo.com.tw/s/G7964C/",
+      "price": 22790,
+      "minPrice": 22790,
+      "maxPrice": 153000,
+      "priceRange": {
+        "min": 22790,
+        "max": 153000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "G7964C",
+          "url": "https://biggo.com.tw/s/G7964C/",
+          "price": 22790,
+          "minPrice": 22790,
+          "maxPrice": 153000,
+          "priceCandidates": [
+            22790,
+            28000,
+            107000,
+            128000,
+            131840,
+            134000,
+            137700,
+            145000,
+            153000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7964C",
+          "url": "https://feebee.com.tw/s/G7964C/",
+          "price": 22790,
+          "minPrice": 22790,
+          "maxPrice": 153000,
+          "priceCandidates": [
+            22790,
+            107000,
+            125000,
+            128000,
+            131840,
+            134000,
+            137400,
+            137750,
+            145000,
+            145300,
+            153000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7964C",
+          "url": "https://biggo.com.tw/s/Miele%20G7964C/",
+          "price": 22790,
+          "minPrice": 22790,
+          "maxPrice": 153000,
+          "priceCandidates": [
+            22790,
+            28000,
+            107000,
+            128000,
+            131840,
+            134000,
+            137700,
+            145000,
+            153000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7964C",
+          "url": "https://feebee.com.tw/s/Miele%20G7964C/",
+          "price": 22790,
+          "minPrice": 22790,
+          "maxPrice": 153000,
+          "priceCandidates": [
+            22790,
+            107000,
+            125000,
+            128000,
+            131840,
+            134000,
+            137400,
+            137750,
+            145000,
+            145300,
+            153000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7964C",
+          "url": "https://biggo.com.tw/s/Miele%20G7964C%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 28000,
+          "minPrice": 28000,
+          "maxPrice": 153000,
+          "priceCandidates": [
+            28000,
+            107000,
+            128000,
+            131840,
+            134000,
+            136000,
+            137400,
+            137700,
+            145000,
+            153000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "G7964C",
+          "url": "https://feebee.com.tw/s/Miele%20G7964C%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 107000,
+          "minPrice": 107000,
+          "maxPrice": 153000,
+          "priceCandidates": [
+            107000,
+            125000,
+            128000,
+            131840,
+            134000,
+            136000,
+            137400,
+            137750,
+            145000,
+            145300,
+            153000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "EBF7531SBA",
+      "brand": "Electrolux",
+      "url": "https://biggo.com.tw/s/EBF7531SBA/",
+      "price": 47618,
+      "minPrice": 47618,
+      "maxPrice": 62000,
+      "priceRange": {
+        "min": 47618,
+        "max": 62000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "EBF7531SBA",
+          "url": "https://biggo.com.tw/s/EBF7531SBA/",
+          "price": 47618,
+          "minPrice": 47618,
+          "maxPrice": 62000,
+          "priceCandidates": [
+            47618,
+            49900,
+            50400,
+            51920,
+            56000,
+            62000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EBF7531SBA",
+          "url": "https://feebee.com.tw/s/EBF7531SBA/",
+          "price": 47618,
+          "minPrice": 47618,
+          "maxPrice": 62000,
+          "priceCandidates": [
+            47618,
+            49900,
+            50400,
+            50900,
+            56000,
+            62000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EBF7531SBA",
+          "url": "https://biggo.com.tw/s/Electrolux%20EBF7531SBA/",
+          "price": 47618,
+          "minPrice": 47618,
+          "maxPrice": 62000,
+          "priceCandidates": [
+            47618,
+            50400,
+            51920,
+            56000,
+            62000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EBF7531SBA",
+          "url": "https://feebee.com.tw/s/Electrolux%20EBF7531SBA/",
+          "price": 47618,
+          "minPrice": 47618,
+          "maxPrice": 62000,
+          "priceCandidates": [
+            47618,
+            49900,
+            50900,
+            56000,
+            62000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EBF7531SBA",
+          "url": "https://biggo.com.tw/s/Electrolux%20EBF7531SBA%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 47618,
+          "minPrice": 47618,
+          "maxPrice": 62000,
+          "priceCandidates": [
+            47618,
+            50400,
+            51920,
+            56000,
+            62000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EBF7531SBA",
+          "url": "https://feebee.com.tw/s/Electrolux%20EBF7531SBA%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 47618,
+          "minPrice": 47618,
+          "maxPrice": 62000,
+          "priceCandidates": [
+            47618,
+            49900,
+            50900,
+            56000,
+            62000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "EBF9442SBA",
+      "brand": "Electrolux",
+      "url": "https://biggo.com.tw/s/EBF9442SBA/",
+      "price": 82800,
+      "minPrice": 82800,
+      "maxPrice": 92000,
+      "priceRange": {
+        "min": 82800,
+        "max": 92000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "EBF9442SBA",
+          "url": "https://biggo.com.tw/s/EBF9442SBA/",
+          "price": 82800,
+          "minPrice": 82800,
+          "maxPrice": 92000,
+          "priceCandidates": [
+            82800,
+            92000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EBF9442SBA",
+          "url": "https://feebee.com.tw/s/EBF9442SBA/",
+          "price": 82800,
+          "minPrice": 82800,
+          "maxPrice": 92000,
+          "priceCandidates": [
+            82800,
+            92000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EBF9442SBA",
+          "url": "https://biggo.com.tw/s/Electrolux%20EBF9442SBA/",
+          "price": 82800,
+          "minPrice": 82800,
+          "maxPrice": 92000,
+          "priceCandidates": [
+            82800,
+            92000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EBF9442SBA",
+          "url": "https://feebee.com.tw/s/Electrolux%20EBF9442SBA/",
+          "price": 92000,
+          "minPrice": 92000,
+          "maxPrice": 92000,
+          "priceCandidates": [
+            92000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EBF9442SBA",
+          "url": "https://biggo.com.tw/s/Electrolux%20EBF9442SBA%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 82800,
+          "minPrice": 82800,
+          "maxPrice": 92000,
+          "priceCandidates": [
+            82800,
+            92000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EBF9442SBA",
+          "url": "https://feebee.com.tw/s/Electrolux%20EBF9442SBA%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 92000,
+          "minPrice": 92000,
+          "maxPrice": 92000,
+          "priceCandidates": [
+            92000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "EBF9531SBA",
+      "brand": "Electrolux",
+      "url": "https://biggo.com.tw/s/EBF9531SBA/",
+      "price": 64800,
+      "minPrice": 64800,
+      "maxPrice": 74160,
+      "priceRange": {
+        "min": 64800,
+        "max": 74160
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "EBF9531SBA",
+          "url": "https://biggo.com.tw/s/EBF9531SBA/",
+          "price": 64800,
+          "minPrice": 64800,
+          "maxPrice": 74160,
+          "priceCandidates": [
+            64800,
+            72000,
+            74160
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EBF9531SBA",
+          "url": "https://feebee.com.tw/s/EBF9531SBA/",
+          "price": 64800,
+          "minPrice": 64800,
+          "maxPrice": 74160,
+          "priceCandidates": [
+            64800,
+            72000,
+            74160
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EBF9531SBA",
+          "url": "https://biggo.com.tw/s/Electrolux%20EBF9531SBA/",
+          "price": 64800,
+          "minPrice": 64800,
+          "maxPrice": 74160,
+          "priceCandidates": [
+            64800,
+            72000,
+            74160
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EBF9531SBA",
+          "url": "https://feebee.com.tw/s/Electrolux%20EBF9531SBA/",
+          "price": 72000,
+          "minPrice": 72000,
+          "maxPrice": 74160,
+          "priceCandidates": [
+            72000,
+            74160
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EBF9531SBA",
+          "url": "https://biggo.com.tw/s/Electrolux%20EBF9531SBA%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 64800,
+          "minPrice": 64800,
+          "maxPrice": 74160,
+          "priceCandidates": [
+            64800,
+            72000,
+            74160
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EBF9531SBA",
+          "url": "https://feebee.com.tw/s/Electrolux%20EBF9531SBA%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 72000,
+          "minPrice": 72000,
+          "maxPrice": 74160,
+          "priceCandidates": [
+            72000,
+            74160
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "EEEM9420L",
+      "brand": "Electrolux",
+      "url": "https://biggo.com.tw/s/EEEM9420L/",
+      "price": 50400,
+      "minPrice": 50400,
+      "maxPrice": 56000,
+      "priceRange": {
+        "min": 50400,
+        "max": 56000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "EEEM9420L",
+          "url": "https://biggo.com.tw/s/EEEM9420L/",
+          "price": 50400,
+          "minPrice": 50400,
+          "maxPrice": 56000,
+          "priceCandidates": [
+            50400,
+            53200,
+            56000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EEEM9420L",
+          "url": "https://feebee.com.tw/s/EEEM9420L/",
+          "price": 53200,
+          "minPrice": 53200,
+          "maxPrice": 56000,
+          "priceCandidates": [
+            53200,
+            56000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EEEM9420L",
+          "url": "https://biggo.com.tw/s/Electrolux%20EEEM9420L/",
+          "price": 50400,
+          "minPrice": 50400,
+          "maxPrice": 56000,
+          "priceCandidates": [
+            50400,
+            53200,
+            56000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EEEM9420L",
+          "url": "https://feebee.com.tw/s/Electrolux%20EEEM9420L/",
+          "price": 53200,
+          "minPrice": 53200,
+          "maxPrice": 56000,
+          "priceCandidates": [
+            53200,
+            56000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EEEM9420L",
+          "url": "https://biggo.com.tw/s/Electrolux%20EEEM9420L%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 50400,
+          "minPrice": 50400,
+          "maxPrice": 56000,
+          "priceCandidates": [
+            50400,
+            53200,
+            56000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EEEM9420L",
+          "url": "https://feebee.com.tw/s/Electrolux%20EEEM9420L%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 53200,
+          "minPrice": 53200,
+          "maxPrice": 56000,
+          "priceCandidates": [
+            53200,
+            56000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "EEM48300IX",
+      "brand": "Electrolux",
+      "url": "https://biggo.com.tw/s/EEM48300IX/",
+      "price": 26000,
+      "minPrice": 26000,
+      "maxPrice": 46000,
+      "priceRange": {
+        "min": 26000,
+        "max": 46000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "EEM48300IX",
+          "url": "https://biggo.com.tw/s/EEM48300IX/",
+          "price": 26000,
+          "minPrice": 26000,
+          "maxPrice": 46000,
+          "priceCandidates": [
+            26000,
+            26900,
+            34500,
+            37800,
+            39900,
+            40500,
+            42000,
+            42327,
+            45000,
+            46000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EEM48300IX",
+          "url": "https://feebee.com.tw/s/EEM48300IX/",
+          "price": 26000,
+          "minPrice": 26000,
+          "maxPrice": 46000,
+          "priceCandidates": [
+            26000,
+            26900,
+            30140,
+            34500,
+            37800,
+            39900,
+            42000,
+            42327,
+            45000,
+            46000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EEM48300IX",
+          "url": "https://biggo.com.tw/s/Electrolux%20EEM48300IX/",
+          "price": 26000,
+          "minPrice": 26000,
+          "maxPrice": 46000,
+          "priceCandidates": [
+            26000,
+            26900,
+            34500,
+            37800,
+            39900,
+            40500,
+            42000,
+            42327,
+            45000,
+            46000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EEM48300IX",
+          "url": "https://feebee.com.tw/s/Electrolux%20EEM48300IX/",
+          "price": 26000,
+          "minPrice": 26000,
+          "maxPrice": 46000,
+          "priceCandidates": [
+            26000,
+            26900,
+            30140,
+            34500,
+            37800,
+            39900,
+            42000,
+            42327,
+            45000,
+            46000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EEM48300IX",
+          "url": "https://biggo.com.tw/s/Electrolux%20EEM48300IX%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 26000,
+          "minPrice": 26000,
+          "maxPrice": 46000,
+          "priceCandidates": [
+            26000,
+            26900,
+            34500,
+            37800,
+            39900,
+            40500,
+            42000,
+            42327,
+            45000,
+            46000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EEM48300IX",
+          "url": "https://feebee.com.tw/s/Electrolux%20EEM48300IX%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 26000,
+          "minPrice": 26000,
+          "maxPrice": 46000,
+          "priceCandidates": [
+            26000,
+            26900,
+            30140,
+            34500,
+            37800,
+            39900,
+            42000,
+            42327,
+            45000,
+            46000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "EFF3360VWB",
+      "brand": "Electrolux",
+      "url": "https://biggo.com.tw/s/EFF3360VWB/",
+      "price": 28888,
+      "minPrice": 28888,
+      "maxPrice": 44900,
+      "priceRange": {
+        "min": 28888,
+        "max": 44900
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "EFF3360VWB",
+          "url": "https://biggo.com.tw/s/EFF3360VWB/",
+          "price": 28888,
+          "minPrice": 28888,
+          "maxPrice": 44900,
+          "priceCandidates": [
+            28888,
+            29900,
+            40410,
+            40900,
+            44900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EFF3360VWB",
+          "url": "https://feebee.com.tw/s/EFF3360VWB/",
+          "price": 28888,
+          "minPrice": 28888,
+          "maxPrice": 44900,
+          "priceCandidates": [
+            28888,
+            29900,
+            40900,
+            44900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EFF3360VWB",
+          "url": "https://biggo.com.tw/s/Electrolux%20EFF3360VWB/",
+          "price": 28888,
+          "minPrice": 28888,
+          "maxPrice": 44900,
+          "priceCandidates": [
+            28888,
+            29900,
+            40410,
+            40900,
+            44900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EFF3360VWB",
+          "url": "https://feebee.com.tw/s/Electrolux%20EFF3360VWB/",
+          "price": 28888,
+          "minPrice": 28888,
+          "maxPrice": 44900,
+          "priceCandidates": [
+            28888,
+            29900,
+            40900,
+            44900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EFF3360VWB",
+          "url": "https://biggo.com.tw/s/Electrolux%20EFF3360VWB%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 28888,
+          "minPrice": 28888,
+          "maxPrice": 44900,
+          "priceCandidates": [
+            28888,
+            29900,
+            40410,
+            40900,
+            44900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EFF3360VWB",
+          "url": "https://feebee.com.tw/s/Electrolux%20EFF3360VWB%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 28888,
+          "minPrice": 28888,
+          "maxPrice": 44900,
+          "priceCandidates": [
+            28888,
+            29900,
+            40900,
+            44900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "EFS3060VWB",
+      "brand": "Electrolux",
+      "url": "https://biggo.com.tw/s/EFS3060VWB/",
+      "price": 31900,
+      "minPrice": 31900,
+      "maxPrice": 36900,
+      "priceRange": {
+        "min": 31900,
+        "max": 36900
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "EFS3060VWB",
+          "url": "https://biggo.com.tw/s/EFS3060VWB/",
+          "price": 31900,
+          "minPrice": 31900,
+          "maxPrice": 36900,
+          "priceCandidates": [
+            31900,
+            33210,
+            36900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EFS3060VWB",
+          "url": "https://feebee.com.tw/s/EFS3060VWB/",
+          "price": 31900,
+          "minPrice": 31900,
+          "maxPrice": 36900,
+          "priceCandidates": [
+            31900,
+            32900,
+            36900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EFS3060VWB",
+          "url": "https://biggo.com.tw/s/Electrolux%20EFS3060VWB/",
+          "price": 33210,
+          "minPrice": 33210,
+          "maxPrice": 36900,
+          "priceCandidates": [
+            33210,
+            36900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EFS3060VWB",
+          "url": "https://feebee.com.tw/s/Electrolux%20EFS3060VWB/",
+          "price": 32900,
+          "minPrice": 32900,
+          "maxPrice": 36900,
+          "priceCandidates": [
+            32900,
+            36900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EFS3060VWB",
+          "url": "https://biggo.com.tw/s/Electrolux%20EFS3060VWB%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 33210,
+          "minPrice": 33210,
+          "maxPrice": 36900,
+          "priceCandidates": [
+            33210,
+            36900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "EFS3060VWB",
+          "url": "https://feebee.com.tw/s/Electrolux%20EFS3060VWB%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 32900,
+          "minPrice": 32900,
+          "maxPrice": 36900,
+          "priceCandidates": [
+            32900,
+            36900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "KEE27200IW",
+      "brand": "Electrolux",
+      "url": "https://biggo.com.tw/s/KEE27200IW/",
+      "price": 19900,
+      "minPrice": 19900,
+      "maxPrice": 42900,
+      "priceRange": {
+        "min": 19900,
+        "max": 42900
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "KEE27200IW",
+          "url": "https://biggo.com.tw/s/KEE27200IW/",
+          "price": 19900,
+          "minPrice": 19900,
+          "maxPrice": 42900,
+          "priceCandidates": [
+            19900,
+            23000,
+            38610,
+            40755,
+            42900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "KEE27200IW",
+          "url": "https://feebee.com.tw/s/KEE27200IW/",
+          "price": 19900,
+          "minPrice": 19900,
+          "maxPrice": 42900,
+          "priceCandidates": [
+            19900,
+            23306,
+            26000,
+            38610,
+            42900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "KEE27200IW",
+          "url": "https://biggo.com.tw/s/Electrolux%20KEE27200IW/",
+          "price": 19900,
+          "minPrice": 19900,
+          "maxPrice": 42900,
+          "priceCandidates": [
+            19900,
+            23000,
+            38610,
+            40755,
+            42900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "KEE27200IW",
+          "url": "https://feebee.com.tw/s/Electrolux%20KEE27200IW/",
+          "price": 19900,
+          "minPrice": 19900,
+          "maxPrice": 42900,
+          "priceCandidates": [
+            19900,
+            23306,
+            26000,
+            38610,
+            42900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "KEE27200IW",
+          "url": "https://biggo.com.tw/s/Electrolux%20KEE27200IW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 19900,
+          "minPrice": 19900,
+          "maxPrice": 42900,
+          "priceCandidates": [
+            19900,
+            23000,
+            38610,
+            40755,
+            42900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "KEE27200IW",
+          "url": "https://feebee.com.tw/s/Electrolux%20KEE27200IW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 19900,
+          "minPrice": 19900,
+          "maxPrice": 42900,
+          "priceCandidates": [
+            19900,
+            23306,
+            26000,
+            38610,
+            42900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "KEE27200LW",
+      "brand": "Electrolux",
+      "url": "https://feebee.com.tw/s/KEE27200LW/",
+      "price": 27000,
+      "minPrice": 27000,
+      "maxPrice": 43900,
+      "priceRange": {
+        "min": 27000,
+        "max": 43900
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "KEE27200LW",
+          "url": "https://biggo.com.tw/s/KEE27200LW/",
+          "price": 36990,
+          "minPrice": 36990,
+          "maxPrice": 43900,
+          "priceCandidates": [
+            36990,
+            39510,
+            41705,
+            43900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "KEE27200LW",
+          "url": "https://feebee.com.tw/s/KEE27200LW/",
+          "price": 27000,
+          "minPrice": 27000,
+          "maxPrice": 43900,
+          "priceCandidates": [
+            27000,
+            30900,
+            36990,
+            39510,
+            41705,
+            43900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "KEE27200LW",
+          "url": "https://biggo.com.tw/s/Electrolux%20KEE27200LW/",
+          "price": 36990,
+          "minPrice": 36990,
+          "maxPrice": 43900,
+          "priceCandidates": [
+            36990,
+            39510,
+            41705,
+            43900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "KEE27200LW",
+          "url": "https://feebee.com.tw/s/Electrolux%20KEE27200LW/",
+          "price": 27000,
+          "minPrice": 27000,
+          "maxPrice": 43900,
+          "priceCandidates": [
+            27000,
+            30900,
+            36990,
+            39510,
+            41705,
+            43900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "KEE27200LW",
+          "url": "https://biggo.com.tw/s/Electrolux%20KEE27200LW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 36990,
+          "minPrice": 36990,
+          "maxPrice": 43900,
+          "priceCandidates": [
+            36990,
+            39510,
+            41705,
+            43900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "KEE27200LW",
+          "url": "https://feebee.com.tw/s/Electrolux%20KEE27200LW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 27000,
+          "minPrice": 27000,
+          "maxPrice": 43900,
+          "priceCandidates": [
+            27000,
+            30900,
+            36990,
+            39510,
+            41705,
+            43900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "KEE47200IW",
+      "brand": "Electrolux",
+      "url": "https://biggo.com.tw/s/KEE47200IW/",
+      "price": 23681,
+      "minPrice": 23681,
+      "maxPrice": 46900,
+      "priceRange": {
+        "min": 23681,
+        "max": 46900
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "KEE47200IW",
+          "url": "https://biggo.com.tw/s/KEE47200IW/",
+          "price": 23681,
+          "minPrice": 23681,
+          "maxPrice": 46900,
+          "priceCandidates": [
+            23681,
+            23900,
+            26900,
+            26990,
+            28800,
+            31900,
+            42210,
+            44555,
+            46000,
+            46900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "KEE47200IW",
+          "url": "https://feebee.com.tw/s/KEE47200IW/",
+          "price": 23681,
+          "minPrice": 23681,
+          "maxPrice": 46900,
+          "priceCandidates": [
+            23681,
+            23900,
+            26900,
+            26990,
+            29900,
+            31900,
+            42210,
+            46000,
+            46900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "KEE47200IW",
+          "url": "https://biggo.com.tw/s/Electrolux%20KEE47200IW/",
+          "price": 23681,
+          "minPrice": 23681,
+          "maxPrice": 46900,
+          "priceCandidates": [
+            23681,
+            23900,
+            26900,
+            26990,
+            28800,
+            31900,
+            42210,
+            44555,
+            46000,
+            46900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "KEE47200IW",
+          "url": "https://feebee.com.tw/s/Electrolux%20KEE47200IW/",
+          "price": 23681,
+          "minPrice": 23681,
+          "maxPrice": 46900,
+          "priceCandidates": [
+            23681,
+            23900,
+            26900,
+            26990,
+            29900,
+            31900,
+            42210,
+            46000,
+            46900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "KEE47200IW",
+          "url": "https://biggo.com.tw/s/Electrolux%20KEE47200IW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 23681,
+          "minPrice": 23681,
+          "maxPrice": 46900,
+          "priceCandidates": [
+            23681,
+            23900,
+            26900,
+            26990,
+            28800,
+            31900,
+            42210,
+            44555,
+            46000,
+            46900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "KEE47200IW",
+          "url": "https://feebee.com.tw/s/Electrolux%20KEE47200IW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 23681,
+          "minPrice": 23681,
+          "maxPrice": 46900,
+          "priceCandidates": [
+            23681,
+            23900,
+            26900,
+            26990,
+            29900,
+            31900,
+            42210,
+            46000,
+            46900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "KSE43200SW",
+      "brand": "Electrolux",
+      "url": "https://feebee.com.tw/s/KSE43200SW/",
+      "price": 21569,
+      "minPrice": 21569,
+      "maxPrice": 34900,
+      "priceRange": {
+        "min": 21569,
+        "max": 34900
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "KSE43200SW",
+          "url": "https://biggo.com.tw/s/KSE43200SW/",
+          "price": 31410,
+          "minPrice": 31410,
+          "maxPrice": 34900,
+          "priceCandidates": [
+            31410,
+            33155,
+            34900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "KSE43200SW",
+          "url": "https://feebee.com.tw/s/KSE43200SW/",
+          "price": 21569,
+          "minPrice": 21569,
+          "maxPrice": 34900,
+          "priceCandidates": [
+            21569,
+            31410,
+            33155,
+            34900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "KSE43200SW",
+          "url": "https://biggo.com.tw/s/Electrolux%20KSE43200SW/",
+          "price": 31410,
+          "minPrice": 31410,
+          "maxPrice": 34900,
+          "priceCandidates": [
+            31410,
+            33155,
+            34900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "KSE43200SW",
+          "url": "https://feebee.com.tw/s/Electrolux%20KSE43200SW/",
+          "price": 21569,
+          "minPrice": 21569,
+          "maxPrice": 34900,
+          "priceCandidates": [
+            21569,
+            31410,
+            33155,
+            34900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "KSE43200SW",
+          "url": "https://biggo.com.tw/s/Electrolux%20KSE43200SW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 31410,
+          "minPrice": 31410,
+          "maxPrice": 34900,
+          "priceCandidates": [
+            31410,
+            33155,
+            34900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "KSE43200SW",
+          "url": "https://feebee.com.tw/s/Electrolux%20KSE43200SW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 21569,
+          "minPrice": 21569,
+          "maxPrice": 34900,
+          "priceCandidates": [
+            21569,
+            31410,
+            33155,
+            34900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -3222,7 +12708,7 @@ window.PRICE_UPDATES = {
         "min": 43740,
         "max": 55000
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 6,
       "allResults": [
@@ -3240,14 +12726,13 @@ window.PRICE_UPDATES = {
             47550,
             48100,
             48600,
-            48778,
             48900,
             50343,
             52700,
             53833,
             55000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3268,7 +12753,7 @@ window.PRICE_UPDATES = {
             48900,
             48990
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3291,7 +12776,7 @@ window.PRICE_UPDATES = {
             53833,
             55000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3312,7 +12797,7 @@ window.PRICE_UPDATES = {
             48900,
             48990
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3335,7 +12820,7 @@ window.PRICE_UPDATES = {
             53833,
             55000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3356,7 +12841,7 @@ window.PRICE_UPDATES = {
             48900,
             48990
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -3373,7 +12858,7 @@ window.PRICE_UPDATES = {
         "min": 23800,
         "max": 123456
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 6,
       "allResults": [
@@ -3397,7 +12882,7 @@ window.PRICE_UPDATES = {
             47900,
             49900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3430,7 +12915,7 @@ window.PRICE_UPDATES = {
             46900,
             49900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3441,7 +12926,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -3460,7 +12945,7 @@ window.PRICE_UPDATES = {
             37000,
             123456
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3471,7 +12956,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -3490,7 +12975,7 @@ window.PRICE_UPDATES = {
             37000,
             123456
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -3507,7 +12992,7 @@ window.PRICE_UPDATES = {
         "min": 33600,
         "max": 49900
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 6,
       "allResults": [
@@ -3531,7 +13016,7 @@ window.PRICE_UPDATES = {
             47900,
             49900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3564,7 +13049,7 @@ window.PRICE_UPDATES = {
             46900,
             49900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3588,7 +13073,7 @@ window.PRICE_UPDATES = {
             47900,
             49900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3621,7 +13106,7 @@ window.PRICE_UPDATES = {
             46900,
             49900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3645,7 +13130,7 @@ window.PRICE_UPDATES = {
             47900,
             49900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3678,7 +13163,7 @@ window.PRICE_UPDATES = {
             46900,
             49900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -3695,7 +13180,7 @@ window.PRICE_UPDATES = {
         "min": 41000,
         "max": 52155
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 6,
       "allResults": [
@@ -3718,7 +13203,7 @@ window.PRICE_UPDATES = {
             45900,
             52155
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3750,7 +13235,7 @@ window.PRICE_UPDATES = {
             45900,
             48500
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3773,7 +13258,7 @@ window.PRICE_UPDATES = {
             45900,
             52155
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3805,7 +13290,7 @@ window.PRICE_UPDATES = {
             45900,
             48500
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3828,7 +13313,7 @@ window.PRICE_UPDATES = {
             45900,
             52155
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3860,7 +13345,7 @@ window.PRICE_UPDATES = {
             45900,
             48500
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -3877,7 +13362,7 @@ window.PRICE_UPDATES = {
         "min": 38600,
         "max": 52155
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 6,
       "allResults": [
@@ -3895,7 +13380,7 @@ window.PRICE_UPDATES = {
             45900,
             52155
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3917,7 +13402,7 @@ window.PRICE_UPDATES = {
             49155,
             52155
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3935,7 +13420,7 @@ window.PRICE_UPDATES = {
             45900,
             52155
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3957,7 +13442,7 @@ window.PRICE_UPDATES = {
             49155,
             52155
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3975,7 +13460,7 @@ window.PRICE_UPDATES = {
             45900,
             52155
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3997,7 +13482,7 @@ window.PRICE_UPDATES = {
             49155,
             52155
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -4014,7 +13499,7 @@ window.PRICE_UPDATES = {
         "min": 43100,
         "max": 43100
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 6,
       "allResults": [
@@ -4027,7 +13512,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             43100
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4038,7 +13523,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -4051,7 +13536,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             43100
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4062,7 +13547,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -4075,7 +13560,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             43100
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4086,7 +13571,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Price not found",
           "httpStatus": 200
         }
@@ -4103,20 +13588,21 @@ window.PRICE_UPDATES = {
         "min": 39365,
         "max": 44365
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 6,
       "allResults": [
         {
           "sku": "NP-FKAKGJKTW",
           "url": "https://biggo.com.tw/s/NP-FKAKGJKTW/",
-          "price": 44365,
-          "minPrice": 44365,
+          "price": 42900,
+          "minPrice": 42900,
           "maxPrice": 44365,
           "priceCandidates": [
+            42900,
             44365
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4132,7 +13618,7 @@ window.PRICE_UPDATES = {
             43605,
             44365
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4145,7 +13631,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             44365
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4160,7 +13646,7 @@ window.PRICE_UPDATES = {
             43605,
             44365
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4174,7 +13660,7 @@ window.PRICE_UPDATES = {
             42900,
             44365
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4190,7 +13676,7 @@ window.PRICE_UPDATES = {
             43605,
             44365
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -4207,7 +13693,7 @@ window.PRICE_UPDATES = {
         "min": 17000,
         "max": 22900
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 6,
       "allResults": [
@@ -4238,7 +13724,7 @@ window.PRICE_UPDATES = {
             21900,
             22900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4278,7 +13764,7 @@ window.PRICE_UPDATES = {
             21900,
             22900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4309,7 +13795,7 @@ window.PRICE_UPDATES = {
             21900,
             22900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4347,7 +13833,7 @@ window.PRICE_UPDATES = {
             21900,
             22900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4378,7 +13864,7 @@ window.PRICE_UPDATES = {
             21900,
             22900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4417,7 +13903,7 @@ window.PRICE_UPDATES = {
             21900,
             22900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -4434,7 +13920,7 @@ window.PRICE_UPDATES = {
         "min": 17000,
         "max": 22900
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 6,
       "allResults": [
@@ -4458,7 +13944,7 @@ window.PRICE_UPDATES = {
             19900,
             21900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4490,7 +13976,7 @@ window.PRICE_UPDATES = {
             21900,
             22900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4514,7 +14000,7 @@ window.PRICE_UPDATES = {
             19900,
             21900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4540,12 +14026,12 @@ window.PRICE_UPDATES = {
             19710,
             19780,
             19900,
-            19931,
+            20000,
             20805,
             21900,
             22900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4569,7 +14055,7 @@ window.PRICE_UPDATES = {
             19900,
             21900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4600,7 +14086,7 @@ window.PRICE_UPDATES = {
             21900,
             22900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -4617,7 +14103,7 @@ window.PRICE_UPDATES = {
         "min": 17100,
         "max": 18900
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 6,
       "allResults": [
@@ -4630,7 +14116,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             17100
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4644,7 +14130,7 @@ window.PRICE_UPDATES = {
             17100,
             18900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4657,7 +14143,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             17100
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4671,7 +14157,7 @@ window.PRICE_UPDATES = {
             17100,
             18900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4684,7 +14170,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             17100
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4698,7 +14184,7 @@ window.PRICE_UPDATES = {
             17100,
             18900
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -4715,7 +14201,7 @@ window.PRICE_UPDATES = {
         "min": 19200,
         "max": 35000
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 6,
       "allResults": [
@@ -4745,7 +14231,7 @@ window.PRICE_UPDATES = {
             24990,
             25200
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4769,7 +14255,7 @@ window.PRICE_UPDATES = {
             34000,
             35000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4799,7 +14285,7 @@ window.PRICE_UPDATES = {
             24990,
             25200
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4822,7 +14308,7 @@ window.PRICE_UPDATES = {
             34000,
             35000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4850,7 +14336,7 @@ window.PRICE_UPDATES = {
             24990,
             25200
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4869,7 +14355,7 @@ window.PRICE_UPDATES = {
             33500,
             35000
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -4886,7 +14372,7 @@ window.PRICE_UPDATES = {
         "min": 21400,
         "max": 42980
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 6,
       "allResults": [
@@ -4915,7 +14401,7 @@ window.PRICE_UPDATES = {
             28999,
             29999
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4937,7 +14423,7 @@ window.PRICE_UPDATES = {
             41000,
             42980
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4966,7 +14452,7 @@ window.PRICE_UPDATES = {
             28999,
             29999
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4988,7 +14474,7 @@ window.PRICE_UPDATES = {
             41000,
             42980
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5017,7 +14503,7 @@ window.PRICE_UPDATES = {
             28999,
             29999
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5038,7 +14524,7 @@ window.PRICE_UPDATES = {
             41000,
             42980
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -5055,7 +14541,7 @@ window.PRICE_UPDATES = {
         "min": 18800,
         "max": 123456
       },
-      "checkedAt": "2026-06-26T04:00:48.531Z",
+      "checkedAt": "2026-06-26T06:18:32.926Z",
       "status": "Updated",
       "sourceCount": 6,
       "allResults": [
@@ -5097,7 +14583,7 @@ window.PRICE_UPDATES = {
             42980,
             123456
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5126,7 +14612,7 @@ window.PRICE_UPDATES = {
             50390,
             123456
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5168,7 +14654,7 @@ window.PRICE_UPDATES = {
             42980,
             123456
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5195,7 +14681,7 @@ window.PRICE_UPDATES = {
             42980,
             123456
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5233,7 +14719,7 @@ window.PRICE_UPDATES = {
             34690,
             123456
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5257,7 +14743,2117 @@ window.PRICE_UPDATES = {
             41990,
             123456
           ],
-          "checkedAt": "2026-06-26T04:00:48.531Z",
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "VD6111",
+      "brand": "Svago",
+      "url": "https://feebee.com.tw/s/VD6111/",
+      "price": 25000,
+      "minPrice": 25000,
+      "maxPrice": 30000,
+      "priceRange": {
+        "min": 25000,
+        "max": 30000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "VD6111",
+          "url": "https://biggo.com.tw/s/VD6111/",
+          "price": 25500,
+          "minPrice": 25500,
+          "maxPrice": 30000,
+          "priceCandidates": [
+            25500,
+            27000,
+            30000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VD6111",
+          "url": "https://feebee.com.tw/s/VD6111/",
+          "price": 25000,
+          "minPrice": 25000,
+          "maxPrice": 30000,
+          "priceCandidates": [
+            25000,
+            25400,
+            27000,
+            29800,
+            30000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VD6111",
+          "url": "https://biggo.com.tw/s/Svago%20VD6111/",
+          "price": 25500,
+          "minPrice": 25500,
+          "maxPrice": 30000,
+          "priceCandidates": [
+            25500,
+            27000,
+            30000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VD6111",
+          "url": "https://feebee.com.tw/s/Svago%20VD6111/",
+          "price": 25000,
+          "minPrice": 25000,
+          "maxPrice": 30000,
+          "priceCandidates": [
+            25000,
+            25400,
+            27000,
+            29800,
+            30000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VD6111",
+          "url": "https://biggo.com.tw/s/Svago%20VD6111%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 25500,
+          "minPrice": 25500,
+          "maxPrice": 30000,
+          "priceCandidates": [
+            25500,
+            27000,
+            30000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VD6111",
+          "url": "https://feebee.com.tw/s/Svago%20VD6111%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 25000,
+          "minPrice": 25000,
+          "maxPrice": 30000,
+          "priceCandidates": [
+            25000,
+            25400,
+            27000,
+            29800,
+            30000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "VD6561",
+      "brand": "Svago",
+      "url": "https://feebee.com.tw/s/VD6561/",
+      "price": 34830,
+      "minPrice": 34830,
+      "maxPrice": 43000,
+      "priceRange": {
+        "min": 34830,
+        "max": 43000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "VD6561",
+          "url": "https://biggo.com.tw/s/VD6561/",
+          "price": 38200,
+          "minPrice": 38200,
+          "maxPrice": 43000,
+          "priceCandidates": [
+            38200,
+            38700,
+            38770,
+            43000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VD6561",
+          "url": "https://feebee.com.tw/s/VD6561/",
+          "price": 34830,
+          "minPrice": 34830,
+          "maxPrice": 43000,
+          "priceCandidates": [
+            34830,
+            38200,
+            38700,
+            38770,
+            42600,
+            43000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VD6561",
+          "url": "https://biggo.com.tw/s/Svago%20VD6561/",
+          "price": 38200,
+          "minPrice": 38200,
+          "maxPrice": 43000,
+          "priceCandidates": [
+            38200,
+            38700,
+            38770,
+            43000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VD6561",
+          "url": "https://feebee.com.tw/s/Svago%20VD6561/",
+          "price": 34830,
+          "minPrice": 34830,
+          "maxPrice": 43000,
+          "priceCandidates": [
+            34830,
+            38200,
+            38700,
+            38770,
+            42600,
+            43000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VD6561",
+          "url": "https://biggo.com.tw/s/Svago%20VD6561%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 38200,
+          "minPrice": 38200,
+          "maxPrice": 43000,
+          "priceCandidates": [
+            38200,
+            38700,
+            38770,
+            43000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VD6561",
+          "url": "https://feebee.com.tw/s/Svago%20VD6561%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 34830,
+          "minPrice": 34830,
+          "maxPrice": 43000,
+          "priceCandidates": [
+            34830,
+            38200,
+            38700,
+            38770,
+            42600,
+            43000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "VD8565",
+      "brand": "Svago",
+      "url": "https://biggo.com.tw/s/VD8565/",
+      "price": 37246,
+      "minPrice": 37246,
+      "maxPrice": 46000,
+      "priceRange": {
+        "min": 37246,
+        "max": 46000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "VD8565",
+          "url": "https://biggo.com.tw/s/VD8565/",
+          "price": 37246,
+          "minPrice": 37246,
+          "maxPrice": 46000,
+          "priceCandidates": [
+            37246,
+            40050,
+            41400,
+            46000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VD8565",
+          "url": "https://feebee.com.tw/s/VD8565/",
+          "price": 37246,
+          "minPrice": 37246,
+          "maxPrice": 46000,
+          "priceCandidates": [
+            37246,
+            40050,
+            41400,
+            44100,
+            46000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VD8565",
+          "url": "https://biggo.com.tw/s/Svago%20VD8565/",
+          "price": 37246,
+          "minPrice": 37246,
+          "maxPrice": 46000,
+          "priceCandidates": [
+            37246,
+            40050,
+            41400,
+            46000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VD8565",
+          "url": "https://feebee.com.tw/s/Svago%20VD8565/",
+          "price": 37246,
+          "minPrice": 37246,
+          "maxPrice": 46000,
+          "priceCandidates": [
+            37246,
+            40050,
+            41400,
+            44100,
+            46000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VD8565",
+          "url": "https://biggo.com.tw/s/Svago%20VD8565%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 37246,
+          "minPrice": 37246,
+          "maxPrice": 46000,
+          "priceCandidates": [
+            37246,
+            40050,
+            41400,
+            46000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VD8565",
+          "url": "https://feebee.com.tw/s/Svago%20VD8565%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 37246,
+          "minPrice": 37246,
+          "maxPrice": 46000,
+          "priceCandidates": [
+            37246,
+            40050,
+            41400,
+            44100,
+            46000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "VE7545",
+      "brand": "Svago",
+      "url": "https://biggo.com.tw/s/VE7545/",
+      "price": 24300,
+      "minPrice": 24300,
+      "maxPrice": 30600,
+      "priceRange": {
+        "min": 24300,
+        "max": 30600
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "VE7545",
+          "url": "https://biggo.com.tw/s/VE7545/",
+          "price": 24300,
+          "minPrice": 24300,
+          "maxPrice": 30600,
+          "priceCandidates": [
+            24300,
+            25650,
+            27000,
+            30000,
+            30600
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VE7545",
+          "url": "https://feebee.com.tw/s/VE7545/",
+          "price": 25650,
+          "minPrice": 25650,
+          "maxPrice": 30600,
+          "priceCandidates": [
+            25650,
+            27000,
+            30000,
+            30600
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VE7545",
+          "url": "https://biggo.com.tw/s/Svago%20VE7545/",
+          "price": 24300,
+          "minPrice": 24300,
+          "maxPrice": 30600,
+          "priceCandidates": [
+            24300,
+            25650,
+            27000,
+            30000,
+            30600
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VE7545",
+          "url": "https://feebee.com.tw/s/Svago%20VE7545/",
+          "price": 25650,
+          "minPrice": 25650,
+          "maxPrice": 30600,
+          "priceCandidates": [
+            25650,
+            27000,
+            30000,
+            30600
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VE7545",
+          "url": "https://biggo.com.tw/s/Svago%20VE7545%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 24300,
+          "minPrice": 24300,
+          "maxPrice": 30600,
+          "priceCandidates": [
+            24300,
+            25650,
+            27000,
+            30000,
+            30600
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VE7545",
+          "url": "https://feebee.com.tw/s/Svago%20VE7545%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 25650,
+          "minPrice": 25650,
+          "maxPrice": 30600,
+          "priceCandidates": [
+            25650,
+            27000,
+            30000,
+            30600
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "VE7650",
+      "brand": "Svago",
+      "url": "https://biggo.com.tw/s/VE7650/",
+      "price": 24300,
+      "minPrice": 24300,
+      "maxPrice": 31500,
+      "priceRange": {
+        "min": 24300,
+        "max": 31500
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "VE7650",
+          "url": "https://biggo.com.tw/s/VE7650/",
+          "price": 24300,
+          "minPrice": 24300,
+          "maxPrice": 31500,
+          "priceCandidates": [
+            24300,
+            25500,
+            25650,
+            26190,
+            27000,
+            28350,
+            28800,
+            30000,
+            31500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VE7650",
+          "url": "https://feebee.com.tw/s/VE7650/",
+          "price": 25650,
+          "minPrice": 25650,
+          "maxPrice": 31500,
+          "priceCandidates": [
+            25650,
+            27000,
+            28350,
+            28700,
+            28800,
+            30000,
+            31500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VE7650",
+          "url": "https://biggo.com.tw/s/Svago%20VE7650/",
+          "price": 24300,
+          "minPrice": 24300,
+          "maxPrice": 31500,
+          "priceCandidates": [
+            24300,
+            25500,
+            25650,
+            26190,
+            27000,
+            28350,
+            28800,
+            30000,
+            31500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VE7650",
+          "url": "https://feebee.com.tw/s/Svago%20VE7650/",
+          "price": 25650,
+          "minPrice": 25650,
+          "maxPrice": 31500,
+          "priceCandidates": [
+            25650,
+            27000,
+            28350,
+            28700,
+            28800,
+            30000,
+            31500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VE7650",
+          "url": "https://biggo.com.tw/s/Svago%20VE7650%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 24300,
+          "minPrice": 24300,
+          "maxPrice": 31500,
+          "priceCandidates": [
+            24300,
+            25500,
+            25650,
+            26190,
+            27000,
+            28350,
+            28800,
+            30000,
+            31500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VE7650",
+          "url": "https://feebee.com.tw/s/Svago%20VE7650%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 25650,
+          "minPrice": 25650,
+          "maxPrice": 31500,
+          "priceCandidates": [
+            25650,
+            27000,
+            28350,
+            28700,
+            28800,
+            30000,
+            31500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "VE7750",
+      "brand": "Svago",
+      "url": "https://biggo.com.tw/s/VE7750/",
+      "price": 24300,
+      "minPrice": 24300,
+      "maxPrice": 30000,
+      "priceRange": {
+        "min": 24300,
+        "max": 30000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "VE7750",
+          "url": "https://biggo.com.tw/s/VE7750/",
+          "price": 24300,
+          "minPrice": 24300,
+          "maxPrice": 30000,
+          "priceCandidates": [
+            24300,
+            25650,
+            26190,
+            27000,
+            28350,
+            28500,
+            30000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VE7750",
+          "url": "https://feebee.com.tw/s/VE7750/",
+          "price": 24300,
+          "minPrice": 24300,
+          "maxPrice": 30000,
+          "priceCandidates": [
+            24300,
+            25650,
+            27000,
+            28350,
+            28500,
+            30000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VE7750",
+          "url": "https://biggo.com.tw/s/Svago%20VE7750/",
+          "price": 24300,
+          "minPrice": 24300,
+          "maxPrice": 30000,
+          "priceCandidates": [
+            24300,
+            25650,
+            26190,
+            27000,
+            28350,
+            28500,
+            30000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VE7750",
+          "url": "https://feebee.com.tw/s/Svago%20VE7750/",
+          "price": 24300,
+          "minPrice": 24300,
+          "maxPrice": 30000,
+          "priceCandidates": [
+            24300,
+            25650,
+            27000,
+            28350,
+            28500,
+            30000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VE7750",
+          "url": "https://biggo.com.tw/s/Svago%20VE7750%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 24300,
+          "minPrice": 24300,
+          "maxPrice": 30000,
+          "priceCandidates": [
+            24300,
+            25650,
+            26190,
+            27000,
+            28350,
+            28500,
+            30000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VE7750",
+          "url": "https://feebee.com.tw/s/Svago%20VE7750%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 24300,
+          "minPrice": 24300,
+          "maxPrice": 30000,
+          "priceCandidates": [
+            24300,
+            25650,
+            27000,
+            28350,
+            28500,
+            30000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "VE7770",
+      "brand": "Svago",
+      "url": "https://biggo.com.tw/s/VE7770/",
+      "price": 24057,
+      "minPrice": 24057,
+      "maxPrice": 33000,
+      "priceRange": {
+        "min": 24057,
+        "max": 33000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "VE7770",
+          "url": "https://biggo.com.tw/s/VE7770/",
+          "price": 24057,
+          "minPrice": 24057,
+          "maxPrice": 33000,
+          "priceCandidates": [
+            24057,
+            26999,
+            28050,
+            28215,
+            29700,
+            33000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VE7770",
+          "url": "https://feebee.com.tw/s/VE7770/",
+          "price": 24057,
+          "minPrice": 24057,
+          "maxPrice": 29700,
+          "priceCandidates": [
+            24057,
+            26730,
+            26999,
+            27950,
+            28215,
+            29700
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VE7770",
+          "url": "https://biggo.com.tw/s/Svago%20VE7770/",
+          "price": 24057,
+          "minPrice": 24057,
+          "maxPrice": 33000,
+          "priceCandidates": [
+            24057,
+            26999,
+            28050,
+            28215,
+            29700,
+            33000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VE7770",
+          "url": "https://feebee.com.tw/s/Svago%20VE7770/",
+          "price": 24057,
+          "minPrice": 24057,
+          "maxPrice": 29700,
+          "priceCandidates": [
+            24057,
+            26730,
+            26999,
+            27950,
+            28215,
+            29700
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VE7770",
+          "url": "https://biggo.com.tw/s/Svago%20VE7770%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 24057,
+          "minPrice": 24057,
+          "maxPrice": 33000,
+          "priceCandidates": [
+            24057,
+            26999,
+            28050,
+            28215,
+            29700,
+            33000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VE7770",
+          "url": "https://feebee.com.tw/s/Svago%20VE7770%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 24057,
+          "minPrice": 24057,
+          "maxPrice": 29700,
+          "priceCandidates": [
+            24057,
+            26730,
+            26999,
+            27950,
+            28215,
+            29700
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "VE7770A",
+      "brand": "Svago",
+      "url": "https://biggo.com.tw/s/VE7770A/",
+      "price": 24057,
+      "minPrice": 24057,
+      "maxPrice": 33000,
+      "priceRange": {
+        "min": 24057,
+        "max": 33000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "VE7770A",
+          "url": "https://biggo.com.tw/s/VE7770A/",
+          "price": 24057,
+          "minPrice": 24057,
+          "maxPrice": 33000,
+          "priceCandidates": [
+            24057,
+            26730,
+            27000,
+            28215,
+            29700,
+            33000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VE7770A",
+          "url": "https://feebee.com.tw/s/VE7770A/",
+          "price": 24057,
+          "minPrice": 24057,
+          "maxPrice": 33000,
+          "priceCandidates": [
+            24057,
+            26730,
+            27000,
+            28215,
+            29700,
+            31350,
+            32700,
+            33000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VE7770A",
+          "url": "https://biggo.com.tw/s/Svago%20VE7770A/",
+          "price": 24057,
+          "minPrice": 24057,
+          "maxPrice": 33000,
+          "priceCandidates": [
+            24057,
+            26730,
+            27000,
+            28215,
+            29700,
+            33000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VE7770A",
+          "url": "https://feebee.com.tw/s/Svago%20VE7770A/",
+          "price": 24057,
+          "minPrice": 24057,
+          "maxPrice": 33000,
+          "priceCandidates": [
+            24057,
+            26730,
+            27000,
+            28215,
+            29700,
+            31350,
+            32700,
+            33000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VE7770A",
+          "url": "https://biggo.com.tw/s/Svago%20VE7770A%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 24057,
+          "minPrice": 24057,
+          "maxPrice": 33000,
+          "priceCandidates": [
+            24057,
+            26730,
+            27000,
+            28215,
+            29700,
+            33000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "VE7770A",
+          "url": "https://feebee.com.tw/s/Svago%20VE7770A%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 24057,
+          "minPrice": 24057,
+          "maxPrice": 33000,
+          "priceCandidates": [
+            24057,
+            26730,
+            27000,
+            28215,
+            29700,
+            31350,
+            32700,
+            33000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "E7571",
+      "brand": "Sakura",
+      "url": "https://biggo.com.tw/s/E7571/",
+      "price": 25650,
+      "minPrice": 25650,
+      "maxPrice": 195000,
+      "priceRange": {
+        "min": 25650,
+        "max": 195000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "E7571",
+          "url": "https://biggo.com.tw/s/E7571/",
+          "price": 25650,
+          "minPrice": 25650,
+          "maxPrice": 195000,
+          "priceCandidates": [
+            25650,
+            32040,
+            33404,
+            173000,
+            195000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "E7571",
+          "url": "https://feebee.com.tw/s/E7571/",
+          "price": 25650,
+          "minPrice": 25650,
+          "maxPrice": 173000,
+          "priceCandidates": [
+            25650,
+            27075,
+            28500,
+            32040,
+            33404,
+            35300,
+            173000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "E7571",
+          "url": "https://biggo.com.tw/s/Sakura%20E7571/",
+          "price": 25650,
+          "minPrice": 25650,
+          "maxPrice": 195000,
+          "priceCandidates": [
+            25650,
+            32040,
+            33404,
+            173000,
+            195000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "E7571",
+          "url": "https://feebee.com.tw/s/Sakura%20E7571/",
+          "price": 25650,
+          "minPrice": 25650,
+          "maxPrice": 32040,
+          "priceCandidates": [
+            25650,
+            27075,
+            28500,
+            32040
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "E7571",
+          "url": "https://biggo.com.tw/s/Sakura%20E7571%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 25650,
+          "minPrice": 25650,
+          "maxPrice": 195000,
+          "priceCandidates": [
+            25650,
+            32040,
+            33404,
+            173000,
+            195000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "E7571",
+          "url": "https://feebee.com.tw/s/Sakura%20E7571%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 25650,
+          "minPrice": 25650,
+          "maxPrice": 32040,
+          "priceCandidates": [
+            25650,
+            27075,
+            28500,
+            32040
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "E7683",
+      "brand": "Sakura",
+      "url": "https://feebee.com.tw/s/E7683/",
+      "price": 25515,
+      "minPrice": 25515,
+      "maxPrice": 31500,
+      "priceRange": {
+        "min": 25515,
+        "max": 31500
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "E7683",
+          "url": "https://biggo.com.tw/s/E7683/",
+          "price": 26932,
+          "minPrice": 26932,
+          "maxPrice": 31500,
+          "priceCandidates": [
+            26932,
+            28350,
+            30555,
+            31000,
+            31500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "E7683",
+          "url": "https://feebee.com.tw/s/E7683/",
+          "price": 25515,
+          "minPrice": 25515,
+          "maxPrice": 31500,
+          "priceCandidates": [
+            25515,
+            27900,
+            28350,
+            31000,
+            31500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "E7683",
+          "url": "https://biggo.com.tw/s/Sakura%20E7683/",
+          "price": 26932,
+          "minPrice": 26932,
+          "maxPrice": 31500,
+          "priceCandidates": [
+            26932,
+            28350,
+            30555,
+            31000,
+            31500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "E7683",
+          "url": "https://feebee.com.tw/s/Sakura%20E7683/",
+          "price": 25515,
+          "minPrice": 25515,
+          "maxPrice": 31500,
+          "priceCandidates": [
+            25515,
+            25900,
+            26666,
+            26932,
+            27900,
+            28250,
+            28350,
+            28550,
+            31000,
+            31500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "E7683",
+          "url": "https://biggo.com.tw/s/Sakura%20E7683%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 26932,
+          "minPrice": 26932,
+          "maxPrice": 31500,
+          "priceCandidates": [
+            26932,
+            28350,
+            30555,
+            31000,
+            31500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "E7683",
+          "url": "https://feebee.com.tw/s/Sakura%20E7683%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 25515,
+          "minPrice": 25515,
+          "maxPrice": 31500,
+          "priceCandidates": [
+            25515,
+            26666,
+            26932,
+            27900,
+            28250,
+            28350,
+            28550,
+            31000,
+            31500
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "E7782",
+      "brand": "Sakura",
+      "url": "https://feebee.com.tw/s/Sakura%20E7782/",
+      "price": 19990,
+      "minPrice": 19990,
+      "maxPrice": 25900,
+      "priceRange": {
+        "min": 19990,
+        "max": 25900
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "E7782",
+          "url": "https://biggo.com.tw/s/E7782/",
+          "price": 23183,
+          "minPrice": 23183,
+          "maxPrice": 25900,
+          "priceCandidates": [
+            23183,
+            23310,
+            24605,
+            25400,
+            25900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "E7782",
+          "url": "https://feebee.com.tw/s/E7782/",
+          "price": 21446,
+          "minPrice": 21446,
+          "maxPrice": 25900,
+          "priceCandidates": [
+            21446,
+            22792,
+            23310,
+            24605,
+            25400,
+            25900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "E7782",
+          "url": "https://biggo.com.tw/s/Sakura%20E7782/",
+          "price": 23183,
+          "minPrice": 23183,
+          "maxPrice": 25900,
+          "priceCandidates": [
+            23183,
+            23310,
+            24605,
+            25400,
+            25900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "E7782",
+          "url": "https://feebee.com.tw/s/Sakura%20E7782/",
+          "price": 19990,
+          "minPrice": 19990,
+          "maxPrice": 25900,
+          "priceCandidates": [
+            19990,
+            22792,
+            23210,
+            23310,
+            24346,
+            24605,
+            25400,
+            25900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "E7782",
+          "url": "https://biggo.com.tw/s/Sakura%20E7782%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 23183,
+          "minPrice": 23183,
+          "maxPrice": 25900,
+          "priceCandidates": [
+            23183,
+            23310,
+            24605,
+            25400,
+            25900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "E7782",
+          "url": "https://feebee.com.tw/s/Sakura%20E7782%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 19990,
+          "minPrice": 19990,
+          "maxPrice": 25900,
+          "priceCandidates": [
+            19990,
+            22792,
+            23210,
+            23310,
+            24346,
+            24605,
+            25400,
+            25900
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "E9322D",
+      "brand": "Sakura",
+      "url": "https://biggo.com.tw/s/E9322D/",
+      "price": 17480,
+      "minPrice": 17480,
+      "maxPrice": 28700,
+      "priceRange": {
+        "min": 17480,
+        "max": 28700
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "E9322D",
+          "url": "https://biggo.com.tw/s/E9322D/",
+          "price": 17480,
+          "minPrice": 17480,
+          "maxPrice": 17480,
+          "priceCandidates": [
+            17480
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "E9322D",
+          "url": "https://feebee.com.tw/s/E9322D/",
+          "price": null,
+          "minPrice": null,
+          "maxPrice": null,
+          "priceCandidates": [],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Price not found",
+          "httpStatus": 200
+        },
+        {
+          "sku": "E9322D",
+          "url": "https://biggo.com.tw/s/Sakura%20E9322D/",
+          "price": null,
+          "minPrice": null,
+          "maxPrice": null,
+          "priceCandidates": [],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Price not found",
+          "httpStatus": 200
+        },
+        {
+          "sku": "E9322D",
+          "url": "https://feebee.com.tw/s/Sakura%20E9322D/",
+          "price": 25830,
+          "minPrice": 25830,
+          "maxPrice": 28700,
+          "priceCandidates": [
+            25830,
+            28700
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "E9322D",
+          "url": "https://biggo.com.tw/s/Sakura%20E9322D%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": null,
+          "minPrice": null,
+          "maxPrice": null,
+          "priceCandidates": [],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Price not found",
+          "httpStatus": 200
+        },
+        {
+          "sku": "E9322D",
+          "url": "https://feebee.com.tw/s/Sakura%20E9322D%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 25830,
+          "minPrice": 25830,
+          "maxPrice": 28700,
+          "priceCandidates": [
+            25830,
+            28700
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "ZIV-645T",
+      "brand": "Amica",
+      "url": "https://biggo.com.tw/s/ZIV-645T/",
+      "price": 25330,
+      "minPrice": 25330,
+      "maxPrice": 29800,
+      "priceRange": {
+        "min": 25330,
+        "max": 29800
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "ZIV-645T",
+          "url": "https://biggo.com.tw/s/ZIV-645T/",
+          "price": 25330,
+          "minPrice": 25330,
+          "maxPrice": 29800,
+          "priceCandidates": [
+            25330,
+            26015,
+            26284,
+            26820,
+            26900,
+            28620,
+            29320,
+            29800
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "ZIV-645T",
+          "url": "https://feebee.com.tw/s/ZIV-645T/",
+          "price": 26000,
+          "minPrice": 26000,
+          "maxPrice": 29800,
+          "priceCandidates": [
+            26000,
+            26820,
+            27630,
+            29800
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "ZIV-645T",
+          "url": "https://biggo.com.tw/s/Amica%20ZIV-645T/",
+          "price": 25330,
+          "minPrice": 25330,
+          "maxPrice": 29800,
+          "priceCandidates": [
+            25330,
+            26015,
+            26284,
+            26820,
+            26900,
+            28620,
+            29320,
+            29800
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "ZIV-645T",
+          "url": "https://feebee.com.tw/s/Amica%20ZIV-645T/",
+          "price": 26000,
+          "minPrice": 26000,
+          "maxPrice": 29800,
+          "priceCandidates": [
+            26000,
+            26820,
+            27630,
+            29800
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "ZIV-645T",
+          "url": "https://biggo.com.tw/s/Amica%20ZIV-645T%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 25330,
+          "minPrice": 25330,
+          "maxPrice": 29800,
+          "priceCandidates": [
+            25330,
+            26015,
+            26284,
+            26820,
+            26900,
+            28620,
+            29320,
+            29800
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "ZIV-645T",
+          "url": "https://feebee.com.tw/s/Amica%20ZIV-645T%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 26000,
+          "minPrice": 26000,
+          "maxPrice": 29800,
+          "priceCandidates": [
+            26000,
+            26820,
+            27630,
+            29800
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DFI 26700",
+      "brand": "Teka",
+      "url": "https://biggo.com.tw/s/DFI%2026700/",
+      "price": 33210,
+      "minPrice": 33210,
+      "maxPrice": 42230,
+      "priceRange": {
+        "min": 33210,
+        "max": 42230
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DFI 26700",
+          "url": "https://biggo.com.tw/s/DFI%2026700/",
+          "price": 33210,
+          "minPrice": 33210,
+          "maxPrice": 38950,
+          "priceCandidates": [
+            33210,
+            33579,
+            34317,
+            36900,
+            38950
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI 26700",
+          "url": "https://feebee.com.tw/s/DFI%2026700/",
+          "price": 33210,
+          "minPrice": 33210,
+          "maxPrice": 42230,
+          "priceCandidates": [
+            33210,
+            33579,
+            34317,
+            36100,
+            36800,
+            36900,
+            38950,
+            40600,
+            41000,
+            42230
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI 26700",
+          "url": "https://biggo.com.tw/s/Teka%20DFI%2026700/",
+          "price": 33210,
+          "minPrice": 33210,
+          "maxPrice": 42230,
+          "priceCandidates": [
+            33210,
+            33579,
+            34317,
+            36900,
+            38950,
+            42230
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI 26700",
+          "url": "https://feebee.com.tw/s/Teka%20DFI%2026700/",
+          "price": 33210,
+          "minPrice": 33210,
+          "maxPrice": 42230,
+          "priceCandidates": [
+            33210,
+            33579,
+            34317,
+            36100,
+            36800,
+            36900,
+            38950,
+            40600,
+            41000,
+            42230
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI 26700",
+          "url": "https://biggo.com.tw/s/Teka%20DFI%2026700%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 33210,
+          "minPrice": 33210,
+          "maxPrice": 38950,
+          "priceCandidates": [
+            33210,
+            33579,
+            34317,
+            36900,
+            38950
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DFI 26700",
+          "url": "https://feebee.com.tw/s/Teka%20DFI%2026700%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 33210,
+          "minPrice": 33210,
+          "maxPrice": 42230,
+          "priceCandidates": [
+            33210,
+            33579,
+            34317,
+            36100,
+            36800,
+            36900,
+            38950,
+            40600,
+            41000,
+            42230
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DSI 26700",
+      "brand": "Teka",
+      "url": "https://biggo.com.tw/s/DSI%2026700/",
+      "price": 33210,
+      "minPrice": 33210,
+      "maxPrice": 42230,
+      "priceRange": {
+        "min": 33210,
+        "max": 42230
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DSI 26700",
+          "url": "https://biggo.com.tw/s/DSI%2026700/",
+          "price": 33210,
+          "minPrice": 33210,
+          "maxPrice": 42230,
+          "priceCandidates": [
+            33210,
+            33579,
+            34317,
+            36900,
+            38950,
+            42230
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DSI 26700",
+          "url": "https://feebee.com.tw/s/DSI%2026700/",
+          "price": 33210,
+          "minPrice": 33210,
+          "maxPrice": 42230,
+          "priceCandidates": [
+            33210,
+            33579,
+            34317,
+            34900,
+            36100,
+            36800,
+            36900,
+            38950,
+            40600,
+            41000,
+            42230
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DSI 26700",
+          "url": "https://biggo.com.tw/s/Teka%20DSI%2026700/",
+          "price": 33210,
+          "minPrice": 33210,
+          "maxPrice": 42230,
+          "priceCandidates": [
+            33210,
+            33579,
+            34317,
+            36900,
+            38950,
+            42230
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DSI 26700",
+          "url": "https://feebee.com.tw/s/Teka%20DSI%2026700/",
+          "price": 33210,
+          "minPrice": 33210,
+          "maxPrice": 42230,
+          "priceCandidates": [
+            33210,
+            33579,
+            34317,
+            34900,
+            36100,
+            36800,
+            36900,
+            38950,
+            40600,
+            41000,
+            42230
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DSI 26700",
+          "url": "https://biggo.com.tw/s/Teka%20DSI%2026700%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 33210,
+          "minPrice": 33210,
+          "maxPrice": 38950,
+          "priceCandidates": [
+            33210,
+            33579,
+            34317,
+            36900,
+            38950
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DSI 26700",
+          "url": "https://feebee.com.tw/s/Teka%20DSI%2026700%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 33210,
+          "minPrice": 33210,
+          "maxPrice": 42230,
+          "priceCandidates": [
+            33210,
+            33579,
+            34317,
+            34900,
+            36100,
+            36800,
+            36900,
+            38950,
+            40600,
+            41000,
+            42230
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "DW8 57 SI E01",
+      "brand": "Teka",
+      "url": "https://biggo.com.tw/s/DW8%2057%20SI%20E01/",
+      "price": 35000,
+      "minPrice": 35000,
+      "maxPrice": 59000,
+      "priceRange": {
+        "min": 35000,
+        "max": 59000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "DW8 57 SI E01",
+          "url": "https://biggo.com.tw/s/DW8%2057%20SI%20E01/",
+          "price": 35000,
+          "minPrice": 35000,
+          "maxPrice": 59000,
+          "priceCandidates": [
+            35000,
+            50400,
+            52400,
+            53200,
+            56000,
+            57680,
+            59000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DW8 57 SI E01",
+          "url": "https://feebee.com.tw/s/DW8%2057%20SI%20E01/",
+          "price": 50400,
+          "minPrice": 50400,
+          "maxPrice": 57680,
+          "priceCandidates": [
+            50400,
+            52400,
+            53200,
+            56000,
+            57680
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DW8 57 SI E01",
+          "url": "https://biggo.com.tw/s/Teka%20DW8%2057%20SI%20E01/",
+          "price": 35000,
+          "minPrice": 35000,
+          "maxPrice": 59000,
+          "priceCandidates": [
+            35000,
+            50400,
+            52400,
+            53200,
+            56000,
+            57680,
+            59000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DW8 57 SI E01",
+          "url": "https://feebee.com.tw/s/Teka%20DW8%2057%20SI%20E01/",
+          "price": 50400,
+          "minPrice": 50400,
+          "maxPrice": 57680,
+          "priceCandidates": [
+            50400,
+            52400,
+            53200,
+            56000,
+            57680
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DW8 57 SI E01",
+          "url": "https://biggo.com.tw/s/Teka%20DW8%2057%20SI%20E01%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 35000,
+          "minPrice": 35000,
+          "maxPrice": 59000,
+          "priceCandidates": [
+            35000,
+            50400,
+            52400,
+            53200,
+            56000,
+            57680,
+            59000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "DW8 57 SI E01",
+          "url": "https://feebee.com.tw/s/Teka%20DW8%2057%20SI%20E01%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 50400,
+          "minPrice": 50400,
+          "maxPrice": 57680,
+          "priceCandidates": [
+            50400,
+            52400,
+            53200,
+            56000,
+            57680
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "WDFS3R5PIXTW",
+      "brand": "Whirlpool",
+      "url": "https://biggo.com.tw/s/WDFS3R5PIXTW/",
+      "price": 32700,
+      "minPrice": 32700,
+      "maxPrice": 40000,
+      "priceRange": {
+        "min": 32700,
+        "max": 40000
+      },
+      "checkedAt": "2026-06-26T06:18:32.926Z",
+      "status": "Updated",
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "WDFS3R5PIXTW",
+          "url": "https://biggo.com.tw/s/WDFS3R5PIXTW/",
+          "price": 32700,
+          "minPrice": 32700,
+          "maxPrice": 35850,
+          "priceCandidates": [
+            32700,
+            34380,
+            34590,
+            34650,
+            34800,
+            34900,
+            35850
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "WDFS3R5PIXTW",
+          "url": "https://feebee.com.tw/s/WDFS3R5PIXTW/",
+          "price": 33900,
+          "minPrice": 33900,
+          "maxPrice": 40000,
+          "priceCandidates": [
+            33900,
+            34380,
+            34590,
+            34650,
+            34800,
+            34900,
+            35850,
+            38500,
+            40000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "WDFS3R5PIXTW",
+          "url": "https://biggo.com.tw/s/Whirlpool%20WDFS3R5PIXTW/",
+          "price": 32700,
+          "minPrice": 32700,
+          "maxPrice": 35850,
+          "priceCandidates": [
+            32700,
+            34380,
+            34590,
+            34650,
+            34800,
+            34900,
+            35850
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "WDFS3R5PIXTW",
+          "url": "https://feebee.com.tw/s/Whirlpool%20WDFS3R5PIXTW/",
+          "price": 33900,
+          "minPrice": 33900,
+          "maxPrice": 40000,
+          "priceCandidates": [
+            33900,
+            34380,
+            34590,
+            34650,
+            34800,
+            34900,
+            35850,
+            38500,
+            40000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "WDFS3R5PIXTW",
+          "url": "https://biggo.com.tw/s/Whirlpool%20WDFS3R5PIXTW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 32700,
+          "minPrice": 32700,
+          "maxPrice": 35850,
+          "priceCandidates": [
+            32700,
+            34380,
+            34590,
+            34650,
+            34800,
+            34900,
+            35850
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "WDFS3R5PIXTW",
+          "url": "https://feebee.com.tw/s/Whirlpool%20WDFS3R5PIXTW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 33900,
+          "minPrice": 33900,
+          "maxPrice": 40000,
+          "priceCandidates": [
+            33900,
+            34380,
+            34590,
+            34650,
+            34800,
+            34900,
+            35850,
+            38500,
+            40000
+          ],
+          "checkedAt": "2026-06-26T06:18:32.926Z",
           "status": "Updated",
           "httpStatus": 200
         }
