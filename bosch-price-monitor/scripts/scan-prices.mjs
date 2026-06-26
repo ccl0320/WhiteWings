@@ -293,8 +293,37 @@ function featureTagsFromText(text) {
     .map(rule => rule.tag);
 }
 
+function featureEvidenceFromText(text, url) {
+  const normalized = safeDecode(normalizeHtml(text));
+  const evidence = [];
+  for (const rule of featureTagRules) {
+    for (const pattern of rule.patterns) {
+      const match = normalized.match(pattern);
+      if (!match) continue;
+      const index = Math.max(0, match.index || 0);
+      evidence.push({
+        tag: rule.tag,
+        source: url,
+        confidence: "low",
+        evidence: normalized.slice(Math.max(0, index - 80), Math.min(normalized.length, index + 160)).trim()
+      });
+      break;
+    }
+  }
+  return evidence;
+}
+
 function mergeFeatureTags(current, next) {
   return [...new Set([...(current || []), ...(next || [])])].sort();
+}
+
+function mergeFeatureEvidence(current, next) {
+  const byKey = new Map();
+  for (const item of [...(current || []), ...(next || [])]) {
+    const key = `${item.tag}|${item.source}`;
+    if (!byKey.has(key)) byKey.set(key, item);
+  }
+  return [...byKey.values()].sort((a, b) => String(a.tag).localeCompare(String(b.tag)));
 }
 
 function extractSkuCandidates(html, patterns) {
@@ -338,10 +367,34 @@ function extractSkuFeatureTags(html, skus) {
   return featuresBySku;
 }
 
+function extractSkuFeatureEvidence(html, skus, url) {
+  const text = safeDecode(normalizeHtml(html));
+  const upper = text.toUpperCase();
+  const evidenceBySku = new Map();
+  for (const sku of skus) {
+    const normalized = normalizeSku(sku);
+    const compactUpper = upper.replace(/[^A-Z0-9]/g, "");
+    let index = upper.indexOf(String(sku).toUpperCase());
+    if (index < 0) index = compactUpper.indexOf(normalized);
+    if (index < 0) continue;
+    const start = Math.max(0, index - 800);
+    const end = Math.min(text.length, index + 1200);
+    const evidence = featureEvidenceFromText(text.slice(start, end), url);
+    if (evidence.length) evidenceBySku.set(sku, evidence);
+  }
+  return evidenceBySku;
+}
+
 function featureObjectList(featureTagsBySku) {
   return [...featureTagsBySku.entries()]
     .sort((a, b) => String(a[0]).localeCompare(String(b[0])))
     .map(([sku, tags]) => ({ sku, tags }));
+}
+
+function featureEvidenceObjectList(featureEvidenceBySku) {
+  return [...featureEvidenceBySku.entries()]
+    .sort((a, b) => String(a[0]).localeCompare(String(b[0])))
+    .map(([sku, evidence]) => ({ sku, evidence }));
 }
 
 function displaySkuScore(sku) {
@@ -401,6 +454,7 @@ async function scanBrandLists(brandWatch, knownSkuSet, knownNorms, productBaseli
     const patterns = compilePatterns(source.patterns);
     const found = new Set();
     const featureTagsBySku = new Map();
+    const featureEvidenceBySku = new Map();
     const sourceResults = [];
 
     for (const url of urls) {
@@ -411,6 +465,10 @@ async function scanBrandLists(brandWatch, knownSkuSet, knownNorms, productBaseli
         const extractedFeatures = extractSkuFeatureTags(response.html, candidates);
         for (const [sku, tags] of extractedFeatures.entries()) {
           featureTagsBySku.set(sku, mergeFeatureTags(featureTagsBySku.get(sku), tags));
+        }
+        const extractedEvidence = extractSkuFeatureEvidence(response.html, candidates, url);
+        for (const [sku, evidence] of extractedEvidence.entries()) {
+          featureEvidenceBySku.set(sku, mergeFeatureEvidence(featureEvidenceBySku.get(sku), evidence));
         }
         sourceResults.push({
           url,
@@ -429,6 +487,15 @@ async function scanBrandLists(brandWatch, knownSkuSet, knownNorms, productBaseli
     }
 
     const foundSkus = dedupeSkus([...found], featureTagsBySku);
+    const canonicalEvidenceBySku = new Map();
+    for (const sku of foundSkus) {
+      const evidence = [];
+      for (const [rawSku, rawEvidence] of featureEvidenceBySku.entries()) {
+        if (normalizeSku(rawSku) === normalizeSku(sku)) evidence.push(...rawEvidence);
+      }
+      const merged = mergeFeatureEvidence([], evidence);
+      if (merged.length) canonicalEvidenceBySku.set(sku, merged);
+    }
     const knownSkus = foundSkus.filter(sku => isKnownSkuVariant(sku, knownNorms));
     const unmappedCandidates = foundSkus
       .filter(sku => !isKnownSkuVariant(sku, knownNorms))
@@ -464,6 +531,7 @@ async function scanBrandLists(brandWatch, knownSkuSet, knownNorms, productBaseli
       foundSkus,
       knownSkus,
       featureTagsBySku: featureObjectList(featureTagsBySku),
+      featureEvidenceBySku: featureEvidenceObjectList(canonicalEvidenceBySku),
       unmappedCandidates,
       newCandidates,
       sources: sourceResults
