@@ -156,7 +156,7 @@ function normalizeSku(sku) {
 
 function isNoiseSku(sku) {
   const normalized = normalizeSku(sku);
-  return normalized.length < 5 || /STORE|VIP|FREE|SALE|HTML|HTTP/.test(normalized);
+  return normalized.length < 5 || /STORE|VIP|FREE|SALE|HTML|HTTP|PROGRESS/.test(normalized);
 }
 
 function isKnownSkuVariant(sku, knownNorms) {
