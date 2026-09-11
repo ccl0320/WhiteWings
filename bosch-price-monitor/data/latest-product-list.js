@@ -1,19 +1,21 @@
 window.PRODUCT_LIST_UPDATES = {
-  "generatedAt": "2026-09-10T02:00:04.109Z",
+  "generatedAt": "2026-09-11T02:00:05.911Z",
   "knownSkuCount": 57,
   "brandCount": 11,
-  "unmappedCandidateCount": 100,
-  "newCandidateCount": 18,
+  "unmappedCandidateCount": 104,
+  "newCandidateCount": 21,
   "brands": [
     {
       "brand": "Bosch",
       "sourceCount": 2,
       "foundCount": 30,
-      "knownCount": 23,
-      "unmappedCandidateCount": 7,
-      "newCandidateCount": 1,
+      "knownCount": 20,
+      "unmappedCandidateCount": 10,
+      "newCandidateCount": 4,
       "foundSkus": [
         "SMI2ITW00X",
+        "SMI4ECS0",
+        "SMI4ECS00X",
         "SMI6HAS00X",
         "SMI8ZCS00X",
         "SMS2ITI0",
@@ -21,7 +23,6 @@ window.PRODUCT_LIST_UPDATES = {
         "SMS4ECW00X",
         "SMS4HAW0",
         "SMS4HAW00X",
-        "SMS4ITW00X",
         "SMS63M12TC",
         "SMS6ECW01X",
         "SMS6HAW0",
@@ -34,15 +35,14 @@ window.PRODUCT_LIST_UPDATES = {
         "SMS8ZCI00X",
         "SMV2ITX00X",
         "SMV4HAX00X",
+        "SMV6ECX51E",
         "SMV6ZAX00X",
         "SMV8ZCX00X",
         "SPS2IKI06",
         "SPS2IKI06X",
         "SPS4IMW0",
         "SPS4IMW00X",
-        "SPV2IKX00X",
-        "SPV4IMX0",
-        "SPV4IMX00X"
+        "SPV2IKX00X"
       ],
       "knownSkus": [
         "SMI2ITW00X",
@@ -52,7 +52,6 @@ window.PRODUCT_LIST_UPDATES = {
         "SMS4ECW00X",
         "SMS4HAW0",
         "SMS4HAW00X",
-        "SMS4ITW00X",
         "SMS6ECW01X",
         "SMS6HAW0",
         "SMS6HAW00X",
@@ -65,13 +64,31 @@ window.PRODUCT_LIST_UPDATES = {
         "SMV4HAX00X",
         "SMV6ZAX00X",
         "SMV8ZCX00X",
-        "SPV2IKX00X",
-        "SPV4IMX0",
-        "SPV4IMX00X"
+        "SPV2IKX00X"
       ],
       "productMetadataBySku": [
         {
           "sku": "SMI2ITW00X",
+          "brand": "Bosch",
+          "width": "60cm",
+          "type": "Semi-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "high",
+          "rspSource": null
+        },
+        {
+          "sku": "SMI4ECS0",
+          "brand": "Bosch",
+          "width": "60cm",
+          "type": "Semi-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "high",
+          "rspSource": null
+        },
+        {
+          "sku": "SMI4ECS00X",
           "brand": "Bosch",
           "width": "60cm",
           "type": "Semi-integrated",
@@ -142,16 +159,6 @@ window.PRODUCT_LIST_UPDATES = {
         },
         {
           "sku": "SMS4HAW00X",
-          "brand": "Bosch",
-          "width": "60cm",
-          "type": "Freestanding",
-          "widthSource": "sku-rule",
-          "typeSource": "sku-rule",
-          "confidence": "high",
-          "rspSource": null
-        },
-        {
-          "sku": "SMS4ITW00X",
           "brand": "Bosch",
           "width": "60cm",
           "type": "Freestanding",
@@ -281,6 +288,16 @@ window.PRODUCT_LIST_UPDATES = {
           "rspSource": null
         },
         {
+          "sku": "SMV6ECX51E",
+          "brand": "Bosch",
+          "width": "60cm",
+          "type": "Fully-integrated",
+          "widthSource": "sku-rule",
+          "typeSource": "sku-rule",
+          "confidence": "high",
+          "rspSource": null
+        },
+        {
           "sku": "SMV6ZAX00X",
           "brand": "Bosch",
           "width": "60cm",
@@ -349,26 +366,6 @@ window.PRODUCT_LIST_UPDATES = {
           "typeSource": "sku-rule",
           "confidence": "high",
           "rspSource": null
-        },
-        {
-          "sku": "SPV4IMX0",
-          "brand": "Bosch",
-          "width": "45cm",
-          "type": "Fully-integrated",
-          "widthSource": "sku-rule",
-          "typeSource": "sku-rule",
-          "confidence": "high",
-          "rspSource": null
-        },
-        {
-          "sku": "SPV4IMX00X",
-          "brand": "Bosch",
-          "width": "45cm",
-          "type": "Fully-integrated",
-          "widthSource": "sku-rule",
-          "typeSource": "sku-rule",
-          "confidence": "high",
-          "rspSource": null
         }
       ],
       "featureTagsBySku": [
@@ -376,6 +373,20 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "SMI2ITW00X",
           "tags": [
             "110V"
+          ]
+        },
+        {
+          "sku": "SMI4ECS0",
+          "tags": [
+            "110V",
+            "Auto Open"
+          ]
+        },
+        {
+          "sku": "SMI4ECS00X",
+          "tags": [
+            "110V",
+            "Auto Open"
           ]
         },
         {
@@ -411,7 +422,6 @@ window.PRODUCT_LIST_UPDATES = {
         {
           "sku": "SMV6ZAX00X",
           "tags": [
-            "110V",
             "Zeolith"
           ]
         },
@@ -430,7 +440,41 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "110V",
               "source": "https://feebee.com.tw/s/Bosch%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "data-id=\"spstore:10332727525\" data-title=\"BOSCH 博世 SMI2ITW00X 2系列 半嵌式 60cm 洗碗機 110V 12人份\" data-unique-count=\"5\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzrIVfOzjHgqHuQXoJMak"
+              "evidence": "data-id=\"spstore:10332727525\" data-title=\"BOSCH 博世 SMI2ITW00X 2系列 半嵌式 60cm 洗碗機 110V 12人份\" data-unique-count=\"4\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzUUb32KJmVu1YiUHylWe"
+            }
+          ]
+        },
+        {
+          "sku": "SMI4ECS0",
+          "evidence": [
+            {
+              "tag": "110V",
+              "source": "https://feebee.com.tw/s/Bosch%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+              "confidence": "low",
+              "evidence": "spstore:48114116165\" data-title=\"BOSCH 博世-14人份4系列半嵌式洗碗機SMI4ECS00X 【自動開門】【2026新款】110V\" data-unique-count=\"31\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3Uz0nttpIO0EVkmCydGquaok_1"
+            },
+            {
+              "tag": "Auto Open",
+              "source": "https://feebee.com.tw/s/Bosch%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+              "confidence": "low",
+              "evidence": "pa\" data-id=\"spstore:48114116165\" data-title=\"BOSCH 博世-14人份4系列半嵌式洗碗機SMI4ECS00X 【自動開門】【2026新款】110V\" data-unique-count=\"31\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3Uz0nttpIO0EV"
+            }
+          ]
+        },
+        {
+          "sku": "SMI4ECS00X",
+          "evidence": [
+            {
+              "tag": "110V",
+              "source": "https://feebee.com.tw/s/Bosch%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+              "confidence": "low",
+              "evidence": "spstore:48114116165\" data-title=\"BOSCH 博世-14人份4系列半嵌式洗碗機SMI4ECS00X 【自動開門】【2026新款】110V\" data-unique-count=\"31\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3Uz0nttpIO0EVkmCydGquaok_1"
+            },
+            {
+              "tag": "Auto Open",
+              "source": "https://feebee.com.tw/s/Bosch%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+              "confidence": "low",
+              "evidence": "pa\" data-id=\"spstore:48114116165\" data-title=\"BOSCH 博世-14人份4系列半嵌式洗碗機SMI4ECS00X 【自動開門】【2026新款】110V\" data-unique-count=\"31\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3Uz0nttpIO0EV"
             }
           ]
         },
@@ -441,7 +485,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "Auto Open",
               "source": "https://feebee.com.tw/s/Bosch%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "\"cpa\" data-id=\"twglobalmall:2ec0320490000313\" data-title=\"【BOSCH 博世】60公分 獨立式洗碗機 自動開門 SMS4ECW00X\" data-unique-count=\"21\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzJoO_9cyipVX7"
+              "evidence": "ion=\"8rtTCPOB268BEIGupeAC\" data-price=\"42550\" data-title=\"【BOSCH 博世】60公分 獨立式洗碗機 自動開門 SMS4ECW00X\" data-sign=\"ef6a8280080cfe606f4544e0d265ce9fefd4edcb0ded645f70226af0c68e4a90\" data-unique-count=\"2\"> <span class=\"pure-u img_container\"> <a rel="
             }
           ]
         },
@@ -452,7 +496,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "Auto Open",
               "source": "https://feebee.com.tw/s/Bosch%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "dd7\" data-tracking=\"cpa\" data-id=\"momoshop:15519824\" data-title=\"【BOSCH 博世】14人份 自動開門獨立式洗碗機(SMS6ECW01X)\" data-unique-count=\"35\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzBfKSr"
+              "evidence": "2ac\" data-tracking=\"cpa\" data-id=\"momoshop:15519824\" data-title=\"【BOSCH 博世】14人份 自動開門獨立式洗碗機(SMS6ECW01X)\" data-unique-count=\"35\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzcwYz5"
             }
           ]
         },
@@ -463,7 +507,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "Zeolith",
               "source": "https://feebee.com.tw/s/Bosch%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "e4ea\" data-tracking=\"cpa\" data-id=\"friday:q9158940\" data-title=\"BOSCH 博世-14人份獨立式沸石洗碗機SMS6ZCW00X (含一次基本安裝基本配送)\" data-unique-count=\"16\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3"
+              "evidence": "05eb\" data-tracking=\"cpa\" data-id=\"friday:q9158940\" data-title=\"BOSCH 博世-14人份獨立式沸石洗碗機SMS6ZCW00X (含一次基本安裝基本配送)\" data-unique-count=\"15\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3"
             }
           ]
         },
@@ -480,7 +524,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "Zeolith",
               "source": "https://feebee.com.tw/s/Bosch%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "e4ea\" data-tracking=\"cpa\" data-id=\"friday:q9158940\" data-title=\"BOSCH 博世-14人份獨立式沸石洗碗機SMS6ZCW00X (含一次基本安裝基本配送)\" data-unique-count=\"16\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3"
+              "evidence": "05eb\" data-tracking=\"cpa\" data-id=\"friday:q9158940\" data-title=\"BOSCH 博世-14人份獨立式沸石洗碗機SMS6ZCW00X (含一次基本安裝基本配送)\" data-unique-count=\"15\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3"
             }
           ]
         },
@@ -499,16 +543,10 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "SMV6ZAX00X",
           "evidence": [
             {
-              "tag": "110V",
-              "source": "https://feebee.com.tw/s/Bosch%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-              "confidence": "low",
-              "evidence": "data-id=\"spstore:11132960398\" data-title=\"BOSCH 博世 SMV6ZAX00X 6系列沸石全嵌式60cm 洗碗機 110V 13人 台南高雄屏東市區含安裝\" data-unique-count=\"28\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzmRCEFam"
-            },
-            {
               "tag": "Zeolith",
               "source": "https://feebee.com.tw/s/Bosch%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "tracking=\"cpa\" data-id=\"spstore:11132960398\" data-title=\"BOSCH 博世 SMV6ZAX00X 6系列沸石全嵌式60cm 洗碗機 110V 13人 台南高雄屏東市區含安裝\" data-unique-count=\"28\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw"
+              "evidence": "acking=\"cpa\" data-id=\"twglobalmall:2ec0320490000301\" data-title=\"BOSCH 博世 13人全嵌式沸石洗碗機 含基本安裝 SMV6ZAX00X\" data-unique-count=\"7\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3Uz5_HMAH"
             }
           ]
         },
@@ -519,24 +557,44 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "Zeolith",
               "source": "https://feebee.com.tw/s/Bosch%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "\" data-tracking=\"cpa\" data-id=\"momoshop:13164245\" data-title=\"【BOSCH 博世】14人份 全嵌式沸石洗碗機(SMV8ZCX00X)\" data-unique-count=\"4\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzSF_PEpTG0CF"
+              "evidence": "\" data-tracking=\"cpa\" data-id=\"momoshop:13164245\" data-title=\"【BOSCH 博世】14人份 全嵌式沸石洗碗機(SMV8ZCX00X)\" data-unique-count=\"5\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzJmUVvV6d0Xz"
             }
           ]
         }
       ],
       "unmappedCandidates": [
         {
+          "sku": "SMI4ECS0",
+          "brand": "Bosch",
+          "featureTags": [
+            "110V",
+            "Auto Open"
+          ],
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
+          "status": "Unmapped"
+        },
+        {
+          "sku": "SMI4ECS00X",
+          "brand": "Bosch",
+          "featureTags": [
+            "110V",
+            "Auto Open"
+          ],
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
+          "status": "Unmapped"
+        },
+        {
           "sku": "SMI8ZCS00X",
           "brand": "Bosch",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "SMS63M12TC",
           "brand": "Bosch",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -545,44 +603,78 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Zeolith"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
+          "status": "Unmapped"
+        },
+        {
+          "sku": "SMV6ECX51E",
+          "brand": "Bosch",
+          "featureTags": [],
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "SPS2IKI06",
           "brand": "Bosch",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "SPS2IKI06X",
           "brand": "Bosch",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "SPS4IMW0",
           "brand": "Bosch",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "SPS4IMW00X",
           "brand": "Bosch",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         }
       ],
       "newCandidates": [
         {
+          "sku": "SMI4ECS0",
+          "brand": "Bosch",
+          "featureTags": [
+            "110V",
+            "Auto Open"
+          ],
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
+          "status": "New since baseline"
+        },
+        {
+          "sku": "SMI4ECS00X",
+          "brand": "Bosch",
+          "featureTags": [
+            "110V",
+            "Auto Open"
+          ],
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
+          "status": "New since baseline"
+        },
+        {
+          "sku": "SMV6ECX51E",
+          "brand": "Bosch",
+          "featureTags": [],
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
+          "status": "New since baseline"
+        },
+        {
           "sku": "SPS2IKI06",
           "brand": "Bosch",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "New since baseline"
         }
       ],
@@ -597,7 +689,7 @@ window.PRODUCT_LIST_UPDATES = {
           "url": "https://feebee.com.tw/s/Bosch%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "status": "Scanned",
           "httpStatus": 200,
-          "candidateCount": 22
+          "candidateCount": 23
         }
       ]
     },
@@ -983,12 +1075,6 @@ window.PRODUCT_LIST_UPDATES = {
           ]
         },
         {
-          "sku": "DFS233I",
-          "tags": [
-            "110V"
-          ]
-        },
-        {
           "sku": "DFS233IB.S",
           "tags": [
             "110V"
@@ -1032,7 +1118,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "110V",
               "source": "https://feebee.com.tw/s/Asko%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "ova-shop:zj0cnejpo\" data-title=\"【福利品/只有1台】【ASKO 賽寧】嵌入式13人份洗碗機 DBI233IB.W.TW (白色/110V) (原廠公司貨)\" data-unique-count=\"8\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzjYhh4pIqZLn-nqF"
+              "evidence": "ova-shop:zj0cnejpo\" data-title=\"【福利品/只有1台】【ASKO 賽寧】嵌入式13人份洗碗機 DBI233IB.W.TW (白色/110V) (原廠公司貨)\" data-unique-count=\"13\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzB4dFEH6dc-ACtw"
             }
           ]
         },
@@ -1059,24 +1145,13 @@ window.PRODUCT_LIST_UPDATES = {
           ]
         },
         {
-          "sku": "DFS233I",
-          "evidence": [
-            {
-              "tag": "110V",
-              "source": "https://feebee.com.tw/s/Asko%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-              "confidence": "low",
-              "evidence": "data-id=\"spstore:29129257616\" data-title=\"【瑞典雅士高ASKO】13人份洗碗機DFS233IB.S.TW/1(不鏽鋼/110V/獨立型/含安裝)\" data-unique-count=\"22\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzVeq9UqWey6wHKW"
-            }
-          ]
-        },
-        {
           "sku": "DFS233IB.S",
           "evidence": [
             {
               "tag": "110V",
               "source": "https://feebee.com.tw/s/Asko%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "data-id=\"spstore:29129257616\" data-title=\"【瑞典雅士高ASKO】13人份洗碗機DFS233IB.S.TW/1(不鏽鋼/110V/獨立型/含安裝)\" data-unique-count=\"22\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzVeq9UqWey6wHKW"
+              "evidence": "data-id=\"spstore:29129257616\" data-title=\"【瑞典雅士高ASKO】13人份洗碗機DFS233IB.S.TW/1(不鏽鋼/110V/獨立型/含安裝)\" data-unique-count=\"22\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzDXzx9_pGzpf7vS"
             }
           ]
         },
@@ -1087,7 +1162,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "110V",
               "source": "https://feebee.com.tw/s/Asko%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "data-id=\"spstore:29129257616\" data-title=\"【瑞典雅士高ASKO】13人份洗碗機DFS233IB.S.TW/1(不鏽鋼/110V/獨立型/含安裝)\" data-unique-count=\"22\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzVeq9UqWey6wHKW"
+              "evidence": "data-id=\"spstore:29129257616\" data-title=\"【瑞典雅士高ASKO】13人份洗碗機DFS233IB.S.TW/1(不鏽鋼/110V/獨立型/含安裝)\" data-unique-count=\"22\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzDXzx9_pGzpf7vS"
             }
           ]
         },
@@ -1119,21 +1194,21 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "DBI233IB.S",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "DBI233IB.S.TW",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "DBI233IB.S.TW/1",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -1142,7 +1217,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -1151,7 +1226,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -1160,70 +1235,70 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "DBI545IK.S.TW",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "DBI545IK.W.TW",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "DBI644MIB.S.TW",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "DBI644MIB.W",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "DBI644MIB.W.TW",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "DBI644MIB.W.TW/1",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "DBI654IB",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "DBI654IB.W",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "DBI746MIQ.S.TW",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -1232,58 +1307,56 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "DFI433B",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "DFI5244A.TW",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "DFI544D.TW",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "DFI644MB",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "DFI654B",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "DFS143I.S",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "DFS233I",
           "brand": "Asko",
-          "featureTags": [
-            "110V"
-          ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "featureTags": [],
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -1292,14 +1365,14 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "DFS233IB.S.TW",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -1308,7 +1381,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -1317,7 +1390,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -1326,14 +1399,14 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "DFS244IB.S",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         }
       ],
@@ -1342,30 +1415,28 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "DBI233IB.S.TW",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "New since baseline"
         },
         {
           "sku": "DBI644MIB.W",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "New since baseline"
         },
         {
           "sku": "DBI644MIB.W.TW",
           "brand": "Asko",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "New since baseline"
         },
         {
           "sku": "DFS233I",
           "brand": "Asko",
-          "featureTags": [
-            "110V"
-          ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "featureTags": [],
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "New since baseline"
         }
       ],
@@ -1386,7 +1457,7 @@ window.PRODUCT_LIST_UPDATES = {
           "url": "https://feebee.com.tw/s/Asko%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "status": "Scanned",
           "httpStatus": 200,
-          "candidateCount": 16
+          "candidateCount": 15
         }
       ]
     },
@@ -1878,7 +1949,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "110V",
               "source": "https://feebee.com.tw/s/Miele%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "b93d8f7\" data-tracking=\"cpa\" data-id=\"ybuy:11823763\" data-title=\"【德國 Miele】16人份 110V 獨立式洗碗機 G5001SC\" data-unique-count=\"6\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzO1cvx3ERx"
+              "evidence": "97dad12\" data-tracking=\"cpa\" data-id=\"ybuy:11823763\" data-title=\"【德國 Miele】16人份 110V 獨立式洗碗機 G5001SC\" data-unique-count=\"6\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzT-5cKCQh3"
             }
           ]
         },
@@ -1895,7 +1966,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "110V",
               "source": "https://feebee.com.tw/s/Miele%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "b93d8f7\" data-tracking=\"cpa\" data-id=\"ybuy:11823763\" data-title=\"【德國 Miele】16人份 110V 獨立式洗碗機 G5001SC\" data-unique-count=\"6\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzO1cvx3ERx"
+              "evidence": "97dad12\" data-tracking=\"cpa\" data-id=\"ybuy:11823763\" data-title=\"【德國 Miele】16人份 110V 獨立式洗碗機 G5001SC\" data-unique-count=\"6\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzT-5cKCQh3"
             }
           ]
         },
@@ -1906,13 +1977,13 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "220V",
               "source": "https://feebee.com.tw/s/Miele%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "GupeAC\" data-price=\"71346\" data-title=\"【德國 Miele】16人份 獨立式洗碗機 G5214SC / G5214 SC 220V 專利自動開門烘乾+中式碗籃設計\" data-sign=\"cb8a4f323b1625a5b37ab839b3646fefe112e51c12c57ad23e48eb0a9208af83\" data-unique-count=\"38\"> <span class=\"pure-u img_container\"> <"
+              "evidence": "GupeAC\" data-price=\"71346\" data-title=\"【德國 Miele】16人份 獨立式洗碗機 G5214SC / G5214 SC 220V 專利自動開門烘乾+中式碗籃設計\" data-sign=\"588b0c8281d038fb3f2a8e53427cc85102a696aaff4fcd65f8d6f46570ac5fa0\" data-unique-count=\"36\"> <span class=\"pure-u img_container\"> <"
             },
             {
               "tag": "Auto Open",
               "source": "https://feebee.com.tw/s/Miele%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "data-price=\"71346\" data-title=\"【德國 Miele】16人份 獨立式洗碗機 G5214SC / G5214 SC 220V 專利自動開門烘乾+中式碗籃設計\" data-sign=\"cb8a4f323b1625a5b37ab839b3646fefe112e51c12c57ad23e48eb0a9208af83\" data-unique-count=\"38\"> <span class=\"pure-u img_container\"> <a rel=\""
+              "evidence": "data-price=\"71346\" data-title=\"【德國 Miele】16人份 獨立式洗碗機 G5214SC / G5214 SC 220V 專利自動開門烘乾+中式碗籃設計\" data-sign=\"588b0c8281d038fb3f2a8e53427cc85102a696aaff4fcd65f8d6f46570ac5fa0\" data-unique-count=\"36\"> <span class=\"pure-u img_container\"> <a rel=\""
             }
           ]
         },
@@ -1923,7 +1994,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "220V",
               "source": "https://feebee.com.tw/s/Miele%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "pa\" data-id=\"spstore:3515610832\" data-title=\"【Miele】16人份全嵌式洗碗機 G5264C SCVi (無門片/220V)\" data-unique-count=\"18\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzM2gxcGtqhkmIRU5lYh0vHX"
+              "evidence": "pa\" data-id=\"spstore:3515610832\" data-title=\"【Miele】16人份全嵌式洗碗機 G5264C SCVi (無門片/220V)\" data-unique-count=\"18\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzxClUTC2U3q_zWtZ6jBuV1H"
             }
           ]
         },
@@ -1934,13 +2005,13 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "220V",
               "source": "https://feebee.com.tw/s/Miele%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "pchome:dmbr1w-a900k4mys\" data-title=\"【德國Miele】Miele G5314 C SCI 不鏽鋼洗碗機-半嵌式(自動開門/220V電壓)\" data-unique-count=\"7\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3Uz4MML5KD_pXCfOgs0VfRjl"
+              "evidence": "pchome:dmbr1w-a900k4mys\" data-title=\"【德國Miele】Miele G5314 C SCI 不鏽鋼洗碗機-半嵌式(自動開門/220V電壓)\" data-unique-count=\"7\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3Uzw7886PPoMpfnaOq-hl8R2"
             },
             {
               "tag": "Auto Open",
               "source": "https://feebee.com.tw/s/Miele%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "=\"24hpchome:dmbr1w-a900k4mys\" data-title=\"【德國Miele】Miele G5314 C SCI 不鏽鋼洗碗機-半嵌式(自動開門/220V電壓)\" data-unique-count=\"7\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3Uz4MML5KD_pXCfOgs0"
+              "evidence": "=\"24hpchome:dmbr1w-a900k4mys\" data-title=\"【德國Miele】Miele G5314 C SCI 不鏽鋼洗碗機-半嵌式(自動開門/220V電壓)\" data-unique-count=\"7\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3Uzw7886PPoMpfnaOq-"
             }
           ]
         },
@@ -1951,7 +2022,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "220V",
               "source": "https://feebee.com.tw/s/Miele%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "cpa\" data-id=\"spstore:6132500915\" data-title=\"【Miele】16人份半嵌式洗碗機 G7104C SCi (無門片/220V)\" data-unique-count=\"22\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3Uz-4dGmq7_TqId2IyidaFjxc"
+              "evidence": "cpa\" data-id=\"spstore:6132500915\" data-title=\"【Miele】16人份半嵌式洗碗機 G7104C SCi (無門片/220V)\" data-unique-count=\"22\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzxwhZMaS5woW0AQMI6q8wxU"
             }
           ]
         },
@@ -1962,7 +2033,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "220V",
               "source": "https://feebee.com.tw/s/Miele%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "pa\" data-id=\"spstore:26378757885\" data-title=\"【Miele】16人份半嵌式洗碗機 G7314C SCi (無門片/220V)\" data-unique-count=\"23\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzvoMhHZZVNtD1Fawg-Xu4Fq"
+              "evidence": "pa\" data-id=\"spstore:26378757885\" data-title=\"【Miele】16人份半嵌式洗碗機 G7314C SCi (無門片/220V)\" data-unique-count=\"21\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzJqq_u3BfdrMAZzXJgTV9bJ"
             }
           ]
         },
@@ -1984,7 +2055,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "220V",
               "source": "https://feebee.com.tw/s/Miele%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "pa\" data-id=\"spstore:4461057759\" data-title=\"【Miele】16人份全嵌式洗碗機 G7964C SCVi (無門片/220V)\" data-unique-count=\"16\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzBLefQ92XPPEQWgSbZhYMPA"
+              "evidence": "pa\" data-id=\"spstore:4461057759\" data-title=\"【Miele】16人份全嵌式洗碗機 G7964C SCVi (無門片/220V)\" data-unique-count=\"17\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzouJcSMMwMFkiGIyW0GUmCm"
             },
             {
               "tag": "Auto Open",
@@ -2002,7 +2073,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -2011,28 +2082,28 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "G5214",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "G5214C",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "G5214CSC",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -2042,7 +2113,7 @@ window.PRODUCT_LIST_UPDATES = {
             "220V",
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -2051,7 +2122,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "220V"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -2061,42 +2132,42 @@ window.PRODUCT_LIST_UPDATES = {
             "220V",
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "G5314C",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "G5314CSCI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "G5364C",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "G5364CSCVI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "G7101",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -2105,49 +2176,49 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "220V"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "G7114C",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "G7114CSCI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "G7130C",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "G7130CSCI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "G7180C",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "G7180CSCVI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -2156,21 +2227,21 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "220V"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "G7604CSCI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "G7714CSCI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         }
       ],
@@ -2179,35 +2250,35 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "G5214CSC",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "New since baseline"
         },
         {
           "sku": "G5314CSCI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "New since baseline"
         },
         {
           "sku": "G7114CSCI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "New since baseline"
         },
         {
           "sku": "G7604CSCI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "New since baseline"
         },
         {
           "sku": "G7714CSCI",
           "brand": "Miele",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "New since baseline"
         }
       ],
@@ -2228,7 +2299,7 @@ window.PRODUCT_LIST_UPDATES = {
           "url": "https://feebee.com.tw/s/Miele%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "status": "Scanned",
           "httpStatus": 200,
-          "candidateCount": 13
+          "candidateCount": 14
         }
       ]
     },
@@ -2672,7 +2743,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "220V",
               "source": "https://feebee.com.tw/s/Electrolux%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "tore:26981523065\" data-title=\"【Electrolux 伊萊克斯】900系列 14人份全嵌式洗碗機 EBF9442SBA (無門片/220V)\" data-unique-count=\"26\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3Uz2XmQrs21rNrncZTuhC69pB"
+              "evidence": "tore:26981523065\" data-title=\"【Electrolux 伊萊克斯】900系列 14人份全嵌式洗碗機 EBF9442SBA (無門片/220V)\" data-unique-count=\"23\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3Uz_sfAVT0kck1iv15mX8ITRz"
             }
           ]
         },
@@ -2683,7 +2754,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "110V",
               "source": "https://feebee.com.tw/s/Electrolux%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "tore:27331524142\" data-title=\"【Electrolux 伊萊克斯】900系列 15人份全嵌式洗碗機 EBF9531SBA (無門片/110V)\" data-unique-count=\"25\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzpVg2CPOT-f9pjnh4KAiduT"
+              "evidence": "tore:27331524142\" data-title=\"【Electrolux 伊萊克斯】900系列 15人份全嵌式洗碗機 EBF9531SBA (無門片/110V)\" data-unique-count=\"25\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3Uz-7Cj6pjU45D8YSZoCDliLE"
             }
           ]
         },
@@ -2694,7 +2765,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "Auto Open",
               "source": "https://feebee.com.tw/s/Electrolux%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "=\"cpa\" data-id=\"spstore:45558070383\" data-title=\"Electrolux 伊萊克斯 60cm 13人份 300系列自動開門獨立式洗碗機(EFF3360VWB)\" data-unique-count=\"5\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzhuHQ6j"
+              "evidence": "=\"cpa\" data-id=\"spstore:45558070383\" data-title=\"Electrolux 伊萊克斯 60cm 13人份 300系列自動開門獨立式洗碗機(EFF3360VWB)\" data-unique-count=\"4\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzPRDLaV"
             }
           ]
         },
@@ -2705,7 +2776,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "220V",
               "source": "https://feebee.com.tw/s/Electrolux%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "tore:24343358711\" data-title=\"【Electrolux 伊萊克斯】500系列 14人份半嵌式洗碗機 EMF5482ZXA (無門片/220V)\" data-unique-count=\"23\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzUXW69GAU3m0RuQ9I4rdsae"
+              "evidence": "tore:24343358711\" data-title=\"【Electrolux 伊萊克斯】500系列 14人份半嵌式洗碗機 EMF5482ZXA (無門片/220V)\" data-unique-count=\"26\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzPB-yk7sUZmfAMlqtSFMM3V"
             }
           ]
         },
@@ -2726,7 +2797,7 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "EBF7531SBA",
           "brand": "Electrolux",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -2735,7 +2806,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "220V"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -2744,21 +2815,21 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "EEEM9420L",
           "brand": "Electrolux",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "EEM48300IX",
           "brand": "Electrolux",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -2767,7 +2838,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -2776,42 +2847,42 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "220V"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "KEE27200IW",
           "brand": "Electrolux",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "KEE27200LW",
           "brand": "Electrolux",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "KEE47200IW",
           "brand": "Electrolux",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "KEE47200LW",
           "brand": "Electrolux",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "KSE43200SW",
           "brand": "Electrolux",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         }
       ],
@@ -2822,7 +2893,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "110V"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "New since baseline"
         },
         {
@@ -2831,14 +2902,14 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "220V"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "New since baseline"
         },
         {
           "sku": "KEE47200LW",
           "brand": "Electrolux",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "New since baseline"
         }
       ],
@@ -2853,16 +2924,16 @@ window.PRODUCT_LIST_UPDATES = {
           "url": "https://feebee.com.tw/s/Electrolux%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "status": "Scanned",
           "httpStatus": 200,
-          "candidateCount": 13
+          "candidateCount": 15
         }
       ]
     },
     {
       "brand": "Panasonic",
       "sourceCount": 3,
-      "foundCount": 23,
+      "foundCount": 24,
       "knownCount": 10,
-      "unmappedCandidateCount": 13,
+      "unmappedCandidateCount": 14,
       "newCandidateCount": 5,
       "foundSkus": [
         "NP-2KTB",
@@ -2886,6 +2957,7 @@ window.PRODUCT_LIST_UPDATES = {
         "NP-TH4WHR1TW-D",
         "NP-TML1",
         "NP-TSK1",
+        "NP-TSP1",
         "NP-TZ300",
         "NP-TZ500"
       ],
@@ -3226,6 +3298,16 @@ window.PRODUCT_LIST_UPDATES = {
           "rspSource": null
         },
         {
+          "sku": "NP-TSP1",
+          "brand": "Panasonic",
+          "width": null,
+          "type": "Countertop/compact",
+          "widthSource": null,
+          "typeSource": "sku-rule",
+          "confidence": "low",
+          "rspSource": null
+        },
+        {
           "sku": "NP-TZ300",
           "brand": "Panasonic",
           "width": null,
@@ -3411,7 +3493,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "110V",
               "source": "https://feebee.com.tw/s/Panasonic%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "ata-id=\"spstore:56757543813\" data-title=\"高雄 panasonic 國際牌 嵌入式自動洗碗機 NP-BXW1M6-1H 110v 洗碗機 不含門板需另購\" data-unique-count=\"5\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzSK8qzMUHCsMJ"
+              "evidence": "ata-id=\"spstore:56757543813\" data-title=\"高雄 panasonic 國際牌 嵌入式自動洗碗機 NP-BXW1M6-1H 110v 洗碗機 不含門板需另購\" data-unique-count=\"5\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3Uz-pS7-DcWD4gv"
             }
           ]
         },
@@ -3422,7 +3504,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "110V",
               "source": "https://feebee.com.tw/s/Panasonic%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "ata-id=\"spstore:56757543813\" data-title=\"高雄 panasonic 國際牌 嵌入式自動洗碗機 NP-BXW1M6-1H 110v 洗碗機 不含門板需另購\" data-unique-count=\"5\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzSK8qzMUHCsMJ"
+              "evidence": "ata-id=\"spstore:56757543813\" data-title=\"高雄 panasonic 國際牌 嵌入式自動洗碗機 NP-BXW1M6-1H 110v 洗碗機 不含門板需另購\" data-unique-count=\"5\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3Uz-pS7-DcWD4gv"
             },
             {
               "tag": "12項洗淨模式",
@@ -3820,14 +3902,14 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "NP-DXK1",
           "brand": "Panasonic",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "NP-DXK1E6",
           "brand": "Panasonic",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -3842,7 +3924,7 @@ window.PRODUCT_LIST_UPDATES = {
             "領先業界長效抑菌淨存30天",
             "高溫熱流洗淨"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -3855,14 +3937,14 @@ window.PRODUCT_LIST_UPDATES = {
             "長效抑菌淨存7天",
             "高溫熱流洗淨"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "NP-FKAKGJ",
           "brand": "Panasonic",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -3875,7 +3957,7 @@ window.PRODUCT_LIST_UPDATES = {
             "長效抑菌淨存7天",
             "高溫熱流洗淨"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -3892,7 +3974,7 @@ window.PRODUCT_LIST_UPDATES = {
             "獨立自動給水",
             "薄型機身"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -3906,42 +3988,49 @@ window.PRODUCT_LIST_UPDATES = {
             "獨立熱循環烘乾",
             "獨立自動給水"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "NP-TH4WHR1TW-D",
           "brand": "Panasonic",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "NP-TML1",
           "brand": "Panasonic",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "NP-TSK1",
           "brand": "Panasonic",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
+          "status": "Unmapped"
+        },
+        {
+          "sku": "NP-TSP1",
+          "brand": "Panasonic",
+          "featureTags": [],
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "NP-TZ300",
           "brand": "Panasonic",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "NP-TZ500",
           "brand": "Panasonic",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         }
       ],
@@ -3950,35 +4039,35 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "NP-DXK1",
           "brand": "Panasonic",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "New since baseline"
         },
         {
           "sku": "NP-FKAKGJ",
           "brand": "Panasonic",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "New since baseline"
         },
         {
           "sku": "NP-TH4WHR1TW-D",
           "brand": "Panasonic",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "New since baseline"
         },
         {
           "sku": "NP-TML1",
           "brand": "Panasonic",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "New since baseline"
         },
         {
           "sku": "NP-TZ500",
           "brand": "Panasonic",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "New since baseline"
         }
       ],
@@ -3994,13 +4083,13 @@ window.PRODUCT_LIST_UPDATES = {
           "url": "https://biggo.com.tw/s/Panasonic%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "status": "Scanned",
           "httpStatus": 200,
-          "candidateCount": 15
+          "candidateCount": 17
         },
         {
           "url": "https://feebee.com.tw/s/Panasonic%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "status": "Scanned",
           "httpStatus": 200,
-          "candidateCount": 15
+          "candidateCount": 17
         }
       ]
     },
@@ -4347,6 +4436,7 @@ window.PRODUCT_LIST_UPDATES = {
             "24 小時延遲啟動功能",
             "4種加強功能(加強乾燥/加強洗淨/上下層洗/縮短清洗)",
             "8種洗程(強力/自動/節能/極靜/衛生殺菌/60分鐘/預洗/機器自清)",
+            "Auto Open",
             "Auto Open 自動開門乾燥設計 (可選擇關閉)",
             "兒童安全鎖",
             "加速洗淨功能",
@@ -4361,7 +4451,6 @@ window.PRODUCT_LIST_UPDATES = {
             "304不鏽鋼內層，環保無毒碗籃架材質，耐磨抗腐蝕，兼顧美觀與食用安全",
             "8段洗程：ㄧ般/強力/自動/節能/精緻/快洗/90分鐘/預洗",
             "Aqua Stop安全進水管設計",
-            "Auto Open",
             "Auto Open 自動開門乾燥設計",
             "三層籃架，可調式上碗籃",
             "三組噴水臂，360 度強力水柱",
@@ -4481,7 +4570,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "Auto Open",
               "source": "https://feebee.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "ta-tracking=\"cpa\" data-id=\"spstore:26539688284\" data-title=\"SVAGO VD6111 半嵌式45cm自動開門洗碗機 洗碗機\" data-unique-count=\"12\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzoMNvuRnsTNW3DKIk"
+              "evidence": "ta-tracking=\"cpa\" data-id=\"spstore:26539688284\" data-title=\"SVAGO VD6111 半嵌式45cm自動開門洗碗機 洗碗機\" data-unique-count=\"11\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzC5HBWvAiul7Rgoi5"
             },
             {
               "tag": "Auto Open 自動開門乾燥設計 (可選擇關閉)",
@@ -4558,7 +4647,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "Hot air dry",
               "source": "https://feebee.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "onversion=\"8rtTCPOB268BEIGupeAC\" data-price=\"35991\" data-title=\"Svago【VD6561】半嵌式熱風烘乾(本機不含門板)洗碗機(全省安裝)(7-11商品卡2200元)\" data-sign=\"4ffc03bc260edc4f6c0b8762c29e17d20cc9fe98a9f82fa3d3d11453d1d79f9b\" data-unique-count=\"3\"> <span class=\"pure-u img"
+              "evidence": "onversion=\"8rtTCPOB268BEIGupeAC\" data-price=\"35991\" data-title=\"Svago【VD6561】半嵌式熱風烘乾(本機不含門板)洗碗機(全省安裝)(7-11商品卡2200元)\" data-sign=\"2f61716412c1b86ffa5251da901167a1b720a44c613ac8eeca66ada24e99ddcc\" data-unique-count=\"3\"> <span class=\"pure-u img"
             }
           ]
         },
@@ -4635,7 +4724,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "Hot air dry",
               "source": "https://feebee.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "nversion=\"cwmoCMuHzK8BEIGupeAC\" data-price=\"43700\" data-title=\"【SVAGO】VD8565 全嵌式熱烘存洗碗機 15人份(含原廠安裝)\" data-sign=\"4be9c469a51cc2166cb892dc9d3951b326d6c6f68d281fee0cb9d9f9cad20d4e\" data-unique-count=\"2\"> <span class=\"pure-u img_container\"> <a r"
+              "evidence": "5\" data-tracking=\"cpa\" data-id=\"momoshop:15531833\" data-title=\"【SVAGO】VD8565 全嵌式熱烘存洗碗機 15人份(含原廠安裝)\" data-unique-count=\"5\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3Uzr1SqoOOqd-"
             }
           ]
         },
@@ -4712,7 +4801,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "Hot air dry",
               "source": "https://feebee.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "cc38b230\" data-tracking=\"cpa\" data-id=\"momoshop:13908673\" data-title=\"【SVAGO】獨立式熱風烘乾洗碗機(VE7190含基本安裝)\" data-unique-count=\"15\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3Uz_1sfOAL"
+              "evidence": "5b64f866\" data-tracking=\"cpa\" data-id=\"momoshop:13908673\" data-title=\"【SVAGO】獨立式熱風烘乾洗碗機(VE7190含基本安裝)\" data-unique-count=\"12\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzMwKe5Qo"
             }
           ]
         },
@@ -4760,6 +4849,12 @@ window.PRODUCT_LIST_UPDATES = {
               "source": "https://www.svago-kitchens.com.tw/Product/View/81679",
               "confidence": "high",
               "evidence": "機器自清"
+            },
+            {
+              "tag": "Auto Open",
+              "source": "https://biggo.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+              "confidence": "low",
+              "evidence": "E7545\"><div class=\"KnowledgeGrouping_grouping-title__vY99s\">斯瓦戈 SVAGO VE7545 半嵌式自動開門洗碗機<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" class=\"Icon_icon__2YOqt\" viewBox=\"0 0 24 24\" width=\"16\" height"
             },
             {
               "tag": "Auto Open 自動開門乾燥設計 (可選擇關閉)",
@@ -4839,12 +4934,6 @@ window.PRODUCT_LIST_UPDATES = {
               "evidence": "Aqua Stop安全進水管設計"
             },
             {
-              "tag": "Auto Open",
-              "source": "https://biggo.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-              "confidence": "low",
-              "evidence": "E7650\"><div class=\"KnowledgeGrouping_grouping-title__vY99s\">斯瓦戈 Svago VE7650 半嵌式自動開門洗碗機 14人份<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" class=\"Icon_icon__2YOqt\" viewBox=\"0 0 24 24\" width=\"16\" h"
-            },
-            {
               "tag": "Auto Open 自動開門乾燥設計",
               "source": "https://www.svago-kitchens.com.tw/Product/View/81544",
               "confidence": "high",
@@ -4919,7 +5008,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "Auto Open",
               "source": "https://feebee.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "tracking=\"cpa\" data-id=\"etmall:3994316\" data-title=\"送7-11商品卡1400元★(全省安裝)Svago全嵌式自動開門洗碗機VE7750本機不含門板\" data-unique-count=\"7\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzV9hiw5vwc"
+              "evidence": "tracking=\"cpa\" data-id=\"etmall:3994316\" data-title=\"送7-11商品卡1400元★(全省安裝)Svago全嵌式自動開門洗碗機VE7750本機不含門板\" data-unique-count=\"6\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzAmRpF1_-Q"
             },
             {
               "tag": "Auto Open 自動開門乾燥設計",
@@ -4936,13 +5025,13 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "Auto Open",
               "source": "https://biggo.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "=\"_blank\" rel=\"nofollow\" title=\"送變頻扇滿2萬折500★(結帳再X折)(全省安裝)Svago(送7-11商品卡1700元)全嵌式自動開門(本機不含門板)VE7770洗碗機VE7770A\" href=\"/r/?i=tw_pec_3c3c&id=VE7770A&purl=https%3A%2F%2Fwww.3c3c.com.tw%2FShop%2FitemDetail.aspx%3FmNo1%3DVE7770A&adquery_id=7777caf"
+              "evidence": "_blank\" rel=\"nofollow\" title=\"送變頻扇滿2萬折500★(登記送7-11商品卡1700元)(全省安裝)(結帳再X折)Svago全嵌式自動開門(本機不含門板)洗碗機VE7770\" href=\"/r/?i=tw_pec_3c3c&id=VE7770&purl=https%3A%2F%2Fwww.3c3c.com.tw%2FShop%2FitemDetail.aspx%3FmNo1%3DVE7770&adquery_id=4345455c36b42f16"
             },
             {
               "tag": "Auto Open",
               "source": "https://feebee.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "a-tracking=\"cpa\" data-id=\"24hpchome:dmbr12-a900jmhc1\" data-title=\"【SVAGO】14人份全嵌式自動開門洗碗機 VE7770A 含基本安裝\" data-unique-count=\"6\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzfOzOU92"
+              "evidence": "ng=\"cpa\" data-id=\"rakuten_vip:pokitchen:wg5ji3xdg\" data-title=\"SVAGO VE7770 全嵌式 自動開門 洗碗機【APP滿額下單10%點數(單一帳號最高1000點)】9/30止\" data-unique-count=\"10\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee."
             }
           ]
         },
@@ -5022,12 +5111,6 @@ window.PRODUCT_LIST_UPDATES = {
               "evidence": "=\"_blank\" rel=\"nofollow\" title=\"送變頻扇滿2萬折500★(結帳再X折)(全省安裝)Svago(送7-11商品卡1700元)全嵌式自動開門(本機不含門板)VE7770洗碗機VE7770A\" href=\"/r/?i=tw_pec_3c3c&id=VE7770A&purl=https%3A%2F%2Fwww.3c3c.com.tw%2FShop%2FitemDetail.aspx%3FmNo1%3DVE7770A&adquery_id=7777caf"
             },
             {
-              "tag": "Auto Open",
-              "source": "https://feebee.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-              "confidence": "low",
-              "evidence": "a-tracking=\"cpa\" data-id=\"24hpchome:dmbr12-a900jmhc1\" data-title=\"【SVAGO】14人份全嵌式自動開門洗碗機 VE7770A 含基本安裝\" data-unique-count=\"6\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzfOzOU92"
-            },
-            {
               "tag": "Auto Open 自動開門乾燥設計",
               "source": "https://www.svago-kitchens.com.tw/Product/View/82164",
               "confidence": "high",
@@ -5102,7 +5185,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "Auto Open",
               "source": "https://feebee.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "onversion=\"8rtTCPOB268BEIGupeAC\" data-price=\"20459\" data-title=\"Svago【VE7850】獨立式自動開門洗碗機(全省安裝)\" data-sign=\"27008b52f42f503fe79e85ffc9539e75b9852743c2e898b092aba77dab851972\" data-unique-count=\"1\"> <span class=\"pure-u img_container\"> <a rel=\"n"
+              "evidence": "onversion=\"8rtTCPOB268BEIGupeAC\" data-price=\"20459\" data-title=\"Svago【VE7850】獨立式自動開門洗碗機(全省安裝)\" data-sign=\"38a29afeda244418f6290fd5603fcbca656f71ec4de0a9985bc8cd1535dbcfdc\" data-unique-count=\"1\"> <span class=\"pure-u img_container\"> <a rel=\"n"
             },
             {
               "tag": "Auto Open 自動開門乾燥設計",
@@ -5128,7 +5211,7 @@ window.PRODUCT_LIST_UPDATES = {
             "最高溫度72度",
             "機器自清"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -5147,7 +5230,7 @@ window.PRODUCT_LIST_UPDATES = {
             "最高溫度72度C",
             "熱烘存儲(4/24/72/168H)可單獨開啟"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -5167,7 +5250,7 @@ window.PRODUCT_LIST_UPDATES = {
             "最高溫度72度C",
             "熱烘存儲(4/24/72/168H)可單獨開啟"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -5177,13 +5260,14 @@ window.PRODUCT_LIST_UPDATES = {
             "24 小時延遲啟動功能",
             "4種加強功能(加強乾燥/加強洗淨/上下層洗/縮短清洗)",
             "8種洗程(強力/自動/節能/極靜/衛生殺菌/60分鐘/預洗/機器自清)",
+            "Auto Open",
             "Auto Open 自動開門乾燥設計 (可選擇關閉)",
             "兒童安全鎖",
             "加速洗淨功能",
             "最高溫度72度",
             "機器自清"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -5194,7 +5278,6 @@ window.PRODUCT_LIST_UPDATES = {
             "304不鏽鋼內層，環保無毒碗籃架材質，耐磨抗腐蝕，兼顧美觀與食用安全",
             "8段洗程：ㄧ般/強力/自動/節能/精緻/快洗/90分鐘/預洗",
             "Aqua Stop安全進水管設計",
-            "Auto Open",
             "Auto Open 自動開門乾燥設計",
             "三層籃架，可調式上碗籃",
             "三組噴水臂，360 度強力水柱",
@@ -5204,7 +5287,7 @@ window.PRODUCT_LIST_UPDATES = {
             "嵌入式機型(需搭配門板)",
             "最高溫度70度"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -5224,7 +5307,7 @@ window.PRODUCT_LIST_UPDATES = {
             "最高溫度70度",
             "照地燈顯示"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -5233,7 +5316,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -5254,7 +5337,7 @@ window.PRODUCT_LIST_UPDATES = {
             "滑動門設計，免切踢腳板，安裝便利，櫥櫃更美觀。",
             "照地燈顯示"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         }
       ],
@@ -5283,7 +5366,7 @@ window.PRODUCT_LIST_UPDATES = {
           "url": "https://feebee.com.tw/s/Svago%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "status": "Scanned",
           "httpStatus": 200,
-          "candidateCount": 10
+          "candidateCount": 9
         }
       ]
     },
@@ -5408,7 +5491,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "Auto Open",
               "source": "https://feebee.com.tw/s/Sakura%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "41d8\" data-tracking=\"cpa\" data-id=\"momoshop:15449034\" data-title=\"【SAKURA 櫻花】獨嵌式自動開門兩用洗碗機(E7571原廠安裝)\" data-unique-count=\"16\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3Uzl4g8r_k"
+              "evidence": "f808\" data-tracking=\"cpa\" data-id=\"momoshop:15449034\" data-title=\"【SAKURA 櫻花】獨嵌式自動開門兩用洗碗機(E7571原廠安裝)\" data-unique-count=\"17\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzIZa7bpW"
             }
           ]
         },
@@ -5419,7 +5502,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "Auto Open",
               "source": "https://feebee.com.tw/s/Sakura%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "8baf3\" data-tracking=\"cpa\" data-id=\"momoshop:7731193\" data-title=\"【SAKURA 櫻花】半嵌式自動開門洗碗機(E7683 原廠安裝)\" data-unique-count=\"14\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzGQBzmTpC"
+              "evidence": "20e07\" data-tracking=\"cpa\" data-id=\"momoshop:7731193\" data-title=\"【SAKURA 櫻花】半嵌式自動開門洗碗機(E7683 原廠安裝)\" data-unique-count=\"15\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzYqMw5QaN"
             }
           ]
         },
@@ -5430,7 +5513,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "Auto Open",
               "source": "https://feebee.com.tw/s/Sakura%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "3bcb9c0c2f74ac63237e4c749408e0\" data-tracking=\"cpa\" data-id=\"unbox:【sakura櫻花】全嵌式自動開門洗碗機-e7783\" data-title=\"【SAKURA櫻花】全嵌式自動開門洗碗機 E7783 NT$32100\" data-unique-count=\"8\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\""
+              "evidence": "e0e962fb0265fc45840881849dfdfe\" data-tracking=\"cpa\" data-id=\"unbox:【sakura櫻花】全嵌式自動開門洗碗機-e7783\" data-title=\"【SAKURA櫻花】全嵌式自動開門洗碗機 E7783 NT$32100\" data-unique-count=\"9\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\""
             }
           ]
         }
@@ -5442,7 +5525,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -5451,21 +5534,21 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "E7782",
           "brand": "Sakura",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
           "sku": "E9322D",
           "brand": "Sakura",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         }
       ],
@@ -5552,7 +5635,7 @@ window.PRODUCT_LIST_UPDATES = {
           "sku": "ZIV-645T",
           "brand": "Amica",
           "featureTags": [],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         }
       ],
@@ -5684,7 +5767,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "Auto Open",
               "source": "https://feebee.com.tw/s/Teka%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "data-tracking=\"cpa\" data-id=\"spstore:41763164565\" data-title=\"TEKA DFI 26700 全嵌式自動開門洗碗機 洗碗機\" data-unique-count=\"18\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3Uz-mrPalaR4XgCIjl8"
+              "evidence": "data-tracking=\"cpa\" data-id=\"spstore:41763164565\" data-title=\"TEKA DFI 26700 全嵌式自動開門洗碗機 洗碗機\" data-unique-count=\"18\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzcY_Mk1evvhyx2pVT"
             }
           ]
         },
@@ -5695,7 +5778,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "Auto Open",
               "source": "https://feebee.com.tw/s/Teka%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "ea914dfb0\" data-tracking=\"cpa\" data-id=\"momoshop:14408317\" data-title=\"【TEKA】全嵌式自動開門本機不含門板洗碗機(DFI76950含基本安裝)\" data-unique-count=\"5\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3Uz"
+              "evidence": "ab2e7e59d\" data-tracking=\"cpa\" data-id=\"momoshop:14408317\" data-title=\"【TEKA】全嵌式自動開門本機不含門板洗碗機(DFI76950含基本安裝)\" data-unique-count=\"6\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3Uz"
             }
           ]
         },
@@ -5712,7 +5795,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "Auto Open",
               "source": "https://feebee.com.tw/s/Teka%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "data-tracking=\"cpa\" data-id=\"spstore:29189831318\" data-title=\"TEKA DSI 26700 半嵌式自動開門洗碗機 洗碗機\" data-unique-count=\"13\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3Uzp9tVXa7STElAboFP"
+              "evidence": "data-tracking=\"cpa\" data-id=\"spstore:29189831318\" data-title=\"TEKA DSI 26700 半嵌式自動開門洗碗機 洗碗機\" data-unique-count=\"13\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzlEaT1l5Z8td01_c9"
             }
           ]
         },
@@ -5723,13 +5806,13 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "Auto Open",
               "source": "https://feebee.com.tw/s/Teka%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "-tracking=\"cpa\" data-id=\"spstore:43262906785\" data-title=\"TEKA DW8 57 SI 半崁式熱烘存 自動開門洗碗機 崁人式洗碗機\" data-unique-count=\"27\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3Uz3kHpS5kv-FDuw"
+              "evidence": "-tracking=\"cpa\" data-id=\"spstore:43262906785\" data-title=\"TEKA DW8 57 SI 半崁式熱烘存 自動開門洗碗機 崁人式洗碗機\" data-unique-count=\"27\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzJ6OuoNbHjYOwP"
             },
             {
               "tag": "Hot air dry",
               "source": "https://feebee.com.tw/s/Teka%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "data-tracking=\"cpa\" data-id=\"spstore:43262906785\" data-title=\"TEKA DW8 57 SI 半崁式熱烘存 自動開門洗碗機 崁人式洗碗機\" data-unique-count=\"27\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3Uz3kHpS5kv-"
+              "evidence": "data-tracking=\"cpa\" data-id=\"spstore:43262906785\" data-title=\"TEKA DW8 57 SI 半崁式熱烘存 自動開門洗碗機 崁人式洗碗機\" data-unique-count=\"27\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzJ6OuoNbHj"
             }
           ]
         }
@@ -5741,7 +5824,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         },
         {
@@ -5750,7 +5833,7 @@ window.PRODUCT_LIST_UPDATES = {
           "featureTags": [
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         }
       ],
@@ -5873,7 +5956,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "Auto Open",
               "source": "https://feebee.com.tw/s/LG%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "\" data-tracking=\"cpa\" data-id=\"spstore:21993127276\" data-title=\"LG樂金14人份四方洗蒸氣洗碗機自動開門烘乾洗碗機 DFB335HE\" data-unique-count=\"4\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzllawZdxPqW"
+              "evidence": "\" data-tracking=\"cpa\" data-id=\"spstore:21993127276\" data-title=\"LG樂金14人份四方洗蒸氣洗碗機自動開門烘乾洗碗機 DFB335HE\" data-unique-count=\"4\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzCcDzmKHBF1"
             },
             {
               "tag": "Steam",
@@ -5885,7 +5968,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "Steam",
               "source": "https://feebee.com.tw/s/LG%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "e2991\" data-tracking=\"cpa\" data-id=\"spstore:21993127276\" data-title=\"LG樂金14人份四方洗蒸氣洗碗機自動開門烘乾洗碗機 DFB335HE\" data-unique-count=\"4\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzllawZ"
+              "evidence": "77db6\" data-tracking=\"cpa\" data-id=\"spstore:21993127276\" data-title=\"LG樂金14人份四方洗蒸氣洗碗機自動開門烘乾洗碗機 DFB335HE\" data-unique-count=\"4\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzCcDzm"
             }
           ]
         },
@@ -5902,7 +5985,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "Steam",
               "source": "https://feebee.com.tw/s/LG%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "\"8rtTCPOB268BEIGupeAC\" data-price=\"62900\" data-title=\"限時下殺【LG樂金】QuadWash&trade; Steam 四方洗蒸氣洗碗機 DFB335HS\" data-sign=\"9bacfdbeee8d9cddc17cd129ebc0a54e28d941412964fd6fe2b17d5d7333991e\" data-unique-count=\"2\"> <span class=\"pure-u img_container\">"
+              "evidence": "onversion=\"8rtTCPOB268BEIGupeAC\" data-price=\"49900\" data-title=\"【LG 樂金】QuadWash Steam 四方洗蒸氣洗碗機 (消光銀) DFB335HS\" data-sign=\"fedb854e45f1d276e6d507d6fdd3978e7d1fa54a89f300cf955d2570858a2381\" data-unique-count=\"2\"> <span class=\"pure-u img_conta"
             }
           ]
         },
@@ -6019,7 +6102,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "Auto Open",
               "source": "https://feebee.com.tw/s/Whirlpool%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "-conversion=\"wGTvCOWn-LsYEIGupeAC\" data-price=\"27888\" data-title=\"Whirlpool 14人份自動開門洗碗機 WDFS2R4PWETW 白 WH-WDFS2R4PWETW 到府安裝\" data-sign=\"352a26878c2ccc31511cab410a328b0924db491e642f5d72383e61d934a9751f\" data-unique-count=\"1\"> <span class=\"pu"
+              "evidence": "-conversion=\"wGTvCOWn-LsYEIGupeAC\" data-price=\"27888\" data-title=\"Whirlpool 14人份自動開門洗碗機 WDFS2R4PWETW 白 WH-WDFS2R4PWETW 到府安裝\" data-sign=\"1dabf1a45c2af56acf02992d40480af585ee7afa8042bbe3f5d70817b362566f\" data-unique-count=\"1\"> <span class=\"pu"
             }
           ]
         },
@@ -6030,7 +6113,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "110V",
               "source": "https://feebee.com.tw/s/Whirlpool%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "d=\"twglobalmall:2ec0320590001155\" data-title=\"【Whirlpool 惠而浦】15人份 自動開門烘乾 獨立式洗碗機 110V WDFS3R5PIXTW 基本安裝\" data-unique-count=\"26\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzIRRg0"
+              "evidence": "B268BEIGupeAC\" data-price=\"32800\" data-title=\"【Whirlpool 惠而浦】15人份 自動開門烘乾 獨立式洗碗機 110V WDFS3R5PIXTW 基本安裝\" data-sign=\"8fd6f1fb0eb099182343f3951362b80cc254de8635ed795c1430c25a8dc92f86\" data-unique-count=\"2\"> <span class=\"pure-u img_container\">"
             },
             {
               "tag": "Auto Open",
@@ -6042,7 +6125,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "Auto Open",
               "source": "https://feebee.com.tw/s/Whirlpool%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "g=\"cpa\" data-id=\"twglobalmall:2ec0320590001155\" data-title=\"【Whirlpool 惠而浦】15人份 自動開門烘乾 獨立式洗碗機 110V WDFS3R5PIXTW 基本安裝\" data-unique-count=\"26\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com."
+              "evidence": "rsion=\"8rtTCPOB268BEIGupeAC\" data-price=\"32800\" data-title=\"【Whirlpool 惠而浦】15人份 自動開門烘乾 獨立式洗碗機 110V WDFS3R5PIXTW 基本安裝\" data-sign=\"8fd6f1fb0eb099182343f3951362b80cc254de8635ed795c1430c25a8dc92f86\" data-unique-count=\"2\"> <span class=\"pure-u im"
             }
           ]
         },
@@ -6053,7 +6136,7 @@ window.PRODUCT_LIST_UPDATES = {
               "tag": "220V",
               "source": "https://feebee.com.tw/s/Whirlpool%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
               "confidence": "low",
-              "evidence": "ata-id=\"twglobalmall:2ec0320590000651\" data-title=\"【Whirlpool 惠而浦】自動開門烘乾 獨立式洗碗機 220V/60Hz WFO3T123PLXD\" data-unique-count=\"23\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzCium4"
+              "evidence": "ata-id=\"twglobalmall:2ec0320590000651\" data-title=\"【Whirlpool 惠而浦】自動開門烘乾 獨立式洗碗機 220V/60Hz WFO3T123PLXD\" data-unique-count=\"23\"> <span class=\"pure-u img_container\"> <a rel=\"nofollow\" class=\"items_link\" href=\"https://feebee.com.tw/rd/3UzCUr2r"
             },
             {
               "tag": "Auto Open",
@@ -6072,7 +6155,7 @@ window.PRODUCT_LIST_UPDATES = {
             "110V",
             "Auto Open"
           ],
-          "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+          "firstDetectedAt": "2026-09-11T02:00:05.911Z",
           "status": "Unmapped"
         }
       ],
@@ -6095,17 +6178,37 @@ window.PRODUCT_LIST_UPDATES = {
   ],
   "unmappedCandidates": [
     {
+      "sku": "SMI4ECS0",
+      "brand": "Bosch",
+      "featureTags": [
+        "110V",
+        "Auto Open"
+      ],
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
+      "status": "Unmapped"
+    },
+    {
+      "sku": "SMI4ECS00X",
+      "brand": "Bosch",
+      "featureTags": [
+        "110V",
+        "Auto Open"
+      ],
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
+      "status": "Unmapped"
+    },
+    {
       "sku": "SMI8ZCS00X",
       "brand": "Bosch",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "SMS63M12TC",
       "brand": "Bosch",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6114,56 +6217,63 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Zeolith"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
+      "status": "Unmapped"
+    },
+    {
+      "sku": "SMV6ECX51E",
+      "brand": "Bosch",
+      "featureTags": [],
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "SPS2IKI06",
       "brand": "Bosch",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "SPS2IKI06X",
       "brand": "Bosch",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "SPS4IMW0",
       "brand": "Bosch",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "SPS4IMW00X",
       "brand": "Bosch",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "DBI233IB.S",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "DBI233IB.S.TW",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "DBI233IB.S.TW/1",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6172,7 +6282,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6181,7 +6291,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6190,70 +6300,70 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "DBI545IK.S.TW",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "DBI545IK.W.TW",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "DBI644MIB.S.TW",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "DBI644MIB.W",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "DBI644MIB.W.TW",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "DBI644MIB.W.TW/1",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "DBI654IB",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "DBI654IB.W",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "DBI746MIQ.S.TW",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6262,58 +6372,56 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "DFI433B",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "DFI5244A.TW",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "DFI544D.TW",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "DFI644MB",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "DFI654B",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "DFS143I.S",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "DFS233I",
       "brand": "Asko",
-      "featureTags": [
-        "110V"
-      ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "featureTags": [],
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6322,14 +6430,14 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "DFS233IB.S.TW",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6338,7 +6446,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6347,7 +6455,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6356,14 +6464,14 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "DFS244IB.S",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6372,7 +6480,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6381,28 +6489,28 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "G5214",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "G5214C",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "G5214CSC",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6412,7 +6520,7 @@ window.PRODUCT_LIST_UPDATES = {
         "220V",
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6421,7 +6529,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "220V"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6431,42 +6539,42 @@ window.PRODUCT_LIST_UPDATES = {
         "220V",
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "G5314C",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "G5314CSCI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "G5364C",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "G5364CSCVI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "G7101",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6475,49 +6583,49 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "220V"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "G7114C",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "G7114CSCI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "G7130C",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "G7130CSCI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "G7180C",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "G7180CSCVI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6526,28 +6634,28 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "220V"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "G7604CSCI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "G7714CSCI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "EBF7531SBA",
       "brand": "Electrolux",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6556,7 +6664,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "220V"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6565,21 +6673,21 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "EEEM9420L",
       "brand": "Electrolux",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "EEM48300IX",
       "brand": "Electrolux",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6588,7 +6696,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6597,56 +6705,56 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "220V"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "KEE27200IW",
       "brand": "Electrolux",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "KEE27200LW",
       "brand": "Electrolux",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "KEE47200IW",
       "brand": "Electrolux",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "KEE47200LW",
       "brand": "Electrolux",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "KSE43200SW",
       "brand": "Electrolux",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "NP-DXK1",
       "brand": "Panasonic",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "NP-DXK1E6",
       "brand": "Panasonic",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6661,7 +6769,7 @@ window.PRODUCT_LIST_UPDATES = {
         "領先業界長效抑菌淨存30天",
         "高溫熱流洗淨"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6674,14 +6782,14 @@ window.PRODUCT_LIST_UPDATES = {
         "長效抑菌淨存7天",
         "高溫熱流洗淨"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "NP-FKAKGJ",
       "brand": "Panasonic",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6694,7 +6802,7 @@ window.PRODUCT_LIST_UPDATES = {
         "長效抑菌淨存7天",
         "高溫熱流洗淨"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6711,7 +6819,7 @@ window.PRODUCT_LIST_UPDATES = {
         "獨立自動給水",
         "薄型機身"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6725,42 +6833,49 @@ window.PRODUCT_LIST_UPDATES = {
         "獨立熱循環烘乾",
         "獨立自動給水"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "NP-TH4WHR1TW-D",
       "brand": "Panasonic",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "NP-TML1",
       "brand": "Panasonic",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "NP-TSK1",
       "brand": "Panasonic",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
+      "status": "Unmapped"
+    },
+    {
+      "sku": "NP-TSP1",
+      "brand": "Panasonic",
+      "featureTags": [],
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "NP-TZ300",
       "brand": "Panasonic",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "NP-TZ500",
       "brand": "Panasonic",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6777,7 +6892,7 @@ window.PRODUCT_LIST_UPDATES = {
         "最高溫度72度",
         "機器自清"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6796,7 +6911,7 @@ window.PRODUCT_LIST_UPDATES = {
         "最高溫度72度C",
         "熱烘存儲(4/24/72/168H)可單獨開啟"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6816,7 +6931,7 @@ window.PRODUCT_LIST_UPDATES = {
         "最高溫度72度C",
         "熱烘存儲(4/24/72/168H)可單獨開啟"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6826,13 +6941,14 @@ window.PRODUCT_LIST_UPDATES = {
         "24 小時延遲啟動功能",
         "4種加強功能(加強乾燥/加強洗淨/上下層洗/縮短清洗)",
         "8種洗程(強力/自動/節能/極靜/衛生殺菌/60分鐘/預洗/機器自清)",
+        "Auto Open",
         "Auto Open 自動開門乾燥設計 (可選擇關閉)",
         "兒童安全鎖",
         "加速洗淨功能",
         "最高溫度72度",
         "機器自清"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6843,7 +6959,6 @@ window.PRODUCT_LIST_UPDATES = {
         "304不鏽鋼內層，環保無毒碗籃架材質，耐磨抗腐蝕，兼顧美觀與食用安全",
         "8段洗程：ㄧ般/強力/自動/節能/精緻/快洗/90分鐘/預洗",
         "Aqua Stop安全進水管設計",
-        "Auto Open",
         "Auto Open 自動開門乾燥設計",
         "三層籃架，可調式上碗籃",
         "三組噴水臂，360 度強力水柱",
@@ -6853,7 +6968,7 @@ window.PRODUCT_LIST_UPDATES = {
         "嵌入式機型(需搭配門板)",
         "最高溫度70度"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6873,7 +6988,7 @@ window.PRODUCT_LIST_UPDATES = {
         "最高溫度70度",
         "照地燈顯示"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6882,7 +6997,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6903,7 +7018,7 @@ window.PRODUCT_LIST_UPDATES = {
         "滑動門設計，免切踢腳板，安裝便利，櫥櫃更美觀。",
         "照地燈顯示"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6912,7 +7027,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6921,28 +7036,28 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "E7782",
       "brand": "Sakura",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "E9322D",
       "brand": "Sakura",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
       "sku": "ZIV-645T",
       "brand": "Amica",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6951,7 +7066,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6960,7 +7075,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     },
     {
@@ -6970,81 +7085,106 @@ window.PRODUCT_LIST_UPDATES = {
         "110V",
         "Auto Open"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "Unmapped"
     }
   ],
   "newCandidates": [
     {
+      "sku": "SMI4ECS0",
+      "brand": "Bosch",
+      "featureTags": [
+        "110V",
+        "Auto Open"
+      ],
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
+      "status": "New since baseline"
+    },
+    {
+      "sku": "SMI4ECS00X",
+      "brand": "Bosch",
+      "featureTags": [
+        "110V",
+        "Auto Open"
+      ],
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
+      "status": "New since baseline"
+    },
+    {
+      "sku": "SMV6ECX51E",
+      "brand": "Bosch",
+      "featureTags": [],
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
+      "status": "New since baseline"
+    },
+    {
       "sku": "SPS2IKI06",
       "brand": "Bosch",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "New since baseline"
     },
     {
       "sku": "DBI233IB.S.TW",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "New since baseline"
     },
     {
       "sku": "DBI644MIB.W",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "New since baseline"
     },
     {
       "sku": "DBI644MIB.W.TW",
       "brand": "Asko",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "New since baseline"
     },
     {
       "sku": "DFS233I",
       "brand": "Asko",
-      "featureTags": [
-        "110V"
-      ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "featureTags": [],
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "New since baseline"
     },
     {
       "sku": "G5214CSC",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "New since baseline"
     },
     {
       "sku": "G5314CSCI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "New since baseline"
     },
     {
       "sku": "G7114CSCI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "New since baseline"
     },
     {
       "sku": "G7604CSCI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "New since baseline"
     },
     {
       "sku": "G7714CSCI",
       "brand": "Miele",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "New since baseline"
     },
     {
@@ -7053,7 +7193,7 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "110V"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "New since baseline"
     },
     {
@@ -7062,49 +7202,49 @@ window.PRODUCT_LIST_UPDATES = {
       "featureTags": [
         "220V"
       ],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "New since baseline"
     },
     {
       "sku": "KEE47200LW",
       "brand": "Electrolux",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "New since baseline"
     },
     {
       "sku": "NP-DXK1",
       "brand": "Panasonic",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "New since baseline"
     },
     {
       "sku": "NP-FKAKGJ",
       "brand": "Panasonic",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "New since baseline"
     },
     {
       "sku": "NP-TH4WHR1TW-D",
       "brand": "Panasonic",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "New since baseline"
     },
     {
       "sku": "NP-TML1",
       "brand": "Panasonic",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "New since baseline"
     },
     {
       "sku": "NP-TZ500",
       "brand": "Panasonic",
       "featureTags": [],
-      "firstDetectedAt": "2026-09-10T02:00:04.109Z",
+      "firstDetectedAt": "2026-09-11T02:00:05.911Z",
       "status": "New since baseline"
     }
   ]
