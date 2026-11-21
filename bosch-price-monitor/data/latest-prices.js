@@ -1,6 +1,6 @@
 window.PRICE_UPDATES = {
-  "generatedAt": "2026-11-20T02:00:04.060Z",
-  "itemCount": 196,
+  "generatedAt": "2026-11-21T02:00:04.225Z",
+  "itemCount": 195,
   "items": [
     {
       "sku": "SMS8ZCI00X",
@@ -13,14 +13,14 @@ window.PRICE_UPDATES = {
         "min": 42800,
         "max": 85000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "source": "bosch-home-shop",
         "sourceUrl": "https://www.bosch-home-shop.com.tw/products/sms8zci00x",
         "status": "Fetch failed",
         "httpStatus": 404,
-        "checkedAt": "2026-11-20T02:00:04.060Z"
+        "checkedAt": "2026-11-21T02:00:04.225Z"
       },
       "sourceCount": 2,
       "allResults": [
@@ -35,15 +35,16 @@ window.PRICE_UPDATES = {
             47500,
             49980,
             55800,
-            58300,
             65900,
             66200,
+            66900,
             70900,
             72000,
             72900,
+            79050,
             85000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -59,14 +60,14 @@ window.PRICE_UPDATES = {
             69000,
             69999,
             70900,
+            71400,
             72000,
-            72500,
             72900,
             76500,
             79050,
             85000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -83,7 +84,7 @@ window.PRICE_UPDATES = {
         "min": 36123,
         "max": 83900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "rsp": 75000,
@@ -95,7 +96,7 @@ window.PRICE_UPDATES = {
           "field": "default-compare-price",
           "rawText": "NT$75,000"
         },
-        "checkedAt": "2026-11-20T02:00:04.060Z",
+        "checkedAt": "2026-11-21T02:00:04.225Z",
         "confidence": "high"
       },
       "sourceCount": 2,
@@ -109,39 +110,41 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             36123,
             36400,
-            36900,
+            37400,
             37800,
             41000,
             42800,
             47500,
             49980,
             53000,
+            53900,
+            54000,
             55800,
             55900,
             57600,
             57900,
             58000,
-            58300,
             58842,
-            58911,
-            58968,
             59500,
             60000,
-            64900,
+            60357,
+            65520,
+            66900,
             72800,
             83900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "SMS6ZCW00X",
           "url": "https://feebee.com.tw/s/SMS6ZCW00X/",
-          "price": 55800,
-          "minPrice": 55800,
+          "price": 53000,
+          "minPrice": 53000,
           "maxPrice": 83900,
           "priceCandidates": [
+            53000,
             55800,
             55900,
             57600,
@@ -149,7 +152,6 @@ window.PRICE_UPDATES = {
             58200,
             58500,
             58842,
-            58968,
             59000,
             59500,
             60000,
@@ -158,7 +160,7 @@ window.PRICE_UPDATES = {
             72800,
             83900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -170,12 +172,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/SMS6HAW00X/",
       "price": 25599,
       "minPrice": 25599,
-      "maxPrice": 58300,
+      "maxPrice": 66900,
       "priceRange": {
         "min": 25599,
-        "max": 58300
+        "max": 66900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "rsp": 56000,
@@ -187,7 +189,7 @@ window.PRICE_UPDATES = {
           "field": "default-compare-price",
           "rawText": "NT$56,000"
         },
-        "checkedAt": "2026-11-20T02:00:04.060Z",
+        "checkedAt": "2026-11-21T02:00:04.225Z",
         "confidence": "high"
       },
       "sourceCount": 2,
@@ -197,19 +199,20 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/SMS6HAW00X/",
           "price": 25599,
           "minPrice": 25599,
-          "maxPrice": 58300,
+          "maxPrice": 66900,
           "priceCandidates": [
             25599,
+            30300,
             33600,
-            33800,
             36123,
             36400,
-            36900,
+            37400,
             37800,
             37900,
             39000,
             40900,
             41000,
+            41850,
             42000,
             42800,
             44800,
@@ -220,25 +223,27 @@ window.PRICE_UPDATES = {
             53800,
             54900,
             55800,
-            58300
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "SMS6HAW00X",
           "url": "https://feebee.com.tw/s/SMS6HAW00X/",
-          "price": 40900,
-          "minPrice": 40900,
+          "price": 37900,
+          "minPrice": 37900,
           "maxPrice": 54900,
           "priceCandidates": [
+            37900,
+            39000,
             40900,
             41000,
             41850,
             42000,
             42500,
-            43578,
+            43500,
             43650,
             44800,
             45000,
@@ -246,7 +251,7 @@ window.PRICE_UPDATES = {
             53800,
             54900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -258,12 +263,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/SMS6HAW10X/",
       "price": 25599,
       "minPrice": 25599,
-      "maxPrice": 63900,
+      "maxPrice": 66900,
       "priceRange": {
         "min": 25599,
-        "max": 63900
+        "max": 66900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "rsp": 52000,
@@ -275,7 +280,7 @@ window.PRICE_UPDATES = {
           "field": "default-compare-price",
           "rawText": "NT$52,000"
         },
-        "checkedAt": "2026-11-20T02:00:04.060Z",
+        "checkedAt": "2026-11-21T02:00:04.225Z",
         "confidence": "high"
       },
       "sourceCount": 2,
@@ -285,32 +290,33 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/SMS6HAW10X/",
           "price": 25599,
           "minPrice": 25599,
-          "maxPrice": 63900,
+          "maxPrice": 66900,
           "priceCandidates": [
             25599,
+            30300,
             33600,
-            33800,
             35000,
-            36123,
             36400,
-            36900,
+            37400,
             37800,
             38900,
             39000,
             39500,
+            39678,
+            40500,
+            41000,
             41500,
             42800,
             45000,
             47500,
-            48000,
             49800,
             49889,
             49980,
             55800,
-            58300,
-            63900
+            63900,
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -325,17 +331,20 @@ window.PRICE_UPDATES = {
             36000,
             38900,
             39000,
+            39678,
+            40000,
             41500,
             42900,
             45000,
             45505,
+            46000,
             48000,
             49800,
             51800,
             52000,
             63900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -344,15 +353,15 @@ window.PRICE_UPDATES = {
     {
       "sku": "SMS6ECW01X",
       "brand": "Bosch",
-      "url": "https://biggo.com.tw/s/SMS6ECW01X/",
-      "price": 44980,
-      "minPrice": 44980,
+      "url": "https://feebee.com.tw/s/SMS6ECW01X/",
+      "price": 43480,
+      "minPrice": 43480,
       "maxPrice": 70200,
       "priceRange": {
-        "min": 44980,
+        "min": 43480,
         "max": 70200
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "rsp": null,
@@ -364,7 +373,7 @@ window.PRICE_UPDATES = {
           "field": "default-price",
           "rawText": "NT$59,500"
         },
-        "checkedAt": "2026-11-20T02:00:04.060Z",
+        "checkedAt": "2026-11-21T02:00:04.225Z",
         "confidence": "medium"
       },
       "sourceCount": 2,
@@ -374,7 +383,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/SMS6ECW01X/",
           "price": 44980,
           "minPrice": 44980,
-          "maxPrice": 54900,
+          "maxPrice": 61800,
           "priceCandidates": [
             44980,
             45129,
@@ -382,27 +391,28 @@ window.PRICE_UPDATES = {
             48508,
             48526,
             48575,
+            49410,
+            49801,
             49900,
             49980,
-            50000,
             50500,
             50575,
             52360,
-            53550,
-            54900
+            54900,
+            61800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "SMS6ECW01X",
           "url": "https://feebee.com.tw/s/SMS6ECW01X/",
-          "price": 44980,
-          "minPrice": 44980,
+          "price": 43480,
+          "minPrice": 43480,
           "maxPrice": 70200,
           "priceCandidates": [
-            44980,
+            43480,
             45000,
             45129,
             46100,
@@ -410,6 +420,7 @@ window.PRICE_UPDATES = {
             48300,
             48508,
             48526,
+            49100,
             49801,
             49900,
             49980,
@@ -420,7 +431,7 @@ window.PRICE_UPDATES = {
             54900,
             70200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -437,7 +448,7 @@ window.PRICE_UPDATES = {
         "min": 37300,
         "max": 49500
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "rsp": null,
@@ -449,7 +460,7 @@ window.PRICE_UPDATES = {
           "field": "default-price",
           "rawText": "NT$49,500"
         },
-        "checkedAt": "2026-11-20T02:00:04.060Z",
+        "checkedAt": "2026-11-21T02:00:04.225Z",
         "confidence": "medium"
       },
       "sourceCount": 2,
@@ -464,18 +475,20 @@ window.PRICE_UPDATES = {
             38667,
             38940,
             40075,
+            40095,
             41085,
             41483,
             41578,
-            41900,
             42000,
             42075,
+            42500,
             43560,
             44500,
             44550,
+            45550,
             49500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -490,6 +503,8 @@ window.PRICE_UPDATES = {
             38667,
             38940,
             39500,
+            39585,
+            41000,
             41085,
             41578,
             42000,
@@ -500,7 +515,7 @@ window.PRICE_UPDATES = {
             44550,
             49500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -512,12 +527,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/SMS4ITW00X/",
       "price": 25599,
       "minPrice": 25599,
-      "maxPrice": 58300,
+      "maxPrice": 66900,
       "priceRange": {
         "min": 25599,
-        "max": 58300
+        "max": 66900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "rsp": 52000,
@@ -529,7 +544,7 @@ window.PRICE_UPDATES = {
           "field": "default-compare-price",
           "rawText": "NT$52,000"
         },
-        "checkedAt": "2026-11-20T02:00:04.060Z",
+        "checkedAt": "2026-11-21T02:00:04.225Z",
         "confidence": "high"
       },
       "sourceCount": 2,
@@ -539,20 +554,20 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/SMS4ITW00X/",
           "price": 25599,
           "minPrice": 25599,
-          "maxPrice": 58300,
+          "maxPrice": 66900,
           "priceCandidates": [
             25599,
             30000,
+            30300,
             33600,
-            33800,
             33999,
             34099,
-            36123,
             36400,
             36800,
-            36900,
+            37400,
             37800,
             39624,
+            41000,
             41500,
             42800,
             46800,
@@ -561,9 +576,9 @@ window.PRICE_UPDATES = {
             49800,
             49980,
             55800,
-            58300
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -576,7 +591,6 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             33999,
             34099,
-            39624,
             41500,
             41700,
             46000,
@@ -585,7 +599,7 @@ window.PRICE_UPDATES = {
             49800,
             52000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -597,12 +611,12 @@ window.PRICE_UPDATES = {
       "url": "https://feebee.com.tw/s/SMS4HAW00X/",
       "price": 22900,
       "minPrice": 22900,
-      "maxPrice": 58300,
+      "maxPrice": 66900,
       "priceRange": {
         "min": 22900,
-        "max": 58300
+        "max": 66900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "rsp": 47000,
@@ -614,7 +628,7 @@ window.PRICE_UPDATES = {
           "field": "default-compare-price",
           "rawText": "NT$47,000"
         },
-        "checkedAt": "2026-11-20T02:00:04.060Z",
+        "checkedAt": "2026-11-21T02:00:04.225Z",
         "confidence": "high"
       },
       "sourceCount": 2,
@@ -624,33 +638,34 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/SMS4HAW00X/",
           "price": 24900,
           "minPrice": 24900,
-          "maxPrice": 58300,
+          "maxPrice": 66900,
           "priceCandidates": [
             24900,
             25599,
+            25900,
             28500,
+            30300,
             33000,
             33500,
             33600,
-            33800,
             34900,
             35000,
-            36123,
             36400,
-            36900,
             37310,
+            37400,
             37500,
             37600,
-            37700,
             37800,
+            39900,
+            41000,
             42800,
             45500,
             47500,
             49980,
             55800,
-            58300
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -662,7 +677,6 @@ window.PRICE_UPDATES = {
           "maxPrice": 47000,
           "priceCandidates": [
             22900,
-            24900,
             26900,
             31900,
             32900,
@@ -670,6 +684,7 @@ window.PRICE_UPDATES = {
             34700,
             34900,
             35000,
+            36000,
             37310,
             37500,
             37600,
@@ -680,7 +695,7 @@ window.PRICE_UPDATES = {
             45500,
             47000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -692,19 +707,19 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/SMS2ITI06X/",
       "price": 23900,
       "minPrice": 23900,
-      "maxPrice": 58300,
+      "maxPrice": 66900,
       "priceRange": {
         "min": 23900,
-        "max": 58300
+        "max": 66900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "source": "bosch-home-shop",
         "sourceUrl": "https://www.bosch-home-shop.com.tw/products/sms2iti06x",
         "status": "Fetch failed",
         "httpStatus": 404,
-        "checkedAt": "2026-11-20T02:00:04.060Z"
+        "checkedAt": "2026-11-21T02:00:04.225Z"
       },
       "sourceCount": 2,
       "allResults": [
@@ -713,51 +728,49 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/SMS2ITI06X/",
           "price": 23900,
           "minPrice": 23900,
-          "maxPrice": 58300,
+          "maxPrice": 66900,
           "priceCandidates": [
             23900,
             24900,
             25599,
             26900,
             29900,
+            30300,
             30900,
-            31410,
             33600,
-            33800,
             34900,
             36000,
-            36123,
             36400,
-            36900,
+            37400,
             37800,
             39900,
             39960,
             40000,
+            41000,
             42800,
             44400,
             45740,
             47500,
             49980,
             55800,
-            58300
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "SMS2ITI06X",
           "url": "https://feebee.com.tw/s/SMS2ITI06X/",
-          "price": 24900,
-          "minPrice": 24900,
+          "price": 23900,
+          "minPrice": 23900,
           "maxPrice": 44400,
           "priceCandidates": [
+            23900,
             24900,
             26900,
             30900,
-            31410,
-            35500,
-            36000,
+            34900,
             38200,
             39800,
             39900,
@@ -765,7 +778,7 @@ window.PRICE_UPDATES = {
             40000,
             44400
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -777,12 +790,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/SMV8ZCX00X/",
       "price": 55800,
       "minPrice": 55800,
-      "maxPrice": 90000,
+      "maxPrice": 99000,
       "priceRange": {
         "min": 55800,
-        "max": 90000
+        "max": 99000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "rsp": 99000,
@@ -794,7 +807,7 @@ window.PRICE_UPDATES = {
           "field": "default-compare-price",
           "rawText": "NT$99,000"
         },
-        "checkedAt": "2026-11-20T02:00:04.060Z",
+        "checkedAt": "2026-11-21T02:00:04.225Z",
         "confidence": "high"
       },
       "sourceCount": 2,
@@ -804,26 +817,26 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/SMV8ZCX00X/",
           "price": 55800,
           "minPrice": 55800,
-          "maxPrice": 90000,
+          "maxPrice": 99000,
           "priceCandidates": [
             55800,
-            58300,
             66900,
             70900,
+            78585,
             79200,
             79300,
             81180,
             83180,
             83500,
-            83900,
             84500,
             85000,
             86300,
             87000,
             89100,
-            90000
+            90000,
+            99000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -839,6 +852,8 @@ window.PRICE_UPDATES = {
             70900,
             78300,
             78585,
+            79300,
+            79680,
             80500,
             81180,
             81900,
@@ -852,7 +867,7 @@ window.PRICE_UPDATES = {
             89100,
             90000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -862,14 +877,14 @@ window.PRICE_UPDATES = {
       "sku": "SMV6YCX05E",
       "brand": "Bosch",
       "url": "https://biggo.com.tw/s/SMV6YCX05E/",
-      "price": 42800,
-      "minPrice": 42800,
+      "price": 41000,
+      "minPrice": 41000,
       "maxPrice": 81000,
       "priceRange": {
-        "min": 42800,
+        "min": 41000,
         "max": 81000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "rsp": 81000,
@@ -881,7 +896,7 @@ window.PRICE_UPDATES = {
           "field": "default-compare-price",
           "rawText": "NT$81,000"
         },
-        "checkedAt": "2026-11-20T02:00:04.060Z",
+        "checkedAt": "2026-11-21T02:00:04.225Z",
         "confidence": "high"
       },
       "sourceCount": 2,
@@ -889,26 +904,28 @@ window.PRICE_UPDATES = {
         {
           "sku": "SMV6YCX05E",
           "url": "https://biggo.com.tw/s/SMV6YCX05E/",
-          "price": 42800,
-          "minPrice": 42800,
+          "price": 41000,
+          "minPrice": 41000,
           "maxPrice": 81000,
           "priceCandidates": [
+            41000,
             42800,
             47500,
             49980,
             55800,
-            58300,
             64800,
             66000,
+            66900,
             68000,
             69000,
+            69400,
             71070,
             72900,
             74100,
             78000,
             81000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -920,20 +937,18 @@ window.PRICE_UPDATES = {
           "maxPrice": 81000,
           "priceCandidates": [
             64000,
-            66000,
+            64500,
             66851,
             68000,
             68600,
             68990,
             69000,
-            69400,
             69999,
-            71070,
             72900,
             78000,
             81000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -950,7 +965,7 @@ window.PRICE_UPDATES = {
         "min": 37800,
         "max": 86300
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "rsp": 72800,
@@ -962,7 +977,7 @@ window.PRICE_UPDATES = {
           "field": "default-compare-price",
           "rawText": "NT$72,800"
         },
-        "checkedAt": "2026-11-20T02:00:04.060Z",
+        "checkedAt": "2026-11-21T02:00:04.225Z",
         "confidence": "high"
       },
       "sourceCount": 2,
@@ -980,21 +995,24 @@ window.PRICE_UPDATES = {
             47500,
             49980,
             55800,
-            57200,
-            58300,
+            55911,
+            57660,
+            58700,
             59000,
+            59700,
             61000,
             62000,
             63000,
             63450,
             65520,
+            66900,
             67000,
             70500,
             72500,
             72800,
             86300
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1011,8 +1029,10 @@ window.PRICE_UPDATES = {
             57660,
             58000,
             59000,
+            59700,
             60140,
             60342,
+            60500,
             60800,
             61000,
             61500,
@@ -1025,7 +1045,7 @@ window.PRICE_UPDATES = {
             72800,
             75000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1037,40 +1057,40 @@ window.PRICE_UPDATES = {
       "url": "https://feebee.com.tw/s/SMV4HAX00X/",
       "price": 28800,
       "minPrice": 28800,
-      "maxPrice": 58300,
+      "maxPrice": 66900,
       "priceRange": {
         "min": 28800,
-        "max": 58300
+        "max": 66900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "source": "bosch-home-shop",
         "sourceUrl": "https://www.bosch-home-shop.com.tw/products/smv4hax00x",
         "status": "Fetch failed",
         "httpStatus": 404,
-        "checkedAt": "2026-11-20T02:00:04.060Z"
+        "checkedAt": "2026-11-21T02:00:04.225Z"
       },
       "sourceCount": 2,
       "allResults": [
         {
           "sku": "SMV4HAX00X",
           "url": "https://biggo.com.tw/s/SMV4HAX00X/",
-          "price": 33600,
-          "minPrice": 33600,
-          "maxPrice": 58300,
+          "price": 30300,
+          "minPrice": 30300,
+          "maxPrice": 66900,
           "priceCandidates": [
+            30300,
             33600,
-            33800,
-            36123,
             36400,
-            36900,
             37200,
+            37400,
             37800,
             39100,
             39350,
             39500,
             39800,
+            41000,
             41300,
             41500,
             42500,
@@ -1084,9 +1104,9 @@ window.PRICE_UPDATES = {
             49980,
             50400,
             55800,
-            58300
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1111,7 +1131,7 @@ window.PRICE_UPDATES = {
             47800,
             49800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1121,14 +1141,14 @@ window.PRICE_UPDATES = {
       "sku": "SPV4IMX00X",
       "brand": "Bosch",
       "url": "https://biggo.com.tw/s/SPV4IMX00X/",
-      "price": 33600,
-      "minPrice": 33600,
-      "maxPrice": 58300,
+      "price": 30300,
+      "minPrice": 30300,
+      "maxPrice": 66900,
       "priceRange": {
-        "min": 33600,
-        "max": 58300
+        "min": 30300,
+        "max": 66900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "rsp": 52000,
@@ -1140,7 +1160,7 @@ window.PRICE_UPDATES = {
           "field": "default-compare-price",
           "rawText": "NT$52,000"
         },
-        "checkedAt": "2026-11-20T02:00:04.060Z",
+        "checkedAt": "2026-11-21T02:00:04.225Z",
         "confidence": "high"
       },
       "sourceCount": 2,
@@ -1148,15 +1168,15 @@ window.PRICE_UPDATES = {
         {
           "sku": "SPV4IMX00X",
           "url": "https://biggo.com.tw/s/SPV4IMX00X/",
-          "price": 33600,
-          "minPrice": 33600,
-          "maxPrice": 58300,
+          "price": 30300,
+          "minPrice": 30300,
+          "maxPrice": 66900,
           "priceCandidates": [
+            30300,
             33600,
-            33800,
             36123,
             36400,
-            36900,
+            37400,
             37800,
             37900,
             40500,
@@ -1166,6 +1186,7 @@ window.PRICE_UPDATES = {
             43900,
             44000,
             45500,
+            46100,
             46800,
             47500,
             48200,
@@ -1173,9 +1194,9 @@ window.PRICE_UPDATES = {
             49980,
             52000,
             55800,
-            58300
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1190,6 +1211,7 @@ window.PRICE_UPDATES = {
             39900,
             40500,
             41600,
+            42500,
             43900,
             44000,
             44200,
@@ -1202,7 +1224,7 @@ window.PRICE_UPDATES = {
             48500,
             52000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1214,12 +1236,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/SMV2ITX00X/",
       "price": 25599,
       "minPrice": 25599,
-      "maxPrice": 58300,
+      "maxPrice": 66900,
       "priceRange": {
         "min": 25599,
-        "max": 58300
+        "max": 66900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "rsp": 42800,
@@ -1231,7 +1253,7 @@ window.PRICE_UPDATES = {
           "field": "default-compare-price",
           "rawText": "NT$42,800"
         },
-        "checkedAt": "2026-11-20T02:00:04.060Z",
+        "checkedAt": "2026-11-21T02:00:04.225Z",
         "confidence": "high"
       },
       "sourceCount": 2,
@@ -1241,18 +1263,18 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/SMV2ITX00X/",
           "price": 25599,
           "minPrice": 25599,
-          "maxPrice": 58300,
+          "maxPrice": 66900,
           "priceCandidates": [
             25599,
+            30300,
             33600,
             33800,
             34200,
             36000,
-            36123,
             36400,
             36500,
-            36900,
             37080,
+            37400,
             37500,
             37800,
             38000,
@@ -1264,9 +1286,9 @@ window.PRICE_UPDATES = {
             47500,
             49980,
             55800,
-            58300
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1280,6 +1302,7 @@ window.PRICE_UPDATES = {
             33400,
             33600,
             34200,
+            34500,
             36000,
             36500,
             36800,
@@ -1291,7 +1314,7 @@ window.PRICE_UPDATES = {
             38520,
             42800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1303,12 +1326,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/SPV2IKX00X/",
       "price": 25599,
       "minPrice": 25599,
-      "maxPrice": 58300,
+      "maxPrice": 66900,
       "priceRange": {
         "min": 25599,
-        "max": 58300
+        "max": 66900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "rsp": 46800,
@@ -1320,7 +1343,7 @@ window.PRICE_UPDATES = {
           "field": "default-compare-price",
           "rawText": "NT$46,800"
         },
-        "checkedAt": "2026-11-20T02:00:04.060Z",
+        "checkedAt": "2026-11-21T02:00:04.225Z",
         "confidence": "high"
       },
       "sourceCount": 2,
@@ -1330,20 +1353,20 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/SPV2IKX00X/",
           "price": 25599,
           "minPrice": 25599,
-          "maxPrice": 58300,
+          "maxPrice": 66900,
           "priceCandidates": [
             25599,
             30000,
+            30300,
             33600,
-            33800,
             36123,
             36400,
-            36900,
             37400,
             37800,
             37900,
             40000,
             40600,
+            41000,
             41200,
             42120,
             42800,
@@ -1356,9 +1379,9 @@ window.PRICE_UPDATES = {
             47500,
             49980,
             55800,
-            58300
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1372,6 +1395,7 @@ window.PRICE_UPDATES = {
             37000,
             37400,
             37900,
+            38500,
             40000,
             40815,
             41000,
@@ -1386,7 +1410,7 @@ window.PRICE_UPDATES = {
             46500,
             46800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1398,12 +1422,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/SMI6HAS00X/",
       "price": 33600,
       "minPrice": 33600,
-      "maxPrice": 58900,
+      "maxPrice": 66900,
       "priceRange": {
         "min": 33600,
-        "max": 58900
+        "max": 66900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "rsp": 58900,
@@ -1415,7 +1439,7 @@ window.PRICE_UPDATES = {
           "field": "default-compare-price",
           "rawText": "NT$58,900"
         },
-        "checkedAt": "2026-11-20T02:00:04.060Z",
+        "checkedAt": "2026-11-21T02:00:04.225Z",
         "confidence": "high"
       },
       "sourceCount": 2,
@@ -1425,16 +1449,16 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/SMI6HAS00X/",
           "price": 33600,
           "minPrice": 33600,
-          "maxPrice": 58900,
+          "maxPrice": 66900,
           "priceCandidates": [
             33600,
             33800,
-            36123,
             36400,
-            36900,
+            37400,
             37800,
             38600,
             38900,
+            41000,
             42800,
             43800,
             45000,
@@ -1442,6 +1466,8 @@ window.PRICE_UPDATES = {
             45450,
             45650,
             45700,
+            46500,
+            46800,
             47000,
             47500,
             48500,
@@ -1449,13 +1475,12 @@ window.PRICE_UPDATES = {
             49980,
             50000,
             51200,
-            54000,
             55620,
             55800,
-            58300,
-            58900
+            58900,
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1486,7 +1511,7 @@ window.PRICE_UPDATES = {
             55620,
             58900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1498,19 +1523,19 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/SMI4HAS00X/",
       "price": 25599,
       "minPrice": 25599,
-      "maxPrice": 58300,
+      "maxPrice": 66900,
       "priceRange": {
         "min": 25599,
-        "max": 58300
+        "max": 66900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "source": "bosch-home-shop",
         "sourceUrl": "https://www.bosch-home-shop.com.tw/products/smi4has00x",
         "status": "Fetch failed",
         "httpStatus": 404,
-        "checkedAt": "2026-11-20T02:00:04.060Z"
+        "checkedAt": "2026-11-21T02:00:04.225Z"
       },
       "sourceCount": 2,
       "allResults": [
@@ -1519,24 +1544,25 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/SMI4HAS00X/",
           "price": 25599,
           "minPrice": 25599,
-          "maxPrice": 58300,
+          "maxPrice": 66900,
           "priceCandidates": [
             25599,
+            30300,
             31100,
             31111,
             33600,
             33800,
-            36123,
             36400,
             36500,
             36800,
-            36900,
+            37400,
             37500,
             37800,
             38850,
             38900,
             39100,
             39900,
+            41000,
             41500,
             42800,
             44010,
@@ -1546,9 +1572,9 @@ window.PRICE_UPDATES = {
             49980,
             51200,
             55800,
-            58300
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1577,7 +1603,7 @@ window.PRICE_UPDATES = {
             46500,
             48900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1589,12 +1615,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/SMI2ITW00X/",
       "price": 25599,
       "minPrice": 25599,
-      "maxPrice": 58300,
+      "maxPrice": 66900,
       "priceRange": {
         "min": 25599,
-        "max": 58300
+        "max": 66900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "rsp": 42000,
@@ -1606,7 +1632,7 @@ window.PRICE_UPDATES = {
           "field": "default-compare-price",
           "rawText": "NT$42,000"
         },
-        "checkedAt": "2026-11-20T02:00:04.060Z",
+        "checkedAt": "2026-11-21T02:00:04.225Z",
         "confidence": "high"
       },
       "sourceCount": 2,
@@ -1616,17 +1642,19 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/SMI2ITW00X/",
           "price": 25599,
           "minPrice": 25599,
-          "maxPrice": 58300,
+          "maxPrice": 66900,
           "priceCandidates": [
             25599,
+            30300,
             33600,
             33800,
+            35800,
             35900,
             36123,
             36400,
             36500,
-            36900,
             36980,
+            37400,
             37800,
             38200,
             38475,
@@ -1640,9 +1668,9 @@ window.PRICE_UPDATES = {
             47500,
             49980,
             55800,
-            58300
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1654,14 +1682,15 @@ window.PRICE_UPDATES = {
           "maxPrice": 42000,
           "priceCandidates": [
             33500,
+            34400,
             35900,
             36000,
+            36450,
             36500,
             36699,
             36980,
             37800,
             38200,
-            38280,
             38475,
             38500,
             39600,
@@ -1669,7 +1698,7 @@ window.PRICE_UPDATES = {
             41600,
             42000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1686,7 +1715,7 @@ window.PRICE_UPDATES = {
         "min": 92000,
         "max": 92000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -1698,7 +1727,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -1711,7 +1740,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             92000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1728,7 +1757,7 @@ window.PRICE_UPDATES = {
         "min": 88000,
         "max": 88000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -1740,7 +1769,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -1753,7 +1782,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             88000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1770,7 +1799,7 @@ window.PRICE_UPDATES = {
         "min": 52799,
         "max": 110000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -1798,7 +1827,7 @@ window.PRICE_UPDATES = {
             84000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1817,7 +1846,7 @@ window.PRICE_UPDATES = {
             88000,
             92400
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1834,7 +1863,7 @@ window.PRICE_UPDATES = {
         "min": 52799,
         "max": 110000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -1862,7 +1891,7 @@ window.PRICE_UPDATES = {
             84000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1881,7 +1910,7 @@ window.PRICE_UPDATES = {
             84000,
             88200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1898,7 +1927,7 @@ window.PRICE_UPDATES = {
         "min": 110000,
         "max": 122570
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -1915,7 +1944,7 @@ window.PRICE_UPDATES = {
             119000,
             122570
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1931,7 +1960,7 @@ window.PRICE_UPDATES = {
             119000,
             122570
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1948,7 +1977,7 @@ window.PRICE_UPDATES = {
         "min": 52000,
         "max": 64000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -1962,7 +1991,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             63000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -1980,7 +2009,7 @@ window.PRICE_UPDATES = {
             63000,
             64000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -1997,7 +2026,7 @@ window.PRICE_UPDATES = {
         "min": 46900,
         "max": 92000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -2025,7 +2054,7 @@ window.PRICE_UPDATES = {
             86000,
             92000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2044,7 +2073,7 @@ window.PRICE_UPDATES = {
             79500,
             80300
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2061,7 +2090,7 @@ window.PRICE_UPDATES = {
         "min": 145000,
         "max": 145000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -2075,7 +2104,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             145000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2088,7 +2117,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             145000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2105,7 +2134,7 @@ window.PRICE_UPDATES = {
         "min": 122400,
         "max": 135000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -2121,7 +2150,7 @@ window.PRICE_UPDATES = {
             132100,
             135000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2137,7 +2166,7 @@ window.PRICE_UPDATES = {
             132100,
             135000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2154,7 +2183,7 @@ window.PRICE_UPDATES = {
         "min": 94300,
         "max": 104000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -2168,7 +2197,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             98000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2184,7 +2213,7 @@ window.PRICE_UPDATES = {
             100880,
             104000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2201,7 +2230,7 @@ window.PRICE_UPDATES = {
         "min": 33999,
         "max": 82800
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -2232,7 +2261,7 @@ window.PRICE_UPDATES = {
             68200,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2252,7 +2281,7 @@ window.PRICE_UPDATES = {
             62000,
             68200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2269,7 +2298,7 @@ window.PRICE_UPDATES = {
         "min": 33999,
         "max": 82800
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -2303,7 +2332,7 @@ window.PRICE_UPDATES = {
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2324,7 +2353,7 @@ window.PRICE_UPDATES = {
             51480,
             52000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2334,14 +2363,14 @@ window.PRICE_UPDATES = {
       "sku": "KSE27200SW",
       "brand": "Electrolux",
       "url": "https://biggo.com.tw/s/KSE27200SW/",
-      "price": 19888,
-      "minPrice": 19888,
+      "price": 19900,
+      "minPrice": 19900,
       "maxPrice": 82800,
       "priceRange": {
-        "min": 19888,
+        "min": 19900,
         "max": 82800
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -2349,11 +2378,10 @@ window.PRICE_UPDATES = {
         {
           "sku": "KSE27200SW",
           "url": "https://biggo.com.tw/s/KSE27200SW/",
-          "price": 19888,
-          "minPrice": 19888,
+          "price": 19900,
+          "minPrice": 19900,
           "maxPrice": 82800,
           "priceCandidates": [
-            19888,
             19900,
             21500,
             25010,
@@ -2376,7 +2404,7 @@ window.PRICE_UPDATES = {
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2399,7 +2427,7 @@ window.PRICE_UPDATES = {
             44900,
             49390
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2416,7 +2444,7 @@ window.PRICE_UPDATES = {
         "min": 25010,
         "max": 82800
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -2441,6 +2469,7 @@ window.PRICE_UPDATES = {
             47900,
             48355,
             49875,
+            49900,
             50900,
             52000,
             53790,
@@ -2450,7 +2479,7 @@ window.PRICE_UPDATES = {
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2469,7 +2498,7 @@ window.PRICE_UPDATES = {
             55990,
             62000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2486,7 +2515,7 @@ window.PRICE_UPDATES = {
         "min": 49900,
         "max": 101200
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -2506,7 +2535,7 @@ window.PRICE_UPDATES = {
             94760,
             101200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2523,7 +2552,7 @@ window.PRICE_UPDATES = {
             94760,
             101200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2540,7 +2569,7 @@ window.PRICE_UPDATES = {
         "min": 33999,
         "max": 82800
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -2566,7 +2595,7 @@ window.PRICE_UPDATES = {
             72000,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2581,7 +2610,7 @@ window.PRICE_UPDATES = {
             68000,
             72000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2591,14 +2620,14 @@ window.PRICE_UPDATES = {
       "sku": "KESB7200L",
       "brand": "Electrolux",
       "url": "https://biggo.com.tw/s/KESB7200L/",
-      "price": 19900,
-      "minPrice": 19900,
+      "price": 25010,
+      "minPrice": 25010,
       "maxPrice": 82800,
       "priceRange": {
-        "min": 19900,
+        "min": 25010,
         "max": 82800
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -2606,12 +2635,12 @@ window.PRICE_UPDATES = {
         {
           "sku": "KESB7200L",
           "url": "https://biggo.com.tw/s/KESB7200L/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 25010,
+          "minPrice": 25010,
           "maxPrice": 82800,
           "priceCandidates": [
-            19900,
             25010,
+            26800,
             26900,
             33999,
             34900,
@@ -2629,7 +2658,7 @@ window.PRICE_UPDATES = {
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2648,7 +2677,7 @@ window.PRICE_UPDATES = {
             46200,
             61750
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2665,7 +2694,7 @@ window.PRICE_UPDATES = {
         "min": 32310,
         "max": 49900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -2679,7 +2708,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             33600
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2699,9 +2728,10 @@ window.PRICE_UPDATES = {
             37905,
             38400,
             38599,
+            48400,
             49900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2718,7 +2748,7 @@ window.PRICE_UPDATES = {
         "min": 36000,
         "max": 42900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -2732,7 +2762,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             36000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2755,7 +2785,7 @@ window.PRICE_UPDATES = {
             42595,
             42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2772,7 +2802,7 @@ window.PRICE_UPDATES = {
         "min": 33600,
         "max": 55100
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -2803,7 +2833,7 @@ window.PRICE_UPDATES = {
             55000,
             55100
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2820,16 +2850,16 @@ window.PRICE_UPDATES = {
             45639,
             45710,
             45860,
-            46130,
             46455,
             46700,
             46710,
+            47587,
             48428,
             48450,
             53833,
             55000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2846,7 +2876,7 @@ window.PRICE_UPDATES = {
         "min": 19300,
         "max": 39900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -2864,40 +2894,39 @@ window.PRICE_UPDATES = {
             24300,
             26000,
             26730,
-            29088,
             31000,
             31910,
             32319,
             33396,
-            35500,
             35604,
             35815,
             35910,
             37905,
+            38088,
             39900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "VE7190",
           "url": "https://feebee.com.tw/s/VE7190/",
-          "price": 29088,
-          "minPrice": 29088,
+          "price": 31000,
+          "minPrice": 31000,
           "maxPrice": 39900,
           "priceCandidates": [
-            29088,
             31000,
             31910,
+            32319,
             33396,
-            34832,
+            34410,
             35910,
             37905,
             39033,
             39900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2909,12 +2938,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/VE7850/",
       "price": 19300,
       "minPrice": 19300,
-      "maxPrice": 35604,
+      "maxPrice": 38088,
       "priceRange": {
         "min": 19300,
-        "max": 35604
+        "max": 38088
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -2924,7 +2953,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/VE7850/",
           "price": 19300,
           "minPrice": 19300,
-          "maxPrice": 35604,
+          "maxPrice": 38088,
           "priceCandidates": [
             19300,
             19999,
@@ -2940,10 +2969,10 @@ window.PRICE_UPDATES = {
             31910,
             32400,
             33000,
-            35500,
-            35604
+            35604,
+            38088
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -2959,13 +2988,14 @@ window.PRICE_UPDATES = {
             21339,
             21999,
             24200,
+            26550,
             28050,
             29700,
             32000,
             32400,
             33000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -2974,15 +3004,15 @@ window.PRICE_UPDATES = {
     {
       "sku": "VE8565",
       "brand": "Svago",
-      "url": "https://feebee.com.tw/s/VE8565/",
-      "price": 24625,
-      "minPrice": 24625,
+      "url": "https://biggo.com.tw/s/VE8565/",
+      "price": 35500,
+      "minPrice": 35500,
       "maxPrice": 46000,
       "priceRange": {
-        "min": 24625,
+        "min": 35500,
         "max": 46000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -3003,21 +3033,19 @@ window.PRICE_UPDATES = {
             43700,
             46000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "VE8565",
           "url": "https://feebee.com.tw/s/VE8565/",
-          "price": 24625,
-          "minPrice": 24625,
-          "maxPrice": 24625,
-          "priceCandidates": [
-            24625
-          ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
-          "status": "Updated",
+          "price": null,
+          "minPrice": null,
+          "maxPrice": null,
+          "priceCandidates": [],
+          "checkedAt": "2026-11-21T02:00:04.225Z",
+          "status": "Price not found",
           "httpStatus": 200
         }
       ]
@@ -3028,12 +3056,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/E7881/",
       "price": 23085,
       "minPrice": 23085,
-      "maxPrice": 39500,
+      "maxPrice": 42900,
       "priceRange": {
         "min": 23085,
-        "max": 39500
+        "max": 42900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -3043,7 +3071,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/E7881/",
           "price": 23085,
           "minPrice": 23085,
-          "maxPrice": 39500,
+          "maxPrice": 42900,
           "priceCandidates": [
             23085,
             24300,
@@ -3056,27 +3084,27 @@ window.PRICE_UPDATES = {
             35500,
             35550,
             37300,
-            37800,
-            39500
+            39500,
+            42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "E7881",
           "url": "https://feebee.com.tw/s/E7881/",
-          "price": 30217,
-          "minPrice": 30217,
+          "price": 34050,
+          "minPrice": 34050,
           "maxPrice": 39500,
           "priceCandidates": [
-            30217,
+            34050,
             35500,
             35550,
             36700,
             39500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -3088,12 +3116,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/E7783/",
       "price": 19300,
       "minPrice": 19300,
-      "maxPrice": 37800,
+      "maxPrice": 42900,
       "priceRange": {
         "min": 19300,
-        "max": 37800
+        "max": 42900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -3103,7 +3131,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/E7783/",
           "price": 19300,
           "minPrice": 19300,
-          "maxPrice": 37800,
+          "maxPrice": 42900,
           "priceCandidates": [
             19300,
             19999,
@@ -3121,9 +3149,9 @@ window.PRICE_UPDATES = {
             31500,
             32495,
             35550,
-            37800
+            42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3138,13 +3166,12 @@ window.PRICE_UPDATES = {
             25515,
             27900,
             28350,
-            28550,
             31000,
             31500,
             32100,
             35550
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -3156,12 +3183,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/E7682/",
       "price": 19300,
       "minPrice": 19300,
-      "maxPrice": 37800,
+      "maxPrice": 42900,
       "priceRange": {
         "min": 19300,
-        "max": 37800
+        "max": 42900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -3171,7 +3198,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/E7682/",
           "price": 19300,
           "minPrice": 19300,
-          "maxPrice": 37800,
+          "maxPrice": 42900,
           "priceCandidates": [
             19300,
             19999,
@@ -3187,9 +3214,9 @@ window.PRICE_UPDATES = {
             25900,
             26706,
             30217,
-            37800
+            42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3208,7 +3235,7 @@ window.PRICE_UPDATES = {
             25900,
             26600
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -3225,7 +3252,7 @@ window.PRICE_UPDATES = {
         "min": 45000,
         "max": 59000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -3246,7 +3273,7 @@ window.PRICE_UPDATES = {
             54900,
             59000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3264,12 +3291,11 @@ window.PRICE_UPDATES = {
             48380,
             50150,
             51300,
-            51507,
             53100,
             54700,
             59000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -3286,7 +3312,7 @@ window.PRICE_UPDATES = {
         "min": 30000,
         "max": 42000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -3308,7 +3334,7 @@ window.PRICE_UPDATES = {
             39600,
             42000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3325,13 +3351,12 @@ window.PRICE_UPDATES = {
             34020,
             35700,
             36500,
-            36666,
             37800,
             38000,
             38940,
             42000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -3348,7 +3373,7 @@ window.PRICE_UPDATES = {
         "min": 21000,
         "max": 32000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -3370,7 +3395,7 @@ window.PRICE_UPDATES = {
             30300,
             32000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3385,14 +3410,12 @@ window.PRICE_UPDATES = {
             25920,
             27200,
             27360,
-            27800,
-            27936,
             28800,
             29000,
             29670,
             32000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -3409,7 +3432,7 @@ window.PRICE_UPDATES = {
         "min": 36900,
         "max": 42230
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -3425,7 +3448,7 @@ window.PRICE_UPDATES = {
             41000,
             42230
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3440,7 +3463,7 @@ window.PRICE_UPDATES = {
             41000,
             42230
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -3452,12 +3475,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/DFI%2076950/",
       "price": 30600,
       "minPrice": 30600,
-      "maxPrice": 107000,
+      "maxPrice": 55000,
       "priceRange": {
         "min": 30600,
-        "max": 107000
+        "max": 55000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -3467,7 +3490,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/DFI%2076950/",
           "price": 30600,
           "minPrice": 30600,
-          "maxPrice": 107000,
+          "maxPrice": 55000,
           "priceCandidates": [
             30600,
             33480,
@@ -3481,11 +3504,9 @@ window.PRICE_UPDATES = {
             46800,
             49400,
             52000,
-            55000,
-            84000,
-            107000
+            55000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3507,7 +3528,7 @@ window.PRICE_UPDATES = {
             49400,
             52000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -3519,12 +3540,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/DW8%2057%20SI/",
       "price": 30600,
       "minPrice": 30600,
-      "maxPrice": 107000,
+      "maxPrice": 57680,
       "priceRange": {
         "min": 30600,
-        "max": 107000
+        "max": 57680
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -3534,7 +3555,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/DW8%2057%20SI/",
           "price": 30600,
           "minPrice": 30600,
-          "maxPrice": 107000,
+          "maxPrice": 57680,
           "priceCandidates": [
             30600,
             33600,
@@ -3546,11 +3567,9 @@ window.PRICE_UPDATES = {
             50400,
             53200,
             56000,
-            57680,
-            84000,
-            107000
+            57680
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3562,12 +3581,13 @@ window.PRICE_UPDATES = {
           "maxPrice": 57680,
           "priceCandidates": [
             42000,
+            48900,
             50400,
             53200,
             56000,
             57680
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -3579,12 +3599,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/DFB335HS/",
       "price": 33999,
       "minPrice": 33999,
-      "maxPrice": 107000,
+      "maxPrice": 69900,
       "priceRange": {
         "min": 33999,
-        "max": 107000
+        "max": 69900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -3594,7 +3614,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/DFB335HS/",
           "price": 33999,
           "minPrice": 33999,
-          "maxPrice": 107000,
+          "maxPrice": 69900,
           "priceCandidates": [
             33999,
             37800,
@@ -3611,16 +3631,12 @@ window.PRICE_UPDATES = {
             54900,
             56900,
             60200,
-            62900,
             63555,
             66900,
             66966,
-            69900,
-            84000,
-            101700,
-            107000
+            69900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3640,15 +3656,15 @@ window.PRICE_UPDATES = {
             49900,
             51900,
             52962,
+            53212,
             54200,
             56900,
             58900,
             62900,
             63555,
-            64893,
             66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -3660,12 +3676,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/DFB335HE/",
       "price": 33999,
       "minPrice": 33999,
-      "maxPrice": 107000,
+      "maxPrice": 69900,
       "priceRange": {
         "min": 33999,
-        "max": 107000
+        "max": 69900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -3675,7 +3691,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/DFB335HE/",
           "price": 33999,
           "minPrice": 33999,
-          "maxPrice": 107000,
+          "maxPrice": 69900,
           "priceCandidates": [
             33999,
             37800,
@@ -3687,19 +3703,15 @@ window.PRICE_UPDATES = {
             49040,
             49900,
             51057,
-            51396,
             52900,
             56900,
             59900,
             65007,
             66405,
             66900,
-            69900,
-            84000,
-            101700,
-            107000
+            69900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3712,20 +3724,20 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             46900,
             47405,
-            49040,
             49900,
+            50000,
             51057,
             52900,
             53157,
+            53880,
             55678,
             56900,
             58778,
             65007,
             66405,
-            67803,
             69900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -3737,12 +3749,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/DFB435FP/",
       "price": 19300,
       "minPrice": 19300,
-      "maxPrice": 107000,
+      "maxPrice": 59900,
       "priceRange": {
         "min": 19300,
-        "max": 107000
+        "max": 59900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 3,
@@ -3752,12 +3764,14 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/DFB435FP/",
           "price": 19300,
           "minPrice": 19300,
-          "maxPrice": 107000,
+          "maxPrice": 59900,
           "priceCandidates": [
             19300,
             23085,
             25010,
             26706,
+            30217,
+            33600,
             33999,
             37800,
             39624,
@@ -3772,12 +3786,9 @@ window.PRICE_UPDATES = {
             52400,
             53900,
             57050,
-            59900,
-            84000,
-            101700,
-            107000
+            59900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3791,7 +3802,6 @@ window.PRICE_UPDATES = {
             33999,
             39624,
             39900,
-            44900,
             45500,
             46900,
             48000,
@@ -3805,7 +3815,7 @@ window.PRICE_UPDATES = {
             53910,
             59900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -3821,7 +3831,7 @@ window.PRICE_UPDATES = {
             33999,
             39999
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -3833,12 +3843,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/DFB533FW/",
       "price": 19300,
       "minPrice": 19300,
-      "maxPrice": 107000,
+      "maxPrice": 42900,
       "priceRange": {
         "min": 19300,
-        "max": 107000
+        "max": 42900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -3848,11 +3858,12 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/DFB533FW/",
           "price": 19300,
           "minPrice": 19300,
-          "maxPrice": 107000,
+          "maxPrice": 42900,
           "priceCandidates": [
             19300,
             20000,
             23085,
+            25010,
             26200,
             26706,
             27807,
@@ -3860,6 +3871,7 @@ window.PRICE_UPDATES = {
             28405,
             29805,
             29900,
+            30217,
             33212,
             33999,
             37800,
@@ -3867,34 +3879,31 @@ window.PRICE_UPDATES = {
             39900,
             40000,
             40500,
-            42900,
-            84000,
-            101700,
-            107000
+            42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "DFB533FW",
           "url": "https://feebee.com.tw/s/DFB533FW/",
-          "price": 27807,
-          "minPrice": 27807,
+          "price": 26706,
+          "minPrice": 26706,
           "maxPrice": 42900,
           "priceCandidates": [
+            26706,
             27807,
+            28111,
             28405,
             28789,
-            29700,
             29900,
             34540,
             36900,
             39897,
-            41613,
             42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -3906,12 +3915,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/WDFS2R4PWETW/",
       "price": 19300,
       "minPrice": 19300,
-      "maxPrice": 107000,
+      "maxPrice": 42900,
       "priceRange": {
         "min": 19300,
-        "max": 107000
+        "max": 42900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -3921,7 +3930,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/WDFS2R4PWETW/",
           "price": 19300,
           "minPrice": 19300,
-          "maxPrice": 107000,
+          "maxPrice": 42900,
           "priceCandidates": [
             19300,
             23085,
@@ -3936,29 +3945,29 @@ window.PRICE_UPDATES = {
             29299,
             29520,
             29900,
+            30217,
             30305,
             31900,
+            33600,
             37400,
             37800,
             40000,
-            42900,
-            84000,
-            101700,
-            107000
+            42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "WDFS2R4PWETW",
           "url": "https://feebee.com.tw/s/WDFS2R4PWETW/",
-          "price": 25947,
-          "minPrice": 25947,
+          "price": 25350,
+          "minPrice": 25350,
           "maxPrice": 37400,
           "priceCandidates": [
+            25350,
             25947,
-            27063,
+            26900,
             27800,
             27807,
             27888,
@@ -3971,7 +3980,7 @@ window.PRICE_UPDATES = {
             31900,
             37400
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -3988,7 +3997,7 @@ window.PRICE_UPDATES = {
         "min": 28800,
         "max": 44000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 2,
@@ -4001,12 +4010,13 @@ window.PRICE_UPDATES = {
           "maxPrice": 44000,
           "priceCandidates": [
             28800,
+            29376,
             37000,
             37400,
             42000,
             44000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4018,12 +4028,13 @@ window.PRICE_UPDATES = {
           "maxPrice": 44000,
           "priceCandidates": [
             28800,
+            29376,
             37000,
             37400,
             42000,
             44000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -4035,12 +4046,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/SMI4ECS00X/",
       "price": 25599,
       "minPrice": 25599,
-      "maxPrice": 58300,
+      "maxPrice": 66900,
       "priceRange": {
         "min": 25599,
-        "max": 58300
+        "max": 66900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "rsp": null,
@@ -4052,7 +4063,7 @@ window.PRICE_UPDATES = {
           "field": "default-price",
           "rawText": "NT$51,800"
         },
-        "checkedAt": "2026-11-20T02:00:04.060Z",
+        "checkedAt": "2026-11-21T02:00:04.225Z",
         "confidence": "medium"
       },
       "sourceCount": 6,
@@ -4062,14 +4073,14 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/SMI4ECS00X/",
           "price": 25599,
           "minPrice": 25599,
-          "maxPrice": 58300,
+          "maxPrice": 66900,
           "priceCandidates": [
             25599,
+            30300,
             33600,
-            33800,
             36123,
             36400,
-            36900,
+            37400,
             37800,
             41000,
             41200,
@@ -4091,28 +4102,29 @@ window.PRICE_UPDATES = {
             49980,
             51800,
             55800,
-            58300
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "SMI4ECS00X",
           "url": "https://feebee.com.tw/s/SMI4ECS00X/",
-          "price": 41500,
-          "minPrice": 41500,
+          "price": 41300,
+          "minPrice": 41300,
           "maxPrice": 51800,
           "priceCandidates": [
+            41300,
             41500,
             42500,
-            42800,
             42994,
             43500,
             44030,
             44300,
             44500,
             44800,
+            45000,
             45360,
             45500,
             45600,
@@ -4123,7 +4135,7 @@ window.PRICE_UPDATES = {
             48200,
             51800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4132,14 +4144,14 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Bosch%20SMI4ECS00X/",
           "price": 25599,
           "minPrice": 25599,
-          "maxPrice": 58300,
+          "maxPrice": 66900,
           "priceCandidates": [
             25599,
+            30300,
             33600,
-            33800,
             36123,
             36400,
-            36900,
+            37400,
             37800,
             41000,
             41200,
@@ -4161,28 +4173,29 @@ window.PRICE_UPDATES = {
             49980,
             51800,
             55800,
-            58300
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "SMI4ECS00X",
           "url": "https://feebee.com.tw/s/Bosch%20SMI4ECS00X/",
-          "price": 41500,
-          "minPrice": 41500,
+          "price": 41300,
+          "minPrice": 41300,
           "maxPrice": 51800,
           "priceCandidates": [
+            41300,
             41500,
             42500,
-            42800,
             42994,
             43500,
             44030,
             44300,
             44500,
             44800,
+            45000,
             45360,
             45500,
             45600,
@@ -4193,7 +4206,7 @@ window.PRICE_UPDATES = {
             48200,
             51800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4202,14 +4215,14 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Bosch%20SMI4ECS00X%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "price": 25599,
           "minPrice": 25599,
-          "maxPrice": 58300,
+          "maxPrice": 66900,
           "priceCandidates": [
             25599,
+            30300,
             33600,
-            33800,
             36123,
             36400,
-            36900,
+            37400,
             37800,
             41000,
             41200,
@@ -4231,22 +4244,22 @@ window.PRICE_UPDATES = {
             49980,
             51800,
             55800,
-            58300
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "SMI4ECS00X",
           "url": "https://feebee.com.tw/s/Bosch%20SMI4ECS00X%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-          "price": 41500,
-          "minPrice": 41500,
+          "price": 41300,
+          "minPrice": 41300,
           "maxPrice": 51800,
           "priceCandidates": [
+            41300,
             41500,
             42500,
-            42800,
             42994,
             43500,
             44030,
@@ -4256,6 +4269,7 @@ window.PRICE_UPDATES = {
             45360,
             45500,
             45600,
+            45800,
             46100,
             46620,
             47000,
@@ -4263,7 +4277,7 @@ window.PRICE_UPDATES = {
             48200,
             51800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -4275,12 +4289,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/SMI6ECS00X/",
       "price": 25599,
       "minPrice": 25599,
-      "maxPrice": 61800,
+      "maxPrice": 66900,
       "priceRange": {
         "min": 25599,
-        "max": 61800
+        "max": 66900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "rsp": null,
@@ -4292,7 +4306,7 @@ window.PRICE_UPDATES = {
           "field": "default-price",
           "rawText": "NT$61,800"
         },
-        "checkedAt": "2026-11-20T02:00:04.060Z",
+        "checkedAt": "2026-11-21T02:00:04.225Z",
         "confidence": "medium"
       },
       "sourceCount": 6,
@@ -4302,15 +4316,15 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/SMI6ECS00X/",
           "price": 25599,
           "minPrice": 25599,
-          "maxPrice": 61800,
+          "maxPrice": 66900,
           "priceCandidates": [
             25599,
+            30300,
             33600,
-            33800,
-            36123,
             36400,
-            36900,
+            37400,
             37800,
+            41000,
             42800,
             47500,
             49500,
@@ -4328,10 +4342,10 @@ window.PRICE_UPDATES = {
             55620,
             55800,
             56340,
-            58300,
-            61800
+            61800,
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4344,21 +4358,23 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             49500,
             50000,
+            50412,
             50500,
-            51000,
             51100,
             51912,
             53000,
             53500,
+            53900,
             54110,
             54400,
             54600,
             55300,
             55600,
             55620,
+            56340,
             61800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4367,15 +4383,15 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Bosch%20SMI6ECS00X/",
           "price": 25599,
           "minPrice": 25599,
-          "maxPrice": 61800,
+          "maxPrice": 66900,
           "priceCandidates": [
             25599,
+            30300,
             33600,
-            33800,
-            36123,
             36400,
-            36900,
+            37400,
             37800,
+            41000,
             42800,
             47500,
             49500,
@@ -4393,10 +4409,10 @@ window.PRICE_UPDATES = {
             55620,
             55800,
             56340,
-            58300,
-            61800
+            61800,
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4409,11 +4425,13 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             49500,
             50000,
+            50412,
             50500,
             51100,
             51912,
             53000,
             53500,
+            53900,
             54110,
             54400,
             54600,
@@ -4423,7 +4441,7 @@ window.PRICE_UPDATES = {
             56340,
             61800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4432,15 +4450,15 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Bosch%20SMI6ECS00X%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "price": 25599,
           "minPrice": 25599,
-          "maxPrice": 61800,
+          "maxPrice": 66900,
           "priceCandidates": [
             25599,
+            30300,
             33600,
-            33800,
-            36123,
             36400,
-            36900,
+            37400,
             37800,
+            41000,
             42800,
             47500,
             49500,
@@ -4458,10 +4476,10 @@ window.PRICE_UPDATES = {
             55620,
             55800,
             56340,
-            58300,
-            61800
+            61800,
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4474,12 +4492,13 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             49500,
             50000,
+            50412,
             50500,
-            51000,
             51100,
             51912,
             53000,
             53500,
+            53900,
             54110,
             54400,
             54600,
@@ -4489,236 +4508,179 @@ window.PRICE_UPDATES = {
             56340,
             61800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
       ]
     },
     {
-      "sku": "SMI8ZCS00X",
+      "sku": "SMI6HAS0",
       "brand": "Bosch",
-      "url": "https://biggo.com.tw/s/SMI8ZCS00X/",
-      "price": 25599,
-      "minPrice": 25599,
-      "maxPrice": 84500,
+      "url": "https://biggo.com.tw/s/SMI6HAS0/",
+      "price": 33800,
+      "minPrice": 33800,
+      "maxPrice": 58900,
       "priceRange": {
-        "min": 25599,
-        "max": 84500
+        "min": 33800,
+        "max": 58900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "source": "bosch-home-shop",
-        "sourceUrl": "https://www.bosch-home-shop.com.tw/products/smi8zcs00x",
+        "sourceUrl": "https://www.bosch-home-shop.com.tw/products/smi6has0",
         "status": "Fetch failed",
         "httpStatus": 404,
-        "checkedAt": "2026-11-20T02:00:04.060Z"
+        "checkedAt": "2026-11-21T02:00:04.225Z"
       },
       "sourceCount": 6,
       "allResults": [
         {
-          "sku": "SMI8ZCS00X",
-          "url": "https://biggo.com.tw/s/SMI8ZCS00X/",
-          "price": 25599,
-          "minPrice": 25599,
-          "maxPrice": 84500,
+          "sku": "SMI6HAS0",
+          "url": "https://biggo.com.tw/s/SMI6HAS0/",
+          "price": 33800,
+          "minPrice": 33800,
+          "maxPrice": 58900,
           "priceCandidates": [
-            25599,
-            33600,
             33800,
-            36123,
-            36400,
-            36900,
-            37800,
-            41000,
-            42800,
+            38600,
+            38900,
+            43800,
+            45000,
+            45100,
+            45450,
+            45650,
+            45700,
+            46500,
+            46800,
+            47000,
             47500,
-            49980,
-            55800,
-            58300,
-            63000,
-            66400,
-            66500,
-            66900,
-            68000,
-            69000,
-            71800,
-            72000,
-            72800,
-            72900,
-            73140,
-            73800,
-            73900,
-            78800,
-            81000,
-            84500
+            48500,
+            49000,
+            50000,
+            51200,
+            55620,
+            58900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
-          "sku": "SMI8ZCS00X",
-          "url": "https://feebee.com.tw/s/SMI8ZCS00X/",
-          "price": 58300,
-          "minPrice": 58300,
-          "maxPrice": 84500,
+          "sku": "SMI6HAS0",
+          "url": "https://feebee.com.tw/s/SMI6HAS0/",
+          "price": 38600,
+          "minPrice": 38600,
+          "maxPrice": 58900,
           "priceCandidates": [
-            58300,
-            63000,
-            66400,
-            66500,
-            66900,
-            68000,
-            68100,
-            69000,
-            69700,
-            72000,
-            72900,
-            73900,
-            78800,
-            81000,
-            84500
-          ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
-          "status": "Updated",
-          "httpStatus": 200
-        },
-        {
-          "sku": "SMI8ZCS00X",
-          "url": "https://biggo.com.tw/s/Bosch%20SMI8ZCS00X/",
-          "price": 25599,
-          "minPrice": 25599,
-          "maxPrice": 84500,
-          "priceCandidates": [
-            25599,
-            33600,
-            33800,
-            36123,
-            36400,
-            36900,
-            37800,
-            41000,
-            42800,
+            38600,
+            43800,
+            45000,
+            45100,
+            45700,
+            46500,
+            46600,
+            47000,
             47500,
-            49980,
-            55800,
-            58300,
-            63000,
-            66400,
-            66500,
-            66900,
-            68000,
-            69000,
-            71800,
-            72000,
-            72800,
-            72900,
-            73140,
-            73800,
-            73900,
-            78800,
-            81000,
-            84500
+            47518,
+            48500,
+            49000,
+            49750,
+            50000,
+            50500,
+            51200,
+            51439,
+            55620,
+            58900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
-          "sku": "SMI8ZCS00X",
-          "url": "https://feebee.com.tw/s/Bosch%20SMI8ZCS00X/",
-          "price": 58300,
-          "minPrice": 58300,
-          "maxPrice": 84500,
-          "priceCandidates": [
-            58300,
-            63000,
-            66400,
-            66500,
-            66900,
-            68000,
-            68100,
-            69000,
-            69700,
-            72000,
-            72900,
-            73900,
-            78800,
-            81000,
-            84500
-          ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
-          "status": "Updated",
+          "sku": "SMI6HAS0",
+          "url": "https://biggo.com.tw/s/Bosch%20SMI6HAS0/",
+          "price": null,
+          "minPrice": null,
+          "maxPrice": null,
+          "priceCandidates": [],
+          "checkedAt": "2026-11-21T02:00:04.225Z",
+          "status": "Price not found",
           "httpStatus": 200
         },
         {
-          "sku": "SMI8ZCS00X",
-          "url": "https://biggo.com.tw/s/Bosch%20SMI8ZCS00X%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-          "price": 25599,
-          "minPrice": 25599,
-          "maxPrice": 84500,
+          "sku": "SMI6HAS0",
+          "url": "https://feebee.com.tw/s/Bosch%20SMI6HAS0/",
+          "price": 38600,
+          "minPrice": 38600,
+          "maxPrice": 58900,
           "priceCandidates": [
-            25599,
-            33600,
-            33800,
-            36123,
-            36400,
-            36900,
-            37800,
-            41000,
-            42800,
+            38600,
+            39900,
+            43800,
+            45000,
+            45100,
+            45700,
+            46500,
+            46600,
+            47000,
             47500,
-            49980,
-            55800,
-            58300,
-            63000,
-            66400,
-            66500,
-            66900,
-            68000,
-            69000,
-            71800,
-            72000,
-            72800,
-            72900,
-            73140,
-            73800,
-            73900,
-            78800,
-            81000,
-            84500
+            47518,
+            48500,
+            49000,
+            49750,
+            50000,
+            50500,
+            51200,
+            51439,
+            55620,
+            58900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
-          "sku": "SMI8ZCS00X",
-          "url": "https://feebee.com.tw/s/Bosch%20SMI8ZCS00X%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-          "price": 58300,
-          "minPrice": 58300,
-          "maxPrice": 84500,
+          "sku": "SMI6HAS0",
+          "url": "https://biggo.com.tw/s/Bosch%20SMI6HAS0%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": null,
+          "minPrice": null,
+          "maxPrice": null,
+          "priceCandidates": [],
+          "checkedAt": "2026-11-21T02:00:04.225Z",
+          "status": "Price not found",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SMI6HAS0",
+          "url": "https://feebee.com.tw/s/Bosch%20SMI6HAS0%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 38600,
+          "minPrice": 38600,
+          "maxPrice": 58900,
           "priceCandidates": [
-            58300,
-            63000,
-            66400,
-            66500,
-            66900,
-            68000,
-            68100,
-            69000,
-            69700,
-            72000,
-            72900,
-            73140,
-            73900,
-            78800,
-            81000,
-            84500
+            38600,
+            39900,
+            43800,
+            45000,
+            45100,
+            45700,
+            46500,
+            46600,
+            47000,
+            47500,
+            47518,
+            48500,
+            49000,
+            49750,
+            50000,
+            50500,
+            51200,
+            51439,
+            55620,
+            58900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -4735,14 +4697,14 @@ window.PRICE_UPDATES = {
         "min": 20000,
         "max": 45740
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "source": "bosch-home-shop",
         "sourceUrl": "https://www.bosch-home-shop.com.tw/products/sms2iti0",
         "status": "Fetch failed",
         "httpStatus": 404,
-        "checkedAt": "2026-11-20T02:00:04.060Z"
+        "checkedAt": "2026-11-21T02:00:04.225Z"
       },
       "sourceCount": 6,
       "allResults": [
@@ -4758,7 +4720,6 @@ window.PRICE_UPDATES = {
             26900,
             29900,
             30900,
-            31410,
             34900,
             36000,
             39900,
@@ -4767,7 +4728,7 @@ window.PRICE_UPDATES = {
             44400,
             45740
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4779,12 +4740,11 @@ window.PRICE_UPDATES = {
           "maxPrice": 44400,
           "priceCandidates": [
             20000,
+            23900,
             24900,
             26900,
             30900,
-            31410,
-            35500,
-            36000,
+            34900,
             38200,
             39800,
             39900,
@@ -4792,7 +4752,7 @@ window.PRICE_UPDATES = {
             40000,
             44400
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4803,7 +4763,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -4815,12 +4775,11 @@ window.PRICE_UPDATES = {
           "maxPrice": 44400,
           "priceCandidates": [
             20000,
+            23900,
             24900,
             26900,
             30900,
             34900,
-            35500,
-            36000,
             38200,
             39800,
             39900,
@@ -4828,7 +4787,7 @@ window.PRICE_UPDATES = {
             40000,
             44400
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4839,7 +4798,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -4851,12 +4810,11 @@ window.PRICE_UPDATES = {
           "maxPrice": 44400,
           "priceCandidates": [
             20000,
+            23900,
             24900,
             26900,
             30900,
             34900,
-            35500,
-            36000,
             38200,
             39800,
             39900,
@@ -4864,7 +4822,7 @@ window.PRICE_UPDATES = {
             40000,
             44400
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -4876,19 +4834,19 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/SMS63M12TC/",
       "price": 25599,
       "minPrice": 25599,
-      "maxPrice": 58300,
+      "maxPrice": 66900,
       "priceRange": {
         "min": 25599,
-        "max": 58300
+        "max": 66900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "source": "bosch-home-shop",
         "sourceUrl": "https://www.bosch-home-shop.com.tw/products/sms63m12tc",
         "status": "Fetch failed",
         "httpStatus": 404,
-        "checkedAt": "2026-11-20T02:00:04.060Z"
+        "checkedAt": "2026-11-21T02:00:04.225Z"
       },
       "sourceCount": 6,
       "allResults": [
@@ -4897,14 +4855,14 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/SMS63M12TC/",
           "price": 25599,
           "minPrice": 25599,
-          "maxPrice": 58300,
+          "maxPrice": 66900,
           "priceCandidates": [
             25599,
+            30300,
             33600,
-            33800,
-            36123,
             36400,
             36900,
+            37400,
             37800,
             41000,
             42800,
@@ -4913,9 +4871,9 @@ window.PRICE_UPDATES = {
             49980,
             52000,
             55800,
-            58300
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4929,7 +4887,7 @@ window.PRICE_UPDATES = {
             36900,
             52000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4938,14 +4896,14 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Bosch%20SMS63M12TC/",
           "price": 25599,
           "minPrice": 25599,
-          "maxPrice": 58300,
+          "maxPrice": 66900,
           "priceCandidates": [
             25599,
+            30300,
             33600,
-            33800,
-            36123,
             36400,
             36900,
+            37400,
             37800,
             41000,
             42800,
@@ -4954,9 +4912,9 @@ window.PRICE_UPDATES = {
             49980,
             52000,
             55800,
-            58300
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4970,7 +4928,7 @@ window.PRICE_UPDATES = {
             36900,
             52000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -4979,14 +4937,14 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Bosch%20SMS63M12TC%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "price": 25599,
           "minPrice": 25599,
-          "maxPrice": 58300,
+          "maxPrice": 66900,
           "priceCandidates": [
             25599,
+            30300,
             33600,
-            33800,
-            36123,
             36400,
             36900,
+            37400,
             37800,
             41000,
             42800,
@@ -4995,9 +4953,9 @@ window.PRICE_UPDATES = {
             49980,
             52000,
             55800,
-            58300
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5011,7 +4969,7 @@ window.PRICE_UPDATES = {
             36900,
             52000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -5028,14 +4986,14 @@ window.PRICE_UPDATES = {
         "min": 30900,
         "max": 54900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "source": "bosch-home-shop",
         "sourceUrl": "https://www.bosch-home-shop.com.tw/products/sms6haw0",
         "status": "Fetch failed",
         "httpStatus": 404,
-        "checkedAt": "2026-11-20T02:00:04.060Z"
+        "checkedAt": "2026-11-21T02:00:04.225Z"
       },
       "sourceCount": 6,
       "allResults": [
@@ -5050,6 +5008,7 @@ window.PRICE_UPDATES = {
             39000,
             40900,
             41000,
+            41850,
             42000,
             44800,
             45000,
@@ -5057,23 +5016,25 @@ window.PRICE_UPDATES = {
             53800,
             54900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "SMS6HAW0",
           "url": "https://feebee.com.tw/s/SMS6HAW0/",
-          "price": 40900,
-          "minPrice": 40900,
+          "price": 37900,
+          "minPrice": 37900,
           "maxPrice": 54900,
           "priceCandidates": [
+            37900,
+            39000,
             40900,
             41000,
             41850,
             42000,
             42500,
-            43578,
+            43500,
             43650,
             44800,
             45000,
@@ -5081,7 +5042,7 @@ window.PRICE_UPDATES = {
             53800,
             54900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5096,6 +5057,7 @@ window.PRICE_UPDATES = {
             39000,
             40900,
             41000,
+            41850,
             42000,
             44800,
             45000,
@@ -5103,7 +5065,7 @@ window.PRICE_UPDATES = {
             53800,
             54900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5116,11 +5078,13 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             30900,
             37900,
+            39000,
             40900,
             41000,
             41850,
             42000,
             42500,
+            43500,
             43650,
             44800,
             45000,
@@ -5128,7 +5092,7 @@ window.PRICE_UPDATES = {
             53800,
             54900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5139,7 +5103,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -5152,11 +5116,13 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             30900,
             37900,
+            39000,
             40900,
             41000,
             41850,
             42000,
             42500,
+            43500,
             43650,
             44800,
             45000,
@@ -5164,7 +5130,7 @@ window.PRICE_UPDATES = {
             53800,
             54900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -5181,14 +5147,14 @@ window.PRICE_UPDATES = {
         "min": 35000,
         "max": 63900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "source": "bosch-home-shop",
         "sourceUrl": "https://www.bosch-home-shop.com.tw/products/sms6haw1",
         "status": "Fetch failed",
         "httpStatus": 404,
-        "checkedAt": "2026-11-20T02:00:04.060Z"
+        "checkedAt": "2026-11-21T02:00:04.225Z"
       },
       "sourceCount": 6,
       "allResults": [
@@ -5203,14 +5169,15 @@ window.PRICE_UPDATES = {
             38900,
             39000,
             39500,
+            39678,
+            40500,
             41500,
             45000,
-            48000,
             49800,
             49889,
             63900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5225,17 +5192,20 @@ window.PRICE_UPDATES = {
             36000,
             38900,
             39000,
+            39678,
+            40000,
             41500,
             42900,
             45000,
             45505,
+            46000,
             48000,
             49800,
             51800,
             52000,
             63900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5246,7 +5216,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -5261,17 +5231,21 @@ window.PRICE_UPDATES = {
             36000,
             38900,
             39000,
+            39678,
+            39900,
+            40000,
             41500,
             42900,
             45000,
             45505,
+            46000,
             48000,
             49800,
             51800,
             52000,
             63900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5282,7 +5256,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -5297,17 +5271,21 @@ window.PRICE_UPDATES = {
             36000,
             38900,
             39000,
+            39678,
+            39900,
+            40000,
             41500,
             42900,
             45000,
             45505,
+            46000,
             48000,
             49800,
             51800,
             52000,
             63900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -5324,7 +5302,7 @@ window.PRICE_UPDATES = {
         "min": 58700,
         "max": 78000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "rsp": null,
@@ -5336,7 +5314,7 @@ window.PRICE_UPDATES = {
           "field": "default-price",
           "rawText": "NT$78,000"
         },
-        "checkedAt": "2026-11-20T02:00:04.060Z",
+        "checkedAt": "2026-11-21T02:00:04.225Z",
         "confidence": "medium"
       },
       "sourceCount": 6,
@@ -5349,8 +5327,10 @@ window.PRICE_UPDATES = {
           "maxPrice": 78000,
           "priceCandidates": [
             59548,
+            60210,
             61086,
             64300,
+            65286,
             65589,
             65684,
             66300,
@@ -5359,7 +5339,7 @@ window.PRICE_UPDATES = {
             70200,
             78000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5375,8 +5355,11 @@ window.PRICE_UPDATES = {
             61086,
             62400,
             64300,
+            64400,
+            64800,
             65286,
             65684,
+            66000,
             66300,
             66900,
             68290,
@@ -5384,7 +5367,7 @@ window.PRICE_UPDATES = {
             70200,
             78000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5396,8 +5379,10 @@ window.PRICE_UPDATES = {
           "maxPrice": 78000,
           "priceCandidates": [
             59548,
+            60210,
             61086,
             64300,
+            65286,
             65589,
             65684,
             66300,
@@ -5406,7 +5391,7 @@ window.PRICE_UPDATES = {
             70200,
             78000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5422,8 +5407,10 @@ window.PRICE_UPDATES = {
             61086,
             62400,
             64300,
+            64800,
             65286,
             65684,
+            66000,
             66300,
             66900,
             68290,
@@ -5431,7 +5418,7 @@ window.PRICE_UPDATES = {
             70200,
             78000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5443,8 +5430,10 @@ window.PRICE_UPDATES = {
           "maxPrice": 78000,
           "priceCandidates": [
             59548,
+            60210,
             61086,
             64300,
+            65286,
             65589,
             65684,
             66300,
@@ -5453,7 +5442,7 @@ window.PRICE_UPDATES = {
             70200,
             78000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5469,8 +5458,10 @@ window.PRICE_UPDATES = {
             61086,
             62400,
             64300,
+            64800,
             65286,
             65684,
+            66000,
             66300,
             66900,
             68290,
@@ -5478,7 +5469,7 @@ window.PRICE_UPDATES = {
             70200,
             78000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -5495,14 +5486,14 @@ window.PRICE_UPDATES = {
         "min": 53000,
         "max": 83900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "source": "bosch-home-shop",
         "sourceUrl": "https://www.bosch-home-shop.com.tw/products/sms6zcw0",
         "status": "Fetch failed",
         "httpStatus": 404,
-        "checkedAt": "2026-11-20T02:00:04.060Z"
+        "checkedAt": "2026-11-21T02:00:04.225Z"
       },
       "sourceCount": 6,
       "allResults": [
@@ -5514,30 +5505,33 @@ window.PRICE_UPDATES = {
           "maxPrice": 83900,
           "priceCandidates": [
             53000,
+            53900,
+            54000,
+            55800,
             55900,
             57600,
             57900,
             58000,
             58842,
-            58911,
-            58968,
             59500,
             60000,
-            64900,
+            60357,
+            65520,
             72800,
             83900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "SMS6ZCW0",
           "url": "https://feebee.com.tw/s/SMS6ZCW0/",
-          "price": 55800,
-          "minPrice": 55800,
+          "price": 53000,
+          "minPrice": 53000,
           "maxPrice": 83900,
           "priceCandidates": [
+            53000,
             55800,
             55900,
             57600,
@@ -5545,7 +5539,6 @@ window.PRICE_UPDATES = {
             58200,
             58500,
             58842,
-            58968,
             59000,
             59500,
             60000,
@@ -5554,7 +5547,7 @@ window.PRICE_UPDATES = {
             72800,
             83900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5565,17 +5558,19 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
         {
           "sku": "SMS6ZCW0",
           "url": "https://feebee.com.tw/s/Bosch%20SMS6ZCW0/",
-          "price": 55900,
-          "minPrice": 55900,
+          "price": 53000,
+          "minPrice": 53000,
           "maxPrice": 83900,
           "priceCandidates": [
+            53000,
+            55800,
             55900,
             57600,
             58000,
@@ -5585,12 +5580,12 @@ window.PRICE_UPDATES = {
             59000,
             59500,
             60000,
-            64900,
+            60357,
             65520,
             72800,
             83900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5601,17 +5596,19 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
         {
           "sku": "SMS6ZCW0",
           "url": "https://feebee.com.tw/s/Bosch%20SMS6ZCW0%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-          "price": 55900,
-          "minPrice": 55900,
+          "price": 53000,
+          "minPrice": 53000,
           "maxPrice": 83900,
           "priceCandidates": [
+            53000,
+            55800,
             55900,
             57600,
             58000,
@@ -5621,12 +5618,12 @@ window.PRICE_UPDATES = {
             59000,
             59500,
             60000,
-            64900,
+            60357,
             65520,
             72800,
             83900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -5643,14 +5640,14 @@ window.PRICE_UPDATES = {
         "min": 21900,
         "max": 68000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "source": "bosch-home-shop",
         "sourceUrl": "https://www.bosch-home-shop.com.tw/products/sms88mi01x",
         "status": "Fetch failed",
         "httpStatus": 404,
-        "checkedAt": "2026-11-20T02:00:04.060Z"
+        "checkedAt": "2026-11-21T02:00:04.225Z"
       },
       "sourceCount": 6,
       "allResults": [
@@ -5668,7 +5665,7 @@ window.PRICE_UPDATES = {
             60900,
             68000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5683,7 +5680,7 @@ window.PRICE_UPDATES = {
             45000,
             60900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5701,7 +5698,7 @@ window.PRICE_UPDATES = {
             60900,
             68000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5716,7 +5713,7 @@ window.PRICE_UPDATES = {
             45000,
             60900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5734,7 +5731,7 @@ window.PRICE_UPDATES = {
             60900,
             68000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5749,7 +5746,7 @@ window.PRICE_UPDATES = {
             45000,
             60900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -5766,7 +5763,7 @@ window.PRICE_UPDATES = {
         "min": 67500,
         "max": 89500
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "rsp": null,
@@ -5778,7 +5775,7 @@ window.PRICE_UPDATES = {
           "field": "default-price",
           "rawText": "NT$89,500"
         },
-        "checkedAt": "2026-11-20T02:00:04.060Z",
+        "checkedAt": "2026-11-21T02:00:04.225Z",
         "confidence": "medium"
       },
       "sourceCount": 6,
@@ -5791,14 +5788,14 @@ window.PRICE_UPDATES = {
           "maxPrice": 89500,
           "priceCandidates": [
             68900,
+            70749,
             70972,
+            72499,
             73800,
-            73811,
             73900,
             74075,
             75180,
             75800,
-            76000,
             76075,
             76220,
             76315,
@@ -5806,7 +5803,7 @@ window.PRICE_UPDATES = {
             80550,
             89500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5818,10 +5815,12 @@ window.PRICE_UPDATES = {
           "maxPrice": 89500,
           "priceCandidates": [
             67500,
+            68900,
             70749,
             70972,
             71683,
             72500,
+            73680,
             73792,
             73800,
             73900,
@@ -5836,7 +5835,7 @@ window.PRICE_UPDATES = {
             84000,
             89500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5848,14 +5847,14 @@ window.PRICE_UPDATES = {
           "maxPrice": 89500,
           "priceCandidates": [
             68900,
+            70749,
             70972,
+            72499,
             73800,
-            73811,
             73900,
             74075,
             75180,
             75800,
-            76000,
             76075,
             76220,
             76315,
@@ -5863,7 +5862,7 @@ window.PRICE_UPDATES = {
             80550,
             89500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5875,10 +5874,12 @@ window.PRICE_UPDATES = {
           "maxPrice": 89500,
           "priceCandidates": [
             67500,
+            68900,
             70749,
             70972,
             71683,
             72500,
+            73680,
             73792,
             73800,
             73900,
@@ -5892,7 +5893,7 @@ window.PRICE_UPDATES = {
             84000,
             89500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5904,14 +5905,14 @@ window.PRICE_UPDATES = {
           "maxPrice": 89500,
           "priceCandidates": [
             68900,
+            70749,
             70972,
+            72499,
             73800,
-            73811,
             73900,
             74075,
             75180,
             75800,
-            76000,
             76075,
             76220,
             76315,
@@ -5919,7 +5920,7 @@ window.PRICE_UPDATES = {
             80550,
             89500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -5931,10 +5932,12 @@ window.PRICE_UPDATES = {
           "maxPrice": 89500,
           "priceCandidates": [
             67500,
+            68900,
             70749,
             70972,
             71683,
             72500,
+            73680,
             73792,
             73800,
             73900,
@@ -5948,7 +5951,7 @@ window.PRICE_UPDATES = {
             84000,
             89500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -5957,7 +5960,7 @@ window.PRICE_UPDATES = {
     {
       "sku": "SPS2IKI06",
       "brand": "Bosch",
-      "url": "https://feebee.com.tw/s/SPS2IKI06/",
+      "url": "https://biggo.com.tw/s/SPS2IKI06/",
       "price": 26877,
       "minPrice": 26877,
       "maxPrice": 47900,
@@ -5965,33 +5968,35 @@ window.PRICE_UPDATES = {
         "min": 26877,
         "max": 47900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "source": "bosch-home-shop",
         "sourceUrl": "https://www.bosch-home-shop.com.tw/products/sps2iki06",
         "status": "Fetch failed",
         "httpStatus": 404,
-        "checkedAt": "2026-11-20T02:00:04.060Z"
+        "checkedAt": "2026-11-21T02:00:04.225Z"
       },
       "sourceCount": 6,
       "allResults": [
         {
           "sku": "SPS2IKI06",
           "url": "https://biggo.com.tw/s/SPS2IKI06/",
-          "price": 28900,
-          "minPrice": 28900,
+          "price": 26877,
+          "minPrice": 26877,
           "maxPrice": 47900,
           "priceCandidates": [
+            26877,
+            26900,
             28900,
-            31914,
             32900,
+            35460,
             35500,
             36900,
             39400,
             47900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -6005,10 +6010,13 @@ window.PRICE_UPDATES = {
             26877,
             26900,
             28900,
-            31914,
+            31300,
+            31400,
             32900,
+            33000,
             33300,
             33900,
+            35460,
             35500,
             36300,
             36900,
@@ -6017,7 +6025,7 @@ window.PRICE_UPDATES = {
             41000,
             47900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -6028,7 +6036,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -6042,10 +6050,12 @@ window.PRICE_UPDATES = {
             26877,
             26900,
             28900,
-            31914,
+            31400,
             32900,
+            33000,
             33300,
             33900,
+            35460,
             35500,
             36300,
             36900,
@@ -6054,7 +6064,7 @@ window.PRICE_UPDATES = {
             41000,
             47900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -6065,7 +6075,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -6079,10 +6089,12 @@ window.PRICE_UPDATES = {
             26877,
             26900,
             28900,
-            31914,
+            31400,
             32900,
+            33000,
             33300,
             33900,
+            35460,
             35500,
             36300,
             36900,
@@ -6091,7 +6103,7 @@ window.PRICE_UPDATES = {
             41000,
             47900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -6103,12 +6115,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/SPS2IKI06X/",
       "price": 25599,
       "minPrice": 25599,
-      "maxPrice": 58300,
+      "maxPrice": 66900,
       "priceRange": {
         "min": 25599,
-        "max": 58300
+        "max": 66900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "rsp": 41000,
@@ -6120,7 +6132,7 @@ window.PRICE_UPDATES = {
           "field": "default-compare-price",
           "rawText": "NT$41,000"
         },
-        "checkedAt": "2026-11-20T02:00:04.060Z",
+        "checkedAt": "2026-11-21T02:00:04.225Z",
         "confidence": "high"
       },
       "sourceCount": 6,
@@ -6130,29 +6142,31 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/SPS2IKI06X/",
           "price": 25599,
           "minPrice": 25599,
-          "maxPrice": 58300,
+          "maxPrice": 66900,
           "priceCandidates": [
             25599,
             26877,
+            26900,
             28900,
-            31914,
+            30300,
             32900,
             33600,
-            33800,
+            35460,
             35500,
-            36123,
             36400,
             36900,
+            37400,
             37800,
             39400,
+            41000,
             42800,
             47500,
             47900,
             49980,
             55800,
-            58300
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -6166,10 +6180,13 @@ window.PRICE_UPDATES = {
             26877,
             26900,
             28900,
-            31914,
+            31300,
+            31400,
             32900,
+            33000,
             33300,
             33900,
+            35460,
             35500,
             36300,
             36900,
@@ -6178,7 +6195,7 @@ window.PRICE_UPDATES = {
             41000,
             47900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -6187,29 +6204,31 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Bosch%20SPS2IKI06X/",
           "price": 25599,
           "minPrice": 25599,
-          "maxPrice": 58300,
+          "maxPrice": 66900,
           "priceCandidates": [
             25599,
             26877,
+            26900,
             28900,
-            31914,
+            30300,
             32900,
             33600,
-            33800,
+            35460,
             35500,
-            36123,
             36400,
             36900,
+            37400,
             37800,
             39400,
+            41000,
             42800,
             47500,
             47900,
             49980,
             55800,
-            58300
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -6223,10 +6242,12 @@ window.PRICE_UPDATES = {
             26877,
             26900,
             28900,
-            31914,
+            31400,
             32900,
+            33000,
             33300,
             33900,
+            35460,
             35500,
             36300,
             36900,
@@ -6235,7 +6256,7 @@ window.PRICE_UPDATES = {
             41000,
             47900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -6244,29 +6265,31 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Bosch%20SPS2IKI06X%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "price": 25599,
           "minPrice": 25599,
-          "maxPrice": 58300,
+          "maxPrice": 66900,
           "priceCandidates": [
             25599,
             26877,
+            26900,
             28900,
-            31914,
+            30300,
             32900,
             33600,
-            33800,
+            35460,
             35500,
-            36123,
             36400,
             36900,
+            37400,
             37800,
             39400,
+            41000,
             42800,
             47500,
             47900,
             49980,
             55800,
-            58300
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -6280,10 +6303,11 @@ window.PRICE_UPDATES = {
             26877,
             26900,
             28900,
-            31914,
+            31400,
             32900,
             33300,
             33900,
+            35460,
             35500,
             36300,
             36900,
@@ -6292,7 +6316,7 @@ window.PRICE_UPDATES = {
             41000,
             47900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -6304,12 +6328,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/SPS2IKW00X/",
       "price": 24688,
       "minPrice": 24688,
-      "maxPrice": 58300,
+      "maxPrice": 66900,
       "priceRange": {
         "min": 24688,
-        "max": 58300
+        "max": 66900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "rsp": 41000,
@@ -6321,7 +6345,7 @@ window.PRICE_UPDATES = {
           "field": "default-compare-price",
           "rawText": "NT$41,000"
         },
-        "checkedAt": "2026-11-20T02:00:04.060Z",
+        "checkedAt": "2026-11-21T02:00:04.225Z",
         "confidence": "high"
       },
       "sourceCount": 6,
@@ -6331,7 +6355,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/SPS2IKW00X/",
           "price": 24688,
           "minPrice": 24688,
-          "maxPrice": 58300,
+          "maxPrice": 66900,
           "priceCandidates": [
             24688,
             25599,
@@ -6341,14 +6365,15 @@ window.PRICE_UPDATES = {
             26990,
             29130,
             29838,
+            30300,
             32000,
             33000,
             33600,
-            33800,
             35460,
             36123,
             36400,
             36900,
+            37400,
             37800,
             38450,
             39400,
@@ -6358,9 +6383,9 @@ window.PRICE_UPDATES = {
             47500,
             49980,
             55800,
-            58300
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -6378,6 +6403,7 @@ window.PRICE_UPDATES = {
             26990,
             29130,
             29838,
+            31500,
             32000,
             32200,
             33000,
@@ -6386,7 +6412,7 @@ window.PRICE_UPDATES = {
             39400,
             41000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -6395,7 +6421,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Bosch%20SPS2IKW00X/",
           "price": 24688,
           "minPrice": 24688,
-          "maxPrice": 58300,
+          "maxPrice": 66900,
           "priceCandidates": [
             24688,
             25599,
@@ -6405,14 +6431,15 @@ window.PRICE_UPDATES = {
             26990,
             29130,
             29838,
+            30300,
             32000,
             33000,
             33600,
-            33800,
             35460,
             36123,
             36400,
             36900,
+            37400,
             37800,
             38450,
             39400,
@@ -6422,9 +6449,9 @@ window.PRICE_UPDATES = {
             47500,
             49980,
             55800,
-            58300
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -6442,6 +6469,7 @@ window.PRICE_UPDATES = {
             26990,
             29130,
             29838,
+            31500,
             32000,
             32200,
             33000,
@@ -6450,7 +6478,7 @@ window.PRICE_UPDATES = {
             39400,
             41000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -6459,7 +6487,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Bosch%20SPS2IKW00X%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "price": 24688,
           "minPrice": 24688,
-          "maxPrice": 58300,
+          "maxPrice": 66900,
           "priceCandidates": [
             24688,
             25599,
@@ -6469,14 +6497,15 @@ window.PRICE_UPDATES = {
             26990,
             29130,
             29838,
+            30300,
             32000,
             33000,
             33600,
-            33800,
             35460,
             36123,
             36400,
             36900,
+            37400,
             37800,
             38450,
             39400,
@@ -6486,9 +6515,9 @@ window.PRICE_UPDATES = {
             47500,
             49980,
             55800,
-            58300
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -6506,6 +6535,7 @@ window.PRICE_UPDATES = {
             26990,
             29130,
             29838,
+            31500,
             32000,
             32200,
             33000,
@@ -6514,7 +6544,7 @@ window.PRICE_UPDATES = {
             39400,
             41000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -6524,33 +6554,35 @@ window.PRICE_UPDATES = {
       "sku": "SPS4IMW0",
       "brand": "Bosch",
       "url": "https://biggo.com.tw/s/SPS4IMW0/",
-      "price": 36123,
-      "minPrice": 36123,
+      "price": 36000,
+      "minPrice": 36000,
       "maxPrice": 48800,
       "priceRange": {
-        "min": 36123,
+        "min": 36000,
         "max": 48800
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "source": "bosch-home-shop",
         "sourceUrl": "https://www.bosch-home-shop.com.tw/products/sps4imw0",
         "status": "Fetch failed",
         "httpStatus": 404,
-        "checkedAt": "2026-11-20T02:00:04.060Z"
+        "checkedAt": "2026-11-21T02:00:04.225Z"
       },
       "sourceCount": 6,
       "allResults": [
         {
           "sku": "SPS4IMW0",
           "url": "https://biggo.com.tw/s/SPS4IMW0/",
-          "price": 36123,
-          "minPrice": 36123,
+          "price": 36000,
+          "minPrice": 36000,
           "maxPrice": 48800,
           "priceCandidates": [
+            36000,
             36123,
             36800,
+            37200,
             38500,
             38747,
             40000,
@@ -6558,7 +6590,7 @@ window.PRICE_UPDATES = {
             44820,
             48800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -6570,6 +6602,7 @@ window.PRICE_UPDATES = {
           "maxPrice": 48800,
           "priceCandidates": [
             36123,
+            36800,
             37200,
             38500,
             38800,
@@ -6580,7 +6613,7 @@ window.PRICE_UPDATES = {
             44820,
             48800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -6591,7 +6624,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -6603,6 +6636,7 @@ window.PRICE_UPDATES = {
           "maxPrice": 48800,
           "priceCandidates": [
             36123,
+            36800,
             37200,
             38500,
             38800,
@@ -6613,7 +6647,7 @@ window.PRICE_UPDATES = {
             44820,
             48800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -6624,7 +6658,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -6636,6 +6670,7 @@ window.PRICE_UPDATES = {
           "maxPrice": 48800,
           "priceCandidates": [
             36123,
+            36800,
             37200,
             38500,
             38800,
@@ -6646,7 +6681,7 @@ window.PRICE_UPDATES = {
             44820,
             48800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -6658,12 +6693,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/SPS4IMW00X/",
       "price": 25599,
       "minPrice": 25599,
-      "maxPrice": 58300,
+      "maxPrice": 66900,
       "priceRange": {
         "min": 25599,
-        "max": 58300
+        "max": 66900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "rsp": 49800,
@@ -6675,7 +6710,7 @@ window.PRICE_UPDATES = {
           "field": "default-compare-price",
           "rawText": "NT$49,800"
         },
-        "checkedAt": "2026-11-20T02:00:04.060Z",
+        "checkedAt": "2026-11-21T02:00:04.225Z",
         "confidence": "high"
       },
       "sourceCount": 6,
@@ -6685,15 +6720,17 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/SPS4IMW00X/",
           "price": 25599,
           "minPrice": 25599,
-          "maxPrice": 58300,
+          "maxPrice": 66900,
           "priceCandidates": [
             25599,
+            30300,
             33600,
-            33800,
+            36000,
             36123,
             36400,
             36800,
-            36900,
+            37200,
+            37400,
             37800,
             38500,
             38747,
@@ -6706,9 +6743,9 @@ window.PRICE_UPDATES = {
             48800,
             49980,
             55800,
-            58300
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -6720,6 +6757,7 @@ window.PRICE_UPDATES = {
           "maxPrice": 48800,
           "priceCandidates": [
             36123,
+            36800,
             37200,
             38500,
             38800,
@@ -6730,7 +6768,7 @@ window.PRICE_UPDATES = {
             44820,
             48800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -6739,15 +6777,17 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Bosch%20SPS4IMW00X/",
           "price": 25599,
           "minPrice": 25599,
-          "maxPrice": 58300,
+          "maxPrice": 66900,
           "priceCandidates": [
             25599,
+            30300,
             33600,
-            33800,
+            36000,
             36123,
             36400,
             36800,
-            36900,
+            37200,
+            37400,
             37800,
             38500,
             38747,
@@ -6760,9 +6800,9 @@ window.PRICE_UPDATES = {
             48800,
             49980,
             55800,
-            58300
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -6774,6 +6814,7 @@ window.PRICE_UPDATES = {
           "maxPrice": 48800,
           "priceCandidates": [
             36123,
+            36800,
             37200,
             38500,
             38800,
@@ -6784,7 +6825,7 @@ window.PRICE_UPDATES = {
             44820,
             48800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -6793,15 +6834,17 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Bosch%20SPS4IMW00X%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "price": 25599,
           "minPrice": 25599,
-          "maxPrice": 58300,
+          "maxPrice": 66900,
           "priceCandidates": [
             25599,
+            30300,
             33600,
-            33800,
+            36000,
             36123,
             36400,
             36800,
-            36900,
+            37200,
+            37400,
             37800,
             38500,
             38747,
@@ -6814,9 +6857,9 @@ window.PRICE_UPDATES = {
             48800,
             49980,
             55800,
-            58300
+            66900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -6839,7 +6882,172 @@ window.PRICE_UPDATES = {
             44820,
             48800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
+          "status": "Updated",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "sku": "SPS63M02TC",
+      "brand": "Bosch",
+      "url": "https://biggo.com.tw/s/SPS63M02TC/",
+      "price": 25599,
+      "minPrice": 25599,
+      "maxPrice": 66900,
+      "priceRange": {
+        "min": 25599,
+        "max": 66900
+      },
+      "checkedAt": "2026-11-21T02:00:04.225Z",
+      "status": "Updated",
+      "referencePrice": {
+        "source": "bosch-home-shop",
+        "sourceUrl": "https://www.bosch-home-shop.com.tw/products/sps63m02tc",
+        "status": "Fetch failed",
+        "httpStatus": 404,
+        "checkedAt": "2026-11-21T02:00:04.225Z"
+      },
+      "sourceCount": 6,
+      "allResults": [
+        {
+          "sku": "SPS63M02TC",
+          "url": "https://biggo.com.tw/s/SPS63M02TC/",
+          "price": 25599,
+          "minPrice": 25599,
+          "maxPrice": 66900,
+          "priceCandidates": [
+            25599,
+            30300,
+            33600,
+            36123,
+            36400,
+            36900,
+            37400,
+            37800,
+            37900,
+            40900,
+            41000,
+            42800,
+            43999,
+            47000,
+            47500,
+            49980,
+            52000,
+            55800,
+            66900
+          ],
+          "checkedAt": "2026-11-21T02:00:04.225Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SPS63M02TC",
+          "url": "https://feebee.com.tw/s/SPS63M02TC/",
+          "price": 30300,
+          "minPrice": 30300,
+          "maxPrice": 40900,
+          "priceCandidates": [
+            30300,
+            36900,
+            37900,
+            40900
+          ],
+          "checkedAt": "2026-11-21T02:00:04.225Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SPS63M02TC",
+          "url": "https://biggo.com.tw/s/Bosch%20SPS63M02TC/",
+          "price": 25599,
+          "minPrice": 25599,
+          "maxPrice": 66900,
+          "priceCandidates": [
+            25599,
+            30300,
+            33600,
+            36123,
+            36400,
+            36900,
+            37400,
+            37800,
+            37900,
+            40900,
+            41000,
+            42800,
+            43999,
+            47000,
+            47500,
+            49980,
+            52000,
+            55800,
+            66900
+          ],
+          "checkedAt": "2026-11-21T02:00:04.225Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SPS63M02TC",
+          "url": "https://feebee.com.tw/s/Bosch%20SPS63M02TC/",
+          "price": 30300,
+          "minPrice": 30300,
+          "maxPrice": 40900,
+          "priceCandidates": [
+            30300,
+            36900,
+            37900,
+            40900
+          ],
+          "checkedAt": "2026-11-21T02:00:04.225Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SPS63M02TC",
+          "url": "https://biggo.com.tw/s/Bosch%20SPS63M02TC%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 25599,
+          "minPrice": 25599,
+          "maxPrice": 66900,
+          "priceCandidates": [
+            25599,
+            30300,
+            33600,
+            36123,
+            36400,
+            36900,
+            37400,
+            37800,
+            37900,
+            40900,
+            41000,
+            42800,
+            43999,
+            47000,
+            47500,
+            49980,
+            52000,
+            55800,
+            66900
+          ],
+          "checkedAt": "2026-11-21T02:00:04.225Z",
+          "status": "Updated",
+          "httpStatus": 200
+        },
+        {
+          "sku": "SPS63M02TC",
+          "url": "https://feebee.com.tw/s/Bosch%20SPS63M02TC%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
+          "price": 30300,
+          "minPrice": 30300,
+          "maxPrice": 40900,
+          "priceCandidates": [
+            30300,
+            36900,
+            37900,
+            40900
+          ],
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -6849,44 +7057,44 @@ window.PRICE_UPDATES = {
       "sku": "SPV4IMX0",
       "brand": "Bosch",
       "url": "https://biggo.com.tw/s/SPV4IMX0/",
-      "price": 36400,
-      "minPrice": 36400,
+      "price": 37900,
+      "minPrice": 37900,
       "maxPrice": 52000,
       "priceRange": {
-        "min": 36400,
+        "min": 37900,
         "max": 52000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": {
         "source": "bosch-home-shop",
         "sourceUrl": "https://www.bosch-home-shop.com.tw/products/spv4imx0",
         "status": "Fetch failed",
         "httpStatus": 404,
-        "checkedAt": "2026-11-20T02:00:04.060Z"
+        "checkedAt": "2026-11-21T02:00:04.225Z"
       },
       "sourceCount": 6,
       "allResults": [
         {
           "sku": "SPV4IMX0",
           "url": "https://biggo.com.tw/s/SPV4IMX0/",
-          "price": 36400,
-          "minPrice": 36400,
+          "price": 37900,
+          "minPrice": 37900,
           "maxPrice": 52000,
           "priceCandidates": [
-            36400,
             37900,
             40500,
             41600,
             43900,
             44000,
             45500,
+            46100,
             46800,
             48200,
             48500,
             52000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -6901,6 +7109,7 @@ window.PRICE_UPDATES = {
             39900,
             40500,
             41600,
+            42500,
             43900,
             44000,
             44200,
@@ -6913,30 +7122,30 @@ window.PRICE_UPDATES = {
             48500,
             52000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "SPV4IMX0",
           "url": "https://biggo.com.tw/s/Bosch%20SPV4IMX0/",
-          "price": 36400,
-          "minPrice": 36400,
+          "price": 37900,
+          "minPrice": 37900,
           "maxPrice": 52000,
           "priceCandidates": [
-            36400,
             37900,
             40500,
             41600,
             43900,
             44000,
             45500,
+            46100,
             46800,
             48200,
             48500,
             52000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -6951,6 +7160,7 @@ window.PRICE_UPDATES = {
             39900,
             40500,
             41600,
+            42500,
             43900,
             44000,
             44300,
@@ -6962,7 +7172,7 @@ window.PRICE_UPDATES = {
             48500,
             52000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -6973,7 +7183,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -6988,6 +7198,7 @@ window.PRICE_UPDATES = {
             39900,
             40500,
             41600,
+            42500,
             43900,
             44000,
             44300,
@@ -6999,7 +7210,7 @@ window.PRICE_UPDATES = {
             48500,
             52000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -7016,7 +7227,7 @@ window.PRICE_UPDATES = {
         "min": 52799,
         "max": 110000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -7050,7 +7261,7 @@ window.PRICE_UPDATES = {
             82800,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7064,13 +7275,14 @@ window.PRICE_UPDATES = {
             52799,
             66500,
             68000,
+            69600,
             71000,
             71100,
             73000,
             77000,
             79000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7103,7 +7315,7 @@ window.PRICE_UPDATES = {
             82800,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7117,13 +7329,14 @@ window.PRICE_UPDATES = {
             52799,
             66500,
             68000,
+            69600,
             71000,
             71100,
             73000,
             77000,
             79000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7156,7 +7369,7 @@ window.PRICE_UPDATES = {
             82800,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7170,13 +7383,14 @@ window.PRICE_UPDATES = {
             52799,
             66500,
             68000,
+            69600,
             71000,
             71100,
             73000,
             77000,
             79000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -7193,7 +7407,7 @@ window.PRICE_UPDATES = {
         "min": 52799,
         "max": 79000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -7214,7 +7428,7 @@ window.PRICE_UPDATES = {
             77000,
             79000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7231,7 +7445,7 @@ window.PRICE_UPDATES = {
             77000,
             79000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7251,7 +7465,7 @@ window.PRICE_UPDATES = {
             77000,
             79000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7268,7 +7482,7 @@ window.PRICE_UPDATES = {
             77000,
             79000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7288,7 +7502,7 @@ window.PRICE_UPDATES = {
             77000,
             79000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7305,7 +7519,7 @@ window.PRICE_UPDATES = {
             77000,
             79000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -7322,7 +7536,7 @@ window.PRICE_UPDATES = {
         "min": 52799,
         "max": 110000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -7356,7 +7570,7 @@ window.PRICE_UPDATES = {
             88888,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7370,14 +7584,14 @@ window.PRICE_UPDATES = {
             53000,
             56905,
             62000,
-            65700,
+            64200,
             67000,
             68000,
             71000,
             73000,
             76000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7410,7 +7624,7 @@ window.PRICE_UPDATES = {
             88888,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7424,14 +7638,14 @@ window.PRICE_UPDATES = {
             53000,
             56905,
             62000,
-            65700,
+            64200,
             67000,
             68000,
             71000,
             73000,
             76000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7464,7 +7678,7 @@ window.PRICE_UPDATES = {
             88888,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7478,14 +7692,14 @@ window.PRICE_UPDATES = {
             53000,
             56905,
             62000,
-            65700,
+            64200,
             67000,
             68000,
             71000,
             73000,
             76000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -7502,7 +7716,7 @@ window.PRICE_UPDATES = {
         "min": 52799,
         "max": 110000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -7532,7 +7746,7 @@ window.PRICE_UPDATES = {
             82800,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7548,7 +7762,7 @@ window.PRICE_UPDATES = {
             71000,
             73000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7577,7 +7791,7 @@ window.PRICE_UPDATES = {
             82800,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7593,7 +7807,7 @@ window.PRICE_UPDATES = {
             71000,
             73000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7622,7 +7836,7 @@ window.PRICE_UPDATES = {
             82800,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7638,7 +7852,7 @@ window.PRICE_UPDATES = {
             71000,
             73000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -7655,7 +7869,7 @@ window.PRICE_UPDATES = {
         "min": 52799,
         "max": 110000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -7684,7 +7898,7 @@ window.PRICE_UPDATES = {
             86000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7696,14 +7910,14 @@ window.PRICE_UPDATES = {
           "maxPrice": 90300,
           "priceCandidates": [
             67079,
-            70200,
             77999,
+            80000,
             80340,
             83800,
             86000,
             90300
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7731,7 +7945,7 @@ window.PRICE_UPDATES = {
             86000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7743,14 +7957,14 @@ window.PRICE_UPDATES = {
           "maxPrice": 90300,
           "priceCandidates": [
             67079,
-            70200,
             77999,
+            80000,
             80340,
             83800,
             86000,
             90300
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7778,7 +7992,7 @@ window.PRICE_UPDATES = {
             86000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7790,14 +8004,14 @@ window.PRICE_UPDATES = {
           "maxPrice": 90300,
           "priceCandidates": [
             67079,
-            70200,
             77999,
+            80000,
             80340,
             83800,
             86000,
             90300
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -7814,7 +8028,7 @@ window.PRICE_UPDATES = {
         "min": 52799,
         "max": 110000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -7836,7 +8050,6 @@ window.PRICE_UPDATES = {
             73099,
             75679,
             77439,
-            79200,
             80000,
             82800,
             87999,
@@ -7845,7 +8058,7 @@ window.PRICE_UPDATES = {
             95000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7857,7 +8070,7 @@ window.PRICE_UPDATES = {
           "maxPrice": 99750,
           "priceCandidates": [
             75679,
-            79200,
+            80000,
             87999,
             89000,
             90999,
@@ -7865,7 +8078,7 @@ window.PRICE_UPDATES = {
             95000,
             99750
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7886,7 +8099,6 @@ window.PRICE_UPDATES = {
             73099,
             75679,
             77439,
-            79200,
             80000,
             82800,
             87999,
@@ -7895,7 +8107,7 @@ window.PRICE_UPDATES = {
             95000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7907,7 +8119,7 @@ window.PRICE_UPDATES = {
           "maxPrice": 99750,
           "priceCandidates": [
             75679,
-            79200,
+            80000,
             87999,
             89000,
             90999,
@@ -7915,7 +8127,7 @@ window.PRICE_UPDATES = {
             95000,
             99750
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7936,7 +8148,6 @@ window.PRICE_UPDATES = {
             73099,
             75679,
             77439,
-            79200,
             80000,
             82800,
             87999,
@@ -7945,7 +8156,7 @@ window.PRICE_UPDATES = {
             95000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -7957,7 +8168,7 @@ window.PRICE_UPDATES = {
           "maxPrice": 99750,
           "priceCandidates": [
             75679,
-            79200,
+            80000,
             87999,
             89000,
             90999,
@@ -7965,7 +8176,7 @@ window.PRICE_UPDATES = {
             95000,
             99750
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -7982,7 +8193,7 @@ window.PRICE_UPDATES = {
         "min": 52799,
         "max": 110000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -8006,7 +8217,6 @@ window.PRICE_UPDATES = {
             74799,
             75000,
             75679,
-            76500,
             78000,
             80000,
             82800,
@@ -8018,21 +8228,22 @@ window.PRICE_UPDATES = {
             94000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "DBI545IK.W.TW",
           "url": "https://feebee.com.tw/s/DBI545IK.W.TW/",
-          "price": 73099,
-          "minPrice": 73099,
+          "price": 70000,
+          "minPrice": 70000,
           "maxPrice": 95550,
           "priceCandidates": [
+            70000,
             73099,
             75000,
-            76500,
             78000,
+            80000,
             84999,
             86500,
             87999,
@@ -8041,7 +8252,7 @@ window.PRICE_UPDATES = {
             93730,
             95550
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8064,7 +8275,6 @@ window.PRICE_UPDATES = {
             74799,
             75000,
             75679,
-            76500,
             78000,
             80000,
             82800,
@@ -8076,21 +8286,22 @@ window.PRICE_UPDATES = {
             94000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "DBI545IK.W.TW",
           "url": "https://feebee.com.tw/s/Asko%20DBI545IK.W.TW/",
-          "price": 73099,
-          "minPrice": 73099,
+          "price": 70000,
+          "minPrice": 70000,
           "maxPrice": 95550,
           "priceCandidates": [
+            70000,
             73099,
             75000,
-            76500,
             78000,
+            80000,
             84999,
             86500,
             87999,
@@ -8099,7 +8310,7 @@ window.PRICE_UPDATES = {
             93730,
             95550
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8122,7 +8333,6 @@ window.PRICE_UPDATES = {
             74799,
             75000,
             75679,
-            76500,
             78000,
             80000,
             82800,
@@ -8134,21 +8344,22 @@ window.PRICE_UPDATES = {
             94000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "DBI545IK.W.TW",
           "url": "https://feebee.com.tw/s/Asko%20DBI545IK.W.TW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-          "price": 73099,
-          "minPrice": 73099,
+          "price": 70000,
+          "minPrice": 70000,
           "maxPrice": 95550,
           "priceCandidates": [
+            70000,
             73099,
             75000,
-            76500,
             78000,
+            80000,
             84999,
             86500,
             87999,
@@ -8157,7 +8368,7 @@ window.PRICE_UPDATES = {
             93730,
             95550
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -8174,7 +8385,7 @@ window.PRICE_UPDATES = {
         "min": 94000,
         "max": 102000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -8191,7 +8402,7 @@ window.PRICE_UPDATES = {
             100000,
             102000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8205,7 +8416,7 @@ window.PRICE_UPDATES = {
             94000,
             102000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8221,7 +8432,7 @@ window.PRICE_UPDATES = {
             100000,
             102000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8235,7 +8446,7 @@ window.PRICE_UPDATES = {
             94000,
             102000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8251,7 +8462,7 @@ window.PRICE_UPDATES = {
             100000,
             102000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8265,7 +8476,7 @@ window.PRICE_UPDATES = {
             94000,
             102000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -8282,7 +8493,7 @@ window.PRICE_UPDATES = {
         "min": 52799,
         "max": 110000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -8311,7 +8522,7 @@ window.PRICE_UPDATES = {
             102000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8320,13 +8531,14 @@ window.PRICE_UPDATES = {
           "url": "https://feebee.com.tw/s/DBI644MIB.W/",
           "price": 67320,
           "minPrice": 67320,
-          "maxPrice": 96000,
+          "maxPrice": 99000,
           "priceCandidates": [
             67320,
             94000,
-            96000
+            96000,
+            99000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8354,7 +8566,7 @@ window.PRICE_UPDATES = {
             102000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8363,13 +8575,14 @@ window.PRICE_UPDATES = {
           "url": "https://feebee.com.tw/s/Asko%20DBI644MIB.W/",
           "price": 67320,
           "minPrice": 67320,
-          "maxPrice": 96000,
+          "maxPrice": 99000,
           "priceCandidates": [
             67320,
             94000,
-            96000
+            96000,
+            99000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8397,7 +8610,7 @@ window.PRICE_UPDATES = {
             102000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8406,13 +8619,14 @@ window.PRICE_UPDATES = {
           "url": "https://feebee.com.tw/s/Asko%20DBI644MIB.W%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "price": 67320,
           "minPrice": 67320,
-          "maxPrice": 96000,
+          "maxPrice": 99000,
           "priceCandidates": [
             67320,
             94000,
-            96000
+            96000,
+            99000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -8429,7 +8643,7 @@ window.PRICE_UPDATES = {
         "min": 52799,
         "max": 110000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -8457,7 +8671,7 @@ window.PRICE_UPDATES = {
             100000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8466,13 +8680,14 @@ window.PRICE_UPDATES = {
           "url": "https://feebee.com.tw/s/DBI644MIB.W.TW/",
           "price": 67320,
           "minPrice": 67320,
-          "maxPrice": 96000,
+          "maxPrice": 99000,
           "priceCandidates": [
             67320,
             94000,
-            96000
+            96000,
+            99000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8499,7 +8714,7 @@ window.PRICE_UPDATES = {
             100000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8508,13 +8723,14 @@ window.PRICE_UPDATES = {
           "url": "https://feebee.com.tw/s/Asko%20DBI644MIB.W.TW/",
           "price": 67320,
           "minPrice": 67320,
-          "maxPrice": 96000,
+          "maxPrice": 99000,
           "priceCandidates": [
             67320,
             94000,
-            96000
+            96000,
+            99000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8541,7 +8757,7 @@ window.PRICE_UPDATES = {
             100000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8550,13 +8766,14 @@ window.PRICE_UPDATES = {
           "url": "https://feebee.com.tw/s/Asko%20DBI644MIB.W.TW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "price": 67320,
           "minPrice": 67320,
-          "maxPrice": 96000,
+          "maxPrice": 99000,
           "priceCandidates": [
             67320,
             94000,
-            96000
+            96000,
+            99000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -8573,7 +8790,7 @@ window.PRICE_UPDATES = {
         "min": 67320,
         "max": 96000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -8588,7 +8805,7 @@ window.PRICE_UPDATES = {
             67320,
             96000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8602,7 +8819,7 @@ window.PRICE_UPDATES = {
             67320,
             96000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8616,7 +8833,7 @@ window.PRICE_UPDATES = {
             67320,
             96000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8630,7 +8847,7 @@ window.PRICE_UPDATES = {
             67320,
             96000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8644,7 +8861,7 @@ window.PRICE_UPDATES = {
             67320,
             96000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8658,7 +8875,7 @@ window.PRICE_UPDATES = {
             67320,
             96000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -8667,15 +8884,15 @@ window.PRICE_UPDATES = {
     {
       "sku": "DBI654IB",
       "brand": "Asko",
-      "url": "https://biggo.com.tw/s/DBI654IB/",
-      "price": 79200,
-      "minPrice": 79200,
+      "url": "https://feebee.com.tw/s/DBI654IB/",
+      "price": 77700,
+      "minPrice": 77700,
       "maxPrice": 93000,
       "priceRange": {
-        "min": 79200,
+        "min": 77700,
         "max": 93000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -8693,21 +8910,23 @@ window.PRICE_UPDATES = {
             91000,
             93000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "DBI654IB",
           "url": "https://feebee.com.tw/s/DBI654IB/",
-          "price": 79200,
-          "minPrice": 79200,
-          "maxPrice": 86000,
+          "price": 77700,
+          "minPrice": 77700,
+          "maxPrice": 88000,
           "priceCandidates": [
+            77700,
             79200,
-            86000
+            86000,
+            88000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8724,22 +8943,23 @@ window.PRICE_UPDATES = {
             91000,
             93000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "DBI654IB",
           "url": "https://feebee.com.tw/s/Asko%20DBI654IB/",
-          "price": 79200,
-          "minPrice": 79200,
+          "price": 77700,
+          "minPrice": 77700,
           "maxPrice": 88000,
           "priceCandidates": [
+            77700,
             79200,
             86000,
             88000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8756,21 +8976,23 @@ window.PRICE_UPDATES = {
             91000,
             93000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "DBI654IB",
           "url": "https://feebee.com.tw/s/Asko%20DBI654IB%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-          "price": 79200,
-          "minPrice": 79200,
-          "maxPrice": 86000,
+          "price": 77700,
+          "minPrice": 77700,
+          "maxPrice": 88000,
           "priceCandidates": [
+            77700,
             79200,
-            86000
+            86000,
+            88000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -8779,15 +9001,15 @@ window.PRICE_UPDATES = {
     {
       "sku": "DBI654IB.W",
       "brand": "Asko",
-      "url": "https://biggo.com.tw/s/DBI654IB.W/",
-      "price": 79200,
-      "minPrice": 79200,
+      "url": "https://feebee.com.tw/s/DBI654IB.W/",
+      "price": 77700,
+      "minPrice": 77700,
       "maxPrice": 88000,
       "priceRange": {
-        "min": 79200,
+        "min": 77700,
         "max": 88000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -8803,22 +9025,23 @@ window.PRICE_UPDATES = {
             86000,
             88000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "DBI654IB.W",
           "url": "https://feebee.com.tw/s/DBI654IB.W/",
-          "price": 79200,
-          "minPrice": 79200,
+          "price": 77700,
+          "minPrice": 77700,
           "maxPrice": 88000,
           "priceCandidates": [
+            77700,
             79200,
             86000,
             88000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8833,22 +9056,23 @@ window.PRICE_UPDATES = {
             86000,
             88000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "DBI654IB.W",
           "url": "https://feebee.com.tw/s/Asko%20DBI654IB.W/",
-          "price": 79200,
-          "minPrice": 79200,
+          "price": 77700,
+          "minPrice": 77700,
           "maxPrice": 88000,
           "priceCandidates": [
+            77700,
             79200,
             86000,
             88000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8863,22 +9087,23 @@ window.PRICE_UPDATES = {
             86000,
             88000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "DBI654IB.W",
           "url": "https://feebee.com.tw/s/Asko%20DBI654IB.W%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-          "price": 79200,
-          "minPrice": 79200,
+          "price": 77700,
+          "minPrice": 77700,
           "maxPrice": 88000,
           "priceCandidates": [
+            77700,
             79200,
             86000,
             88000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -8895,7 +9120,7 @@ window.PRICE_UPDATES = {
         "min": 96000,
         "max": 121800
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -8920,7 +9145,7 @@ window.PRICE_UPDATES = {
             116000,
             119480
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8934,6 +9159,7 @@ window.PRICE_UPDATES = {
             96000,
             96200,
             96800,
+            99000,
             100000,
             106000,
             107640,
@@ -8945,7 +9171,7 @@ window.PRICE_UPDATES = {
             119480,
             121800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8969,7 +9195,7 @@ window.PRICE_UPDATES = {
             116000,
             119480
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -8983,6 +9209,7 @@ window.PRICE_UPDATES = {
             96000,
             96200,
             96800,
+            99000,
             100000,
             106000,
             107640,
@@ -8994,7 +9221,7 @@ window.PRICE_UPDATES = {
             119480,
             121800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9018,7 +9245,7 @@ window.PRICE_UPDATES = {
             116000,
             119480
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9032,6 +9259,7 @@ window.PRICE_UPDATES = {
             96000,
             96200,
             96800,
+            99000,
             100000,
             106000,
             107640,
@@ -9043,7 +9271,7 @@ window.PRICE_UPDATES = {
             119480,
             121800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -9060,7 +9288,7 @@ window.PRICE_UPDATES = {
         "min": 52799,
         "max": 121800
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -9090,7 +9318,7 @@ window.PRICE_UPDATES = {
             116000,
             119480
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9110,7 +9338,7 @@ window.PRICE_UPDATES = {
             119480,
             121800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9139,7 +9367,7 @@ window.PRICE_UPDATES = {
             116000,
             119480
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9159,7 +9387,7 @@ window.PRICE_UPDATES = {
             119480,
             121800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9188,7 +9416,7 @@ window.PRICE_UPDATES = {
             116000,
             119480
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9208,7 +9436,7 @@ window.PRICE_UPDATES = {
             119480,
             121800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -9225,7 +9453,7 @@ window.PRICE_UPDATES = {
         "min": 52799,
         "max": 116000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -9256,7 +9484,7 @@ window.PRICE_UPDATES = {
             110000,
             116000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9270,12 +9498,13 @@ window.PRICE_UPDATES = {
             96000,
             96200,
             96800,
+            99000,
             107640,
             108800,
             110000,
             115500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9305,7 +9534,7 @@ window.PRICE_UPDATES = {
             110000,
             116000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9319,12 +9548,13 @@ window.PRICE_UPDATES = {
             96000,
             96200,
             96800,
+            99000,
             107640,
             108800,
             110000,
             115500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9354,7 +9584,7 @@ window.PRICE_UPDATES = {
             110000,
             116000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9368,12 +9598,13 @@ window.PRICE_UPDATES = {
             96000,
             96200,
             96800,
+            99000,
             107640,
             108800,
             110000,
             115500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -9390,7 +9621,7 @@ window.PRICE_UPDATES = {
         "min": 43999,
         "max": 110000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -9420,7 +9651,7 @@ window.PRICE_UPDATES = {
             86500,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9433,6 +9664,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             43999,
             66400,
+            68700,
             70000,
             70200,
             72000,
@@ -9440,7 +9672,7 @@ window.PRICE_UPDATES = {
             78000,
             86500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9469,7 +9701,7 @@ window.PRICE_UPDATES = {
             86500,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9482,6 +9714,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             43999,
             66400,
+            68700,
             70000,
             70200,
             72000,
@@ -9489,7 +9722,7 @@ window.PRICE_UPDATES = {
             78000,
             86500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9518,7 +9751,7 @@ window.PRICE_UPDATES = {
             86500,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9531,6 +9764,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             43999,
             66400,
+            68700,
             70000,
             70200,
             72000,
@@ -9538,7 +9772,7 @@ window.PRICE_UPDATES = {
             78000,
             86500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -9555,7 +9789,7 @@ window.PRICE_UPDATES = {
         "min": 52799,
         "max": 110000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -9584,7 +9818,7 @@ window.PRICE_UPDATES = {
             82800,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9602,7 +9836,7 @@ window.PRICE_UPDATES = {
             78000,
             78280
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9630,7 +9864,7 @@ window.PRICE_UPDATES = {
             82800,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9648,7 +9882,7 @@ window.PRICE_UPDATES = {
             78000,
             78280
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9676,7 +9910,7 @@ window.PRICE_UPDATES = {
             82800,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9694,7 +9928,7 @@ window.PRICE_UPDATES = {
             78000,
             78280
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -9711,7 +9945,7 @@ window.PRICE_UPDATES = {
         "min": 52799,
         "max": 110000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -9744,7 +9978,7 @@ window.PRICE_UPDATES = {
             87999,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9756,7 +9990,6 @@ window.PRICE_UPDATES = {
           "maxPrice": 88200,
           "priceCandidates": [
             67079,
-            70200,
             73000,
             73900,
             75679,
@@ -9769,7 +10002,7 @@ window.PRICE_UPDATES = {
             87999,
             88200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9801,7 +10034,7 @@ window.PRICE_UPDATES = {
             87999,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9813,7 +10046,6 @@ window.PRICE_UPDATES = {
           "maxPrice": 88200,
           "priceCandidates": [
             67079,
-            70200,
             73000,
             73900,
             75679,
@@ -9826,7 +10058,7 @@ window.PRICE_UPDATES = {
             87999,
             88200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9858,7 +10090,7 @@ window.PRICE_UPDATES = {
             87999,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9870,7 +10102,6 @@ window.PRICE_UPDATES = {
           "maxPrice": 88200,
           "priceCandidates": [
             67079,
-            70200,
             73000,
             73900,
             75679,
@@ -9883,7 +10114,7 @@ window.PRICE_UPDATES = {
             87999,
             88200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -9900,7 +10131,7 @@ window.PRICE_UPDATES = {
         "min": 92000,
         "max": 99000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -9912,7 +10143,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -9926,7 +10157,7 @@ window.PRICE_UPDATES = {
             92000,
             99000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9937,7 +10168,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -9951,7 +10182,7 @@ window.PRICE_UPDATES = {
             92000,
             99000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -9962,7 +10193,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -9976,7 +10207,7 @@ window.PRICE_UPDATES = {
             92000,
             99000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -9993,7 +10224,7 @@ window.PRICE_UPDATES = {
         "min": 52799,
         "max": 110000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -10019,7 +10250,7 @@ window.PRICE_UPDATES = {
             99000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -10033,7 +10264,7 @@ window.PRICE_UPDATES = {
             92000,
             99000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -10058,7 +10289,7 @@ window.PRICE_UPDATES = {
             99000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -10072,7 +10303,7 @@ window.PRICE_UPDATES = {
             92000,
             99000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -10097,7 +10328,7 @@ window.PRICE_UPDATES = {
             99000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -10111,7 +10342,7 @@ window.PRICE_UPDATES = {
             92000,
             99000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -10128,7 +10359,7 @@ window.PRICE_UPDATES = {
         "min": 52799,
         "max": 110000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -10154,21 +10385,22 @@ window.PRICE_UPDATES = {
             92000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "DFI654B",
           "url": "https://feebee.com.tw/s/DFI654B/",
-          "price": 82800,
-          "minPrice": 82800,
+          "price": 81300,
+          "minPrice": 81300,
           "maxPrice": 92000,
           "priceCandidates": [
+            81300,
             82800,
             92000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -10193,21 +10425,22 @@ window.PRICE_UPDATES = {
             92000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "DFI654B",
           "url": "https://feebee.com.tw/s/Asko%20DFI654B/",
-          "price": 82800,
-          "minPrice": 82800,
+          "price": 81300,
+          "minPrice": 81300,
           "maxPrice": 92000,
           "priceCandidates": [
+            81300,
             82800,
             92000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -10232,21 +10465,22 @@ window.PRICE_UPDATES = {
             92000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "DFI654B",
           "url": "https://feebee.com.tw/s/Asko%20DFI654B%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-          "price": 82800,
-          "minPrice": 82800,
+          "price": 81300,
+          "minPrice": 81300,
           "maxPrice": 92000,
           "priceCandidates": [
+            81300,
             82800,
             92000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -10263,7 +10497,7 @@ window.PRICE_UPDATES = {
         "min": 52799,
         "max": 110000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -10290,7 +10524,7 @@ window.PRICE_UPDATES = {
             84000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -10304,7 +10538,7 @@ window.PRICE_UPDATES = {
             82300,
             84000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -10330,7 +10564,7 @@ window.PRICE_UPDATES = {
             84000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -10344,7 +10578,7 @@ window.PRICE_UPDATES = {
             82300,
             84000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -10370,7 +10604,7 @@ window.PRICE_UPDATES = {
             84000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -10384,127 +10618,7 @@ window.PRICE_UPDATES = {
             82300,
             84000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
-          "status": "Updated",
-          "httpStatus": 200
-        }
-      ]
-    },
-    {
-      "sku": "DFS233I",
-      "brand": "Asko",
-      "url": "https://biggo.com.tw/s/DFS233I/",
-      "price": 52799,
-      "minPrice": 52799,
-      "maxPrice": 86100,
-      "priceRange": {
-        "min": 52799,
-        "max": 86100
-      },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
-      "status": "Updated",
-      "referencePrice": null,
-      "sourceCount": 6,
-      "allResults": [
-        {
-          "sku": "DFS233I",
-          "url": "https://biggo.com.tw/s/DFS233I/",
-          "price": 52799,
-          "minPrice": 52799,
-          "maxPrice": 86100,
-          "priceCandidates": [
-            52799,
-            59999,
-            61750,
-            62700,
-            67000,
-            69300,
-            73800,
-            75000,
-            77000,
-            80000,
-            82000,
-            86100
-          ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
-          "status": "Updated",
-          "httpStatus": 200
-        },
-        {
-          "sku": "DFS233I",
-          "url": "https://feebee.com.tw/s/DFS233I/",
-          "price": 52799,
-          "minPrice": 52799,
-          "maxPrice": 86100,
-          "priceCandidates": [
-            52799,
-            59999,
-            76000,
-            78000,
-            82000,
-            86100
-          ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
-          "status": "Updated",
-          "httpStatus": 200
-        },
-        {
-          "sku": "DFS233I",
-          "url": "https://biggo.com.tw/s/Asko%20DFS233I/",
-          "price": null,
-          "minPrice": null,
-          "maxPrice": null,
-          "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
-          "status": "Price not found",
-          "httpStatus": 200
-        },
-        {
-          "sku": "DFS233I",
-          "url": "https://feebee.com.tw/s/Asko%20DFS233I/",
-          "price": 61750,
-          "minPrice": 61750,
-          "maxPrice": 86100,
-          "priceCandidates": [
-            61750,
-            67000,
-            69300,
-            75000,
-            76000,
-            77000,
-            86100
-          ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
-          "status": "Updated",
-          "httpStatus": 200
-        },
-        {
-          "sku": "DFS233I",
-          "url": "https://biggo.com.tw/s/Asko%20DFS233I%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-          "price": null,
-          "minPrice": null,
-          "maxPrice": null,
-          "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
-          "status": "Price not found",
-          "httpStatus": 200
-        },
-        {
-          "sku": "DFS233I",
-          "url": "https://feebee.com.tw/s/Asko%20DFS233I%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-          "price": 61750,
-          "minPrice": 61750,
-          "maxPrice": 86100,
-          "priceCandidates": [
-            61750,
-            67000,
-            69300,
-            75000,
-            76000,
-            77000,
-            86100
-          ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -10521,7 +10635,7 @@ window.PRICE_UPDATES = {
         "min": 18000,
         "max": 110000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -10557,7 +10671,7 @@ window.PRICE_UPDATES = {
             89000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -10571,6 +10685,7 @@ window.PRICE_UPDATES = {
             52799,
             59999,
             62700,
+            72300,
             73800,
             76000,
             77000,
@@ -10580,7 +10695,7 @@ window.PRICE_UPDATES = {
             82000,
             86100
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -10615,7 +10730,7 @@ window.PRICE_UPDATES = {
             89000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -10629,6 +10744,7 @@ window.PRICE_UPDATES = {
             52799,
             59999,
             62700,
+            72300,
             73800,
             76000,
             77000,
@@ -10638,7 +10754,7 @@ window.PRICE_UPDATES = {
             82000,
             86100
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -10673,7 +10789,7 @@ window.PRICE_UPDATES = {
             89000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -10687,6 +10803,7 @@ window.PRICE_UPDATES = {
             52799,
             59999,
             62700,
+            72300,
             73800,
             76000,
             77000,
@@ -10696,7 +10813,7 @@ window.PRICE_UPDATES = {
             82000,
             86100
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -10713,7 +10830,7 @@ window.PRICE_UPDATES = {
         "min": 18000,
         "max": 110000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -10744,7 +10861,7 @@ window.PRICE_UPDATES = {
             86000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -10762,7 +10879,7 @@ window.PRICE_UPDATES = {
             82000,
             86100
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -10792,7 +10909,7 @@ window.PRICE_UPDATES = {
             86000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -10810,7 +10927,7 @@ window.PRICE_UPDATES = {
             82000,
             86100
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -10840,7 +10957,7 @@ window.PRICE_UPDATES = {
             86000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -10858,7 +10975,7 @@ window.PRICE_UPDATES = {
             82000,
             86100
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -10875,7 +10992,7 @@ window.PRICE_UPDATES = {
         "min": 18000,
         "max": 86100
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -10896,7 +11013,7 @@ window.PRICE_UPDATES = {
             82000,
             86000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -10914,7 +11031,7 @@ window.PRICE_UPDATES = {
             82000,
             86100
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -10934,7 +11051,7 @@ window.PRICE_UPDATES = {
             82000,
             86000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -10952,7 +11069,7 @@ window.PRICE_UPDATES = {
             82000,
             86100
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -10972,7 +11089,7 @@ window.PRICE_UPDATES = {
             82000,
             86000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -10990,7 +11107,7 @@ window.PRICE_UPDATES = {
             82000,
             86100
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -11007,7 +11124,7 @@ window.PRICE_UPDATES = {
         "min": 61750,
         "max": 86100
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -11029,7 +11146,7 @@ window.PRICE_UPDATES = {
             86000,
             86100
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11042,13 +11159,14 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             61750,
             67000,
+            67800,
             69300,
             75000,
             76000,
             77000,
             86100
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11069,7 +11187,7 @@ window.PRICE_UPDATES = {
             86000,
             86100
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11082,13 +11200,14 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             61750,
             67000,
+            67800,
             69300,
             75000,
             76000,
             77000,
             86100
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11109,7 +11228,7 @@ window.PRICE_UPDATES = {
             86000,
             86100
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11122,13 +11241,14 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             61750,
             67000,
+            67800,
             69300,
             75000,
             76000,
             77000,
             86100
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -11145,7 +11265,7 @@ window.PRICE_UPDATES = {
         "min": 52799,
         "max": 110000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -11173,7 +11293,7 @@ window.PRICE_UPDATES = {
             86000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11188,7 +11308,7 @@ window.PRICE_UPDATES = {
             76000,
             77000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11215,7 +11335,7 @@ window.PRICE_UPDATES = {
             86000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11230,7 +11350,7 @@ window.PRICE_UPDATES = {
             76000,
             77000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11257,7 +11377,7 @@ window.PRICE_UPDATES = {
             86000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11272,7 +11392,7 @@ window.PRICE_UPDATES = {
             76000,
             77000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -11289,7 +11409,7 @@ window.PRICE_UPDATES = {
         "min": 52799,
         "max": 110000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -11319,7 +11439,7 @@ window.PRICE_UPDATES = {
             89000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11331,11 +11451,12 @@ window.PRICE_UPDATES = {
           "maxPrice": 89000,
           "priceCandidates": [
             76800,
+            78600,
             80100,
             87000,
             89000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11364,7 +11485,7 @@ window.PRICE_UPDATES = {
             89000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11376,11 +11497,12 @@ window.PRICE_UPDATES = {
           "maxPrice": 89000,
           "priceCandidates": [
             76800,
+            78600,
             80100,
             87000,
             89000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11409,7 +11531,7 @@ window.PRICE_UPDATES = {
             89000,
             110000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11421,11 +11543,12 @@ window.PRICE_UPDATES = {
           "maxPrice": 89000,
           "priceCandidates": [
             76800,
+            78600,
             80100,
             87000,
             89000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -11442,7 +11565,7 @@ window.PRICE_UPDATES = {
         "min": 58000,
         "max": 62500
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -11457,7 +11580,7 @@ window.PRICE_UPDATES = {
             58000,
             62500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11470,7 +11593,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             62500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11484,7 +11607,7 @@ window.PRICE_UPDATES = {
             58000,
             62500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11497,7 +11620,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             62500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11511,7 +11634,7 @@ window.PRICE_UPDATES = {
             58000,
             62500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11524,7 +11647,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             62500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -11541,7 +11664,7 @@ window.PRICE_UPDATES = {
         "min": 18000,
         "max": 99999
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -11560,6 +11683,7 @@ window.PRICE_UPDATES = {
             46900,
             55000,
             57600,
+            58650,
             60800,
             63000,
             64000,
@@ -11574,7 +11698,7 @@ window.PRICE_UPDATES = {
             92000,
             99999
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11588,7 +11712,7 @@ window.PRICE_UPDATES = {
             57600,
             63000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11616,7 +11740,7 @@ window.PRICE_UPDATES = {
             86000,
             92000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11633,7 +11757,7 @@ window.PRICE_UPDATES = {
             63000,
             64000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11661,7 +11785,7 @@ window.PRICE_UPDATES = {
             86000,
             92000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11678,7 +11802,7 @@ window.PRICE_UPDATES = {
             63000,
             64000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -11695,7 +11819,7 @@ window.PRICE_UPDATES = {
         "min": 46900,
         "max": 92000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -11726,7 +11850,7 @@ window.PRICE_UPDATES = {
             86000,
             92000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11747,7 +11871,7 @@ window.PRICE_UPDATES = {
             62000,
             63000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11777,7 +11901,7 @@ window.PRICE_UPDATES = {
             86000,
             92000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11798,7 +11922,7 @@ window.PRICE_UPDATES = {
             62000,
             63000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11828,7 +11952,7 @@ window.PRICE_UPDATES = {
             86000,
             92000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11849,7 +11973,7 @@ window.PRICE_UPDATES = {
             62000,
             63000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -11866,7 +11990,7 @@ window.PRICE_UPDATES = {
         "min": 55872,
         "max": 70000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -11889,7 +12013,7 @@ window.PRICE_UPDATES = {
             64000,
             70000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11911,7 +12035,7 @@ window.PRICE_UPDATES = {
             64000,
             70000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11932,29 +12056,19 @@ window.PRICE_UPDATES = {
             64000,
             70000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "G5001SC",
           "url": "https://feebee.com.tw/s/Miele%20G5001SC/",
-          "price": 55872,
-          "minPrice": 55872,
-          "maxPrice": 70000,
-          "priceCandidates": [
-            55872,
-            56700,
-            57600,
-            59000,
-            62000,
-            62080,
-            63000,
-            64000,
-            70000
-          ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
-          "status": "Updated",
+          "price": null,
+          "minPrice": null,
+          "maxPrice": null,
+          "priceCandidates": [],
+          "checkedAt": "2026-11-21T02:00:04.225Z",
+          "status": "Price not found",
           "httpStatus": 200
         },
         {
@@ -11974,7 +12088,7 @@ window.PRICE_UPDATES = {
             64000,
             70000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -11995,7 +12109,7 @@ window.PRICE_UPDATES = {
             64000,
             70000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -12012,7 +12126,7 @@ window.PRICE_UPDATES = {
         "min": 64602,
         "max": 66600
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -12027,7 +12141,7 @@ window.PRICE_UPDATES = {
             64602,
             66600
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12041,7 +12155,7 @@ window.PRICE_UPDATES = {
             64602,
             66600
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12055,7 +12169,7 @@ window.PRICE_UPDATES = {
             64602,
             66600
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12069,7 +12183,7 @@ window.PRICE_UPDATES = {
             64602,
             66600
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12083,7 +12197,7 @@ window.PRICE_UPDATES = {
             64602,
             66600
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12097,7 +12211,7 @@ window.PRICE_UPDATES = {
             64602,
             66600
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -12114,7 +12228,7 @@ window.PRICE_UPDATES = {
         "min": 46900,
         "max": 92000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -12134,7 +12248,7 @@ window.PRICE_UPDATES = {
             66200,
             66600,
             67050,
-            68000,
+            67500,
             70300,
             72200,
             72500,
@@ -12149,7 +12263,7 @@ window.PRICE_UPDATES = {
             86000,
             92000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12164,6 +12278,7 @@ window.PRICE_UPDATES = {
             64602,
             65000,
             65250,
+            66200,
             66600,
             67000,
             67050,
@@ -12178,7 +12293,7 @@ window.PRICE_UPDATES = {
             74500,
             76000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12198,8 +12313,8 @@ window.PRICE_UPDATES = {
             66600,
             67050,
             67500,
-            68000,
             70300,
+            71000,
             72500,
             73000,
             73350,
@@ -12212,7 +12327,7 @@ window.PRICE_UPDATES = {
             86000,
             92000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12242,7 +12357,7 @@ window.PRICE_UPDATES = {
             74500,
             76000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12262,8 +12377,8 @@ window.PRICE_UPDATES = {
             66600,
             67050,
             67500,
-            68000,
             70300,
+            71000,
             72500,
             73000,
             73350,
@@ -12276,7 +12391,7 @@ window.PRICE_UPDATES = {
             86000,
             92000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12306,7 +12421,7 @@ window.PRICE_UPDATES = {
             74500,
             76000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -12323,7 +12438,7 @@ window.PRICE_UPDATES = {
         "min": 62000,
         "max": 72500
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -12338,7 +12453,7 @@ window.PRICE_UPDATES = {
             65250,
             72500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12354,7 +12469,7 @@ window.PRICE_UPDATES = {
             68900,
             72500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12368,7 +12483,7 @@ window.PRICE_UPDATES = {
             65250,
             72500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12384,7 +12499,7 @@ window.PRICE_UPDATES = {
             68900,
             72500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12398,7 +12513,7 @@ window.PRICE_UPDATES = {
             65250,
             72500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12414,7 +12529,7 @@ window.PRICE_UPDATES = {
             68900,
             72500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -12431,7 +12546,7 @@ window.PRICE_UPDATES = {
         "min": 46900,
         "max": 92000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -12460,7 +12575,7 @@ window.PRICE_UPDATES = {
             86000,
             92000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12477,7 +12592,7 @@ window.PRICE_UPDATES = {
             80556,
             80990
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12505,7 +12620,7 @@ window.PRICE_UPDATES = {
             86000,
             92000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12522,7 +12637,7 @@ window.PRICE_UPDATES = {
             80556,
             80990
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12550,7 +12665,7 @@ window.PRICE_UPDATES = {
             86000,
             92000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12567,7 +12682,7 @@ window.PRICE_UPDATES = {
             80556,
             80990
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -12584,7 +12699,7 @@ window.PRICE_UPDATES = {
         "min": 55000,
         "max": 107000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -12613,7 +12728,7 @@ window.PRICE_UPDATES = {
             101700,
             107000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12632,7 +12747,7 @@ window.PRICE_UPDATES = {
             78500,
             80500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12660,7 +12775,7 @@ window.PRICE_UPDATES = {
             101700,
             107000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12679,7 +12794,7 @@ window.PRICE_UPDATES = {
             78500,
             80500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12707,7 +12822,7 @@ window.PRICE_UPDATES = {
             101700,
             107000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12726,7 +12841,7 @@ window.PRICE_UPDATES = {
             78500,
             80500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -12743,7 +12858,7 @@ window.PRICE_UPDATES = {
         "min": 75500,
         "max": 79000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -12757,7 +12872,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             79000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12771,7 +12886,7 @@ window.PRICE_UPDATES = {
             75500,
             79000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12784,7 +12899,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             79000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12798,7 +12913,7 @@ window.PRICE_UPDATES = {
             75500,
             79000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12811,7 +12926,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             79000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12825,7 +12940,7 @@ window.PRICE_UPDATES = {
             75500,
             79000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -12842,7 +12957,7 @@ window.PRICE_UPDATES = {
         "min": 55000,
         "max": 92000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -12869,7 +12984,7 @@ window.PRICE_UPDATES = {
             90000,
             92000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12878,15 +12993,16 @@ window.PRICE_UPDATES = {
           "url": "https://feebee.com.tw/s/G5314C/",
           "price": 70000,
           "minPrice": 70000,
-          "maxPrice": 79000,
+          "maxPrice": 81370,
           "priceCandidates": [
             70000,
             72200,
             75000,
             78000,
-            79000
+            79000,
+            81370
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12912,7 +13028,7 @@ window.PRICE_UPDATES = {
             90000,
             92000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12921,15 +13037,16 @@ window.PRICE_UPDATES = {
           "url": "https://feebee.com.tw/s/Miele%20G5314C/",
           "price": 70000,
           "minPrice": 70000,
-          "maxPrice": 79000,
+          "maxPrice": 81370,
           "priceCandidates": [
             70000,
             72200,
             75000,
             78000,
-            79000
+            79000,
+            81370
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12955,7 +13072,7 @@ window.PRICE_UPDATES = {
             90000,
             92000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -12964,15 +13081,16 @@ window.PRICE_UPDATES = {
           "url": "https://feebee.com.tw/s/Miele%20G5314C%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "price": 70000,
           "minPrice": 70000,
-          "maxPrice": 79000,
+          "maxPrice": 81370,
           "priceCandidates": [
             70000,
             72200,
             75000,
             78000,
-            79000
+            79000,
+            81370
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -12989,7 +13107,7 @@ window.PRICE_UPDATES = {
         "min": 71700,
         "max": 81370
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -13004,7 +13122,7 @@ window.PRICE_UPDATES = {
             79000,
             81370
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13019,7 +13137,7 @@ window.PRICE_UPDATES = {
             79000,
             81370
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13033,7 +13151,7 @@ window.PRICE_UPDATES = {
             79000,
             81370
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13048,7 +13166,7 @@ window.PRICE_UPDATES = {
             79000,
             81370
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13062,7 +13180,7 @@ window.PRICE_UPDATES = {
             79000,
             81370
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13077,7 +13195,7 @@ window.PRICE_UPDATES = {
             79000,
             81370
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -13094,7 +13212,7 @@ window.PRICE_UPDATES = {
         "min": 75200,
         "max": 83000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -13108,7 +13226,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             83000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13122,7 +13240,7 @@ window.PRICE_UPDATES = {
             75200,
             83000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13135,7 +13253,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             83000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13149,7 +13267,7 @@ window.PRICE_UPDATES = {
             75200,
             83000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13162,7 +13280,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             83000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13176,7 +13294,7 @@ window.PRICE_UPDATES = {
             75200,
             83000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -13193,7 +13311,7 @@ window.PRICE_UPDATES = {
         "min": 55000,
         "max": 107000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -13220,7 +13338,7 @@ window.PRICE_UPDATES = {
             101700,
             107000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13236,7 +13354,7 @@ window.PRICE_UPDATES = {
             83000,
             85490
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13262,7 +13380,7 @@ window.PRICE_UPDATES = {
             101700,
             107000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13278,7 +13396,7 @@ window.PRICE_UPDATES = {
             83000,
             85490
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13304,7 +13422,7 @@ window.PRICE_UPDATES = {
             101700,
             107000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13320,7 +13438,7 @@ window.PRICE_UPDATES = {
             83000,
             85490
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -13337,7 +13455,7 @@ window.PRICE_UPDATES = {
         "min": 75300,
         "max": 85490
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -13352,7 +13470,7 @@ window.PRICE_UPDATES = {
             83000,
             85490
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13367,7 +13485,7 @@ window.PRICE_UPDATES = {
             83000,
             85490
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13381,7 +13499,7 @@ window.PRICE_UPDATES = {
             83000,
             85490
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13396,7 +13514,7 @@ window.PRICE_UPDATES = {
             83000,
             85490
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13410,7 +13528,7 @@ window.PRICE_UPDATES = {
             83000,
             85490
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13425,7 +13543,7 @@ window.PRICE_UPDATES = {
             83000,
             85490
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -13442,7 +13560,7 @@ window.PRICE_UPDATES = {
         "min": 78500,
         "max": 84000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -13456,7 +13574,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             84000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13471,7 +13589,7 @@ window.PRICE_UPDATES = {
             80300,
             84000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13484,7 +13602,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             84000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13499,7 +13617,7 @@ window.PRICE_UPDATES = {
             80300,
             84000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13512,7 +13630,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             84000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13527,7 +13645,7 @@ window.PRICE_UPDATES = {
             80300,
             84000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -13544,7 +13662,7 @@ window.PRICE_UPDATES = {
         "min": 46900,
         "max": 92000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -13576,7 +13694,7 @@ window.PRICE_UPDATES = {
             86000,
             92000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13600,7 +13718,7 @@ window.PRICE_UPDATES = {
             81480,
             84000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13631,7 +13749,7 @@ window.PRICE_UPDATES = {
             86000,
             92000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13655,7 +13773,7 @@ window.PRICE_UPDATES = {
             81480,
             84000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13686,7 +13804,7 @@ window.PRICE_UPDATES = {
             86000,
             92000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13710,7 +13828,7 @@ window.PRICE_UPDATES = {
             81480,
             84000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -13727,7 +13845,7 @@ window.PRICE_UPDATES = {
         "min": 55000,
         "max": 99999
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -13758,7 +13876,7 @@ window.PRICE_UPDATES = {
             92000,
             99999
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13778,7 +13896,7 @@ window.PRICE_UPDATES = {
             89000,
             99999
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13808,7 +13926,7 @@ window.PRICE_UPDATES = {
             92000,
             99999
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13828,7 +13946,7 @@ window.PRICE_UPDATES = {
             89000,
             99999
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13858,7 +13976,7 @@ window.PRICE_UPDATES = {
             92000,
             99999
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13878,7 +13996,7 @@ window.PRICE_UPDATES = {
             89000,
             99999
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -13895,7 +14013,7 @@ window.PRICE_UPDATES = {
         "min": 55000,
         "max": 94000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -13923,7 +14041,7 @@ window.PRICE_UPDATES = {
             92000,
             94000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13939,7 +14057,7 @@ window.PRICE_UPDATES = {
             89000,
             94000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13968,7 +14086,7 @@ window.PRICE_UPDATES = {
             92000,
             94000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -13984,7 +14102,7 @@ window.PRICE_UPDATES = {
             89000,
             94000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14014,7 +14132,7 @@ window.PRICE_UPDATES = {
             92000,
             94000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14030,7 +14148,7 @@ window.PRICE_UPDATES = {
             89000,
             94000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -14047,7 +14165,7 @@ window.PRICE_UPDATES = {
         "min": 86520,
         "max": 94000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -14061,7 +14179,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             89000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14078,7 +14196,7 @@ window.PRICE_UPDATES = {
             91180,
             94000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14091,7 +14209,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             89000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14108,7 +14226,7 @@ window.PRICE_UPDATES = {
             91180,
             94000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14121,7 +14239,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             89000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14138,7 +14256,7 @@ window.PRICE_UPDATES = {
             91180,
             94000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -14150,12 +14268,12 @@ window.PRICE_UPDATES = {
       "url": "https://feebee.com.tw/s/G7130/",
       "price": 87600,
       "minPrice": 87600,
-      "maxPrice": 138688,
+      "maxPrice": 138423,
       "priceRange": {
         "min": 87600,
-        "max": 138688
+        "max": 138423
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -14165,13 +14283,13 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/G7130/",
           "price": 97000,
           "minPrice": 97000,
-          "maxPrice": 138688,
+          "maxPrice": 138423,
           "priceCandidates": [
             97000,
-            117719,
-            138688
+            117495,
+            138423
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14185,7 +14303,7 @@ window.PRICE_UPDATES = {
             87600,
             97000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14198,7 +14316,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             97000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14212,7 +14330,7 @@ window.PRICE_UPDATES = {
             87600,
             97000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14225,7 +14343,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             97000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14239,7 +14357,7 @@ window.PRICE_UPDATES = {
             87600,
             97000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -14256,7 +14374,7 @@ window.PRICE_UPDATES = {
         "min": 55000,
         "max": 97000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -14281,7 +14399,7 @@ window.PRICE_UPDATES = {
             92000,
             97000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14295,7 +14413,7 @@ window.PRICE_UPDATES = {
             92000,
             97000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14319,7 +14437,7 @@ window.PRICE_UPDATES = {
             92000,
             97000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14333,7 +14451,7 @@ window.PRICE_UPDATES = {
             92000,
             97000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14357,22 +14475,19 @@ window.PRICE_UPDATES = {
             92000,
             97000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "G7130C",
           "url": "https://feebee.com.tw/s/Miele%20G7130C%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-          "price": 92000,
-          "minPrice": 92000,
-          "maxPrice": 97000,
-          "priceCandidates": [
-            92000,
-            97000
-          ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
-          "status": "Updated",
+          "price": null,
+          "minPrice": null,
+          "maxPrice": null,
+          "priceCandidates": [],
+          "checkedAt": "2026-11-21T02:00:04.225Z",
+          "status": "Price not found",
           "httpStatus": 200
         }
       ]
@@ -14388,7 +14503,7 @@ window.PRICE_UPDATES = {
         "min": 97000,
         "max": 99910
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -14403,7 +14518,7 @@ window.PRICE_UPDATES = {
             97000,
             99910
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14417,7 +14532,7 @@ window.PRICE_UPDATES = {
             97000,
             99910
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14431,7 +14546,7 @@ window.PRICE_UPDATES = {
             97000,
             99910
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14445,7 +14560,7 @@ window.PRICE_UPDATES = {
             97000,
             99910
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14459,7 +14574,7 @@ window.PRICE_UPDATES = {
             97000,
             99910
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14473,7 +14588,7 @@ window.PRICE_UPDATES = {
             97000,
             99910
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -14490,7 +14605,7 @@ window.PRICE_UPDATES = {
         "min": 55000,
         "max": 107000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -14504,7 +14619,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             107000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14519,7 +14634,7 @@ window.PRICE_UPDATES = {
             101600,
             107000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14532,7 +14647,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             107000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14546,7 +14661,7 @@ window.PRICE_UPDATES = {
             101600,
             107000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14559,7 +14674,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             107000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14573,7 +14688,7 @@ window.PRICE_UPDATES = {
             101600,
             107000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -14590,7 +14705,7 @@ window.PRICE_UPDATES = {
         "min": 55000,
         "max": 107000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -14615,7 +14730,7 @@ window.PRICE_UPDATES = {
             101700,
             107000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14629,7 +14744,7 @@ window.PRICE_UPDATES = {
             101700,
             107000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14653,7 +14768,7 @@ window.PRICE_UPDATES = {
             101700,
             107000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14667,7 +14782,7 @@ window.PRICE_UPDATES = {
             101700,
             107000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14691,7 +14806,7 @@ window.PRICE_UPDATES = {
             101700,
             107000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14705,7 +14820,7 @@ window.PRICE_UPDATES = {
             101700,
             107000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -14722,7 +14837,7 @@ window.PRICE_UPDATES = {
         "min": 97000,
         "max": 110210
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -14737,7 +14852,7 @@ window.PRICE_UPDATES = {
             107000,
             110210
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14746,12 +14861,13 @@ window.PRICE_UPDATES = {
           "url": "https://feebee.com.tw/s/G7180CSCVI/",
           "price": 97000,
           "minPrice": 97000,
-          "maxPrice": 107000,
+          "maxPrice": 110210,
           "priceCandidates": [
             97000,
-            107000
+            107000,
+            110210
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14765,7 +14881,7 @@ window.PRICE_UPDATES = {
             107000,
             110210
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14774,12 +14890,13 @@ window.PRICE_UPDATES = {
           "url": "https://feebee.com.tw/s/Miele%20G7180CSCVI/",
           "price": 97000,
           "minPrice": 97000,
-          "maxPrice": 107000,
+          "maxPrice": 110210,
           "priceCandidates": [
             97000,
-            107000
+            107000,
+            110210
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14793,7 +14910,7 @@ window.PRICE_UPDATES = {
             107000,
             110210
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14802,12 +14919,13 @@ window.PRICE_UPDATES = {
           "url": "https://feebee.com.tw/s/Miele%20G7180CSCVI%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "price": 97000,
           "minPrice": 97000,
-          "maxPrice": 107000,
+          "maxPrice": 110210,
           "priceCandidates": [
             97000,
-            107000
+            107000,
+            110210
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -14824,7 +14942,7 @@ window.PRICE_UPDATES = {
         "min": 17550,
         "max": 104000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -14845,6 +14963,7 @@ window.PRICE_UPDATES = {
             78800,
             84000,
             86000,
+            88000,
             90000,
             91800,
             92000,
@@ -14853,7 +14972,7 @@ window.PRICE_UPDATES = {
             98000,
             104000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14878,7 +14997,7 @@ window.PRICE_UPDATES = {
             103000,
             104000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14896,10 +15015,11 @@ window.PRICE_UPDATES = {
             91800,
             92700,
             93000,
+            95000,
             98000,
             104000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14924,7 +15044,7 @@ window.PRICE_UPDATES = {
             103000,
             104000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14948,7 +15068,7 @@ window.PRICE_UPDATES = {
             98000,
             104000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -14973,7 +15093,7 @@ window.PRICE_UPDATES = {
             103000,
             104000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -14990,7 +15110,7 @@ window.PRICE_UPDATES = {
         "min": 22790,
         "max": 134000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -15024,7 +15144,7 @@ window.PRICE_UPDATES = {
             107000,
             134000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15046,7 +15166,7 @@ window.PRICE_UPDATES = {
             98800,
             104000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15079,7 +15199,7 @@ window.PRICE_UPDATES = {
             107000,
             134000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15101,7 +15221,7 @@ window.PRICE_UPDATES = {
             98800,
             104000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15133,7 +15253,7 @@ window.PRICE_UPDATES = {
             107000,
             134000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15154,7 +15274,7 @@ window.PRICE_UPDATES = {
             98800,
             104000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -15171,7 +15291,7 @@ window.PRICE_UPDATES = {
         "min": 97000,
         "max": 107000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -15185,7 +15305,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             107000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15199,7 +15319,7 @@ window.PRICE_UPDATES = {
             97000,
             107000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15212,7 +15332,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             107000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15226,7 +15346,7 @@ window.PRICE_UPDATES = {
             97000,
             107000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15239,7 +15359,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             107000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15253,7 +15373,7 @@ window.PRICE_UPDATES = {
             97000,
             107000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -15270,7 +15390,7 @@ window.PRICE_UPDATES = {
         "min": 117900,
         "max": 130000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -15284,7 +15404,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             130000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15298,7 +15418,7 @@ window.PRICE_UPDATES = {
             117900,
             130000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15311,7 +15431,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             130000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15325,7 +15445,7 @@ window.PRICE_UPDATES = {
             117900,
             130000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15338,7 +15458,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             130000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15352,7 +15472,7 @@ window.PRICE_UPDATES = {
             117900,
             130000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -15369,7 +15489,7 @@ window.PRICE_UPDATES = {
         "min": 127700,
         "max": 135000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -15383,7 +15503,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             135000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15397,7 +15517,7 @@ window.PRICE_UPDATES = {
             127700,
             135000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15410,7 +15530,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             135000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15424,7 +15544,7 @@ window.PRICE_UPDATES = {
             127700,
             135000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15437,7 +15557,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             135000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15451,7 +15571,7 @@ window.PRICE_UPDATES = {
             127700,
             135000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -15468,7 +15588,7 @@ window.PRICE_UPDATES = {
         "min": 135000,
         "max": 135000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -15482,7 +15602,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             135000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15495,7 +15615,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             135000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15508,7 +15628,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             135000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15521,7 +15641,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             135000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15534,7 +15654,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             135000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15547,7 +15667,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             135000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -15564,7 +15684,7 @@ window.PRICE_UPDATES = {
         "min": 122400,
         "max": 135000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -15580,7 +15700,7 @@ window.PRICE_UPDATES = {
             132100,
             135000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15596,7 +15716,7 @@ window.PRICE_UPDATES = {
             132100,
             135000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15611,7 +15731,7 @@ window.PRICE_UPDATES = {
             132100,
             135000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15627,7 +15747,7 @@ window.PRICE_UPDATES = {
             132100,
             135000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15642,7 +15762,7 @@ window.PRICE_UPDATES = {
             132100,
             135000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15658,7 +15778,7 @@ window.PRICE_UPDATES = {
             132100,
             135000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -15675,7 +15795,7 @@ window.PRICE_UPDATES = {
         "min": 22790,
         "max": 153000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -15707,7 +15827,7 @@ window.PRICE_UPDATES = {
             145000,
             153000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15730,7 +15850,7 @@ window.PRICE_UPDATES = {
             145000,
             153000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15761,7 +15881,7 @@ window.PRICE_UPDATES = {
             145000,
             153000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15784,7 +15904,7 @@ window.PRICE_UPDATES = {
             145000,
             153000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15816,7 +15936,7 @@ window.PRICE_UPDATES = {
             145000,
             153000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15838,7 +15958,7 @@ window.PRICE_UPDATES = {
             145000,
             153000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -15848,14 +15968,14 @@ window.PRICE_UPDATES = {
       "sku": "EBF7531SBA",
       "brand": "Electrolux",
       "url": "https://biggo.com.tw/s/EBF7531SBA/",
-      "price": 19900,
-      "minPrice": 19900,
+      "price": 25010,
+      "minPrice": 25010,
       "maxPrice": 82800,
       "priceRange": {
-        "min": 19900,
+        "min": 25010,
         "max": 82800
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -15863,12 +15983,12 @@ window.PRICE_UPDATES = {
         {
           "sku": "EBF7531SBA",
           "url": "https://biggo.com.tw/s/EBF7531SBA/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 25010,
+          "minPrice": 25010,
           "maxPrice": 82800,
           "priceCandidates": [
-            19900,
             25010,
+            26800,
             26900,
             33999,
             34900,
@@ -15890,7 +16010,7 @@ window.PRICE_UPDATES = {
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15912,19 +16032,19 @@ window.PRICE_UPDATES = {
             55990,
             56000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "EBF7531SBA",
           "url": "https://biggo.com.tw/s/Electrolux%20EBF7531SBA/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 25010,
+          "minPrice": 25010,
           "maxPrice": 82800,
           "priceCandidates": [
-            19900,
             25010,
+            26800,
             26900,
             33999,
             34900,
@@ -15945,7 +16065,7 @@ window.PRICE_UPDATES = {
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -15964,19 +16084,19 @@ window.PRICE_UPDATES = {
             55990,
             56000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "EBF7531SBA",
           "url": "https://biggo.com.tw/s/Electrolux%20EBF7531SBA%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 25010,
+          "minPrice": 25010,
           "maxPrice": 82800,
           "priceCandidates": [
-            19900,
             25010,
+            26800,
             26900,
             33999,
             34900,
@@ -15997,7 +16117,7 @@ window.PRICE_UPDATES = {
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -16016,7 +16136,7 @@ window.PRICE_UPDATES = {
             55990,
             56000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -16026,14 +16146,14 @@ window.PRICE_UPDATES = {
       "sku": "EBF9442SBA",
       "brand": "Electrolux",
       "url": "https://biggo.com.tw/s/EBF9442SBA/",
-      "price": 19900,
-      "minPrice": 19900,
+      "price": 25010,
+      "minPrice": 25010,
       "maxPrice": 101200,
       "priceRange": {
-        "min": 19900,
+        "min": 25010,
         "max": 101200
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -16041,12 +16161,12 @@ window.PRICE_UPDATES = {
         {
           "sku": "EBF9442SBA",
           "url": "https://biggo.com.tw/s/EBF9442SBA/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 25010,
+          "minPrice": 25010,
           "maxPrice": 101200,
           "priceCandidates": [
-            19900,
             25010,
+            26800,
             26900,
             33999,
             34900,
@@ -16063,7 +16183,7 @@ window.PRICE_UPDATES = {
             92000,
             101200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -16080,19 +16200,19 @@ window.PRICE_UPDATES = {
             92000,
             101200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "EBF9442SBA",
           "url": "https://biggo.com.tw/s/Electrolux%20EBF9442SBA/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 25010,
+          "minPrice": 25010,
           "maxPrice": 101200,
           "priceCandidates": [
-            19900,
             25010,
+            26800,
             26900,
             33999,
             34900,
@@ -16108,7 +16228,7 @@ window.PRICE_UPDATES = {
             92000,
             101200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -16123,19 +16243,19 @@ window.PRICE_UPDATES = {
             92000,
             101200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "EBF9442SBA",
           "url": "https://biggo.com.tw/s/Electrolux%20EBF9442SBA%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 25010,
+          "minPrice": 25010,
           "maxPrice": 101200,
           "priceCandidates": [
-            19900,
             25010,
+            26800,
             26900,
             33999,
             34900,
@@ -16151,7 +16271,7 @@ window.PRICE_UPDATES = {
             92000,
             101200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -16166,7 +16286,7 @@ window.PRICE_UPDATES = {
             92000,
             101200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -16183,7 +16303,7 @@ window.PRICE_UPDATES = {
         "min": 64000,
         "max": 79200
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -16202,7 +16322,7 @@ window.PRICE_UPDATES = {
             74160,
             79200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -16220,7 +16340,7 @@ window.PRICE_UPDATES = {
             74160,
             79200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -16237,7 +16357,7 @@ window.PRICE_UPDATES = {
             74160,
             79200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -16253,7 +16373,7 @@ window.PRICE_UPDATES = {
             74160,
             79200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -16270,7 +16390,7 @@ window.PRICE_UPDATES = {
             74160,
             79200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -16286,7 +16406,7 @@ window.PRICE_UPDATES = {
             74160,
             79200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -16303,7 +16423,7 @@ window.PRICE_UPDATES = {
         "min": 37800,
         "max": 46200
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -16320,7 +16440,7 @@ window.PRICE_UPDATES = {
             43260,
             46200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -16333,9 +16453,10 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             39900,
             42000,
+            43260,
             46200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -16351,7 +16472,7 @@ window.PRICE_UPDATES = {
             43260,
             46200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -16364,9 +16485,10 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             39900,
             42000,
+            43260,
             46200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -16382,7 +16504,7 @@ window.PRICE_UPDATES = {
             43260,
             46200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -16395,9 +16517,10 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             39900,
             42000,
+            43260,
             46200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -16407,14 +16530,14 @@ window.PRICE_UPDATES = {
       "sku": "EEEM9420L",
       "brand": "Electrolux",
       "url": "https://biggo.com.tw/s/EEEM9420L/",
-      "price": 19900,
-      "minPrice": 19900,
+      "price": 25010,
+      "minPrice": 25010,
       "maxPrice": 82800,
       "priceRange": {
-        "min": 19900,
+        "min": 25010,
         "max": 82800
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -16422,11 +16545,10 @@ window.PRICE_UPDATES = {
         {
           "sku": "EEEM9420L",
           "url": "https://biggo.com.tw/s/EEEM9420L/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 25010,
+          "minPrice": 25010,
           "maxPrice": 82800,
           "priceCandidates": [
-            19900,
             25010,
             26900,
             33999,
@@ -16436,13 +16558,14 @@ window.PRICE_UPDATES = {
             42750,
             47500,
             47777,
+            49900,
             50400,
             53200,
             56000,
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -16455,18 +16578,17 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             56000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "EEEM9420L",
           "url": "https://biggo.com.tw/s/Electrolux%20EEEM9420L/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 25010,
+          "minPrice": 25010,
           "maxPrice": 82800,
           "priceCandidates": [
-            19900,
             25010,
             26900,
             33999,
@@ -16476,13 +16598,14 @@ window.PRICE_UPDATES = {
             42750,
             47500,
             47777,
+            49900,
             50400,
             53200,
             56000,
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -16495,18 +16618,17 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             56000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "EEEM9420L",
           "url": "https://biggo.com.tw/s/Electrolux%20EEEM9420L%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 25010,
+          "minPrice": 25010,
           "maxPrice": 82800,
           "priceCandidates": [
-            19900,
             25010,
             26900,
             33999,
@@ -16516,13 +16638,14 @@ window.PRICE_UPDATES = {
             42750,
             47500,
             47777,
+            49900,
             50400,
             53200,
             56000,
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -16535,7 +16658,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             56000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -16545,14 +16668,14 @@ window.PRICE_UPDATES = {
       "sku": "EEM48300IX",
       "brand": "Electrolux",
       "url": "https://biggo.com.tw/s/EEM48300IX/",
-      "price": 19900,
-      "minPrice": 19900,
+      "price": 24500,
+      "minPrice": 24500,
       "maxPrice": 82800,
       "priceRange": {
-        "min": 19900,
+        "min": 24500,
         "max": 82800
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -16560,14 +16683,14 @@ window.PRICE_UPDATES = {
         {
           "sku": "EEM48300IX",
           "url": "https://biggo.com.tw/s/EEM48300IX/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 24500,
+          "minPrice": 24500,
           "maxPrice": 82800,
           "priceCandidates": [
-            19900,
             24500,
             25010,
             26000,
+            26800,
             26900,
             33999,
             34500,
@@ -16588,7 +16711,7 @@ window.PRICE_UPDATES = {
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -16605,25 +16728,27 @@ window.PRICE_UPDATES = {
             34500,
             37800,
             39900,
+            40000,
+            42000,
             44000,
             45000,
             46000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "EEM48300IX",
           "url": "https://biggo.com.tw/s/Electrolux%20EEM48300IX/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 24500,
+          "minPrice": 24500,
           "maxPrice": 82800,
           "priceCandidates": [
-            19900,
             24500,
             25010,
             26000,
+            26800,
             26900,
             33999,
             34500,
@@ -16644,7 +16769,7 @@ window.PRICE_UPDATES = {
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -16661,25 +16786,26 @@ window.PRICE_UPDATES = {
             34500,
             37800,
             39900,
+            42000,
             44000,
             45000,
             46000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "EEM48300IX",
           "url": "https://biggo.com.tw/s/Electrolux%20EEM48300IX%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 24500,
+          "minPrice": 24500,
           "maxPrice": 82800,
           "priceCandidates": [
-            19900,
             24500,
             25010,
             26000,
+            26800,
             26900,
             33999,
             34500,
@@ -16700,7 +16826,7 @@ window.PRICE_UPDATES = {
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -16717,11 +16843,13 @@ window.PRICE_UPDATES = {
             34500,
             37800,
             39900,
+            40000,
+            42000,
             44000,
             45000,
             46000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -16731,14 +16859,14 @@ window.PRICE_UPDATES = {
       "sku": "EFF3360VWB",
       "brand": "Electrolux",
       "url": "https://biggo.com.tw/s/EFF3360VWB/",
-      "price": 19900,
-      "minPrice": 19900,
+      "price": 25010,
+      "minPrice": 25010,
       "maxPrice": 82800,
       "priceRange": {
-        "min": 19900,
+        "min": 25010,
         "max": 82800
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -16746,12 +16874,12 @@ window.PRICE_UPDATES = {
         {
           "sku": "EFF3360VWB",
           "url": "https://biggo.com.tw/s/EFF3360VWB/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 25010,
+          "minPrice": 25010,
           "maxPrice": 82800,
           "priceCandidates": [
-            19900,
             25010,
+            26800,
             26900,
             28888,
             29900,
@@ -16769,36 +16897,35 @@ window.PRICE_UPDATES = {
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "EFF3360VWB",
           "url": "https://feebee.com.tw/s/EFF3360VWB/",
-          "price": 27888,
-          "minPrice": 27888,
+          "price": 28888,
+          "minPrice": 28888,
           "maxPrice": 44900,
           "priceCandidates": [
-            27888,
             28888,
             29900,
             40900,
             44900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "EFF3360VWB",
           "url": "https://biggo.com.tw/s/Electrolux%20EFF3360VWB/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 25010,
+          "minPrice": 25010,
           "maxPrice": 82800,
           "priceCandidates": [
-            19900,
             25010,
+            26800,
             26900,
             28888,
             29900,
@@ -16816,36 +16943,35 @@ window.PRICE_UPDATES = {
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "EFF3360VWB",
           "url": "https://feebee.com.tw/s/Electrolux%20EFF3360VWB/",
-          "price": 27888,
-          "minPrice": 27888,
+          "price": 28888,
+          "minPrice": 28888,
           "maxPrice": 44900,
           "priceCandidates": [
-            27888,
             28888,
             29900,
             40900,
             44900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "EFF3360VWB",
           "url": "https://biggo.com.tw/s/Electrolux%20EFF3360VWB%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 25010,
+          "minPrice": 25010,
           "maxPrice": 82800,
           "priceCandidates": [
-            19900,
             25010,
+            26800,
             26900,
             28888,
             29900,
@@ -16863,24 +16989,23 @@ window.PRICE_UPDATES = {
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "EFF3360VWB",
           "url": "https://feebee.com.tw/s/Electrolux%20EFF3360VWB%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-          "price": 27888,
-          "minPrice": 27888,
+          "price": 28888,
+          "minPrice": 28888,
           "maxPrice": 44900,
           "priceCandidates": [
-            27888,
             28888,
             29900,
             40900,
             44900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -16890,14 +17015,14 @@ window.PRICE_UPDATES = {
       "sku": "EMF5482ZXA",
       "brand": "Electrolux",
       "url": "https://biggo.com.tw/s/EMF5482ZXA/",
-      "price": 19900,
-      "minPrice": 19900,
+      "price": 25010,
+      "minPrice": 25010,
       "maxPrice": 82800,
       "priceRange": {
-        "min": 19900,
+        "min": 25010,
         "max": 82800
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -16905,12 +17030,12 @@ window.PRICE_UPDATES = {
         {
           "sku": "EMF5482ZXA",
           "url": "https://biggo.com.tw/s/EMF5482ZXA/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 25010,
+          "minPrice": 25010,
           "maxPrice": 82800,
           "priceCandidates": [
-            19900,
             25010,
+            26800,
             26900,
             33999,
             34900,
@@ -16930,7 +17055,7 @@ window.PRICE_UPDATES = {
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -16948,19 +17073,19 @@ window.PRICE_UPDATES = {
             46000,
             48400
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "EMF5482ZXA",
           "url": "https://biggo.com.tw/s/Electrolux%20EMF5482ZXA/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 25010,
+          "minPrice": 25010,
           "maxPrice": 82800,
           "priceCandidates": [
-            19900,
             25010,
+            26800,
             26900,
             33999,
             34900,
@@ -16979,7 +17104,7 @@ window.PRICE_UPDATES = {
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -16994,19 +17119,19 @@ window.PRICE_UPDATES = {
             46000,
             48400
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "EMF5482ZXA",
           "url": "https://biggo.com.tw/s/Electrolux%20EMF5482ZXA%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 25010,
+          "minPrice": 25010,
           "maxPrice": 82800,
           "priceCandidates": [
-            19900,
             25010,
+            26800,
             26900,
             33999,
             34900,
@@ -17025,7 +17150,7 @@ window.PRICE_UPDATES = {
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -17040,7 +17165,7 @@ window.PRICE_UPDATES = {
             46000,
             48400
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -17049,15 +17174,15 @@ window.PRICE_UPDATES = {
     {
       "sku": "KEE27200IW",
       "brand": "Electrolux",
-      "url": "https://biggo.com.tw/s/KEE27200IW/",
-      "price": 19900,
-      "minPrice": 19900,
+      "url": "https://feebee.com.tw/s/KEE27200IW/",
+      "price": 23306,
+      "minPrice": 23306,
       "maxPrice": 82800,
       "priceRange": {
-        "min": 19900,
+        "min": 23306,
         "max": 82800
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -17065,13 +17190,13 @@ window.PRICE_UPDATES = {
         {
           "sku": "KEE27200IW",
           "url": "https://biggo.com.tw/s/KEE27200IW/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 25010,
+          "minPrice": 25010,
           "maxPrice": 82800,
           "priceCandidates": [
-            19900,
             25010,
             26000,
+            26800,
             26900,
             33999,
             34900,
@@ -17088,7 +17213,7 @@ window.PRICE_UPDATES = {
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -17106,20 +17231,20 @@ window.PRICE_UPDATES = {
             40755,
             42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "KEE27200IW",
           "url": "https://biggo.com.tw/s/Electrolux%20KEE27200IW/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 25010,
+          "minPrice": 25010,
           "maxPrice": 82800,
           "priceCandidates": [
-            19900,
             25010,
             26000,
+            26800,
             26900,
             33999,
             34900,
@@ -17136,7 +17261,7 @@ window.PRICE_UPDATES = {
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -17153,20 +17278,20 @@ window.PRICE_UPDATES = {
             40755,
             42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "KEE27200IW",
           "url": "https://biggo.com.tw/s/Electrolux%20KEE27200IW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 25010,
+          "minPrice": 25010,
           "maxPrice": 82800,
           "priceCandidates": [
-            19900,
             25010,
             26000,
+            26800,
             26900,
             33999,
             34900,
@@ -17183,7 +17308,7 @@ window.PRICE_UPDATES = {
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -17200,7 +17325,7 @@ window.PRICE_UPDATES = {
             40755,
             42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -17210,14 +17335,14 @@ window.PRICE_UPDATES = {
       "sku": "KEE27200LW",
       "brand": "Electrolux",
       "url": "https://biggo.com.tw/s/KEE27200LW/",
-      "price": 19900,
-      "minPrice": 19900,
+      "price": 25010,
+      "minPrice": 25010,
       "maxPrice": 82800,
       "priceRange": {
-        "min": 19900,
+        "min": 25010,
         "max": 82800
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -17225,11 +17350,10 @@ window.PRICE_UPDATES = {
         {
           "sku": "KEE27200LW",
           "url": "https://biggo.com.tw/s/KEE27200LW/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 25010,
+          "minPrice": 25010,
           "maxPrice": 82800,
           "priceCandidates": [
-            19900,
             25010,
             26900,
             27000,
@@ -17244,10 +17368,11 @@ window.PRICE_UPDATES = {
             43900,
             47500,
             47777,
+            49900,
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -17264,18 +17389,17 @@ window.PRICE_UPDATES = {
             41705,
             43900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "KEE27200LW",
           "url": "https://biggo.com.tw/s/Electrolux%20KEE27200LW/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 25010,
+          "minPrice": 25010,
           "maxPrice": 82800,
           "priceCandidates": [
-            19900,
             25010,
             26900,
             27000,
@@ -17290,10 +17414,11 @@ window.PRICE_UPDATES = {
             43900,
             47500,
             47777,
+            49900,
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -17310,18 +17435,17 @@ window.PRICE_UPDATES = {
             41705,
             43900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "KEE27200LW",
           "url": "https://biggo.com.tw/s/Electrolux%20KEE27200LW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 25010,
+          "minPrice": 25010,
           "maxPrice": 82800,
           "priceCandidates": [
-            19900,
             25010,
             26900,
             27000,
@@ -17336,10 +17460,11 @@ window.PRICE_UPDATES = {
             43900,
             47500,
             47777,
+            49900,
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -17356,7 +17481,7 @@ window.PRICE_UPDATES = {
             41705,
             43900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -17366,14 +17491,14 @@ window.PRICE_UPDATES = {
       "sku": "KEE47200IW",
       "brand": "Electrolux",
       "url": "https://biggo.com.tw/s/KEE47200IW/",
-      "price": 19900,
-      "minPrice": 19900,
+      "price": 22500,
+      "minPrice": 22500,
       "maxPrice": 82800,
       "priceRange": {
-        "min": 19900,
+        "min": 22500,
         "max": 82800
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -17381,17 +17506,15 @@ window.PRICE_UPDATES = {
         {
           "sku": "KEE47200IW",
           "url": "https://biggo.com.tw/s/KEE47200IW/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 22500,
+          "minPrice": 22500,
           "maxPrice": 82800,
           "priceCandidates": [
-            19900,
             22500,
             22800,
             25010,
             26800,
             26900,
-            28800,
             31200,
             31900,
             33999,
@@ -17406,11 +17529,12 @@ window.PRICE_UPDATES = {
             47500,
             47777,
             49390,
+            49900,
             51590,
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -17432,24 +17556,22 @@ window.PRICE_UPDATES = {
             46900,
             49390
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "KEE47200IW",
           "url": "https://biggo.com.tw/s/Electrolux%20KEE47200IW/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 22500,
+          "minPrice": 22500,
           "maxPrice": 82800,
           "priceCandidates": [
-            19900,
             22500,
             22800,
             25010,
             26800,
             26900,
-            28800,
             31200,
             31900,
             33999,
@@ -17464,11 +17586,12 @@ window.PRICE_UPDATES = {
             47500,
             47777,
             49390,
+            49900,
             51590,
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -17490,24 +17613,22 @@ window.PRICE_UPDATES = {
             46900,
             49390
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "KEE47200IW",
           "url": "https://biggo.com.tw/s/Electrolux%20KEE47200IW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 22500,
+          "minPrice": 22500,
           "maxPrice": 82800,
           "priceCandidates": [
-            19900,
             22500,
             22800,
             25010,
             26800,
             26900,
-            28800,
             31200,
             31900,
             33999,
@@ -17522,11 +17643,12 @@ window.PRICE_UPDATES = {
             47500,
             47777,
             49390,
+            49900,
             51590,
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -17548,7 +17670,7 @@ window.PRICE_UPDATES = {
             46900,
             49390
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -17558,14 +17680,14 @@ window.PRICE_UPDATES = {
       "sku": "KEE47200LW",
       "brand": "Electrolux",
       "url": "https://biggo.com.tw/s/KEE47200LW/",
-      "price": 19900,
-      "minPrice": 19900,
+      "price": 20990,
+      "minPrice": 20990,
       "maxPrice": 82800,
       "priceRange": {
-        "min": 19900,
+        "min": 20990,
         "max": 82800
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -17573,11 +17695,10 @@ window.PRICE_UPDATES = {
         {
           "sku": "KEE47200LW",
           "url": "https://biggo.com.tw/s/KEE47200LW/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 20990,
+          "minPrice": 20990,
           "maxPrice": 82800,
           "priceCandidates": [
-            19900,
             20990,
             25010,
             26900,
@@ -17591,12 +17712,13 @@ window.PRICE_UPDATES = {
             47500,
             47777,
             47900,
+            49900,
             50490,
             52690,
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -17611,18 +17733,17 @@ window.PRICE_UPDATES = {
             47900,
             50490
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "KEE47200LW",
           "url": "https://biggo.com.tw/s/Electrolux%20KEE47200LW/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 20990,
+          "minPrice": 20990,
           "maxPrice": 82800,
           "priceCandidates": [
-            19900,
             20990,
             25010,
             26900,
@@ -17636,12 +17757,13 @@ window.PRICE_UPDATES = {
             47500,
             47777,
             47900,
+            49900,
             50490,
             52690,
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -17656,18 +17778,17 @@ window.PRICE_UPDATES = {
             47900,
             50490
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "KEE47200LW",
           "url": "https://biggo.com.tw/s/Electrolux%20KEE47200LW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-          "price": 19900,
-          "minPrice": 19900,
+          "price": 20990,
+          "minPrice": 20990,
           "maxPrice": 82800,
           "priceCandidates": [
-            19900,
             20990,
             25010,
             26900,
@@ -17681,12 +17802,13 @@ window.PRICE_UPDATES = {
             47500,
             47777,
             47900,
+            49900,
             50490,
             52690,
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -17701,7 +17823,7 @@ window.PRICE_UPDATES = {
             47900,
             50490
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -17718,7 +17840,7 @@ window.PRICE_UPDATES = {
         "min": 156400,
         "max": 156400
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -17730,7 +17852,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -17743,7 +17865,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             156400
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -17754,7 +17876,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -17765,7 +17887,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -17776,7 +17898,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -17787,7 +17909,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         }
@@ -17804,7 +17926,7 @@ window.PRICE_UPDATES = {
         "min": 17888,
         "max": 82800
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -17817,7 +17939,6 @@ window.PRICE_UPDATES = {
           "maxPrice": 82800,
           "priceCandidates": [
             17888,
-            19900,
             25010,
             26900,
             31410,
@@ -17831,10 +17952,11 @@ window.PRICE_UPDATES = {
             42750,
             47500,
             47777,
+            49900,
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -17851,7 +17973,7 @@ window.PRICE_UPDATES = {
             34900,
             38390
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -17863,7 +17985,6 @@ window.PRICE_UPDATES = {
           "maxPrice": 82800,
           "priceCandidates": [
             17888,
-            19900,
             25010,
             26900,
             31410,
@@ -17877,10 +17998,11 @@ window.PRICE_UPDATES = {
             42750,
             47500,
             47777,
+            49900,
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -17897,7 +18019,7 @@ window.PRICE_UPDATES = {
             34900,
             38390
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -17909,7 +18031,6 @@ window.PRICE_UPDATES = {
           "maxPrice": 82800,
           "priceCandidates": [
             17888,
-            19900,
             25010,
             26900,
             31410,
@@ -17923,10 +18044,11 @@ window.PRICE_UPDATES = {
             42750,
             47500,
             47777,
+            49900,
             64600,
             82800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -17943,7 +18065,7 @@ window.PRICE_UPDATES = {
             34900,
             38390
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -17960,7 +18082,7 @@ window.PRICE_UPDATES = {
         "min": 27489,
         "max": 123456
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -17991,7 +18113,7 @@ window.PRICE_UPDATES = {
             45800,
             45900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -18015,7 +18137,7 @@ window.PRICE_UPDATES = {
             42595,
             42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -18026,7 +18148,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -18047,7 +18169,7 @@ window.PRICE_UPDATES = {
             40000,
             123456
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -18058,7 +18180,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -18079,7 +18201,7 @@ window.PRICE_UPDATES = {
             40000,
             123456
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -18096,7 +18218,7 @@ window.PRICE_UPDATES = {
         "min": 42999,
         "max": 48990
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -18108,7 +18230,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -18119,7 +18241,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -18130,7 +18252,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -18152,7 +18274,7 @@ window.PRICE_UPDATES = {
             48900,
             48990
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -18163,7 +18285,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -18185,7 +18307,7 @@ window.PRICE_UPDATES = {
             48900,
             48990
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -18202,7 +18324,7 @@ window.PRICE_UPDATES = {
         "min": 19300,
         "max": 55100
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -18239,7 +18361,7 @@ window.PRICE_UPDATES = {
             55000,
             55100
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -18262,7 +18384,7 @@ window.PRICE_UPDATES = {
             48900,
             48990
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -18298,7 +18420,7 @@ window.PRICE_UPDATES = {
             55000,
             55100
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -18320,7 +18442,7 @@ window.PRICE_UPDATES = {
             48900,
             48990
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -18356,7 +18478,7 @@ window.PRICE_UPDATES = {
             55000,
             55100
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -18378,7 +18500,7 @@ window.PRICE_UPDATES = {
             48900,
             48990
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -18395,7 +18517,7 @@ window.PRICE_UPDATES = {
         "min": 41859,
         "max": 55100
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -18424,17 +18546,18 @@ window.PRICE_UPDATES = {
             55000,
             55100
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "NP-BXW1M6-1HB",
           "url": "https://feebee.com.tw/s/NP-BXW1M6-1HB/",
-          "price": 42900,
-          "minPrice": 42900,
-          "maxPrice": 55100,
+          "price": 42274,
+          "minPrice": 42274,
+          "maxPrice": 55000,
           "priceCandidates": [
+            42274,
             42900,
             44010,
             44089,
@@ -18442,17 +18565,16 @@ window.PRICE_UPDATES = {
             45639,
             45710,
             45860,
-            46130,
             46455,
             46700,
             46710,
+            47587,
             48428,
             48450,
             53833,
-            55000,
-            55100
+            55000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -18463,7 +18585,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -18485,7 +18607,7 @@ window.PRICE_UPDATES = {
             48900,
             48990
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -18496,7 +18618,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -18518,7 +18640,7 @@ window.PRICE_UPDATES = {
             48900,
             48990
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -18535,7 +18657,7 @@ window.PRICE_UPDATES = {
         "min": 41859,
         "max": 55100
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -18564,17 +18686,18 @@ window.PRICE_UPDATES = {
             55000,
             55100
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "NP-BXW1M6-1HW",
           "url": "https://feebee.com.tw/s/NP-BXW1M6-1HW/",
-          "price": 42900,
-          "minPrice": 42900,
-          "maxPrice": 55100,
+          "price": 42274,
+          "minPrice": 42274,
+          "maxPrice": 55000,
           "priceCandidates": [
+            42274,
             42900,
             44010,
             44089,
@@ -18582,17 +18705,16 @@ window.PRICE_UPDATES = {
             45639,
             45710,
             45860,
-            46130,
             46455,
             46700,
             46710,
+            47587,
             48428,
             48450,
             53833,
-            55000,
-            55100
+            55000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -18603,7 +18725,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -18625,7 +18747,7 @@ window.PRICE_UPDATES = {
             48900,
             48990
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -18636,7 +18758,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -18658,7 +18780,7 @@ window.PRICE_UPDATES = {
             48900,
             48990
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -18675,7 +18797,7 @@ window.PRICE_UPDATES = {
         "min": 19300,
         "max": 49900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -18702,7 +18824,6 @@ window.PRICE_UPDATES = {
             36102,
             37900,
             37905,
-            38056,
             38406,
             38599,
             38600,
@@ -18712,7 +18833,7 @@ window.PRICE_UPDATES = {
             42900,
             49900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -18747,7 +18868,7 @@ window.PRICE_UPDATES = {
             46900,
             49900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -18773,7 +18894,6 @@ window.PRICE_UPDATES = {
             36102,
             37900,
             37905,
-            38056,
             38406,
             38599,
             38600,
@@ -18783,22 +18903,22 @@ window.PRICE_UPDATES = {
             42900,
             49900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "NP-DFB2K6",
           "url": "https://feebee.com.tw/s/Panasonic%20NP-DFB2K6/",
-          "price": 20888,
-          "minPrice": 20888,
+          "price": 32000,
+          "minPrice": 32000,
           "maxPrice": 49900,
           "priceCandidates": [
-            20888,
             32000,
             32310,
             33600,
             33900,
+            35880,
             35900,
             35910,
             36100,
@@ -18818,7 +18938,7 @@ window.PRICE_UPDATES = {
             46900,
             49900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -18845,7 +18965,6 @@ window.PRICE_UPDATES = {
             37300,
             37900,
             37905,
-            38056,
             38406,
             38599,
             38600,
@@ -18856,22 +18975,22 @@ window.PRICE_UPDATES = {
             42900,
             49900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
         {
           "sku": "NP-DFB2K6",
           "url": "https://feebee.com.tw/s/Panasonic%20NP-DFB2K6%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-          "price": 20888,
-          "minPrice": 20888,
+          "price": 32000,
+          "minPrice": 32000,
           "maxPrice": 49900,
           "priceCandidates": [
-            20888,
             32000,
             32310,
             33600,
             33900,
+            35880,
             35900,
             35910,
             36100,
@@ -18891,7 +19010,7 @@ window.PRICE_UPDATES = {
             46900,
             49900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -18908,7 +19027,7 @@ window.PRICE_UPDATES = {
         "min": 19300,
         "max": 53200
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -18938,7 +19057,7 @@ window.PRICE_UPDATES = {
             45900,
             53200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -18969,7 +19088,7 @@ window.PRICE_UPDATES = {
             45900,
             48500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -18996,9 +19115,10 @@ window.PRICE_UPDATES = {
             44160,
             44500,
             45900,
+            52155,
             53200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19029,7 +19149,7 @@ window.PRICE_UPDATES = {
             45900,
             48500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19053,14 +19173,14 @@ window.PRICE_UPDATES = {
             42900,
             43000,
             43605,
+            43620,
             44160,
             44500,
             45510,
             45900,
-            52155,
             53200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19091,7 +19211,7 @@ window.PRICE_UPDATES = {
             45900,
             48500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -19108,7 +19228,7 @@ window.PRICE_UPDATES = {
         "min": 19300,
         "max": 53200
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -19127,7 +19247,6 @@ window.PRICE_UPDATES = {
             23700,
             33600,
             38600,
-            41500,
             42900,
             43000,
             43605,
@@ -19135,7 +19254,7 @@ window.PRICE_UPDATES = {
             52155,
             53200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19147,6 +19266,7 @@ window.PRICE_UPDATES = {
           "maxPrice": 53200,
           "priceCandidates": [
             36500,
+            39681,
             41310,
             43000,
             43605,
@@ -19156,7 +19276,7 @@ window.PRICE_UPDATES = {
             52155,
             53200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19178,12 +19298,11 @@ window.PRICE_UPDATES = {
             42900,
             43000,
             43605,
-            44200,
             45900,
             52155,
             53200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19196,6 +19315,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             36500,
             37000,
+            39681,
             41310,
             43000,
             43605,
@@ -19204,7 +19324,7 @@ window.PRICE_UPDATES = {
             52155,
             53200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19230,7 +19350,7 @@ window.PRICE_UPDATES = {
             52155,
             53200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19243,6 +19363,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             36500,
             37000,
+            39681,
             41310,
             43000,
             43605,
@@ -19251,7 +19372,7 @@ window.PRICE_UPDATES = {
             52155,
             53200
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -19268,7 +19389,7 @@ window.PRICE_UPDATES = {
         "min": 43100,
         "max": 49250
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -19287,7 +19408,7 @@ window.PRICE_UPDATES = {
             49155,
             49250
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19298,7 +19419,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -19316,7 +19437,7 @@ window.PRICE_UPDATES = {
             49155,
             49250
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19327,7 +19448,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -19346,7 +19467,7 @@ window.PRICE_UPDATES = {
             49155,
             49250
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19357,7 +19478,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         }
@@ -19374,7 +19495,7 @@ window.PRICE_UPDATES = {
         "min": 27489,
         "max": 123456
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -19388,7 +19509,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             47772
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19402,7 +19523,7 @@ window.PRICE_UPDATES = {
             43605,
             44365
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19415,7 +19536,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             47772
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19436,7 +19557,7 @@ window.PRICE_UPDATES = {
             40000,
             123456
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19449,7 +19570,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             47772
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19470,7 +19591,7 @@ window.PRICE_UPDATES = {
             40000,
             123456
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -19487,7 +19608,7 @@ window.PRICE_UPDATES = {
         "min": 42900,
         "max": 50804
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -19508,7 +19629,7 @@ window.PRICE_UPDATES = {
             49250,
             50804
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19522,7 +19643,7 @@ window.PRICE_UPDATES = {
             43605,
             44365
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19542,7 +19663,7 @@ window.PRICE_UPDATES = {
             49250,
             50804
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19556,7 +19677,7 @@ window.PRICE_UPDATES = {
             43605,
             44365
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19576,7 +19697,7 @@ window.PRICE_UPDATES = {
             49250,
             50804
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19591,7 +19712,7 @@ window.PRICE_UPDATES = {
             43605,
             44365
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -19608,7 +19729,7 @@ window.PRICE_UPDATES = {
         "min": 17000,
         "max": 123456
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -19638,7 +19759,7 @@ window.PRICE_UPDATES = {
             21850,
             22900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19660,7 +19781,6 @@ window.PRICE_UPDATES = {
             18500,
             18856,
             18905,
-            19136,
             19300,
             19500,
             19647,
@@ -19675,7 +19795,7 @@ window.PRICE_UPDATES = {
             22000,
             22900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19705,7 +19825,7 @@ window.PRICE_UPDATES = {
             21900,
             22900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19726,7 +19846,7 @@ window.PRICE_UPDATES = {
             40000,
             123456
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19737,7 +19857,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -19758,7 +19878,7 @@ window.PRICE_UPDATES = {
             40000,
             123456
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -19770,12 +19890,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/NP-K1YWHR2TW/",
       "price": 17000,
       "minPrice": 17000,
-      "maxPrice": 42900,
+      "maxPrice": 171244,
       "priceRange": {
         "min": 17000,
-        "max": 42900
+        "max": 171244
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -19812,7 +19932,7 @@ window.PRICE_UPDATES = {
             38600,
             42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19821,7 +19941,7 @@ window.PRICE_UPDATES = {
           "url": "https://feebee.com.tw/s/NP-K1YWHR2TW/",
           "price": 17000,
           "minPrice": 17000,
-          "maxPrice": 22900,
+          "maxPrice": 171244,
           "priceCandidates": [
             17000,
             17500,
@@ -19834,7 +19954,6 @@ window.PRICE_UPDATES = {
             18500,
             18856,
             18905,
-            19136,
             19300,
             19500,
             19647,
@@ -19847,9 +19966,10 @@ window.PRICE_UPDATES = {
             21755,
             21850,
             22000,
-            22900
+            22900,
+            171244
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19886,7 +20006,7 @@ window.PRICE_UPDATES = {
             38600,
             42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19907,7 +20027,6 @@ window.PRICE_UPDATES = {
             18500,
             18856,
             18905,
-            19136,
             19300,
             19500,
             19647,
@@ -19921,7 +20040,7 @@ window.PRICE_UPDATES = {
             22000,
             22900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19958,7 +20077,7 @@ window.PRICE_UPDATES = {
             38600,
             42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -19979,7 +20098,6 @@ window.PRICE_UPDATES = {
             18500,
             18856,
             18905,
-            19136,
             19300,
             19500,
             19647,
@@ -19993,7 +20111,7 @@ window.PRICE_UPDATES = {
             22000,
             22900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -20010,7 +20128,7 @@ window.PRICE_UPDATES = {
         "min": 20968,
         "max": 30999
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -20025,7 +20143,7 @@ window.PRICE_UPDATES = {
             23699,
             30999
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -20038,7 +20156,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             20968
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -20049,7 +20167,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -20062,7 +20180,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             20968
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -20073,7 +20191,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -20086,7 +20204,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             20968
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -20103,7 +20221,7 @@ window.PRICE_UPDATES = {
         "min": 17000,
         "max": 123456
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -20127,10 +20245,9 @@ window.PRICE_UPDATES = {
             18800,
             18869,
             18900,
-            21900,
             22900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -20158,7 +20275,7 @@ window.PRICE_UPDATES = {
             21900,
             22900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -20169,7 +20286,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -20183,7 +20300,7 @@ window.PRICE_UPDATES = {
             34000,
             123456
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -20194,7 +20311,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -20208,7 +20325,7 @@ window.PRICE_UPDATES = {
             34000,
             123456
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         }
@@ -20225,7 +20342,7 @@ window.PRICE_UPDATES = {
         "min": 17000,
         "max": 123456
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -20249,10 +20366,9 @@ window.PRICE_UPDATES = {
             18800,
             18869,
             18900,
-            21900,
             22900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -20280,7 +20396,7 @@ window.PRICE_UPDATES = {
             21900,
             22900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -20291,7 +20407,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -20305,7 +20421,7 @@ window.PRICE_UPDATES = {
             34000,
             123456
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -20316,7 +20432,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -20327,7 +20443,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         }
@@ -20344,7 +20460,7 @@ window.PRICE_UPDATES = {
         "min": 17000,
         "max": 42900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -20371,7 +20487,6 @@ window.PRICE_UPDATES = {
             19300,
             19900,
             21000,
-            21900,
             22900,
             23699,
             23700,
@@ -20379,7 +20494,7 @@ window.PRICE_UPDATES = {
             38600,
             42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -20390,7 +20505,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -20416,7 +20531,6 @@ window.PRICE_UPDATES = {
             19300,
             19900,
             21000,
-            21900,
             22900,
             23699,
             23700,
@@ -20424,7 +20538,7 @@ window.PRICE_UPDATES = {
             38600,
             42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -20435,7 +20549,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -20462,14 +20576,13 @@ window.PRICE_UPDATES = {
             19900,
             21000,
             21900,
-            22900,
             23699,
             23700,
             33600,
             38600,
             42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -20480,7 +20593,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         }
@@ -20497,7 +20610,7 @@ window.PRICE_UPDATES = {
         "min": 17005,
         "max": 19271
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -20513,7 +20626,7 @@ window.PRICE_UPDATES = {
             17100,
             19271
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -20524,7 +20637,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -20539,7 +20652,7 @@ window.PRICE_UPDATES = {
             17100,
             19271
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -20550,7 +20663,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -20565,7 +20678,7 @@ window.PRICE_UPDATES = {
             17100,
             19271
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -20576,7 +20689,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         }
@@ -20593,7 +20706,7 @@ window.PRICE_UPDATES = {
         "min": 19300,
         "max": 42900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -20626,7 +20739,7 @@ window.PRICE_UPDATES = {
             38600,
             42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -20637,7 +20750,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -20670,7 +20783,7 @@ window.PRICE_UPDATES = {
             38600,
             42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -20681,7 +20794,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -20714,7 +20827,7 @@ window.PRICE_UPDATES = {
             38600,
             42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -20725,7 +20838,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         }
@@ -20742,7 +20855,7 @@ window.PRICE_UPDATES = {
         "min": 19300,
         "max": 42900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -20763,7 +20876,7 @@ window.PRICE_UPDATES = {
             38600,
             42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -20774,7 +20887,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -20794,7 +20907,7 @@ window.PRICE_UPDATES = {
             38600,
             42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -20805,7 +20918,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -20825,7 +20938,7 @@ window.PRICE_UPDATES = {
             38600,
             42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -20836,88 +20949,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
-          "status": "Fetch failed",
-          "httpStatus": 429
-        }
-      ]
-    },
-    {
-      "sku": "NP-TML1-W",
-      "brand": "Panasonic",
-      "url": "https://biggo.com.tw/s/NP-TML1-W/",
-      "price": null,
-      "minPrice": null,
-      "maxPrice": null,
-      "priceRange": null,
-      "checkedAt": "2026-11-20T02:00:04.060Z",
-      "status": "Price not found",
-      "referencePrice": null,
-      "sourceCount": 6,
-      "allResults": [
-        {
-          "sku": "NP-TML1-W",
-          "url": "https://biggo.com.tw/s/NP-TML1-W/",
-          "price": null,
-          "minPrice": null,
-          "maxPrice": null,
-          "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
-          "status": "Price not found",
-          "httpStatus": 200
-        },
-        {
-          "sku": "NP-TML1-W",
-          "url": "https://feebee.com.tw/s/NP-TML1-W/",
-          "price": null,
-          "minPrice": null,
-          "maxPrice": null,
-          "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
-          "status": "Fetch failed",
-          "httpStatus": 429
-        },
-        {
-          "sku": "NP-TML1-W",
-          "url": "https://biggo.com.tw/s/Panasonic%20NP-TML1-W/",
-          "price": null,
-          "minPrice": null,
-          "maxPrice": null,
-          "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
-          "status": "Price not found",
-          "httpStatus": 200
-        },
-        {
-          "sku": "NP-TML1-W",
-          "url": "https://feebee.com.tw/s/Panasonic%20NP-TML1-W/",
-          "price": null,
-          "minPrice": null,
-          "maxPrice": null,
-          "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
-          "status": "Fetch failed",
-          "httpStatus": 429
-        },
-        {
-          "sku": "NP-TML1-W",
-          "url": "https://biggo.com.tw/s/Panasonic%20NP-TML1-W%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-          "price": null,
-          "minPrice": null,
-          "maxPrice": null,
-          "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
-          "status": "Price not found",
-          "httpStatus": 200
-        },
-        {
-          "sku": "NP-TML1-W",
-          "url": "https://feebee.com.tw/s/Panasonic%20NP-TML1-W%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-          "price": null,
-          "minPrice": null,
-          "maxPrice": null,
-          "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         }
@@ -20934,7 +20966,7 @@ window.PRICE_UPDATES = {
         "min": 19200,
         "max": 42900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -20965,7 +20997,7 @@ window.PRICE_UPDATES = {
             38600,
             42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -20976,7 +21008,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -21006,7 +21038,7 @@ window.PRICE_UPDATES = {
             38600,
             42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -21017,7 +21049,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -21047,7 +21079,7 @@ window.PRICE_UPDATES = {
             38600,
             42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -21058,7 +21090,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         }
@@ -21075,7 +21107,7 @@ window.PRICE_UPDATES = {
         "min": 19300,
         "max": 42900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -21107,7 +21139,7 @@ window.PRICE_UPDATES = {
             38600,
             42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -21118,7 +21150,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -21149,7 +21181,7 @@ window.PRICE_UPDATES = {
             38600,
             42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -21160,7 +21192,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -21190,7 +21222,7 @@ window.PRICE_UPDATES = {
             38600,
             42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -21201,7 +21233,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         }
@@ -21218,7 +21250,7 @@ window.PRICE_UPDATES = {
         "min": 22500,
         "max": 22500
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -21232,7 +21264,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             22500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -21243,7 +21275,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -21256,7 +21288,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             22500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -21267,7 +21299,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -21280,7 +21312,7 @@ window.PRICE_UPDATES = {
           "priceCandidates": [
             22500
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -21291,7 +21323,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         }
@@ -21308,7 +21340,7 @@ window.PRICE_UPDATES = {
         "min": 18800,
         "max": 123456
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -21335,9 +21367,7 @@ window.PRICE_UPDATES = {
             26300,
             26700,
             27100,
-            27500,
             27989,
-            28000,
             29300,
             29700,
             29890,
@@ -21349,7 +21379,7 @@ window.PRICE_UPDATES = {
             42900,
             123456
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -21360,7 +21390,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -21385,9 +21415,7 @@ window.PRICE_UPDATES = {
             26300,
             26700,
             27100,
-            27500,
             27989,
-            28000,
             29300,
             29700,
             29890,
@@ -21399,7 +21427,7 @@ window.PRICE_UPDATES = {
             42900,
             123456
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -21410,7 +21438,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -21435,9 +21463,7 @@ window.PRICE_UPDATES = {
             26300,
             26700,
             27100,
-            27500,
             27989,
-            28000,
             29300,
             29700,
             29890,
@@ -21449,7 +21475,7 @@ window.PRICE_UPDATES = {
             42900,
             123456
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -21460,7 +21486,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         }
@@ -21477,7 +21503,7 @@ window.PRICE_UPDATES = {
         "min": 19300,
         "max": 42900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -21507,7 +21533,7 @@ window.PRICE_UPDATES = {
             38600,
             42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -21518,7 +21544,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -21547,7 +21573,7 @@ window.PRICE_UPDATES = {
             38600,
             42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -21558,7 +21584,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -21580,7 +21606,7 @@ window.PRICE_UPDATES = {
             30700,
             30999
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -21591,7 +21617,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         }
@@ -21601,14 +21627,14 @@ window.PRICE_UPDATES = {
       "sku": "VD5665",
       "brand": "Svago",
       "url": "https://biggo.com.tw/s/VD5665/",
-      "price": 43200,
-      "minPrice": 43200,
+      "price": 28921,
+      "minPrice": 28921,
       "maxPrice": 48000,
       "priceRange": {
-        "min": 43200,
+        "min": 28921,
         "max": 48000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -21616,14 +21642,15 @@ window.PRICE_UPDATES = {
         {
           "sku": "VD5665",
           "url": "https://biggo.com.tw/s/VD5665/",
-          "price": 43200,
-          "minPrice": 43200,
+          "price": 28921,
+          "minPrice": 28921,
           "maxPrice": 48000,
           "priceCandidates": [
+            28921,
             43200,
             48000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -21634,21 +21661,22 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
         {
           "sku": "VD5665",
           "url": "https://biggo.com.tw/s/Svago%20VD5665/",
-          "price": 43200,
-          "minPrice": 43200,
+          "price": 28921,
+          "minPrice": 28921,
           "maxPrice": 48000,
           "priceCandidates": [
+            28921,
             43200,
             48000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -21659,21 +21687,22 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
         {
           "sku": "VD5665",
           "url": "https://biggo.com.tw/s/Svago%20VD5665%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
-          "price": 43200,
-          "minPrice": 43200,
+          "price": 28921,
+          "minPrice": 28921,
           "maxPrice": 48000,
           "priceCandidates": [
+            28921,
             43200,
             48000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -21684,7 +21713,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         }
@@ -21696,12 +21725,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/VD6111/",
       "price": 19300,
       "minPrice": 19300,
-      "maxPrice": 35604,
+      "maxPrice": 38088,
       "priceRange": {
         "min": 19300,
-        "max": 35604
+        "max": 38088
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -21711,11 +21740,10 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/VD6111/",
           "price": 19300,
           "minPrice": 19300,
-          "maxPrice": 35604,
+          "maxPrice": 38088,
           "priceCandidates": [
             19300,
             19999,
-            21870,
             23800,
             24300,
             25110,
@@ -21725,10 +21753,10 @@ window.PRICE_UPDATES = {
             27000,
             30000,
             31910,
-            35500,
-            35604
+            35604,
+            38088
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -21739,7 +21767,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -21748,11 +21776,10 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Svago%20VD6111/",
           "price": 19300,
           "minPrice": 19300,
-          "maxPrice": 35604,
+          "maxPrice": 38088,
           "priceCandidates": [
             19300,
             19999,
-            21870,
             23800,
             24300,
             25110,
@@ -21762,10 +21789,10 @@ window.PRICE_UPDATES = {
             27000,
             30000,
             31910,
-            35500,
-            35604
+            35604,
+            38088
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -21776,7 +21803,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -21785,11 +21812,10 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Svago%20VD6111%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "price": 19300,
           "minPrice": 19300,
-          "maxPrice": 35604,
+          "maxPrice": 38088,
           "priceCandidates": [
             19300,
             19999,
-            21870,
             23800,
             24300,
             25110,
@@ -21799,10 +21825,10 @@ window.PRICE_UPDATES = {
             27000,
             30000,
             31910,
-            35500,
-            35604
+            35604,
+            38088
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -21813,7 +21839,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         }
@@ -21830,7 +21856,7 @@ window.PRICE_UPDATES = {
         "min": 19300,
         "max": 43000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -21848,18 +21874,18 @@ window.PRICE_UPDATES = {
             24300,
             26000,
             26730,
-            31347,
             31910,
             33000,
-            35500,
+            34830,
             35604,
             35991,
+            38088,
             38605,
             38700,
             38770,
             43000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -21870,7 +21896,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -21887,18 +21913,18 @@ window.PRICE_UPDATES = {
             24300,
             26000,
             26730,
-            31347,
             31910,
             33000,
-            35500,
+            34830,
             35604,
             35991,
+            38088,
             38605,
             38700,
             38770,
             43000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -21909,7 +21935,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -21926,18 +21952,18 @@ window.PRICE_UPDATES = {
             24300,
             26000,
             26730,
-            31347,
             31910,
             33000,
-            35500,
+            34830,
             35604,
             35991,
+            38088,
             38605,
             38700,
             38770,
             43000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -21948,7 +21974,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         }
@@ -21965,7 +21991,7 @@ window.PRICE_UPDATES = {
         "min": 19300,
         "max": 46000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -21994,7 +22020,7 @@ window.PRICE_UPDATES = {
             43700,
             46000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -22005,7 +22031,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -22033,7 +22059,7 @@ window.PRICE_UPDATES = {
             43700,
             46000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -22044,7 +22070,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -22072,7 +22098,7 @@ window.PRICE_UPDATES = {
             43700,
             46000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -22083,7 +22109,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         }
@@ -22095,12 +22121,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/VE7545/",
       "price": 19300,
       "minPrice": 19300,
-      "maxPrice": 35604,
+      "maxPrice": 38088,
       "priceRange": {
         "min": 19300,
-        "max": 35604
+        "max": 38088
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -22110,11 +22136,10 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/VE7545/",
           "price": 19300,
           "minPrice": 19300,
-          "maxPrice": 35604,
+          "maxPrice": 38088,
           "priceCandidates": [
             19300,
             19999,
-            21870,
             23800,
             24300,
             25110,
@@ -22125,10 +22150,10 @@ window.PRICE_UPDATES = {
             30000,
             30600,
             31910,
-            35500,
-            35604
+            35604,
+            38088
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -22139,7 +22164,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -22148,11 +22173,10 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Svago%20VE7545/",
           "price": 19300,
           "minPrice": 19300,
-          "maxPrice": 35604,
+          "maxPrice": 38088,
           "priceCandidates": [
             19300,
             19999,
-            21870,
             23800,
             24300,
             25110,
@@ -22163,10 +22187,10 @@ window.PRICE_UPDATES = {
             30000,
             30600,
             31910,
-            35500,
-            35604
+            35604,
+            38088
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -22177,7 +22201,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -22186,11 +22210,10 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Svago%20VE7545%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "price": 19300,
           "minPrice": 19300,
-          "maxPrice": 35604,
+          "maxPrice": 38088,
           "priceCandidates": [
             19300,
             19999,
-            21870,
             23800,
             24300,
             25110,
@@ -22201,10 +22224,10 @@ window.PRICE_UPDATES = {
             30000,
             30600,
             31910,
-            35500,
-            35604
+            35604,
+            38088
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -22215,7 +22238,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         }
@@ -22232,7 +22255,7 @@ window.PRICE_UPDATES = {
         "min": 19999,
         "max": 39000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -22259,11 +22282,11 @@ window.PRICE_UPDATES = {
             31500,
             31910,
             32000,
-            35500,
             35604,
+            38088,
             39000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -22274,7 +22297,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -22283,7 +22306,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Svago%20VE7650/",
           "price": 19999,
           "minPrice": 19999,
-          "maxPrice": 35604,
+          "maxPrice": 38088,
           "priceCandidates": [
             19999,
             23800,
@@ -22300,10 +22323,10 @@ window.PRICE_UPDATES = {
             31500,
             31910,
             32000,
-            35500,
-            35604
+            35604,
+            38088
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -22314,7 +22337,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -22323,7 +22346,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Svago%20VE7650%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "price": 19999,
           "minPrice": 19999,
-          "maxPrice": 35604,
+          "maxPrice": 38088,
           "priceCandidates": [
             19999,
             23800,
@@ -22340,10 +22363,10 @@ window.PRICE_UPDATES = {
             31500,
             31910,
             32000,
-            35500,
-            35604
+            35604,
+            38088
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -22354,7 +22377,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         }
@@ -22366,12 +22389,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/VE7750/",
       "price": 19999,
       "minPrice": 19999,
-      "maxPrice": 35604,
+      "maxPrice": 38088,
       "priceRange": {
         "min": 19999,
-        "max": 35604
+        "max": 38088
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -22381,7 +22404,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/VE7750/",
           "price": 19999,
           "minPrice": 19999,
-          "maxPrice": 35604,
+          "maxPrice": 38088,
           "priceCandidates": [
             19999,
             23800,
@@ -22397,10 +22420,10 @@ window.PRICE_UPDATES = {
             30000,
             31500,
             31910,
-            35500,
-            35604
+            35604,
+            38088
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -22411,7 +22434,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -22420,7 +22443,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Svago%20VE7750/",
           "price": 19999,
           "minPrice": 19999,
-          "maxPrice": 35604,
+          "maxPrice": 38088,
           "priceCandidates": [
             19999,
             23800,
@@ -22435,10 +22458,10 @@ window.PRICE_UPDATES = {
             28350,
             30000,
             31910,
-            35500,
-            35604
+            35604,
+            38088
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -22449,7 +22472,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -22458,7 +22481,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Svago%20VE7750%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "price": 19999,
           "minPrice": 19999,
-          "maxPrice": 35604,
+          "maxPrice": 38088,
           "priceCandidates": [
             19999,
             23800,
@@ -22473,10 +22496,10 @@ window.PRICE_UPDATES = {
             28350,
             30000,
             31910,
-            35500,
-            35604
+            35604,
+            38088
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -22487,7 +22510,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         }
@@ -22499,12 +22522,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/VE7770/",
       "price": 19300,
       "minPrice": 19300,
-      "maxPrice": 35604,
+      "maxPrice": 38088,
       "priceRange": {
         "min": 19300,
-        "max": 35604
+        "max": 38088
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -22514,7 +22537,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/VE7770/",
           "price": 19300,
           "minPrice": 19300,
-          "maxPrice": 35604,
+          "maxPrice": 38088,
           "priceCandidates": [
             19300,
             19999,
@@ -22528,10 +22551,10 @@ window.PRICE_UPDATES = {
             29700,
             31910,
             33000,
-            35500,
-            35604
+            35604,
+            38088
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -22542,7 +22565,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -22551,7 +22574,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Svago%20VE7770/",
           "price": 19300,
           "minPrice": 19300,
-          "maxPrice": 35604,
+          "maxPrice": 38088,
           "priceCandidates": [
             19300,
             19999,
@@ -22565,10 +22588,10 @@ window.PRICE_UPDATES = {
             29700,
             31910,
             33000,
-            35500,
-            35604
+            35604,
+            38088
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -22579,7 +22602,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -22588,7 +22611,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Svago%20VE7770%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "price": 19300,
           "minPrice": 19300,
-          "maxPrice": 35604,
+          "maxPrice": 38088,
           "priceCandidates": [
             19300,
             19999,
@@ -22602,10 +22625,10 @@ window.PRICE_UPDATES = {
             29700,
             31910,
             33000,
-            35500,
-            35604
+            35604,
+            38088
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -22616,7 +22639,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         }
@@ -22628,12 +22651,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/VE7770A/",
       "price": 19300,
       "minPrice": 19300,
-      "maxPrice": 35604,
+      "maxPrice": 38088,
       "priceRange": {
         "min": 19300,
-        "max": 35604
+        "max": 38088
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -22643,12 +22666,11 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/VE7770A/",
           "price": 19300,
           "minPrice": 19300,
-          "maxPrice": 35604,
+          "maxPrice": 38088,
           "priceCandidates": [
             19300,
             19999,
             23800,
-            24057,
             24300,
             26000,
             26730,
@@ -22657,10 +22679,10 @@ window.PRICE_UPDATES = {
             29700,
             31910,
             33000,
-            35500,
-            35604
+            35604,
+            38088
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -22671,7 +22693,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -22680,12 +22702,11 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Svago%20VE7770A/",
           "price": 19300,
           "minPrice": 19300,
-          "maxPrice": 35604,
+          "maxPrice": 38088,
           "priceCandidates": [
             19300,
             19999,
             23800,
-            24057,
             24300,
             26000,
             26730,
@@ -22694,10 +22715,10 @@ window.PRICE_UPDATES = {
             29700,
             31910,
             33000,
-            35500,
-            35604
+            35604,
+            38088
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -22708,7 +22729,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -22717,12 +22738,11 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Svago%20VE7770A%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "price": 19300,
           "minPrice": 19300,
-          "maxPrice": 35604,
+          "maxPrice": 38088,
           "priceCandidates": [
             19300,
             19999,
             23800,
-            24057,
             24300,
             26000,
             26730,
@@ -22731,10 +22751,10 @@ window.PRICE_UPDATES = {
             29700,
             31910,
             33000,
-            35500,
-            35604
+            35604,
+            38088
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -22745,7 +22765,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         }
@@ -22757,12 +22777,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/E7571/",
       "price": 19300,
       "minPrice": 19300,
-      "maxPrice": 37800,
+      "maxPrice": 42900,
       "priceRange": {
         "min": 19300,
-        "max": 37800
+        "max": 42900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -22772,7 +22792,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/E7571/",
           "price": 19300,
           "minPrice": 19300,
-          "maxPrice": 37800,
+          "maxPrice": 42900,
           "priceCandidates": [
             19300,
             19999,
@@ -22786,14 +22806,13 @@ window.PRICE_UPDATES = {
             25555,
             25650,
             25750,
-            26050,
             26500,
             26706,
             28500,
             30217,
-            37800
+            42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -22804,7 +22823,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -22813,7 +22832,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Sakura%20E7571/",
           "price": 19300,
           "minPrice": 19300,
-          "maxPrice": 37800,
+          "maxPrice": 42900,
           "priceCandidates": [
             19300,
             19999,
@@ -22827,14 +22846,13 @@ window.PRICE_UPDATES = {
             25555,
             25650,
             25750,
-            26050,
             26500,
             26706,
             28500,
             30217,
-            37800
+            42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -22845,7 +22863,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -22854,7 +22872,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Sakura%20E7571%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "price": 19300,
           "minPrice": 19300,
-          "maxPrice": 37800,
+          "maxPrice": 42900,
           "priceCandidates": [
             19300,
             19999,
@@ -22872,9 +22890,9 @@ window.PRICE_UPDATES = {
             26706,
             28500,
             30217,
-            37800
+            42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -22885,7 +22903,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         }
@@ -22897,12 +22915,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/E7683/",
       "price": 19300,
       "minPrice": 19300,
-      "maxPrice": 37800,
+      "maxPrice": 42900,
       "priceRange": {
         "min": 19300,
-        "max": 37800
+        "max": 42900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -22912,7 +22930,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/E7683/",
           "price": 19300,
           "minPrice": 19300,
-          "maxPrice": 37800,
+          "maxPrice": 42900,
           "priceCandidates": [
             19300,
             19999,
@@ -22928,9 +22946,9 @@ window.PRICE_UPDATES = {
             30217,
             31000,
             31500,
-            37800
+            42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -22941,7 +22959,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -22950,7 +22968,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Sakura%20E7683/",
           "price": 19300,
           "minPrice": 19300,
-          "maxPrice": 37800,
+          "maxPrice": 42900,
           "priceCandidates": [
             19300,
             19999,
@@ -22966,9 +22984,9 @@ window.PRICE_UPDATES = {
             30217,
             31000,
             31500,
-            37800
+            42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -22979,7 +22997,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -22988,7 +23006,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Sakura%20E7683%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "price": 19300,
           "minPrice": 19300,
-          "maxPrice": 37800,
+          "maxPrice": 42900,
           "priceCandidates": [
             19300,
             19999,
@@ -22999,15 +23017,14 @@ window.PRICE_UPDATES = {
             24570,
             25500,
             26706,
-            26933,
             27900,
             28350,
             30217,
             31000,
             31500,
-            37800
+            42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -23018,7 +23035,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         }
@@ -23030,12 +23047,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/E7782/",
       "price": 19300,
       "minPrice": 19300,
-      "maxPrice": 37800,
+      "maxPrice": 42900,
       "priceRange": {
         "min": 19300,
-        "max": 37800
+        "max": 42900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -23045,14 +23062,14 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/E7782/",
           "price": 19300,
           "minPrice": 19300,
-          "maxPrice": 37800,
+          "maxPrice": 42900,
           "priceCandidates": [
             19300,
             19813,
             19999,
             20202,
+            22015,
             22145,
-            22792,
             23085,
             23310,
             23900,
@@ -23063,9 +23080,9 @@ window.PRICE_UPDATES = {
             25900,
             26706,
             30217,
-            37800
+            42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -23076,7 +23093,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -23085,14 +23102,14 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Sakura%20E7782/",
           "price": 19300,
           "minPrice": 19300,
-          "maxPrice": 37800,
+          "maxPrice": 42900,
           "priceCandidates": [
             19300,
             19813,
             19999,
             20202,
+            22015,
             22145,
-            22792,
             23085,
             23310,
             23900,
@@ -23103,9 +23120,9 @@ window.PRICE_UPDATES = {
             25900,
             26706,
             30217,
-            37800
+            42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -23116,7 +23133,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -23125,14 +23142,14 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Sakura%20E7782%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "price": 19300,
           "minPrice": 19300,
-          "maxPrice": 37800,
+          "maxPrice": 42900,
           "priceCandidates": [
             19300,
             19813,
             19999,
             20202,
+            22015,
             22145,
-            22792,
             23085,
             23310,
             23900,
@@ -23143,9 +23160,9 @@ window.PRICE_UPDATES = {
             25900,
             26706,
             30217,
-            37800
+            42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -23156,7 +23173,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         }
@@ -23170,7 +23187,7 @@ window.PRICE_UPDATES = {
       "minPrice": null,
       "maxPrice": null,
       "priceRange": null,
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Price not found",
       "referencePrice": null,
       "sourceCount": 6,
@@ -23182,7 +23199,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -23193,7 +23210,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -23204,7 +23221,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -23215,7 +23232,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -23226,7 +23243,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -23237,7 +23254,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         }
@@ -23254,7 +23271,7 @@ window.PRICE_UPDATES = {
         "min": 22797,
         "max": 32800
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -23274,7 +23291,7 @@ window.PRICE_UPDATES = {
             29800,
             32800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -23285,7 +23302,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -23304,7 +23321,7 @@ window.PRICE_UPDATES = {
             29800,
             32800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -23315,7 +23332,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -23334,7 +23351,7 @@ window.PRICE_UPDATES = {
             29800,
             32800
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -23345,7 +23362,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         }
@@ -23362,7 +23379,7 @@ window.PRICE_UPDATES = {
         "min": 28049,
         "max": 44000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -23384,7 +23401,7 @@ window.PRICE_UPDATES = {
             41000,
             44000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -23395,7 +23412,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -23404,7 +23421,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Teka%20DFI%2026700/",
           "price": 28049,
           "minPrice": 28049,
-          "maxPrice": 41000,
+          "maxPrice": 44000,
           "priceCandidates": [
             28049,
             30689,
@@ -23412,9 +23429,10 @@ window.PRICE_UPDATES = {
             32999,
             36900,
             38950,
-            41000
+            41000,
+            44000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -23425,7 +23443,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -23444,7 +23462,7 @@ window.PRICE_UPDATES = {
             38950,
             41000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -23455,7 +23473,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         }
@@ -23472,7 +23490,7 @@ window.PRICE_UPDATES = {
         "min": 28049,
         "max": 44000
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -23495,7 +23513,7 @@ window.PRICE_UPDATES = {
             41000,
             44000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -23506,7 +23524,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -23527,7 +23545,7 @@ window.PRICE_UPDATES = {
             39000,
             41000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -23538,7 +23556,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -23559,7 +23577,7 @@ window.PRICE_UPDATES = {
             39000,
             41000
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -23570,7 +23588,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         }
@@ -23587,7 +23605,7 @@ window.PRICE_UPDATES = {
         "min": 20000,
         "max": 42900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -23612,7 +23630,7 @@ window.PRICE_UPDATES = {
             39900,
             42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -23623,7 +23641,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -23634,7 +23652,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -23645,7 +23663,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -23656,7 +23674,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Price not found",
           "httpStatus": 200
         },
@@ -23667,7 +23685,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         }
@@ -23679,12 +23697,12 @@ window.PRICE_UPDATES = {
       "url": "https://biggo.com.tw/s/WDFS3R5PIXTW/",
       "price": 17200,
       "minPrice": 17200,
-      "maxPrice": 107000,
+      "maxPrice": 42900,
       "priceRange": {
         "min": 17200,
-        "max": 107000
+        "max": 42900
       },
-      "checkedAt": "2026-11-20T02:00:04.060Z",
+      "checkedAt": "2026-11-21T02:00:04.225Z",
       "status": "Updated",
       "referencePrice": null,
       "sourceCount": 6,
@@ -23694,7 +23712,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/WDFS3R5PIXTW/",
           "price": 17200,
           "minPrice": 17200,
-          "maxPrice": 107000,
+          "maxPrice": 42900,
           "priceCandidates": [
             17200,
             19300,
@@ -23703,8 +23721,10 @@ window.PRICE_UPDATES = {
             25947,
             26706,
             29520,
+            30217,
             31816,
             32800,
+            33600,
             34380,
             34560,
             34590,
@@ -23714,12 +23734,9 @@ window.PRICE_UPDATES = {
             35850,
             37800,
             40000,
-            42900,
-            84000,
-            101700,
-            107000
+            42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -23730,7 +23747,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -23739,7 +23756,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Whirlpool%20WDFS3R5PIXTW/",
           "price": 17200,
           "minPrice": 17200,
-          "maxPrice": 107000,
+          "maxPrice": 42900,
           "priceCandidates": [
             17200,
             19300,
@@ -23748,8 +23765,10 @@ window.PRICE_UPDATES = {
             25947,
             26706,
             29520,
+            30217,
             31816,
             32800,
+            33600,
             34380,
             34560,
             34590,
@@ -23759,12 +23778,9 @@ window.PRICE_UPDATES = {
             35850,
             37800,
             40000,
-            42900,
-            84000,
-            101700,
-            107000
+            42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -23775,7 +23791,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         },
@@ -23784,7 +23800,7 @@ window.PRICE_UPDATES = {
           "url": "https://biggo.com.tw/s/Whirlpool%20WDFS3R5PIXTW%20%E6%B4%97%E7%A2%97%E6%A9%9F/",
           "price": 17200,
           "minPrice": 17200,
-          "maxPrice": 107000,
+          "maxPrice": 42900,
           "priceCandidates": [
             17200,
             19300,
@@ -23793,8 +23809,10 @@ window.PRICE_UPDATES = {
             25947,
             26706,
             29520,
+            30217,
             31816,
             32800,
+            33600,
             34380,
             34560,
             34590,
@@ -23804,12 +23822,9 @@ window.PRICE_UPDATES = {
             35850,
             37800,
             40000,
-            42900,
-            84000,
-            101700,
-            107000
+            42900
           ],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Updated",
           "httpStatus": 200
         },
@@ -23820,7 +23835,7 @@ window.PRICE_UPDATES = {
           "minPrice": null,
           "maxPrice": null,
           "priceCandidates": [],
-          "checkedAt": "2026-11-20T02:00:04.060Z",
+          "checkedAt": "2026-11-21T02:00:04.225Z",
           "status": "Fetch failed",
           "httpStatus": 429
         }
